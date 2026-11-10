@@ -107,7 +107,7 @@ function effectCards(ctx, grid) {
     const label = txt(h3 && h3.html);
     const ef = effects.find((e) => e.label.toLowerCase() === label.toLowerCase());
     const u = ef && ef.url ? ef.url : liveHref(lc.href);
-    const pic = ef && ef.photo ? photo(ctx, ef.photo, { alt: '', sizes: '(min-width: 1024px) 200px, 40vw' }) : '';
+    const pic = ef && ef.gimg ? gimg(ef.gimg, { alt: '', sizes: '(min-width: 1024px) 200px, 40vw' }) : ef && ef.photo ? photo(ctx, ef.photo, { alt: '', sizes: '(min-width: 1024px) 200px, 40vw' }) : '';
     return `<a class="tile tile--photo p-effect"${linkAttrs(u)} data-reveal style="--i:${i % 5}"><span class="tile__media">${pic}</span><h3 class="tile__title">${H(h3 && h3.html)}</h3><span class="p-effect__cta">${H(cta && cta.html)}${arrowFor(u)}</span></a>`;
   }).join('')}</div>`;
 }

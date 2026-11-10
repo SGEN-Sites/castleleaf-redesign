@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-fx-calm",
+  "file": "assets/generated/g-fx-calm.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A small stack of smooth, balanced black river stones beside a shallow basin of perfectly still dark water that reflects a soft golden glow, one slow gentle ripple on the surface, deep quiet darkness, serene and unhurried. No people, no hands. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 71004
+  },
+  "seed": 71004,
+  "requestId": "01a1c4b5-c55c-75d1-a6a0-750b21bd332d",
+  "cutout": null,
+  "width": 1792,
+  "height": 2368,
+  "sha256": "0cfb73d5fe1c9b828fe1628020783e9b39474d72929279b8ebfb66c14e78c658",
+  "raw": "tmp/img/raw/g-fx-calm.1794301618125.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T09:07:00.032Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Revision 1b: effect card series in black and gold, made for the Shop By Cannabis Effect cards (the client photos were 312x400). Checked at full size: no text or pseudo-text, no logo, no face",
+    "reviewedAt": "2026-11-10T09:11:21.967499+00:00"
+  },
+  "alt": "A small stack of smooth black stones beside a shallow pool of still water reflecting a soft golden glow",
+  "post": []
+}

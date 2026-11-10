@@ -763,6 +763,87 @@
    },
    "alt": "",
    "prompt": "Soft luminous golden haze and delicate wisps of mist drifting across a deep black background, ethereal warm gold light glowing from the upper left, fine airborne gold dust, calm and elegant, mostly black with luminous gold mist. No text, no letters, no numbers, no logos, no watermark, no people, no plants."
+  },
+  {
+   "id": "g-fx-creative",
+   "role": "effect",
+   "aspect": "3:4",
+   "usedFor": [
+    "home Shop By Cannabis Effect card",
+    "town pages (/recreational/<town>/) effect tiles"
+   ],
+   "calmArea": "lower 30%: calm dark polished stone (the town-page tiles set their title over it); keep the subject centred, phones crop the last tile wide",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 71001
+   },
+   "alt": "Paintbrushes in a black jar and a fine brush resting on a small pot of liquid gold paint, a drop of gold falling from its tip",
+   "prompt": "Three artist paintbrushes standing in a small black ceramic jar, and one fine brush resting across the rim of a small open pot of liquid gold paint, a glossy drop of gold paint falling from its tip into the pot, a few gold droplets on the polished black stone. No paper, no canvas, no writing, no letters, no symbols. No people. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow.",
+   "rejectReason": "attempt 1 rejected: the gold brush strokes on black paper formed pseudo-lettering"
+  },
+  {
+   "id": "g-fx-sleep",
+   "role": "effect",
+   "aspect": "3:4",
+   "usedFor": [
+    "home Shop By Cannabis Effect card",
+    "town pages (/recreational/<town>/) effect tiles"
+   ],
+   "calmArea": "lower 30%: calm dark polished stone (the town-page tiles set their title over it); keep the subject centred, phones crop the last tile wide",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 71002
+   },
+   "alt": "A black silk sleep mask on a folded black satin pillow beside a small brass lantern with a low candle",
+   "prompt": "A black silk sleep mask resting on a softly folded black satin pillow, a small brass lantern with a low dimmed candle glowing beside it, deep quiet night darkness all around, faint warm gold reflections on the satin, restful and still. No people, no hands. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow."
+  },
+  {
+   "id": "g-fx-energetic",
+   "role": "effect",
+   "aspect": "3:4",
+   "usedFor": [
+    "home Shop By Cannabis Effect card",
+    "town pages (/recreational/<town>/) effect tiles"
+   ],
+   "calmArea": "lower 30%: calm dark polished stone (the town-page tiles set their title over it); keep the subject centred, phones crop the last tile wide",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 71003
+   },
+   "alt": "Black running shoes mid-stride on black stone steps in streaks of golden light",
+   "prompt": "Close view of a pair of black running shoes mid-stride, bounding up polished black stone steps, streaks of warm golden light and a slight motion blur conveying speed and energy; only the lower legs in black athletic leggings and the shoes are visible, nothing above the knee. The shoes are plain with no logos and no lettering. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow."
+  },
+  {
+   "id": "g-fx-calm",
+   "role": "effect",
+   "aspect": "3:4",
+   "usedFor": [
+    "home Shop By Cannabis Effect card",
+    "town pages (/recreational/<town>/) effect tiles"
+   ],
+   "calmArea": "lower 30%: calm dark polished stone (the town-page tiles set their title over it); keep the subject centred, phones crop the last tile wide",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 71004
+   },
+   "alt": "A small stack of smooth black stones beside a shallow pool of still water reflecting a soft golden glow",
+   "prompt": "A small stack of smooth, balanced black river stones beside a shallow basin of perfectly still dark water that reflects a soft golden glow, one slow gentle ripple on the surface, deep quiet darkness, serene and unhurried. No people, no hands. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow."
+  },
+  {
+   "id": "g-fx-happy",
+   "role": "effect",
+   "aspect": "3:4",
+   "usedFor": [
+    "home Shop By Cannabis Effect card",
+    "town pages (/recreational/<town>/) effect tiles"
+   ],
+   "calmArea": "lower 30%: calm dark polished stone (the town-page tiles set their title over it); keep the subject centred, phones crop the last tile wide",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 71005
+   },
+   "alt": "A loose bunch of bright sunflowers in a black vase in warm golden light",
+   "prompt": "A loose, joyful bunch of bright sunflowers in a black ceramic vase on polished black stone, glowing in warm golden light, a few golden petals fallen beside the vase, cheerful and sunny against the deep black. No people, no hands. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow."
   }
  ]
 }

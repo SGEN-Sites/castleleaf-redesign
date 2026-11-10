@@ -71,11 +71,11 @@
       { "slug": "merch", "url": "https://www.castleleaf.com/categories/merc/" }
     ],
     "effects": [
-      { "slug": "creative", "label": "Creative", "url": "https://www.castleleaf.com/effects/creative/", "photo": "cl/CL-Effects-Creative.webp" },
-      { "slug": "sleep", "label": "Sleep", "url": "https://www.castleleaf.com/effects/sleepy/", "photo": "cl/CL-Effects-Sleep.webp" },
-      { "slug": "energetic", "label": "Energetic", "url": "https://www.castleleaf.com/effects/energetic/", "photo": "cl/CL-Effects-Energetic.webp" },
-      { "slug": "calm", "label": "Calm", "url": "https://www.castleleaf.com/effects/calm/", "photo": "cl/CL-Effects-Calm.webp" },
-      { "slug": "happy", "label": "Happy", "url": "https://www.castleleaf.com/effects/happy/", "photo": "cl/CL-Effects-Happy.webp" }
+      { "slug": "creative", "label": "Creative", "url": "https://www.castleleaf.com/effects/creative/", "photo": "cl/CL-Effects-Creative.webp", "gimg": "g-fx-creative" },
+      { "slug": "sleep", "label": "Sleep", "url": "https://www.castleleaf.com/effects/sleepy/", "photo": "cl/CL-Effects-Sleep.webp", "gimg": "g-fx-sleep" },
+      { "slug": "energetic", "label": "Energetic", "url": "https://www.castleleaf.com/effects/energetic/", "photo": "cl/CL-Effects-Energetic.webp", "gimg": "g-fx-energetic" },
+      { "slug": "calm", "label": "Calm", "url": "https://www.castleleaf.com/effects/calm/", "photo": "cl/CL-Effects-Calm.webp", "gimg": "g-fx-calm" },
+      { "slug": "happy", "label": "Happy", "url": "https://www.castleleaf.com/effects/happy/", "photo": "cl/CL-Effects-Happy.webp", "gimg": "g-fx-happy" }
     ],
     "strains": [
       { "label": "Indica", "url": "https://www.castleleaf.com/strains/indica/" },

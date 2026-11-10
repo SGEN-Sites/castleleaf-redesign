@@ -101,6 +101,21 @@ pure black so the page can blend them in with `mix-blend-mode: screen`.
 | `g-feature-kiosk` | A slim touch-screen kiosk with a softly glowing blank gold screen in a dark, minimal boutique | 2496x1664 | left 45%: dark matte wall and black stone floor |
 | `g-feature-events` | Golden string lights over a dark wooden table with framed black and gold abstract prints leaning on a black wall | 2496x1664 | upper 35%: dark wall above the string lights |
 
+### Effect series (revision 1b)
+
+Made for the five Shop By Cannabis Effect cards (the home page and the effect tiles of the town pages), in place of the
+client's 312x400 effect photos. Portrait 3:4, one black and gold mood still per effect, no people except anonymous lower
+legs on Energetic, no faces, no text. On Creative, a fake engraving on one brush ferrule was painted out (the strip was
+rebuilt from the plain gold on either side of it).
+
+| Id | What it shows | Pixels | Where text can sit |
+|---|---|---|---|
+| `g-fx-creative` | Paintbrushes in a black jar and a fine brush resting on a small pot of liquid gold paint, a drop of gold falling from its tip | 1792x2368 | lower 30%: calm dark stone with gold drops |
+| `g-fx-sleep` | A black silk sleep mask on a folded black satin pillow beside a small brass lantern with a low candle | 1792x2368 | lower 30%: dark satin |
+| `g-fx-energetic` | Black running shoes mid-stride on black stone steps in streaks of golden light | 1792x2368 | lower 30%: dark steps under light streaks |
+| `g-fx-calm` | A small stack of smooth black stones beside a shallow pool of still water reflecting a soft golden glow | 1792x2368 | lower 30%: still dark water |
+| `g-fx-happy` | A loose bunch of bright sunflowers in a black vase in warm golden light | 1792x2368 | lower 25%: dark stone with fallen petals |
+
 ### Article pool
 
 | Id | What it shows | Pixels | Where text can sit |

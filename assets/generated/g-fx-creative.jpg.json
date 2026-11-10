@@ -1,0 +1,33 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-fx-creative",
+  "file": "assets/generated/g-fx-creative.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Three artist paintbrushes standing in a small black ceramic jar, and one fine brush resting across the rim of a small open pot of liquid gold paint, a glossy drop of gold paint falling from its tip into the pot, a few gold droplets on the polished black stone. No paper, no canvas, no writing, no letters, no symbols. No people. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 71001
+  },
+  "seed": 71001,
+  "requestId": "01a1c4b6-7ad3-7c82-a866-bd5986b13379",
+  "cutout": null,
+  "width": 1792,
+  "height": 2368,
+  "sha256": "08ed4bd522f9869c0a8e3a92677c3633d296d625c5a4cc865862320a159c13ba",
+  "raw": "tmp/img/raw/g-fx-creative.1794301664569.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T09:07:46.210Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Revision 1b: effect card series in black and gold, made for the Shop By Cannabis Effect cards (the client photos were 312x400). Checked at full size: no text or pseudo-text, no logo, no face; attempt 1 rejected: the gold brush strokes on black paper formed pseudo-lettering; attempt 2 had pseudo-lettering engraved on one brush ferrule, removed by rebuilding that strip from the clean gold on both sides along the brush axis (tmp/rev1/retouch-ferrule.py); checked at 2x",
+    "reviewedAt": "2026-11-10T09:11:21.967499+00:00"
+  },
+  "alt": "Paintbrushes in a black jar and a fine brush resting on a small pot of liquid gold paint, a drop of gold falling from its tip",
+  "post": [
+    "pseudo-lettering on the brush ferrule removed (tmp/rev1/retouch-ferrule.py), AI label re-embedded"
+  ]
+}

@@ -293,7 +293,7 @@ function renderEffects(ctx, r) {
     const cap = need(capt.find((x) => x.title === e.label), 'captured effect ' + e.label);
     return `<li class="tile h-fx${i === 0 ? ' tile--arch' : ''}" data-reveal style="--i:${i}">
 <a class="h-fx__card"${linkAttrs(e.url)}>
-<span class="h-fx__media">${photo(ctx, e.photo, { alt: '', cls: 'h-fx__img', sizes: '(max-width: 720px) 44vw, 220px' })}</span>
+<span class="h-fx__media">${e.gimg ? gimg(e.gimg, { alt: '', cls: 'h-fx__img', sizes: '(max-width: 720px) 44vw, 220px' }) : photo(ctx, e.photo, { alt: '', cls: 'h-fx__img', sizes: '(max-width: 720px) 44vw, 220px' })}</span>
 <span class="h-fx__label"><span class="h-fx__title">${esc(cap.title)}</span><span class="h-fx__more">${esc(cap.more)}${ico('arrow')}</span></span>
 </a>
 </li>`;

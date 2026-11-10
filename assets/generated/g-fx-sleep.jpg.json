@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-fx-sleep",
+  "file": "assets/generated/g-fx-sleep.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A black silk sleep mask resting on a softly folded black satin pillow, a small brass lantern with a low dimmed candle glowing beside it, deep quiet night darkness all around, faint warm gold reflections on the satin, restful and still. No people, no hands. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 71002
+  },
+  "seed": 71002,
+  "requestId": "01a1c4b5-c559-7fe0-89e3-407a296cd7cd",
+  "cutout": null,
+  "width": 1792,
+  "height": 2368,
+  "sha256": "a6fe9d87b423fcd1f8809efb48b6124a01096d5a224bb94b9a2b12d09fd2b46c",
+  "raw": "tmp/img/raw/g-fx-sleep.1794301618123.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T09:07:00.059Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Revision 1b: effect card series in black and gold, made for the Shop By Cannabis Effect cards (the client photos were 312x400). Checked at full size: no text or pseudo-text, no logo, no face",
+    "reviewedAt": "2026-11-10T09:11:21.967499+00:00"
+  },
+  "alt": "A black silk sleep mask on a folded black satin pillow beside a small brass lantern with a low candle",
+  "post": []
+}

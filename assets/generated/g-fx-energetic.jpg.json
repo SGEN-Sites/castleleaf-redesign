@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-fx-energetic",
+  "file": "assets/generated/g-fx-energetic.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Close view of a pair of black running shoes mid-stride, bounding up polished black stone steps, streaks of warm golden light and a slight motion blur conveying speed and energy; only the lower legs in black athletic leggings and the shoes are visible, nothing above the knee. The shoes are plain with no logos and no lettering. Vertical fine-art still life photograph in black and gold: deep true-black background (never brown, never grey), polished black stone, a single warm golden light from the upper left, crisp metallic gold highlights, glossy reflections. The subject sits in the centre of the upper two thirds; the lower third is calm, dark, polished black stone. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 71003
+  },
+  "seed": 71003,
+  "requestId": "01a1c4b5-c561-7af0-8fcf-a5909c69b39a",
+  "cutout": null,
+  "width": 1792,
+  "height": 2368,
+  "sha256": "f9b7cc1a9c9c8e0a5317c99816c2a2b6495460013e34276cba59f4d0ee3fd5bd",
+  "raw": "tmp/img/raw/g-fx-energetic.1794301617735.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T09:06:59.822Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "Revision 1b: effect card series in black and gold, made for the Shop By Cannabis Effect cards (the client photos were 312x400). Checked at full size: no text or pseudo-text, no logo, no face; lower legs and shoes only, no face; the shoes carry no logo or lettering (checked at full size)",
+    "reviewedAt": "2026-11-10T09:11:21.967499+00:00"
+  },
+  "alt": "Black running shoes mid-stride on black stone steps in streaks of golden light",
+  "post": []
+}
