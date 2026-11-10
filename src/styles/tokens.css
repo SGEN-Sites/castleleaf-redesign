@@ -1,80 +1,103 @@
-/* tokens.css - "LANTERN KEEP": glassmorphism x bento x tenebrism x ethereal, on CastleLeaf's own brand.
-   Client colours from the live site's global palette: sage #719370 (primary), cream #F7EDE1 (secondary), warm
-   charcoal #2D2A27 (text), navy #242B43 (accent), copper #B87962 (the shop's shelf colour). Ethereal = luminous
-   linen and cream halls with soft light pools; tenebrism = a few gallery-dark stages where one subject is lit by a
-   single warm lantern light. Light grounds lead: dark stages are accents (hero stage, one feature band, footer).
+/* tokens.css - REVISION 1 (2026-11-10): "OBSIDIAN & GOLD". Glassmorphism x bento x tenebrism x ethereal on CastleLeaf's
+   black and gold (the operator: "they use a black and gold color palette, I want to maintain that"). The black and the
+   gold are sampled from the client's own deal art (assets/photos/cl/ChatGPT-Image-Aug-25-2026-08_36_17-PM.png: black
+   stone, metallic gold paint, smoke): black #10100F; gold shadow #9E711D, mid #B4852A, highlight #D5A43D. Ivory text is
+   the client's cream #F7EDE1. Black grounds lead; gold is the accent and one gold-leaf band per page at most; shiny
+   obsidian and gold paint textures are generated images (g-tex-*). Luxury, not gloom: crisp gold, ivory type, glossy
+   highlights, no grime and no green glows.
+   The OLD NAMES are kept and remapped so every lane's file flips at once: the former light grounds (--linen --cream
+   --cream-2 --parchment --sage-mist) now hold the obsidian family, --ink/--text* hold ivory, and the former sage and
+   copper accents hold gold. New code uses the new names (--obsidian*, --gold*, --ivory*).
    Main session owns this file: lanes USE these names and never hard-code a colour that has a token. */
 :root {
-  /* ethereal grounds (light grounds lead) */
-  --linen: #fbf7f1;             /* page ground */
-  --cream: #f7ede1;             /* the client's secondary */
-  --cream-2: #efe3d3;
-  --parchment: #e6d6c2;
-  --sage-mist: #e9efe4;         /* a sage-tinted hall */
+  /* obsidian grounds (black leads) */
+  --obsidian: #0d0c0b;          /* page ground */
+  --obsidian-2: #151310;        /* raised ground, cards */
+  --obsidian-3: #1d1a16;        /* lifted tiles, inputs */
+  --obsidian-4: #2a251e;        /* hover fills, strong rules */
+  --jet: #050505;               /* deepest stage */
+  --linen: var(--obsidian);     /* legacy name: the page ground */
+  --cream: var(--obsidian-2);   /* legacy name: raised ground */
+  --cream-2: var(--obsidian-3);
+  --parchment: var(--obsidian-4);
+  --sage-mist: #100f0d;         /* legacy name: a second black hall */
   --white: #ffffff;
 
-  /* the client's greens */
-  --sage: #719370;              /* brand primary: fills, icons, big type only (3.2:1 on linen) */
-  --sage-soft: #b5cbb1;         /* sage on dark grounds: 10:1 on --night */
-  --sage-text: #4f6e4f;         /* sage words on light: 5.35:1 on --linen, 4.94:1 on --cream */
-  --sage-deep: #456445;         /* button fill: white text 6.64:1 */
-  --sage-night: #2f4231;        /* a dark sage stage */
+  /* gold (the accent) */
+  --gold-deep: #6e4c12;
+  --gold-shadow: #9e711d;
+  --gold: #b4852a;              /* fills, rims, icons, big type: 5.9:1 on --obsidian */
+  --gold-bright: #d5a43d;       /* gold words on black: 8.7:1 on --obsidian */
+  --gold-light: #f1d58a;        /* lit edges, highlights, small gold text on black: 13:1 */
+  --gold-grad: linear-gradient(100deg, #6e4c12 0%, #b4852a 24%, #f1d58a 46%, #d5a43d 58%, #9e711d 78%, #6e4c12 100%);
+  --on-gold: #0d0c0b;           /* text on a gold fill: 6.2:1 on --gold, 8.9:1 on --gold-bright */
 
-  /* copper: the shelves and the lantern light */
-  --copper: #b87962;            /* decorative, rims, big type on dark (5.0:1 on --night) */
-  --copper-text: #8f5340;       /* copper words on light: 5.66:1 on --linen */
-  --copper-glow: #e2a68d;       /* lit edges and words on dark: 8.5:1 on --night */
-  --copper-grad: linear-gradient(100deg, #8f5340 0%, #b87962 32%, #f0c3a8 52%, #b87962 72%, #8f5340 100%);
+  /* legacy accent names, remapped to gold */
+  --sage: var(--gold);
+  --sage-soft: var(--gold-light);
+  --sage-text: var(--gold-bright);
+  --sage-deep: var(--gold);     /* button fill: pair it with color var(--on-gold), never white */
+  --sage-night: #14110b;
+  --copper: var(--gold);
+  --copper-text: var(--gold-bright);
+  --copper-glow: var(--gold-light);
+  --copper-grad: var(--gold-grad);
 
-  /* tenebrist darks (accents) */
-  --night: #1a1816;             /* gallery dark, warm */
-  --night-2: #24211e;
-  --charcoal: #2d2a27;          /* the client's text colour */
-  --navy: #242b43;              /* the client's accent */
-  --navy-deep: #171b2c;
+  /* tenebrist darks */
+  --night: #080807;             /* gallery dark */
+  --night-2: #11100e;
+  --charcoal: #2d2a27;          /* the client's ink: the logo file is drawn in it (invert it on black) */
+  --navy: #14141a;              /* legacy name: a cool black */
+  --navy-deep: #0a0a0e;
 
-  /* text */
-  --ink: #2d2a27;
+  /* text (ivory on black) */
+  --ivory: #f7ede1;             /* the client's cream: 17:1 on --obsidian */
+  --ivory-2: #ddd2c3;           /* body: 13:1 */
+  --ivory-3: #a99f92;           /* captions: 7.4:1 */
+  --ink: var(--ivory);
   --text: var(--ink);
-  --text-2: #4a4540;            /* body on light: 8.9:1 on --linen */
-  --text-3: #655e56;            /* captions on light: 6.0:1 on --linen */
-  --text-on-dark: #f7ede1;      /* 15.3:1 on --night */
-  --text-on-dark-2: #d9cfc3;    /* 11.5:1 on --night */
+  --text-2: var(--ivory-2);
+  --text-3: var(--ivory-3);
+  --text-on-dark: var(--ivory);
+  --text-on-dark-2: var(--ivory-2);
 
   /* lines */
-  --line: rgba(45, 42, 39, 0.12);
-  --line-2: rgba(45, 42, 39, 0.24);
+  --line: rgba(247, 237, 225, 0.12);
+  --line-2: rgba(247, 237, 225, 0.24);
   --line-on-dark: rgba(247, 237, 225, 0.16);
-  --hair-copper: rgba(184, 121, 98, 0.6);
+  --hair-gold: rgba(213, 164, 61, 0.55);
+  --hair-copper: var(--hair-gold);
 
-  /* light (ethereal pools and the tenebrist lantern) */
-  --pool-sage: radial-gradient(60% 70% at 18% 20%, rgba(113, 147, 112, 0.22), transparent 70%);
-  --pool-copper: radial-gradient(55% 60% at 82% 30%, rgba(226, 166, 141, 0.26), transparent 72%);
-  --pool-cream: radial-gradient(70% 80% at 50% 0%, rgba(255, 255, 255, 0.9), transparent 70%);
-  --haze: linear-gradient(180deg, rgba(251, 247, 241, 0) 0%, rgba(251, 247, 241, 0.55) 60%, var(--linen) 100%);
-  --lantern: radial-gradient(42% 58% at var(--lx, 68%) var(--ly, 42%), rgba(240, 195, 168, 0.34) 0%, rgba(184, 121, 98, 0.12) 38%, rgba(26, 24, 22, 0) 72%);
-  --vignette: radial-gradient(120% 90% at 50% 40%, rgba(26, 24, 22, 0) 45%, rgba(26, 24, 22, 0.75) 100%);
+  /* light (ethereal gold pools, the lantern, haze into black) */
+  --pool-sage: radial-gradient(60% 70% at 18% 20%, rgba(213, 164, 61, 0.16), transparent 70%);
+  --pool-copper: radial-gradient(55% 60% at 82% 30%, rgba(241, 213, 138, 0.12), transparent 72%);
+  --pool-cream: radial-gradient(70% 80% at 50% 0%, rgba(241, 213, 138, 0.07), transparent 70%);
+  --pool-gold: var(--pool-sage);
+  --haze: linear-gradient(180deg, rgba(13, 12, 11, 0) 0%, rgba(13, 12, 11, 0.55) 60%, var(--obsidian) 100%);
+  --lantern: radial-gradient(42% 58% at var(--lx, 68%) var(--ly, 42%), rgba(241, 213, 138, 0.30) 0%, rgba(180, 133, 42, 0.12) 38%, rgba(8, 8, 7, 0) 72%);
+  --vignette: radial-gradient(120% 90% at 50% 40%, rgba(8, 8, 7, 0) 45%, rgba(8, 8, 7, 0.75) 100%);
   --grain: url('/assets/brand/grain.png');
 
-  /* glass (mid plane): frosted vitrines */
-  --glass: rgba(251, 247, 241, 0.46);
-  --glass-strong: rgba(251, 247, 241, 0.78);
-  --glass-dark: rgba(26, 24, 22, 0.42);
-  --glass-navy: rgba(23, 27, 44, 0.46);
-  --glass-border: rgba(255, 255, 255, 0.66);
-  --glass-border-dark: rgba(247, 237, 225, 0.18);
+  /* glass (mid plane): smoked glass vitrines with a gold rim */
+  --glass: rgba(24, 22, 19, 0.52);
+  --glass-strong: rgba(18, 17, 15, 0.86);
+  --glass-dark: rgba(8, 8, 7, 0.5);
+  --glass-navy: rgba(12, 12, 15, 0.56);
+  --glass-border: rgba(213, 164, 61, 0.32);
+  --glass-border-dark: rgba(213, 164, 61, 0.22);
   --glass-blur: 22px;
   --glass-sat: 140%;
-  --glass-sheen: linear-gradient(120deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 44%);
-  --glass-shadow: 0 30px 70px -38px rgba(45, 42, 39, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.75);
-  --glass-shadow-dark: 0 34px 80px -34px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  --glass-sheen: linear-gradient(120deg, rgba(255, 240, 205, 0.14) 0%, rgba(255, 240, 205, 0) 44%);
+  --glass-shadow: 0 30px 70px -38px rgba(0, 0, 0, 0.85), inset 0 1px 0 rgba(255, 236, 190, 0.16);
+  --glass-shadow-dark: 0 34px 80px -34px rgba(0, 0, 0, 0.85), inset 0 1px 0 rgba(255, 236, 190, 0.12);
 
-  /* shapes: bento tiles, and the castle arch (the store's round towers and arched windows) */
+  /* shapes: bento tiles and frames, all rounded rectangles (revision 1: no arches or domes anywhere) */
   --r-tile: 28px;
   --r-tile-lg: 36px;
   --r-sm: 16px;
   --r-xs: 10px;
-  --r-arch: 999px 999px var(--r-tile) var(--r-tile);
+  --r-frame: var(--r-tile-lg);
+  --r-arch: var(--r-frame);     /* legacy name: every former arch is now a rounded rectangle */
   --r-pill: 999px;
   --bento-gap: clamp(12px, 1.4vw, 20px);
 

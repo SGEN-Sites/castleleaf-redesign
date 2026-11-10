@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Close view across a pale oak shop counter: two hands with short clean nails gently present a small clear glass jar with a glass lid filled with dried cannabis flower, held toward the viewer, centre-right of the frame. Only the hands, forearms and the lower chest of a plain sage-green apron are visible; the person's face and head are completely out of frame above. Warm, bright, welcoming shop light, shallow depth of field, softly blurred warm cream and copper shelves far behind. Exactly five fingers on each hand, natural anatomy. The jar is plain and unlabeled. No text, no name tag, no logo on the apron., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "Close view across a polished black stone shop counter: two hands with short clean nails gently present a small clear glass jar with a glass lid filled with dried cannabis flower, held toward the viewer, centre-right of the frame. Only the hands, forearms and the lower chest of a plain black apron are visible; the face and head of the person are completely out of frame above. Warm golden boutique light, shallow depth of field, softly blurred dark shelves with small warm gold lights far behind. Exactly five fingers on each hand, natural anatomy. The jar is plain and unlabeled. No text, no name tag, no logo on the apron. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 52013
   },
   "seed": 52013,
-  "requestId": "01a1c301-2ebe-7403-86c8-1d57da01dc2c",
+  "requestId": "01a1c493-2ae8-7d63-8b9b-60c55f46cee4",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "bdb29f02559d3125ce51f266160b3eaa7e91f0718a7b6ec41fa531070476d738",
-  "raw": "tmp/img/raw/g-feature-budtender.1794273014243.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:10:16.208Z",
+  "sha256": "9296f1663b9ea8825bdbe750747e88217dbda21670f9afded99db2b2d61c0da7",
+  "raw": "tmp/img/raw/g-feature-budtender.1794299350332.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:11.917Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black; hands checked at full size: five fingers each, natural anatomy, no face, no name tag",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "Two hands presenting a small glass jar of cannabis flower across a pale wood counter"
+  "alt": "Two hands presenting a small glass jar of cannabis flower across a black stone counter",
+  "post": []
 }

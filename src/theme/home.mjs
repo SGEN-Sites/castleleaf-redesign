@@ -1,6 +1,6 @@
 // home.mjs - CastleLeaf home "/" (HOME lane, "Lantern Keep"; docs/BUILD-CONTRACT.md section 6, HOME).
 //   1 hero: a tenebrist stage (pinned scroll-through from 1024 wide / 560 tall) with the arched building frame crossing into 2
-//   2 How To Shop: the delivery + budtender bento      3 Cannabis Bundles: glass price tiles over a copper pool
+//   2 How To Shop: the delivery + budtender bento (gold haze)      3 Cannabis Bundles: smoked glass price tiles on veined obsidian
 //   4 Shop By Cannabis Category: the one dark band, a horizontal scroll-through + the live-menu shortcuts
 //   5 Shop By Cannabis Effect      6 Craft Kitchen & Dispensary (editorial)      7 FAQ (D2a pairings)      8 events + journal
 // Every captured word comes from pages/home.json (dash-normalised at load); the FAQ pairs come from pages/faqs.json (D2a);
@@ -12,6 +12,8 @@ import { esc, escA, linkAttrs, gimg, photo, menu, rewriteLinks, liveHref, absUrl
 const ico = (n, c = '') => shell.icon(n, c);
 const plain = (html) => stripTags(String(html ?? '')).replace(/\s+/g, ' ').trim();
 const HERO_SIZES = '100vw';
+// band textures (revision 1, generated, decorative): full-bleed grounds under a veil
+const TEX_SIZES = '(max-width: 720px) 720px, 100vw';
 // the frame is a tall 3:5 arch cut from a landscape photo, so the rendered image is about 2.4x the frame's width
 const FRAME_SIZES = '(max-width: 720px) 150vw, (max-width: 1023.98px) 110vw, 64vw';
 
@@ -119,7 +121,7 @@ function renderWays(ctx, r) {
   const kio = need(w.kiosk, 'ways kiosk');
 
   return `<section class="h-ways band band--linen" id="how-to-shop" aria-labelledby="h-ways-h">
-<div class="band__clip h-ways__clip" aria-hidden="true"><span class="h-ways__pool h-ways__pool--a"></span><span class="h-ways__pool h-ways__pool--b"></span></div>
+<div class="band__clip h-ways__clip" aria-hidden="true">${gimg('g-tex-gold-haze', { alt: '', cls: 'band__bg h-ways__bg', sizes: TEX_SIZES })}<span class="h-ways__veil"></span></div>
 <div class="wrap wrap--wide h-ways__wrap">
 <header class="h-head h-ways__head">
 <div>
@@ -203,7 +205,7 @@ ${pop ? `<span class="tile__pop h-bd__pop" aria-hidden="true">${gimg('g-cut-tinc
   // the captured order, with the bulk-flower mix (the Flower Deli's own bundle) leading as the wide tile
   const order = [...list].sort((a, b) => (/bulk flower/i.test(b.title) ? 1 : 0) - (/bulk flower/i.test(a.title) ? 1 : 0));
   return `<section class="h-bundles band band--cream" id="bundles" aria-labelledby="h-bd-h">
-<div class="band__clip h-bundles__clip" aria-hidden="true"><span class="h-bundles__pool"></span></div>
+<div class="band__clip h-bundles__clip" aria-hidden="true">${gimg('g-tex-obsidian-vein', { alt: '', cls: 'band__bg h-bundles__bg', sizes: TEX_SIZES })}<span class="h-bundles__veil"></span><span class="h-bundles__pool"></span>${gimg('g-tex-gold-stroke', { alt: '', cls: 'h-bundles__stroke', sizes: '(max-width: 720px) 1px, 44vw' })}</div>
 <div class="wrap wrap--wide h-bundles__wrap">
 <header class="h-bundles__head">
 <div>
@@ -297,7 +299,7 @@ function renderEffects(ctx, r) {
 </li>`;
   }).join('\n');
   return `<section class="h-fxs band band--sage" id="effects" aria-labelledby="h-fx-h">
-<div class="band__clip h-fxs__clip" aria-hidden="true"><span class="h-fxs__rays"></span></div>
+<div class="band__clip h-fxs__clip" aria-hidden="true">${gimg('g-tex-obsidian', { alt: '', cls: 'band__bg h-fxs__bg', sizes: TEX_SIZES })}<span class="h-fxs__veil"></span></div>
 <div class="wrap wrap--wide h-fxs__wrap">
 <header class="h-fxs__head">
 <h2 class="h-fxs__h" id="h-fx-h" data-reveal="lines">${accent(plain(B[hi].html), 'Effect')}</h2>
@@ -335,7 +337,7 @@ function renderKitchen(ctx, r) {
 <p class="kicker" data-reveal>${esc(ctx.site.address.neighbourhood)}</p>
 <h2 class="h-ck__h" id="h-ck-h" data-reveal="lines">${accent(plain(B[hi].html), 'Kitchen')}</h2>
 <p class="h-ck__p h-ck__p--lead" data-reveal>${esc(p0lead)}</p>
-${p0quote ? `<p class="h-ck__quote" data-reveal><span class="h-ck__qmark" aria-hidden="true">${ico('crown')}</span>${esc(p0quote)}</p>` : ''}
+${p0quote ? `<p class="h-ck__quote" data-reveal><span class="h-ck__goldleaf" aria-hidden="true">${gimg('g-tex-gold-leaf', { alt: '', sizes: '(max-width: 720px) 92vw, 40vw' })}</span><span class="h-ck__qmark" aria-hidden="true">${ico('crown')}</span>${esc(p0quote)}</p>` : ''}
 ${ps.slice(1).map((p, i) => `<p class="h-ck__p" data-reveal style="--i:${i}">${rewriteLinks(p.html)}</p>`).join('\n')}
 </div>
 </div>

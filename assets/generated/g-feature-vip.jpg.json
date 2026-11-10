@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Tenebrist photograph of a small glass display vitrine on a slim pale stone pedestal in a dark gallery, right of centre. Inside, a deep green velvet tray holds a small plain glass jar and a small antique brass key. A single warm lantern beam from the upper right lights the vitrine, with soft reflections and bright edge highlights on the glass and a faint haze in the beam; the room around falls into deep warm charcoal-brown darkness, never pure black. Painterly chiaroscuro, photographic and sharp. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "Tenebrist photograph of a small glass display vitrine with thin brass edges on a slim black stone pedestal in a dark gallery, right of centre. Inside, a black velvet tray holds a small plain glass jar and a small antique brass key. A single warm golden beam from the upper right lights the vitrine, with soft reflections and bright gold edge highlights on the glass and a faint golden haze in the beam; the room around falls into deep true black, the left 40 percent dark and calm. The glass is clear with warm gold reflections only. Painterly chiaroscuro, photographic and sharp. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,21 +13,19 @@
     "seed": 52017
   },
   "seed": 52017,
-  "requestId": "01a1c301-41d1-7a42-b377-c148340a14ba",
+  "requestId": "01a1c493-2ae7-7291-a433-f12e937d8662",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "5dc9ceb9f7054676a187ce928eacf9f1e090aa32bdaaa520cae47770135fedb4",
-  "raw": "tmp/img/raw/g-feature-vip.1794273017417.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:10:18.900Z",
+  "sha256": "11d996a389cc55bcb53ef12b5569afffa24a3bba06f7f3966d30f96d158c4e5e",
+  "raw": "tmp/img/raw/g-feature-vip.1794299350336.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:11.780Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [
-    "warm toe lift + fine grain (tmp/img/grade.py)"
-  ],
-  "alt": "A glass display vitrine holding a dark green velvet tray, lit by a single warm beam in a dark room"
+  "alt": "A glass display vitrine holding a black velvet tray, lit by a single golden beam in a dark room",
+  "post": []
 }

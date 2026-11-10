@@ -87,8 +87,9 @@ function newItems(ctx) {
 // The contract's inner-page hero markup (components.css .page-hero: crumbs in the hero, serif H1, line, CTA, an arched frame
 // standing in the hero and crossing its bottom edge), with two LEARN slots: a sub line under the H1 and kicker markup.
 function hero({ crumbs, kicker = '', h1Html, sub = '', lede = '', cta = '', frame = '', mod = '' }) {
+  // revision 1: the hero stands on polished obsidian with gold veins (g-tex-obsidian-vein); learn.css holds the text side calm
   return `<section class="page-hero band band--linen${frame ? ' page-hero--media' : ''} n-hero${mod ? ' ' + mod : ''}">
-${bandBg('', { leaf: 'tl' })}
+${bandBg('g-tex-obsidian-vein', { cls: 'n-tex n-tex--vein', eager: true })}
 <div class="wrap page-hero__inner">
 <div class="page-hero__text">
 ${crumbsHtml(crumbs)}
@@ -149,14 +150,15 @@ function shopBand(ctx, from = 'var(--linen)') {
   const ways = (ctx.site.ways && ctx.site.ways.items) || [];
   const online = ways.find((w) => w.key === 'online') || {};
   const del = ctx.site.delivery || {};
+  // revision 1: the closing band glows with gold haze and dust on black (g-tex-gold-haze); the lantern still follows the pointer
   return `<section class="band band--night band--haze-top n-shop" style="--haze-from:${from}" aria-labelledby="n-shop-h" data-lantern>
-<div class="band__clip" aria-hidden="true"><span class="n-shop__lantern"></span></div>
+${bandBg('g-tex-gold-haze', { cls: 'n-tex n-tex--haze' })}
 <div class="wrap n-shop__wrap">
 <div class="n-shop__text" data-reveal>
 <p class="kicker">${esc(online.title || 'Order Online')}</p>
 <h2 class="display n-shop__title" id="n-shop-h">${accented(online.line || 'Shop Menu')}</h2>
 ${del.line ? `<p class="n-shop__line">${esc(del.title || '')}: ${esc(del.line)}</p>` : ''}
-<div class="btn-row"><a class="btn btn--copper"${linkAttrs(menu(ctx))}>Shop Menu${icon('ext')}</a><a class="btn btn--light"${linkAttrs(P('delivery/'))}>${esc(del.title || 'Local Delivery')}${icon('arrow')}</a></div>
+<div class="btn-row"><a class="btn btn--copper"${linkAttrs(menu(ctx))}>Shop Menu${icon('ext')}</a><a class="btn btn--glass"${linkAttrs(P('delivery/'))}>${esc(del.title || 'Local Delivery')}${icon('arrow')}</a></div>
 </div>
 </div>
 </section>`;
@@ -303,7 +305,9 @@ function hubPage(ctx, items) {
   const crumbs = [HOME, { label: 'Blog' }];
   const sub = rec && rec.sections ? (rec.sections[0].blocks || []).find((b) => tOf(b) === 'h2') : null;
   const feat = items.find((x) => x.slug === 'the-castleleaf-experience') || items[0];
-    const heroImg = hasGenerated('g-feature-blog') ? gimg('g-feature-blog', { eager: true, cls: 'frame__img', sizes: '(min-width: 1024px) 34vw, 82vw' }) : photo(ctx, 'cl/Blog1-Caslteleafflower-mainimage.jpeg', { alt: 'Gloved hands trimming fresh cannabis flower', eager: true, cls: 'frame__img', sizes: '(min-width: 1024px) 34vw, 82vw' });
+  // revision 1: the client's own dark-table still life (pipe, flower, papers on black slate) suits the black and gold hero;
+  // the generated notebook (g-feature-blog) is a white linen scene that read as a blank light box on black
+  const heroImg = photoExists('Blog3-pipeandflower.jpeg') ? photo(ctx, 'cl/Blog3-pipeandflower.jpeg', { alt: 'A glass pipe, flower, a lighter and papers on a dark table', eager: true, cls: 'frame__img', sizes: '(min-width: 1024px) 34vw, 82vw' }) : gimg('g-feature-blog', { eager: true, cls: 'frame__img', sizes: '(min-width: 1024px) 34vw, 82vw' });
   const head = hero({
     id: 'n-h1', crumbs, kicker: 'Read, learn, ask',
     h1Html: `The CastleLeaf <em class="accent">Blog</em>`,
@@ -394,8 +398,9 @@ function eventIndex(ctx) {
 function stdParas(bl) { return bl.filter((b) => tOf(b) === 'p' && STD_P.test(b.html)); }
 function aboutEvents(ctx, paras, banner = true) {
   if (!paras.length) return '';
+  // revision 1: the events pages' closing band: gold haze behind the glass tiles (g-tex-gold-haze)
   return `<section class="band band--cream n-about" aria-label="Events at CastleLeaf">
-<div class="band__clip" aria-hidden="true"><span class="n-about__pool"></span></div>
+${bandBg('g-tex-gold-haze', { cls: 'n-tex n-tex--haze' })}
 <div class="wrap">
 <div class="bento n-about__bento">${paras.map((b, i) => `<div class="tile glass n-about__tile${i === 1 ? ' n-about__tile--wide' : ''}" data-reveal style="--i:${i}" data-spot><p>${rewriteLinks(b.html)}</p></div>`).join('')}</div>
 ${banner ? `<figure class="frame n-banner" data-reveal="wipe">${photo(ctx, 'cl/CL-Events.webp', { alt: '', sizes: '(min-width: 1280px) 1200px, 94vw', cls: 'frame__img' })}</figure>` : ''}

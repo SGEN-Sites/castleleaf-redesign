@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "A pale oak shop counter with three small clear glass jars of dried cannabis flower, a small open notepad with blank pages and a pencil, warm welcoming light, shallow depth of field with softly blurred cream and copper shelves behind, right of centre, calm. The jars are unlabeled and the notepad is blank. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "A polished black stone shop counter with three small clear glass jars of dried cannabis flower, a small open notepad with blank ivory pages and a brass pencil, warm golden boutique light, shallow depth of field with softly blurred dark shelves and small gold lights behind, right of centre, the left 40 percent blurred dark background, calm. The jars are unlabeled and the notepad is blank. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 63013
   },
   "seed": 63013,
-  "requestId": "01a1c302-0dfc-7871-b658-7f60664fecb4",
+  "requestId": "01a1c493-85a3-71a2-b896-9ad12d0391ba",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "f8f53719f754c473974446ca780f10e7cd165abb7b8bc19ab5d3b484df610373",
-  "raw": "tmp/img/raw/g-art-budtender.1794273080345.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:11:22.437Z",
+  "sha256": "59f880e0b0e4071a104af08015c0e100add6631d54a1442b463cd49ac95647d6",
+  "raw": "tmp/img/raw/g-art-budtender.1794299373239.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:34.958Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "Glass jars of cannabis flower and an open notepad on a pale wood counter in warm light"
+  "alt": "Glass jars of cannabis flower and an open notepad on a black stone counter in warm light",
+  "post": []
 }

@@ -1,0 +1,30 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-tex-obsidian",
+ "file": "assets/generated/g-tex-obsidian.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Macro photograph of a polished black obsidian surface, deep glossy volcanic glass with smooth flowing conchoidal ripples, soft warm golden specular highlights catching the ripple edges at the upper right, mostly deep black with gentle reflections, luxurious and sharp, high detail, a wide calm dark area in the centre and left. No text, no letters, no numbers, no logos, no watermark, no people, no plants., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9",
+  "seed": 91001
+ },
+ "seed": 91001,
+ "requestId": "01a1c448-64f1-7bc3-b3d1-a85f3151008c",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "a3d7549e8c8ff1a9adf17f91ac0c5fe754fd69a983b591761efa9bc1db426efd",
+ "raw": "tmp/img/raw/g-tex-obsidian.1794294449959.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-10T07:07:31.744Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": null,
+  "notes": "Accepted by eye at full size on 2026-11-10 (revision 1, main session): no text, letters, logos, people or plants; no near-black safety frame (texture is dark by design; mean luminance checked).",
+  "at": "2026-11-10"
+ }
+}

@@ -16,8 +16,8 @@
    @media (min-width: 1024px) and (min-height: 560px) and (prefers-reduced-motion: no-preference) { html.js ... }. */
 @keyframes reveal-up { from { opacity: 0; transform: translateY(26px); filter: blur(8px); } to { opacity: 1; transform: none; filter: none; } }
 @keyframes reveal-rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-@keyframes reveal-wipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
-@keyframes reveal-arch { from { clip-path: inset(100% 0 0 0 round 999px 999px 0 0); opacity: 0.4; } 40% { opacity: 1; } to { clip-path: inset(0 0 0 0 round 999px 999px 0 0); opacity: 1; } }
+@keyframes reveal-wipe { from { clip-path: inset(0 100% 0 0 round var(--wipe-r, var(--r-tile))); } to { clip-path: inset(0 0 0 0 round var(--wipe-r, var(--r-tile))); } }   /* revision 1: the wipe keeps the frame's rounded corners while it plays */
+@keyframes reveal-arch { from { clip-path: inset(100% 0 0 0 round var(--r-frame)); opacity: 0.4; } 40% { opacity: 1; } to { clip-path: inset(0 0 0 0 round var(--r-frame)); opacity: 1; } }
 @keyframes line-rise { from { transform: translateY(108%); } to { transform: none; } }
 @keyframes reveal-safety { to { opacity: 1; clip-path: none; } }
 @keyframes marquee { to { transform: translateX(-50%); } }

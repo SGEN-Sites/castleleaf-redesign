@@ -1,32 +1,34 @@
-/* shell.css (FOUNDATION, "LANTERN KEEP"): the sage promo strip, the floating glass main bar (frosted on ::before, so the mega panels inside
-   can blur too), mega panels with image cards, the drawer below 1024px, the night footer with its lantern pool and the CASTLELEAF wordmark
-   crossed by a band of light, the 21+ gate. The strip is in flow and scrolls away; the header is a zero-height sticky rail, so the bar floats
+/* shell.css (FOUNDATION, revision 1 "OBSIDIAN & GOLD"): the black promo strip, the floating smoked-glass main bar with a gold rim (frosted on
+   ::before, so the mega panels inside can blur too), black-glass mega panels with rounded image cards, the drawer below 1024px, the obsidian
+   footer with its gold paint ribbon and the CASTLELEAF wordmark in dim gold crossed by a bright gold band of light, the 21+ gate on black glass. The strip is in flow and scrolls away; the header is a zero-height sticky rail, so the bar floats
    over the top of main and the first band of a page runs under it (its text clears the bar with padding-top: var(--hero-top)). */
 
 /* ---------------------------------------------------------------- promo strip */
+/* revision 1: a black strip with ivory words, gold-light links and gold icons; a fine gold hairline along its foot */
 .promo {
-  position: relative; z-index: calc(var(--z-header) - 1); height: var(--promo-h); color: var(--cream);
-  background: var(--grain), linear-gradient(90deg, var(--sage-night) 0%, var(--sage-deep) 46%, var(--sage-deep) 100%); background-size: 220px 220px, auto;
+  position: relative; z-index: calc(var(--z-header) - 1); height: var(--promo-h); color: var(--ivory-2);
+  background: radial-gradient(40% 160% at 50% 0%, rgba(213, 164, 61, 0.12), transparent 70%), var(--jet);
+  box-shadow: inset 0 -1px 0 rgba(213, 164, 61, 0.35);
   font-family: var(--font-label); font-size: var(--fs-label); line-height: 1.2;
 }
 .promo__inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 100%; max-width: calc(var(--wrap-wide) + 2 * var(--bar-x)); margin-inline: auto; padding-inline: calc(var(--bar-x) + 18px); }
 .promo__offer { display: flex; align-items: center; gap: 10px; min-width: 0; white-space: nowrap; }
-.promo__ico { width: 18px; height: 18px; color: var(--copper-glow); }
-.promo__text { overflow: hidden; text-overflow: ellipsis; letter-spacing: 0.01em; }
+.promo__ico { width: 18px; height: 18px; color: var(--gold-bright); }
+.promo__text { overflow: hidden; text-overflow: ellipsis; letter-spacing: 0.01em; color: var(--ivory); }
 .promo__link {
-  display: inline-flex; align-items: center; gap: 5px; color: var(--cream); font-weight: 600; text-decoration: none;
-  background: linear-gradient(var(--copper-glow), var(--copper-glow)) 0 100% / 100% 1px no-repeat; padding-bottom: 2px;
+  display: inline-flex; align-items: center; gap: 5px; color: var(--gold-light); font-weight: 600; text-decoration: none;
+  background: linear-gradient(var(--gold-bright), var(--gold-bright)) 0 100% / 100% 1px no-repeat; padding-bottom: 2px;
   transition: background-size 0.5s var(--ease), color var(--dur-1);
 }
 .promo__link .icon { width: 14px; height: 14px; transition: transform 0.5s var(--ease); }
 .promo__link:hover .icon, .promo__link:focus-visible .icon { transform: translateX(3px); }
-.promo__link--plain { font-weight: 400; background-size: 0% 1px; }
-.promo__link--plain:hover, .promo__link--plain:focus-visible { background-size: 100% 1px; }
-.promo__link--plain strong { font-weight: 600; }
-.promo__link--plain .icon, .promo__hours .icon { width: 15px; height: 15px; color: var(--copper-glow); }
+.promo__link--plain { font-weight: 400; color: var(--ivory-2); background-size: 0% 1px; }
+.promo__link--plain:hover, .promo__link--plain:focus-visible { background-size: 100% 1px; color: var(--gold-light); }
+.promo__link--plain strong { font-weight: 600; color: var(--ivory); }
+.promo__link--plain .icon, .promo__hours .icon { width: 15px; height: 15px; color: var(--gold-bright); }
 .promo__facts { display: flex; align-items: center; gap: clamp(12px, 1.6vw, 24px); white-space: nowrap; }
 .promo__facts li { display: flex; align-items: center; gap: 6px; }
-.promo__hours { color: var(--cream); opacity: 0.92; }
+.promo__hours { color: var(--ivory-2); }
 /* the delivery line never truncates on a desktop first screen: below 1400px the hours step out of the strip (they stay in the Dispensary panel, the drawer and the footer) */
 @media (max-width: 1399.98px) { .promo__facts .promo__hours { display: none; } }
 @media (max-width: 1179.98px) { .promo__facts li:nth-child(n+3) { display: none; } }
@@ -40,28 +42,31 @@ html.nav-open .site-header { z-index: var(--z-drawer); }
   display: flex; align-items: center; gap: clamp(10px, 1.6vw, 28px); padding-inline: clamp(18px, 1.8vw, 28px) 10px;
   transition: transform 0.45s var(--ease);
 }
+/* revision 1: smoked dark glass with a thin gold rim (a gold hairline all round, a lit gold edge along the foot) */
 .mainbar::before {
   content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; border-radius: var(--r-pill);
-  border: 1px solid var(--glass-border);
-  background: var(--glass-sheen), color-mix(in srgb, var(--linen) 66%, transparent);
+  border: 1px solid rgba(213, 164, 61, 0.42);
+  background: linear-gradient(120deg, rgba(255, 236, 190, 0.09) 0%, rgba(255, 236, 190, 0) 40%), rgba(10, 9, 8, 0.66);
   -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)); backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
-  box-shadow: 0 22px 46px -30px rgba(26, 24, 22, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  box-shadow: 0 22px 46px -30px rgba(0, 0, 0, 0.9), inset 0 1px 0 rgba(255, 236, 190, 0.16);
   transition: background-color var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease);
 }
-/* the thin copper rim light along the bar's lower edge */
+/* the thin gold rim light along the bar's lower edge */
 .mainbar::after {
   content: ""; position: absolute; left: 8%; right: 8%; bottom: -1px; height: 1px; pointer-events: none;
-  background: linear-gradient(90deg, rgba(184, 121, 98, 0), rgba(226, 166, 141, 0.85) 50%, rgba(184, 121, 98, 0));
+  background: linear-gradient(90deg, rgba(213, 164, 61, 0), rgba(241, 213, 138, 0.9) 50%, rgba(213, 164, 61, 0));
 }
-.site-header.is-scrolled .mainbar::before, .site-header.has-open-panel .mainbar::before { background: var(--glass-sheen), color-mix(in srgb, var(--linen) 90%, transparent); }
+.site-header.is-scrolled .mainbar::before, .site-header.has-open-panel .mainbar::before { background: linear-gradient(120deg, rgba(255, 236, 190, 0.08) 0%, rgba(255, 236, 190, 0) 40%), rgba(8, 8, 7, 0.88); }
 .site-header.is-hidden .mainbar { transform: translate3d(0, calc(-100% - var(--bar-gap) - 30px), 0); }
 html.nav-open .site-header .mainbar, .site-header.is-snap .mainbar, .site-header.has-open-panel .mainbar { transform: none; }
 .site-header.is-snap .mainbar { transition: none; }
 
 .logo { display: inline-block; text-decoration: none; }
 .logo__img { display: block; width: 100%; height: auto; }
-/* on dark grounds: an inversion that keeps the crown's lines readable inside the shield (brightness(0) would flatten the shield to a blank badge) */
-.logo--invert .logo__img { filter: invert(0.93) sepia(0.15); }
+/* revision 1: every ground is black, so the logo file (dark charcoal) is shown inverted to ivory everywhere by default: an inversion that keeps
+   the crown's lines readable inside the shield (brightness(0) would flatten the shield to a blank badge). On the gold band the original dark file shows. */
+.logo__img, .logo--invert .logo__img { filter: invert(0.95) sepia(0.12) drop-shadow(0 1px 10px rgba(0, 0, 0, 0.5)); }
+.band--gold .logo__img { filter: none; }
 .mainbar__logo { position: relative; flex: none; width: clamp(168px, 14vw, 206px); padding-block: 6px; border-radius: 10px; }
 .mainbar__logo .logo__img { transition: transform var(--dur-2) var(--ease), opacity var(--dur-1); transform-origin: 0 50%; }
 .mainbar__logo:focus-visible .logo__img { transform: scale(1.03); }
@@ -72,25 +77,28 @@ html.nav-open .site-header .mainbar, .site-header.is-snap .mainbar, .site-header
 .nav__item { display: flex; align-items: center; }
 .nav__row { display: flex; align-items: center; }
 .nav__link {
-  display: inline-flex; align-items: center; gap: 5px; min-height: 44px; padding: 0 10px; color: var(--ink); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 5px; min-height: 44px; padding: 0 10px; color: var(--ivory); text-decoration: none;
   font-family: var(--font-label); font-weight: 500; font-size: 1.0625rem; line-height: 1.2; letter-spacing: 0.005em; white-space: nowrap;
-  background: linear-gradient(var(--copper), var(--copper)) 10px calc(100% - 9px) / 0% 1.5px no-repeat;
+  background: linear-gradient(var(--gold-bright), var(--gold-bright)) 10px calc(100% - 9px) / 0% 1.5px no-repeat;
   transition: background-size 0.5s var(--ease), color var(--dur-1);
 }
 .nav__link .icon--ext { width: 14px; height: 14px; opacity: 0.6; }
 .has-mega .nav__link { padding-right: 2px; }
 .nav__link:hover, .nav__link:focus-visible, .is-open > .nav__row > .nav__link, .nav__link[aria-current="page"], .is-current > .nav__row > .nav__link { background-size: calc(100% - 12px) 1.5px; }
 .nav__link[aria-current="page"], .is-current > .nav__row > .nav__link { color: var(--sage-text); }
-.nav__more { display: inline-grid; place-items: center; width: 26px; height: 44px; margin-right: 4px; color: var(--sage-text); border-radius: 8px; cursor: pointer; transition: color var(--dur-1); }
+/* the chevron toggle is a full 44 x 44 tap target (R5). padding-right keeps the chevron close to its label; margin-right -5px keeps the
+   bar's rhythm and stays under the list gap (0.5vw >= 5.12px on the desktop bar), so it never overlaps the next item's hit area */
+.nav__more { display: inline-grid; place-items: center; width: 44px; height: 44px; padding: 0 6px 0 0; margin-right: -5px; color: var(--gold-bright); border-radius: 8px; cursor: pointer; transition: color var(--dur-1); }
 .nav__more .icon { width: 15px; height: 15px; transition: rotate var(--dur-2) var(--ease); }
 .is-open > .nav__row > .nav__more .icon { rotate: 180deg; }
-.nav__more:hover { color: var(--copper-text); }
+.nav__more:hover { color: var(--gold-light); }
+.nav__link[aria-current="page"], .is-current > .nav__row > .nav__link, .is-open > .nav__row > .nav__link { color: var(--gold-light); }
 .header-tools { flex: none; display: flex; align-items: center; gap: 8px; margin-left: auto; }
 .header-cta { min-height: 46px; }
 .header-cta .icon { width: 16px; height: 16px; }
 .nav-toggle { display: none; }
 .nav__drawer-head, .nav__drawer-foot { display: none; }
-.nav-scrim { position: fixed; inset: 0; z-index: calc(var(--z-drawer) - 1); background: rgba(26, 24, 22, 0.38); }
+.nav-scrim { position: fixed; inset: 0; z-index: calc(var(--z-drawer) - 1); background: rgba(0, 0, 0, 0.62); }
 
 /* ---------------------------------------------------------------- mega panels: a frosted vitrine under the bar; image cards; 16 to 18px type. Each fits 1280x585. */
 .mega { position: absolute; top: calc(100% + 10px); left: 0; right: 0; z-index: var(--z-mega); visibility: hidden; transition: visibility 0s linear 0.22s; }
@@ -98,9 +106,9 @@ html.nav-open .site-header .mainbar, .site-header.is-snap .mainbar, .site-header
 .mega__panel {
   position: relative; display: grid; gap: clamp(18px, 2vw, 34px); align-items: stretch; padding: clamp(16px, 1.6vw, 24px);
   max-height: calc(100vh - var(--promo-h) - var(--bar-h) - 40px); overflow: auto; overscroll-behavior: contain; scrollbar-width: thin;
-  border-radius: var(--r-tile); border: 1px solid var(--glass-border);
-  box-shadow: var(--shade-deep), inset 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: var(--glass-sheen), var(--pool-copper), color-mix(in srgb, var(--linen) 88%, transparent);
+  border-radius: var(--r-tile); border: 1px solid rgba(213, 164, 61, 0.4);
+  box-shadow: var(--shade-deep), inset 0 1px 0 rgba(255, 236, 190, 0.16);
+  background: linear-gradient(120deg, rgba(255, 236, 190, 0.07) 0%, rgba(255, 236, 190, 0) 38%), radial-gradient(55% 70% at 88% 0%, rgba(213, 164, 61, 0.14), transparent 72%), rgba(8, 8, 7, 0.9);
   -webkit-backdrop-filter: blur(28px) saturate(var(--glass-sat)); backdrop-filter: blur(28px) saturate(var(--glass-sat));
   opacity: 0; transform: translateY(-8px); transition: opacity 0.22s ease-in, transform 0.22s ease-in;
 }
@@ -132,14 +140,15 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .mega__note { margin: -4px 0 8px; font-size: var(--fs-small); line-height: 1.4; color: var(--text-3); }
 
 /* the feature card: a small tenebrist stage, the lantern swings in on hover */
-.mega__feature { position: relative; display: block; isolation: isolate; min-height: 100%; border-radius: var(--r-tile); overflow: hidden; background: var(--night); color: var(--text-on-dark); text-decoration: none; box-shadow: var(--shade-soft); transition: box-shadow var(--dur-2) var(--ease), transform var(--dur-2) var(--ease); }
+.mega__feature { position: relative; display: block; isolation: isolate; min-height: 100%; border-radius: var(--r-tile); overflow: hidden; background: var(--night); color: var(--text-on-dark); text-decoration: none; border: 1px solid rgba(213, 164, 61, 0.42); box-shadow: var(--shade-soft), inset 0 1px 0 rgba(255, 240, 205, 0.25); transition: box-shadow var(--dur-2) var(--ease), transform var(--dur-2) var(--ease), border-color var(--dur-1); }
 .mega--duo .mega__feature { min-height: clamp(230px, 40vh, 320px); }
 .mega__feature-media { position: absolute; inset: 0; z-index: -2; }
-.mega__feature-light { position: absolute; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(60% 50% at 70% 20%, rgba(240, 195, 168, 0.3), rgba(240, 195, 168, 0) 70%); opacity: 0; transition: opacity 0.8s var(--ease); }
-.mega__feature-body { position: absolute; inset: auto 0 0; display: block; padding: 56px 20px 18px; background: linear-gradient(to top, rgba(26, 24, 22, 0.9) 0%, rgba(26, 24, 22, 0.7) 55%, rgba(26, 24, 22, 0) 100%); }
+.mega__feature-light { position: absolute; inset: 0; z-index: -1; pointer-events: none; background: radial-gradient(60% 50% at 70% 20%, rgba(241, 213, 138, 0.26), rgba(241, 213, 138, 0) 70%); opacity: 0; transition: opacity 0.8s var(--ease); }
+.mega__feature-body { position: absolute; inset: auto 0 0; display: block; padding: 56px 20px 18px; background: linear-gradient(to top, rgba(8, 8, 7, 0.92) 0%, rgba(8, 8, 7, 0.72) 55%, rgba(8, 8, 7, 0) 100%); }
 .mega__feature-t { display: block; font-family: var(--font-display); font-weight: 340; font-size: clamp(1.7rem, 2.3vw, 2.2rem); line-height: 1.02; letter-spacing: var(--track-display); color: var(--text-on-dark); }
 .mega__feature-l { display: block; margin-top: 6px; font-size: 1rem; line-height: 1.38; color: var(--text-on-dark-2); }
-.mega__go { display: inline-grid; margin-top: 10px; color: var(--copper-glow); transition: transform 0.5s var(--ease); }
+.mega__go { display: inline-grid; margin-top: 10px; color: var(--gold-light); transition: transform 0.5s var(--ease); }
+.mega__feature:hover, .mega__feature:focus-visible { border-color: rgba(241, 213, 138, 0.8); }
 .mega__feature:focus-visible { box-shadow: var(--focus-ring); border-radius: var(--r-tile); }
 .mega__feature:focus-visible .mega__img { transform: scale(1.06); }
 .mega__feature:focus-visible .mega__feature-light { opacity: 1; }
@@ -156,12 +165,15 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .mega__card:focus-visible { box-shadow: none; }
 .mega__card-media {
   position: relative; display: block; height: var(--mega-card-h, clamp(84px, 17vh, 150px)); overflow: hidden; background: var(--night);
-  border-radius: var(--r-sm); box-shadow: 0 14px 24px -16px rgba(26, 24, 22, 0.6);
-  transition: box-shadow var(--dur-2) var(--ease), transform var(--dur-2) var(--ease);
+  border-radius: var(--r-sm); border: 1px solid rgba(213, 164, 61, 0.36); box-shadow: 0 14px 24px -16px rgba(0, 0, 0, 0.85);
+  transition: box-shadow var(--dur-2) var(--ease), transform var(--dur-2) var(--ease), border-color var(--dur-1);
 }
-/* the category cards take the towers' arched windows */
-.mega--wide .mega__card-media { border-radius: 999px 999px var(--r-xs) var(--r-xs); }
-.mega__card-light { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(70% 55% at 50% 18%, rgba(240, 195, 168, 0.38), rgba(240, 195, 168, 0) 70%); opacity: 0; transition: opacity 0.7s var(--ease); }
+/* rounded image cards (revision 1: no arches); a gloss and a lit top edge over the photo */
+.mega--wide .mega__card-media { border-radius: var(--r-sm); }
+.mega__card-light { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(70% 55% at 50% 18%, rgba(241, 213, 138, 0.32), rgba(241, 213, 138, 0) 70%); opacity: 0; transition: opacity 0.7s var(--ease); }
+.mega__card-media::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; background: var(--gloss); box-shadow: inset 0 1px 0 rgba(255, 240, 205, 0.32); }
+.mega__card:hover .mega__card-media, .mega__card:focus-visible .mega__card-media { border-color: rgba(241, 213, 138, 0.8); }
+.mega__card-t { color: var(--ivory); }
 .mega__group--n4 { --mega-card-h: clamp(150px, 34vh, 250px); }
 .mega__card-t { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-top: 8px; font-family: var(--font-label); font-weight: 500; font-size: 1rem; line-height: 1.22; transition: color var(--dur-1); }
 .mega__card-t .icon { width: 15px; height: 15px; color: var(--copper-text); opacity: 0; transform: translateX(-6px); transition: opacity var(--dur-1), transform 0.5s var(--ease); }
@@ -171,7 +183,7 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .mega__card:focus-visible .mega__card-t { color: var(--sage-text); }
 .mega__card:focus-visible .mega__card-t .icon { opacity: 1; transform: none; }
 @media (hover: hover) {
-  .mega__card:hover .mega__card-media { transform: translateY(-3px); box-shadow: 0 22px 30px -16px rgba(26, 24, 22, 0.7); }
+  .mega__card:hover .mega__card-media { transform: translateY(-3px); box-shadow: 0 22px 30px -16px rgba(0, 0, 0, 0.9), 0 10px 26px -18px rgba(213, 164, 61, 0.4); }
   .mega__card:hover .mega__img { transform: scale(1.08); }
   .mega__card:hover .mega__card-light { opacity: 1; }
   .mega__card:hover .mega__card-t { color: var(--sage-text); }
@@ -193,7 +205,7 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 }
 
 .mega__store { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(16px, 2vw, 28px); align-items: stretch; }
-.mega__store-media { display: block; height: clamp(190px, 46vh, 330px); overflow: hidden; border-radius: 999px 999px var(--r-tile) var(--r-tile); background: var(--cream-2); box-shadow: var(--shade-soft); }
+.mega__store-media { display: block; height: clamp(190px, 46vh, 330px); overflow: hidden; border-radius: var(--r-tile); background: var(--cream-2); border: 1px solid rgba(213, 164, 61, 0.42); box-shadow: var(--shade-soft); }
 .mega__store-media:focus-visible { box-shadow: var(--focus-ring); }
 .mega__store-media:focus-visible .mega__img { transform: scale(1.05); }
 @media (hover: hover) { .mega__store-media:hover .mega__img { transform: scale(1.05); } }
@@ -207,22 +219,31 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .mega__store-facts a:hover, .mega__store-facts a:focus-visible { color: var(--sage-text); text-decoration-color: currentColor; }
 
 /* ---------------------------------------------------------------- footer: a night stage with a lantern pool; the giant wordmark with its light */
+/* revision 1: glossy obsidian (g-tex-obsidian) under a dark veil; gold paint ribbons (g-tex-gold-ribbon, flipped so they run along the TOP
+   seam) screen-blended inside the footer's own clip; a fine gold hairline on the seam; a soft gold lantern pool. */
 .site-footer {
   --lx: 74%; --ly: 6%;
-  --lantern-live: radial-gradient(48% 62% at var(--lx) var(--ly), rgba(240, 195, 168, 0.26) 0%, rgba(184, 121, 98, 0.1) 40%, rgba(26, 24, 22, 0) 74%);
+  --lantern-live: radial-gradient(48% 62% at var(--lx) var(--ly), rgba(241, 213, 138, 0.16) 0%, rgba(180, 133, 42, 0.07) 40%, rgba(8, 8, 7, 0) 74%);
   position: relative; isolation: isolate; z-index: var(--z-band); overflow: hidden;
-  padding-block: clamp(100px, 9vw, 150px) clamp(22px, 2.6vw, 36px);
-  background-color: var(--night); color: var(--text-on-dark-2); font-size: 1rem;
+  padding-block: clamp(130px, 13vw, 200px) clamp(22px, 2.6vw, 36px);
+  background-color: var(--jet); color: var(--text-on-dark-2); font-size: 1rem;
 }
-/* the haze seam: whatever hall sits above dissolves into the night */
-.site-footer::before { content: ""; position: absolute; left: 0; right: 0; top: -1px; height: clamp(90px, 9vw, 140px); z-index: -1; pointer-events: none; background: linear-gradient(180deg, var(--haze-from, var(--linen)) 0%, color-mix(in srgb, var(--haze-from, var(--linen)) 40%, transparent) 45%, rgba(26, 24, 22, 0) 100%); }
-.site-footer__clip { position: absolute; inset: 0; z-index: -2; overflow: hidden; pointer-events: none; background-image: var(--grain); background-size: 220px 220px; }
-.site-footer__lantern { position: absolute; inset: 0; background: var(--lantern-live), radial-gradient(40% 50% at 12% 88%, rgba(113, 147, 112, 0.16), rgba(26, 24, 22, 0) 70%), var(--vignette); }
+.site-footer::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 1px; z-index: -1; pointer-events: none; background: linear-gradient(90deg, rgba(213, 164, 61, 0), rgba(241, 213, 138, 0.55) 30%, rgba(241, 213, 138, 0.55) 70%, rgba(213, 164, 61, 0)); }
+.site-footer__clip { position: absolute; inset: 0; z-index: -2; overflow: hidden; pointer-events: none; isolation: isolate; background: var(--jet); }
+.site-footer__tex { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+.site-footer__veil { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(8, 8, 7, 0.45) 0%, rgba(8, 8, 7, 0.84) 26%, rgba(8, 8, 7, 0.9) 62%, rgba(8, 8, 7, 0.8) 100%); }
+/* the ribbon is NOT flipped (a flip would turn its sweep into a dome): the box shows the image's lower third, so the gold sweep dips from the
+   seam and rises back into it, a swag hanging from the seam; the box's foot fades out so no edge shows */
+.site-footer__ribbon { position: absolute; top: 0; left: 0; width: 100%; height: clamp(130px, 15vw, 230px); object-fit: cover; object-position: center 100%; mix-blend-mode: screen; opacity: 0.95;
+  -webkit-mask-image: linear-gradient(180deg, #000 72%, transparent); mask-image: linear-gradient(180deg, #000 72%, transparent); }
+.site-footer__clip .img-slot { display: none; }
+.site-footer__lantern { position: absolute; inset: 0; background: var(--lantern-live), var(--vignette); }
 .footer__inner { position: relative; display: grid; gap: clamp(44px, 5vw, 72px); }
 .footer__vip { display: flex; align-items: center; justify-content: space-between; gap: 18px 28px; flex-wrap: wrap; padding: clamp(18px, 2vw, 26px) clamp(20px, 2.6vw, 36px); border-radius: var(--r-tile); }
 .footer__vip-text { display: flex; align-items: center; gap: 16px; min-width: 0; }
 .footer__vip-text p { font-size: 1.0625rem; line-height: 1.4; color: var(--text-on-dark-2); }
-.footer__vip-ico { width: 34px; height: 34px; flex: none; color: var(--copper-glow); }
+.footer__vip-ico { width: 34px; height: 34px; flex: none; color: var(--gold-bright); }
+.footer__vip { border: 1px solid rgba(213, 164, 61, 0.34); }
 .footer__vip-t { display: block; font-family: var(--font-display); font-weight: 340; font-size: clamp(1.6rem, 2.2vw, 2.1rem); line-height: 1.05; letter-spacing: var(--track-display); color: var(--text-on-dark); }
 .footer__top { display: grid; grid-template-columns: minmax(170px, 0.8fr) minmax(0, 2.4fr) minmax(250px, 1.1fr); gap: clamp(28px, 4vw, 72px); align-items: start; }
 .footer__brand { display: grid; gap: 14px; align-content: start; }
@@ -255,11 +276,13 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 .footer__social a { display: inline-flex; align-items: center; gap: 8px; min-height: 34px; }
 
 .footer__mark { position: relative; margin-top: clamp(40px, 5vw, 80px); padding: 0 var(--gutter); pointer-events: none; user-select: none; text-align: center; }
+/* the giant wordmark in dim gold; a bright gold band of light crosses it every 2.6 s (wordmark-sweep in motion.css) */
 .footer__word {
+  --dim: color-mix(in srgb, var(--gold) 46%, var(--night));
   display: block; max-width: var(--wrap-wide); margin-inline: auto; padding-block: 0.02em 0.06em;
   font-family: var(--font-display); font-weight: 300; font-size: clamp(3rem, 14.6vw, 15.5rem); line-height: 0.9; letter-spacing: 0.06em; text-indent: 0.06em; white-space: nowrap;
-  color: color-mix(in srgb, var(--copper) 70%, var(--night));
-  background-image: linear-gradient(100deg, color-mix(in srgb, var(--copper) 70%, var(--night)) 0%, color-mix(in srgb, var(--copper) 70%, var(--night)) 40%, #fff3e6 50%, color-mix(in srgb, var(--copper) 70%, var(--night)) 60%, color-mix(in srgb, var(--copper) 70%, var(--night)) 100%);
+  color: var(--dim);
+  background-image: linear-gradient(100deg, var(--dim) 0%, var(--dim) 38%, var(--gold-bright) 45%, #fff4d6 50%, var(--gold-bright) 55%, var(--dim) 62%, var(--dim) 100%);
   background-size: 200% 100%; background-position: 60% 0; background-repeat: repeat;
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
@@ -282,16 +305,18 @@ html:not(.js) .nav__item:hover > .mega > .mega__panel, html:not(.js) .nav__item:
 /* ---------------------------------------------------------------- 21+ gate: a glass dialog over a dimmed, blurred page, the crown above it */
 .age-gate { position: fixed; inset: 0; z-index: var(--z-gate); display: grid; place-items: center; padding: 20px; overflow: auto; }
 html.gate-pending .age-gate[hidden] { display: grid !important; }
-.age-gate::before { content: ""; position: fixed; inset: 0; background: radial-gradient(60% 60% at 50% 40%, rgba(240, 195, 168, 0.18), rgba(26, 24, 22, 0) 70%), rgba(26, 24, 22, 0.5); -webkit-backdrop-filter: blur(14px) saturate(115%); backdrop-filter: blur(14px) saturate(115%); }
-.age-gate__dialog { position: relative; width: min(100%, 460px); margin-top: clamp(56px, 10vh, 90px); padding: 0 clamp(22px, 4vw, 44px) clamp(22px, 3.6vh, 34px); text-align: center; border-radius: var(--r-tile-lg); }
+/* revision 1: black glass with a gold rim over a dimmed, blurred page; the crown in its cream shield, ringed in gold, stands on the top edge */
+.age-gate::before { content: ""; position: fixed; inset: 0; background: radial-gradient(60% 60% at 50% 40%, rgba(213, 164, 61, 0.16), rgba(8, 8, 7, 0) 70%), rgba(5, 5, 5, 0.72); -webkit-backdrop-filter: blur(14px) saturate(115%); backdrop-filter: blur(14px) saturate(115%); }
+.age-gate__dialog { position: relative; width: min(100%, 460px); margin-top: clamp(56px, 10vh, 90px); padding: 0 clamp(22px, 4vw, 44px) clamp(22px, 3.6vh, 34px); text-align: center; border-radius: var(--r-tile-lg); border: 1px solid rgba(213, 164, 61, 0.55); box-shadow: 0 40px 90px -40px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 236, 190, 0.22), 0 0 60px -20px rgba(213, 164, 61, 0.3); }
+.age-gate__dialog.glass { --fill: rgba(10, 9, 8, 0.9); }
 /* the crown in its cream shield stands on the pane's top edge, in flow, so it can never sit on the words */
 .age-gate__mark { position: relative; width: clamp(88px, 15vh, 116px); margin: calc(-1 * clamp(44px, 7.5vh, 58px)) auto clamp(10px, 2vh, 18px); }
-.age-gate__crown { display: block; width: 100%; height: auto; border-radius: 18px; filter: drop-shadow(0 14px 22px rgba(26, 24, 22, 0.35)); }
-.age-gate__t { font-family: var(--font-display); font-weight: 320; font-size: clamp(2.3rem, 5vw, 3.1rem); line-height: 1; letter-spacing: var(--track-display); color: var(--ink); }
-.age-gate__q { margin-top: 10px; font-size: 1.125rem; line-height: 1.45; color: var(--text-2); }
+.age-gate__crown { display: block; width: 100%; height: auto; border-radius: 18px; box-shadow: 0 0 0 1px rgba(241, 213, 138, 0.8), 0 0 0 5px rgba(8, 8, 7, 0.9), 0 0 0 6px rgba(213, 164, 61, 0.55), 0 18px 34px -10px rgba(0, 0, 0, 0.8); }
+.age-gate__t { font-family: var(--font-display); font-weight: 320; font-size: clamp(2.3rem, 5vw, 3.1rem); line-height: 1; letter-spacing: var(--track-display); color: var(--ivory); }
+.age-gate__q { margin-top: 10px; font-size: 1.125rem; line-height: 1.45; color: var(--ivory-2); }
 .age-gate__actions { justify-content: center; margin-top: clamp(16px, 2.8vh, 24px); }
 .age-gate__actions .btn { min-width: 124px; }
-.age-gate__no { margin-top: 14px; color: var(--copper-text); font-weight: 600; }
+.age-gate__no { margin-top: 14px; color: var(--gold-light); font-weight: 600; }
 
 /* ---------------------------------------------------------------- below 1024px: the drawer (the only place below 1024px with the full nav) */
 @media (min-width: 1024px) {
@@ -305,36 +330,36 @@ html.gate-pending .age-gate[hidden] { display: grid !important; }
   .mainbar__logo { width: clamp(138px, 30vw, 180px); }
   .header-cta { min-height: 44px; }
   .nav-toggle {
-    display: inline-flex; align-items: center; gap: 6px; height: 46px; padding: 0 14px 0 12px; border-radius: var(--r-pill); border: 1px solid var(--line-2);
-    color: var(--ink); font-family: var(--font-label); font-weight: 600; font-size: 0.9375rem; cursor: pointer; transition: background-color var(--dur-1), border-color var(--dur-1);
+    display: inline-flex; align-items: center; gap: 6px; height: 46px; padding: 0 14px 0 12px; border-radius: var(--r-pill); border: 1px solid var(--hair-gold);
+    color: var(--ivory); font-family: var(--font-label); font-weight: 600; font-size: 0.9375rem; cursor: pointer; transition: background-color var(--dur-1), border-color var(--dur-1);
   }
-  .nav-toggle .icon { width: 20px; height: 20px; }
-  .nav-toggle:hover, .nav-toggle:focus-visible { background: var(--cream); border-color: var(--copper); }
+  .nav-toggle .icon { width: 20px; height: 20px; color: var(--gold-light); }
+  .nav-toggle:hover, .nav-toggle:focus-visible { background: rgba(213, 164, 61, 0.14); border-color: var(--gold-light); }
   .age-gate { padding: max(20px, env(safe-area-inset-top, 0px)) max(20px, env(safe-area-inset-right, 0px)) max(20px, env(safe-area-inset-bottom, 0px)) max(20px, env(safe-area-inset-left, 0px)); }
 
   /* the drawer: a frosted pane from the right (live blur allowed here); it sits above its scrim (z-drawer > scrim) */
   .nav {
     position: fixed; top: 0; right: 0; bottom: 0; z-index: var(--z-drawer); width: min(94vw, 460px); flex-direction: column; align-items: stretch; justify-content: flex-start;
     overflow-y: auto; overscroll-behavior: contain;
-    background: var(--pool-copper), color-mix(in srgb, var(--linen) 93%, transparent);
+    background: radial-gradient(70% 40% at 100% 0%, rgba(213, 164, 61, 0.14), transparent 72%), rgba(8, 8, 7, 0.96);
     -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat)); backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-sat));
-    border-left: 1px solid var(--glass-border); border-radius: var(--r-tile) 0 0 var(--r-tile); box-shadow: var(--shade-deep);
+    border-left: 1px solid rgba(213, 164, 61, 0.45); border-radius: var(--r-tile) 0 0 var(--r-tile); box-shadow: var(--shade-deep), inset 1px 0 0 rgba(255, 236, 190, 0.1);
     transform: translateX(104%); visibility: hidden; transition: transform 0.5s var(--ease), visibility 0s linear 0.5s;
     padding-bottom: max(0px, env(safe-area-inset-bottom, 0px)); padding-right: max(0px, env(safe-area-inset-right, 0px));
   }
   html.nav-open .nav { transform: none; visibility: visible; transition: transform 0.5s var(--ease), visibility 0s; }
   .nav__drawer-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px 8px 22px; }
   .nav__logo { width: 168px; padding-block: 6px; }
-  .nav__close { display: inline-grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--line-2); color: var(--ink); cursor: pointer; }
+  .nav__close { display: inline-grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; border: 1px solid var(--hair-gold); color: var(--ivory); cursor: pointer; }
   .nav__close .icon { width: 20px; height: 20px; }
-  .nav__close:hover, .nav__close:focus-visible { background: var(--cream); border-color: var(--copper); }
+  .nav__close:hover, .nav__close:focus-visible { background: rgba(213, 164, 61, 0.14); border-color: var(--gold-light); }
   .nav__list { display: block; height: auto; padding-inline: 22px; }
-  .nav__item { display: block; border-bottom: 1px solid var(--line); }
+  .nav__item { display: block; border-bottom: 1px solid rgba(213, 164, 61, 0.2); }
   .nav__row { justify-content: space-between; }
   .nav__link { flex: 1 1 auto; min-height: 58px; padding: 0; font-family: var(--font-display); font-weight: 340; font-size: 1.8rem; letter-spacing: var(--track-display); background: none; }
   .nav__link .icon--ext { width: 18px; height: 18px; }
   .has-mega .nav__link { padding: 0; }
-  .nav__more { width: 52px; height: 58px; margin: 0; color: var(--sage-text); }
+  .nav__more { width: 52px; height: 58px; margin: 0; padding: 0; color: var(--sage-text); }
   .nav__more .icon { width: 20px; height: 20px; }
 
   .mega { position: static; display: none; visibility: visible; transition: none; }
@@ -360,7 +385,8 @@ html.gate-pending .age-gate[hidden] { display: grid !important; }
   .nav__quick { display: grid; gap: 0; list-style: none; margin: 0; padding: 0; font-size: 1rem; }
   .nav__quick li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 8px; align-items: center; min-height: 44px; }
   .nav__quick .icon { width: 18px; height: 18px; color: var(--copper-text); }
-  .nav__quick a { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); text-decoration: underline; text-decoration-color: var(--hair-copper); text-underline-offset: 0.22em; }
+  .nav__quick a { display: inline-flex; align-items: center; min-height: 44px; color: var(--ivory); text-decoration: underline; text-decoration-color: var(--hair-gold); text-underline-offset: 0.22em; }
+  .nav__quick .icon { color: var(--gold-bright); }
 
   .footer__top { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .footer__brand { grid-column: 1 / -1; }

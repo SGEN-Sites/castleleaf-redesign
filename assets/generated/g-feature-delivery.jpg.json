@@ -17,7 +17,7 @@
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "bbc119b8a8c771500cb20a1543df92a2039b0831d7b115c8b83aa0557dcfd858",
+  "sha256": "37a883bd17dd0e503114c1d66265eb70686a728ab36e7f4cbea0a4669d7998f2",
   "raw": "tmp/img/raw/g-feature-delivery.1794273013837.jpg",
   "attempt": 1,
   "generatedAt": "2026-11-10T01:10:15.419Z",
@@ -26,6 +26,8 @@
     "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
     "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
   },
-  "post": [],
+  "post": [
+    "blue saturation cut 80% at 220 deg, 170-270 deg (tmp/rev1/cool-to-neutral.py), AI label re-embedded"
+  ],
   "alt": "A plain sealed kraft paper bag on the stone steps of a brownstone stoop at dusk, lit by a warm porch light"
 }

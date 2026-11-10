@@ -11,15 +11,17 @@
 //     og       { title, description, type, image, url }; image defaults to the client's CL-OG.png.
 //     jsonld   object or array. A Store block is added on "/" only.
 //     preload  [{ href, as, type, media, imagesrcset, imagesizes, fetchpriority }] for the first-screen image.
-//   pageHero({ ctx, kicker, h1Html, lede, crumbs, cta, media, tone, cls, id, attrs })
-//     tone     'linen' (default) | 'cream' | 'sage' | 'night' (a tenebrist stage with the lantern; counts as the page's dark band)
+//   pageHero({ ctx, kicker, h1Html, lede, crumbs, cta, media, tone, cls, id, attrs, tex, texVeil, texPos, accent })
+//     tone     'linen' (default) | 'cream' | 'sage' | 'night': revision 1 makes every tone a black ground (night adds the lantern)
+//     tex      optional texture id for the ground ('g-tex-obsidian-vein' ...); default = calm black with a soft gold haze. See pageHero below.
 //     cta      html string, or { label, href } / [{ label, href, ghost, cls }, ...]: href 'menu' and 'directions' are understood
 //     media    an object -> an arched frame on the right that crosses the hero's bottom edge:
 //                { gimg: 'g-feature-delivery', alt } or { photo: 'cl/CL-Team.webp', alt } (+ pos: 'center 30%', chip: '<html>')
 //              or an html string, placed as is in .page-hero__media (bring your own .arch-frame).
 //              The next band gets --overhang of extra top padding by itself.
 //   blocks(list, ctx)      captured blocks (key t) and new blocks (key type) -> designed components in a <div class="prose">
-//   bandBg(id, { pos, cls, alt, opacity, eager, sizes, leaf, veil }) -> <div class="band__clip"> with a generated ground
+//   bandBg(id, { pos, cls, alt, opacity, eager, sizes, leaf, veil, accent }) -> <div class="band__clip"> with a generated ground
+//   goldAccent(corner, opts) -> the screen-blended g-tex-gold-stroke <img class="gold-accent ..."> for inside a .band__clip
 //   icon(name, cls), crumbsHtml(crumbs), logoHtml(ctx, opts), markHtml(ctx, opts), hoursHtml(ctx, cls), specTable(rows, cls),
 //   stars(n), CSS_ORDER.
 import fs from 'node:fs';
@@ -117,12 +119,22 @@ export function stars(n = 5) {
 //   opts: pos (object-position), cls, alt, opacity, eager, sizes, leaf ('tr' | 'tl' | 'br' | 'bl': the client's leaf pattern faintly
 //   in that corner), veil ('linen' | 'cream' | 'night': a wash over the image so text stays calm). A missing id leaves the band on
 //   its token colour and pools (no placeholder slot in a background). id may be '' for pools/leaf only.
-export function bandBg(id, { pos = '', cls = '', alt = '', opacity = '', eager = false, sizes = '(max-width: 720px) 720px, 100vw', leaf = '', veil = '' } = {}) {
+//   Revision 1 veils: 'linen' (black wash, strong on the left), 'cream' (even raised black), 'night' (deep black, strong on the left),
+//   'obsidian' (calms the busy g-tex-obsidian under type), 'calm' (an even dark wash), 'gold' (softens g-tex-gold-leaf on .band--gold).
+//   accent ('tr' | 'tl' | 'br' | 'bl'): one g-tex-gold-stroke gold paint accent, screen-blended, in that corner of the clip (.gold-accent).
+export function bandBg(id, { pos = '', cls = '', alt = '', opacity = '', eager = false, sizes = '(max-width: 720px) 720px, 100vw', leaf = '', veil = '', accent = '' } = {}) {
   const style = [pos ? `object-position:${pos}` : '', opacity !== '' ? `opacity:${opacity}` : ''].filter(Boolean).join(';');
   const pic = id && hasGenerated(id) ? gimg(id, { alt, cls: `band__bg${cls ? ' ' + cls : ''}`, sizes, eager, attrs: style ? { style } : {} }) : '';
   const lf = leaf ? `<span class="band__leaf band__leaf--${escA(leaf)}"></span>` : '';
   const vl = veil ? `<span class="band__veil band__veil--${escA(veil)}"></span>` : '';
-  return `<div class="band__clip" aria-hidden="true">${pic}${vl}${lf}</div>`;
+  const ac = accent ? goldAccent(accent) : '';
+  return `<div class="band__clip" aria-hidden="true">${pic}${vl}${lf}${ac}</div>`;
+}
+// goldAccent(corner = 'tr', { sizes }): the g-tex-gold-stroke paint accent as <img class="gold-accent gold-accent--<corner>">. Place it INSIDE a
+// .band__clip (bandBg(..., { accent }) does it) so its screen blend meets the band's own ground. '' when the texture is not on disk.
+export function goldAccent(corner = 'tr', { sizes = '(max-width: 720px) 90vw, 62vw' } = {}) {
+  const c = ['tr', 'tl', 'br', 'bl'].includes(corner) ? corner : 'tr';
+  return hasGenerated('g-tex-gold-stroke') ? gimg('g-tex-gold-stroke', { alt: '', cls: `gold-accent gold-accent--${c}`, sizes }) : '';
 }
 
 // ---------- mega panel images load on first intent: a single data-src per image (no srcset), see site.js primeArt ----------
@@ -204,7 +216,7 @@ ${megaHtml(ctx, it, p)}
   }).join('\n');
   const pr = ia.promo || {};
   return `<nav class="nav" id="site-nav" aria-label="Main" data-nav>
-<div class="nav__drawer-head">${logoHtml(ctx, { cls: 'nav__logo', sizes: '170px' })}<button class="nav__close" type="button" data-nav-close>${icon('close')}<span class="vh">Close menu</span></button></div>
+<div class="nav__drawer-head">${logoHtml(ctx, { cls: 'nav__logo', invert: true, sizes: '170px' })}<button class="nav__close" type="button" data-nav-close>${icon('close')}<span class="vh">Close menu</span></button></div>
 <ul class="nav__list">
 ${items}
 </ul>
@@ -241,7 +253,7 @@ function headerHtml(ctx, p) {
   return `${promoHtml(ctx, p)}
 <header class="site-header" data-header>
 <div class="mainbar">
-${logoHtml(ctx, { eager: true, current: p === '/', cls: 'mainbar__logo', sizes: '(max-width: 720px) 150px, 210px' })}
+${logoHtml(ctx, { eager: true, current: p === '/', cls: 'mainbar__logo', invert: true, sizes: '(max-width: 720px) 150px, 210px' })}
 ${navHtml(ctx, p)}
 <div class="header-tools">
 <a class="btn btn--sm header-cta"${linkAttrs(c)}>${esc(ia.cta.label)}${icon('ext')}</a>
@@ -258,8 +270,10 @@ function footerHtml(ctx, p) {
   const f = ctx.ia.footer || {};
   const vip = s.vip || {};
   const col = (c) => `<div class="footer__col"><h2 class="footer__h">${esc(c.title)}</h2><ul class="footer__links">${(c.links || []).map((l) => { const h = res(ctx, l.href); return `<li><a${linkAttrs(h)}${cur(h, p)}>${esc(l.label)}${extIco(h)}</a></li>`; }).join('')}</ul></div>`;
+  const tex = hasGenerated('g-tex-obsidian') ? gimg('g-tex-obsidian', { alt: '', cls: 'site-footer__tex', sizes: '(max-width: 720px) 720px, 100vw' }) : '';
+  const ribbon = hasGenerated('g-tex-gold-ribbon') ? gimg('g-tex-gold-ribbon', { alt: '', cls: 'site-footer__ribbon', sizes: '(max-width: 720px) 720px, 100vw' }) : '';
   return `<footer class="site-footer" data-lantern>
-<div class="site-footer__clip" aria-hidden="true"><span class="site-footer__lantern"></span></div>
+<div class="site-footer__clip" aria-hidden="true">${tex}<span class="site-footer__veil"></span>${ribbon}<span class="site-footer__lantern"></span></div>
 <div class="wrap wrap--wide footer__inner">
 <div class="footer__vip glass glass--dark" data-spot>
 <div class="footer__vip-text">${icon('crown', 'footer__vip-ico')}<p><strong class="footer__vip-t">${esc(vip.title || 'VIP Club')}</strong> <span>${esc(vip.line || '')}</span></p></div>
@@ -317,7 +331,8 @@ function ctaHtml(ctx, cta, dark) {
   return [].concat(cta).filter(Boolean).map((c, i) => {
     if (typeof c === 'string') return c;
     const h = res(ctx, c.href);
-    const cls = c.cls || (c.ghost || i > 0 ? (dark ? 'btn btn--light' : 'btn btn--ghost') : 'btn');
+    // revision 1: every hero is black, so the second button is the gold-hairline ghost on every tone
+    const cls = c.cls || (c.ghost || i > 0 ? 'btn btn--ghost' : 'btn');
     return `<a class="${escA(cls)}"${linkAttrs(h)}>${esc(c.label)}${isExt(h) ? icon('ext') : icon('arrow')}</a>`;
   }).join('');
 }
@@ -328,13 +343,19 @@ function heroMedia(ctx, media) {
   const pic = media.gimg ? gimg(media.gimg, o) : media.photo ? photo(ctx, media.photo, o) : media.html || '';
   return `<figure class="arch-frame page-hero__frame" data-reveal="arch">${pic}</figure>${media.chip ? `<div class="page-hero__chip glass">${media.chip}</div>` : ''}`;
 }
-export function pageHero({ ctx, kicker = '', h1Html = '', lede = '', crumbs = [], cta = null, media = '', tone = 'linen', cls = '', id = '', attrs: at = {} }) {
+// revision 1: every tone is a black ground. Default = a calm black with a soft gold haze (CSS light only). Options:
+//   tex      a generated texture id for the hero ground, e.g. 'g-tex-obsidian-vein' (calm), 'g-tex-obsidian' (glossy, busy), 'g-tex-gold-haze'
+//   texVeil  the veil over it: 'linen' (default: black wash strong on the left, under the H1), 'obsidian', 'calm' or 'night'
+//   texPos   object-position of the texture (default 'center')
+//   accent   'tr' | 'tl' | 'br' | 'bl': one screen-blended g-tex-gold-stroke paint accent in that corner (counts as the screen's gold accent)
+export function pageHero({ ctx, kicker = '', h1Html = '', lede = '', crumbs = [], cta = null, media = '', tone = 'linen', cls = '', id = '', attrs: at = {}, tex = '', texVeil = 'linen', texPos = '', accent = '' }) {
   const t = ['linen', 'cream', 'sage', 'night'].includes(tone) ? tone : 'linen';
   const dark = t === 'night';
   const c = ctaHtml(ctx, cta, dark);
   const m = heroMedia(ctx, media);
-  return `<section class="page-hero band band--${t}${dark ? ' band--haze-bottom' : ''}${m ? ' page-hero--media' : ''}${cls ? ' ' + escA(cls) : ''}"${id ? ` id="${escA(id)}"` : ''}${dark ? ' data-lantern' : ''}${attrs(at)}>
-${bandBg(dark ? 'g-stage-gallery' : '', { leaf: dark ? '' : 'tl', veil: dark ? 'night' : '', eager: true })}
+  const hasTex = !!(tex && hasGenerated(tex));
+  return `<section class="page-hero band band--${t}${hasTex ? ' page-hero--tex' : ''}${m ? ' page-hero--media' : ''}${cls ? ' ' + escA(cls) : ''}"${id ? ` id="${escA(id)}"` : ''}${dark ? ' data-lantern' : ''}${attrs(at)}>
+${bandBg(hasTex ? tex : '', { veil: hasTex ? texVeil : '', pos: texPos, eager: true, accent })}
 <div class="wrap page-hero__inner">
 <div class="page-hero__text">
 ${crumbsHtml(crumbs)}
@@ -535,7 +556,7 @@ export function page({ ctx, path: p, title, description, canonical, og = {}, jso
 <meta property="og:type" content="${escA(og.type || 'website')}">
 <meta property="og:image" content="${escA(ogImage(ctx, og))}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#456445">
+<meta name="theme-color" content="#0d0c0b">
 ${brandFile('favicon-32.png') ? '<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">' : ''}
 ${brandFile('favicon-48.png') ? '<link rel="icon" href="/favicon-48.png" sizes="48x48" type="image/png">' : ''}
 ${brandFile('favicon.ico') ? '<link rel="alternate icon" href="/favicon.ico" sizes="any">' : ''}

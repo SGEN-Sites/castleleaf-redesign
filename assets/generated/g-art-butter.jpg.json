@@ -5,27 +5,27 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "A block of pale green-tinted butter in a small glass dish, a wooden spoon and a small fine-mesh sieve beside it, on a cream stone kitchen counter, soft morning window light, calm home kitchen still life, right of centre, palette of cream, pale green and warm wood. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "Minimal luxury kitchen still life: a small clear glass dish holding one neat block of pale green-tinted butter, a brass butter knife resting beside the dish, on a bare, clean, glossy black marble counter with thin gold veins, lit by a single warm golden light from the left, deep true-black background, right of centre, the left 35 percent bare black marble. Calm, clean and simple. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "3:2",
-    "seed": 63029
+    "seed": 63031
   },
-  "seed": 63029,
-  "requestId": "01a1c302-621a-7ea0-b632-5ccbe359df10",
+  "seed": 63031,
+  "requestId": "01a1c496-76e9-7d13-b8d9-6eb2912635b5",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "b910666ca881a44d90c8f33dbd57763d7597e36cebe2636d4241ed512e239602",
-  "raw": "tmp/img/raw/g-art-butter.1794273091615.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:11:33.273Z",
+  "sha256": "3a7ed87d635b92c4bb9ab02d4873a15c790f0a316e924d2f48315a47d12264cd",
+  "raw": "tmp/img/raw/g-art-butter.1794299564700.jpg",
+  "attempt": 5,
+  "generatedAt": "2026-11-10T08:32:46.433Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black; revision 1 attempts: white powder or crumbs scattered on the black marble three times (rejected), then this clean dish and knife",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "A block of pale green butter in a glass dish beside a small spatula and a strainer bowl on a pale counter"
+  "alt": "A block of pale green butter in a glass dish beside a brass butter knife on black marble",
+  "post": []
 }

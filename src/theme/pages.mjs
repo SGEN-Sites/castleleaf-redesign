@@ -3,7 +3,7 @@
 // /advertising-with-us/, /accessibility/, /privacy-policy/, /terms-of-use/. Every captured word is printed (D2); D2a delivery
 // answer on the FAQs; forms are demoForm() (D9). Lane classes are prefixed p- (src/styles/pages.css).
 import { esc, escA, linkAttrs, gimg, photo, rewriteLinks, liveHref, menu, demoForm, stripTags, slugify } from './util.mjs';
-import { page, pageHero, blocks, hoursHtml, stars, icon } from './shell.mjs';
+import { page, pageHero, blocks, hoursHtml, stars, icon, bandBg } from './shell.mjs';
 
 // ---------------------------------------------------------------- small helpers
 const flat = (rec) => ((rec && rec.sections) || []).flatMap((s) => s.blocks || []);
@@ -20,12 +20,24 @@ const linksOf = (b) => ((b && b.items) || []).filter((x) => x && x.href != null)
 const tel = (ctx) => ctx.site.phoneHref;
 const mailto = (ctx) => 'mailto:' + ctx.site.email;
 
-// pageHero + the captured sub heading (an h2 kept as a heading, set as a calm line under the H1)
+// pageHero + the captured sub heading (an h2 kept as a heading, set as a calm line under the H1). Revision 1: a hero with a
+// frame gets ONE gold paint accent (g-tex-gold-stroke, screen-blended) inside its .band__clip, low behind the frame and away
+// from the type, unless the shell already paints one.
 function hero(ctx, { sub = '', ...o }) {
   let h = pageHero({ ctx, ...o });
   if (sub) h = h.replace('</h1>', `</h1>\n<h2 class="p-hero-sub" data-reveal style="--i:2">${sub}</h2>`);
+  if (/page-hero--media/.test(h) && !/gold-accent|g-tex-gold-stroke/.test(h)) {
+    h = h.replace('<div class="band__clip" aria-hidden="true">', (m) => `${m}${gimg('g-tex-gold-stroke', { alt: '', cls: 'gold-accent p-hero-paint', sizes: '(min-width: 1024px) 760px, 96vw' })}`);
+  }
   return h;
 }
+// a generated texture ground for one band (R3): kind = vein | haze | leaf | obsidian
+const tex = (kind) => ({
+  vein: () => bandBg('g-tex-obsidian-vein', { cls: 'p-tex p-tex--vein', veil: 'calm' }),
+  haze: () => bandBg('g-tex-gold-haze', { cls: 'p-tex p-tex--haze' }),
+  leaf: () => bandBg('g-tex-gold-leaf', { cls: 'p-tex p-tex--leaf', veil: 'gold' }),
+  obsidian: () => bandBg('g-tex-obsidian', { cls: 'p-tex p-tex--obsidian', veil: 'obsidian', eager: true }),
+}[kind] || (() => ''))();
 function out(ctx, rec, { path, main, crumbs = [], jsonld = [], title, description, bodyClass = '' }) {
   return {
     path,
@@ -138,10 +150,10 @@ function eventsTile(ctx, h2, h3, links, { level = 2, cls = '' } = {}) {
   const l = linksOf(links)[0];
   return `<article class="tile tile--photo p-events${cls ? ' ' + cls : ''}" data-reveal>
 <span class="tile__media">${gimg('g-feature-events', { alt: '', sizes: '(min-width: 1024px) 560px, 92vw' })}</span>
-<span class="kicker">${icon('sparkle')}Events</span>
+<span class="kicker">Events</span>
 <h${level} class="tile__title">${H(h2 && h2.html)}</h${level}>
 ${h3 ? `<h${level + 1} class="p-events__none">${H(h3.html)}</h${level + 1}>` : ''}
-${l ? arrowLink(liveHref(l.href), l.html, 'btn btn--light btn--sm') : ''}
+${l ? arrowLink(liveHref(l.href), l.html, 'btn btn--sm') : ''}
 </article>`;
 }
 function deliveryAnswer(ctx) {
@@ -230,7 +242,7 @@ ${gallery ? `<p class="p-value__cta">${arrowLink('/contact/', 'Get in touch', 'b
     return `<article class="tile ${ev ? 'tile--photo' : 'glass glass--lift'} p-next" data-spot data-reveal style="--i:${i}">
 ${ev ? `<span class="tile__media">${gimg('g-feature-events', { alt: '', sizes: '(min-width: 1024px) 600px, 92vw' })}</span>` : `<span class="tile__media p-next__team">${photo(ctx, 'cl/CL-Team.webp', { alt: '', sizes: '(min-width: 1024px) 600px, 92vw' })}</span>`}
 <h3 class="tile__title p-next__h">${H(t.h)}</h3>
-${t.link ? arrowLink(liveHref(t.link.href), t.link.html, ev ? 'btn btn--light btn--sm' : 'btn btn--light btn--sm') : ''}
+${t.link ? arrowLink(liveHref(t.link.href), t.link.html, 'btn btn--sm') : ''}
 </article>`;
   }).join('\n');
   const main = `${hero(ctx, {
@@ -251,6 +263,7 @@ ${t.link ? arrowLink(liveHref(t.link.href), t.link.html, ev ? 'btn btn--light bt
 </div>
 </section>
 <section class="band band--sage p-values-band" aria-labelledby="p-values-h">
+${tex('vein')}
 <div class="wrap">
 ${head({ kicker: 'What we stand for', h: 'Six lines we <em class="accent">live</em> by', id: 'p-values-h' })}
 <div class="bento p-values">${valueTiles}</div>
@@ -291,6 +304,7 @@ ${x.media ? `<span class="tile__media">${x.media}</span>` : `<span class="p-help
     media: { gimg: 'g-feature-budtender', alt: '', pos: 'center 50%' },
   })}
 <section class="band band--cream p-book-band" id="p-book" aria-labelledby="p-soon-h">
+${tex('haze')}
 <div class="wrap p-book">
 <div class="p-book__panel glass glass--strong" data-reveal>
 <p class="kicker">${esc(bt.operatorClaim)}</p>
@@ -304,13 +318,13 @@ ${head({ kicker: 'What a budtender can help with', h: 'Bring your <em class="acc
 </div>
 </div>
 </section>
-<section class="band band--night band--haze-top p-call" data-lantern aria-labelledby="p-call-h">
-<div class="band__clip" aria-hidden="true">${gimg('g-stage-gallery', { alt: '', cls: 'band__bg', sizes: '100vw' })}<span class="band__veil band__veil--night"></span></div>
+<section class="band band--gold p-call" aria-labelledby="p-call-h">
+${tex('leaf')}
 <div class="wrap p-call__inner">
 <p class="kicker" data-reveal>Rather talk now?</p>
 <h2 class="display p-call__h" id="p-call-h" data-reveal style="--i:1">A real <em class="accent">conversation</em>, at the counter or on the phone</h2>
 <p class="lede" data-reveal style="--i:2">${esc(bt.lines[1])}</p>
-<div class="btn-row" data-reveal style="--i:3">${btn(tel(ctx), esc(callLabel), 'btn btn--copper')}${btn('/directions/', 'Get Directions', 'btn btn--light')}</div>
+<div class="btn-row" data-reveal style="--i:3">${btn(tel(ctx), esc(callLabel))}${btn('/directions/', 'Get Directions', 'btn btn--ghost')}</div>
 </div>
 </section>
 ${visitBand(ctx)}`;
@@ -339,6 +353,7 @@ function contact(ctx) {
     media: { photo: 'cl/CL-Image-Events.webp', alt: 'The CastleLeaf building at dusk', pos: 'center 45%' },
   })}
 <section class="band band--cream p-contact-band" aria-label="Contact details">
+${tex('haze')}
 <div class="wrap">
 <div class="bento p-contact">
 <article class="tile glass glass--lift p-cinfo" data-spot data-reveal>
@@ -401,6 +416,7 @@ ${hoursHtml(ctx, 'p-hours p-hours--compact')}
 </div>
 </section>
 <section class="band band--cream p-ask" aria-labelledby="p-ask-h">
+${tex('haze')}
 <div class="wrap p-ask__inner">
 <div class="p-ask__text">
 <p class="kicker" data-reveal>Ask us</p>
@@ -542,6 +558,7 @@ function stores(ctx) {
     media: { photo: 'cl/CL-Image-Events.webp', alt: 'The CastleLeaf building at dusk', pos: 'center 45%' },
   })}
 <section class="band band--cream p-stores" aria-label="Store">
+${tex('vein')}
 <div class="wrap">
 <article class="p-store-card glass glass--strong" data-spot data-reveal>
 <figure class="arch-frame p-store-card__frame">${photo(ctx, 'cl/CL-Image-Hero.webp', { alt: 'CastleLeaf Exterior', cls: 'frame__img', sizes: '(min-width: 1024px) 420px, 80vw' })}</figure>
@@ -595,6 +612,7 @@ function directionsPage(ctx) {
     media: { gimg: 'g-feature-law', alt: '' },
   })}
 <section class="band band--cream p-dir-map" aria-label="Location and map">
+${tex('haze')}
 <div class="wrap p-dir-top">
 <div class="glass glass--strong p-dir-loc" data-spot data-reveal>
 <span class="p-cinfo__ico" aria-hidden="true">${icon('pin')}</span>
@@ -745,6 +763,7 @@ ${catCards(ctx, catGrid)}
 </div>
 </section>
 <section class="band band--linen p-how-band" aria-labelledby="p-thow-h">
+${tex('haze')}
 <div class="wrap">
 ${head({ kicker: 'Pick up or delivery', h: H(L[iHow] && L[iHow].html), lede: H(howP && howP.html), id: 'p-thow-h' })}
 ${waysBento(ctx)}
@@ -890,8 +909,9 @@ ${head({ kicker: 'Placements', h: H(L[iPart] && L[iPart].html), lede: H(partP &&
 ${ul ? `<ul class="p-ad-list" role="list">${(ul.items || []).map((x) => `<li class="chip glass">${H(typeof x === 'string' ? x : x.html)}</li>`).join('')}</ul>` : ''}
 </div>
 </section>
-<section class="band band--cream p-ad-ready" id="advertising" aria-labelledby="p-ready-h">
-<div class="wrap p-ad-ready__inner glass glass--strong" data-spot>
+<section class="band band--gold p-ad-ready" id="advertising" aria-labelledby="p-ready-h">
+${tex('leaf')}
+<div class="wrap p-ad-ready__inner">
 <h2 class="display p-head__h" id="p-ready-h">${H(L[iReady] && L[iReady].html)}</h2>
 <p class="lede">${H(readyP && readyP.html)}</p>
 <p class="btn-row">${btn('/contact/', 'Contact us')}${btn(mailto(ctx), esc(ctx.site.email), 'btn btn--ghost')}</p>

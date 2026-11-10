@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "A small round wooden table on a quiet covered porch at golden hour, set with a glass carafe of water, two clean drinking glasses and a small ceramic dish, two empty wooden chairs, a softly blurred green garden behind, warm low sunlight, calm and neighbourly. No people, no hands, no smoke., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "A small round black table on a quiet covered terrace at dusk, set with a glass carafe of water, two clean drinking glasses and a small black ceramic dish, two empty dark wooden chairs, a warm golden lantern glowing beside them, the garden behind fallen into soft darkness, the upper 35 percent soft dark background, calm and neighbourly. No people, no hands, no smoke. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 63037
   },
   "seed": 63037,
-  "requestId": "01a1c302-7c21-7081-8da4-fdc2b1ae608c",
+  "requestId": "01a1c493-b435-7563-af90-f931f0316823",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "95537219e617f04c14a72025a770c059e6d5c783fb0a786c0afa1c8819b21aa8",
-  "raw": "tmp/img/raw/g-art-etiquette.1794273094808.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:11:36.296Z",
+  "sha256": "0f5b5beea7b4e6eb75cecec73d40006f8df026e4691d479ace307b9c503c7cc5",
+  "raw": "tmp/img/raw/g-art-etiquette.1794299385117.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:46.499Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "A small wooden table with a glass carafe of water, a glass and a small cup on a quiet porch at golden hour"
+  "alt": "A small black table with a glass carafe of water, glasses and a small dish on a quiet terrace at dusk by lantern light",
+  "post": []
 }

@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "A small handmade ceramic plate holding a few squares of dark chocolate and square artisanal fruit jellies dusted with sugar, on natural linen in soft morning window light, left of centre, elegant adult patisserie style, calm editorial still life. No packaging, no candy shapes, no people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "A small black ceramic plate with a thin gold rim holding a few squares of dark chocolate and square artisanal fruit jellies dusted with sugar, on polished black stone in a single warm golden light, left of centre, the right 35 percent plain black stone, elegant adult patisserie style, calm editorial still life. No packaging, no candy shapes, no people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 63041
   },
   "seed": 63041,
-  "requestId": "01a1c302-7d61-7793-816c-b5df4077ae49",
+  "requestId": "01a1c493-dc90-7301-b0d6-e7f8dba92e48",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "4f1853b915aa42498038b08b724aa6efed5c19af01b65275384cf4eab7dc1f7d",
-  "raw": "tmp/img/raw/g-art-edibles.1794273096531.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:11:38.166Z",
+  "sha256": "695b86357129cb317b2ca7dd93f0c7e8e5b004b9f25a3acdde947c7af1753c8d",
+  "raw": "tmp/img/raw/g-art-edibles.1794299394132.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:56.233Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "Squares of dark chocolate and sugar-dusted fruit jellies on a ceramic plate on linen"
+  "alt": "Squares of dark chocolate and sugar-dusted fruit jellies on a black plate on polished black stone",
+  "post": []
 }

@@ -1,13 +1,13 @@
 // shop.mjs: SHOP lane (docs/BUILD-CONTRACT.md section 6), "Lantern Keep" shop pages:
 //   /delivery/                  the local delivery showcase (client lines, steps + FAQ from ctx.resources.delivery, other ways to shop)
-//   /shop/                      hub: the 8 categories as a bento of arched cat-cards (generated tenebrist series + client photo chip), Flower Deli tile
-//   /products/<slug>/ x 8       hero arch, ctx.glue[slug] sections + tip + FAQ, #flower-deli on flower, articles, other categories
+//   /shop/                      hub: the 8 categories as a bento of rounded cat-cards (generated tenebrist series + client photo chip), Flower Deli tile
+//   /products/<slug>/ x 8       hero frame, ctx.glue[slug] sections + tip + FAQ, #flower-deli on flower, articles, other categories
 //   /specials/ + 6 bundle pages every captured word; bundles as a glass bento; the client's daily-deal banners in a framed rotator
 //   /420-deals/, /green-wednesday-deals/   every captured word; generated features instead of the vendor images
 //   /loyalty-sign-up/           the VIP Club: site.vip words, a demo form (Name, Email, Phone), nothing about points or tiers
 // New words here are neutral glue only (contract D2). Lane classes are prefixed s-.
 import { esc, escA, linkAttrs, gimg, photo, absUrl, menu, rewriteLinks, liveHref, stripTags, demoForm } from './util.mjs';
-import { page, pageHero, blocks, icon } from './shell.mjs';
+import { page, pageHero, blocks, icon, bandBg, goldAccent } from './shell.mjs';
 
 const NAME = ' | CastleLeaf';
 
@@ -25,7 +25,7 @@ function accent(t, at = -1) {
   const i = at < 0 ? w.length + at : Math.min(at, w.length - 1);
   return w.map((x, k) => (k === i ? `<em class="accent">${esc(x)}</em>` : esc(x))).join(' ');
 }
-// a band paints above the band after it, so an arched frame or a pop-out crosses the seam (contract section 3)
+// a band paints above the band after it, so a hero frame or a pop-out crosses the seam (contract section 3)
 const band = ({ tone = 'linen', cls = '', z = 1, clip = '', inner = '', id = '', label = '' }) => `<section class="band band--${tone} s-band${cls ? ' ' + cls : ''}"${id ? ` id="${escA(id)}"` : ''}${label ? ` aria-labelledby="${escA(label)}"` : ''} style="z-index:${z}">
 ${clip}
 ${inner}
@@ -33,9 +33,11 @@ ${inner}
 const clipOf = (...layers) => `<div class="band__clip" aria-hidden="true">${layers.join('')}</div>`;
 const pool = (kind, cls = '') => `<span class="s-pool s-pool--${kind}${cls ? ' ' + cls : ''}"></span>`;
 const leafArt = (cls = '') => `<span class="s-leafart${cls ? ' ' + cls : ''}"></span>`;
+// a texture ground (revision 1, R3) with the lane's own veil, inside the band's clip (a missing id leaves the token ground)
+const tex = (id, kind, extra = '') => clipOf(gimg(id, { alt: '', cls: `band__bg s-tex s-tex--${kind}`, sizes: '(max-width: 720px) 720px, 100vw' }), `<span class="s-veil s-veil--${kind}"></span>`, extra);
 const arch = (inner, cls = '', depth = '') => `<figure class="arch-frame s-arch${cls ? ' ' + cls : ''}"${depth ? ` data-depth="${depth}"` : ''}>${inner}</figure>`;
 const frame = (inner, cls = '', depth = '') => `<figure class="frame s-frame${cls ? ' ' + cls : ''}"${depth ? ` data-depth="${depth}"` : ''}>${inner}</figure>`;
-// the inner hero's arched frame, in the shell's own classes (pageHero wraps it in .page-hero__media, which carries the parallax)
+// the inner hero's frame (a rounded rectangle since revision 1), in the shell's own classes (pageHero wraps it in .page-hero__media, which carries the parallax)
 const heroArt = (pic, extra = '') => `<figure class="arch-frame page-hero__frame s-heroframe" data-reveal="arch">${pic}</figure>${extra}`;
 const faqLd = (items) => ({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: items.map((it) => ({ '@type': 'Question', name: plain(it.q), acceptedAnswer: { '@type': 'Answer', text: plain(it.a_html) } })) });
 
@@ -53,7 +55,7 @@ function heroCta(ctx, list) {
   }
   return MULTI_CTA ? l : l[0];
 }
-// The inner hero: the arched frame is the media; the band right after it carries the overhang.
+// The inner hero: the rounded frame is the media; the band right after it carries the overhang.
 const hero = (ctx, { cta = [], ...o }) => pageHero({ ctx, tone: 'linen', ...o, cta: heroCta(ctx, [].concat(cta)) });
 
 // ---------- content helpers ----------
@@ -155,7 +157,7 @@ function renderDelivery(ctx) {
   // the client's own order line, "Order Online" linked to its live menu as on its FAQ
   const orderLine = esc(s.delivery.orderLine).replace(/^Order Online/, `<a${linkAttrs(menu(ctx))}>Order Online</a>`);
   const media = heroArt(gimg('g-feature-delivery', { sizes: '(min-width: 1024px) 38vw, 84vw', eager: true, cls: 'frame__img' }), `<p class="page-hero__chip glass s-heroart__note">${ico('truck', 's-heroart__noteico')}<span>${esc(s.delivery.orderLine)}</span></p>`);
-  const how = band({ tone: 'cream', z: 5, cls: 's-after-hero s-dhow', label: 's-dhow-h', clip: clipOf(pool('copper', 's-pool--r'), pool('sage', 's-pool--bl'), leafArt('s-leafart--tl')), inner: `<div class="wrap s-dhow__grid">
+  const how = band({ tone: 'cream', z: 5, cls: 's-after-hero s-dhow', label: 's-dhow-h', clip: tex('g-tex-gold-haze', 'haze'), inner:`<div class="wrap s-dhow__grid">
 <div class="s-dhow__text">
 ${kicker('How it works')}
 <h2 class="display s-h2" id="s-dhow-h" data-reveal style="--i:1">${secHow && secHow.heading ? accent(secHow.heading) : 'Straight to your <em class="accent">door</em>'}</h2>
@@ -215,7 +217,7 @@ function renderHub(ctx) {
 </span>
 </a>`;
   const SIZES = { flower: '(min-width: 1024px) 46vw, 72vw', 'pre-rolls': '(min-width: 1024px) 23vw, 72vw' };
-  const cats = band({ tone: 'cream', z: 5, cls: 's-after-hero s-cats-band', label: 's-cats-h', clip: clipOf(pool('copper', 's-pool--r'), pool('sage', 's-pool--bl'), leafArt('s-leafart--br')), inner: `<div class="wrap">
+  const cats = band({ tone: 'cream', z: 5, cls: 's-after-hero s-cats-band', label: 's-cats-h', clip: clipOf(pool('copper', 's-pool--r'), pool('sage', 's-pool--bl'), leafArt('s-leafart--br'), goldAccent('tr', { sizes: '(max-width: 720px) 90vw, 52vw' })), inner: `<div class="wrap">
 <div class="s-head s-head--row"><div>${kicker('Eight categories')}<h2 class="display s-h2" id="s-cats-h" data-reveal style="--i:1">Browse the <em class="accent">keep</em></h2></div></div>
 ${deli}
 <ul class="s-cats s-swipe" role="list">
@@ -324,7 +326,7 @@ ${faq.length ? band({ tone: 'linen', z: 5, cls: 's-pfaq', label: 's-pfaq-h', inn
 </div>` }) : ''}
 ${readsBand(ctx, posts, { tone: 'cream', z: 4 })}
 ${otherCats(ctx, c.slug, { tone: posts.length ? 'linen' : 'cream', z: 3 })}
-${shopBand(ctx, { h2: `Shop <em class="accent">${esc(label)}</em>`, line: esc(s.ways.items[0].line), primary: btn(shopUrl, `Shop ${label}`, 'btn btn--copper'), secondary: btn(menu(ctx), 'Shop Menu', 'btn btn--light') })}`;
+${shopBand(ctx, { h2: `Shop <em class="accent">${esc(label)}</em>`, line: esc(s.ways.items[0].line), primary: btn(shopUrl, `Shop ${label}`, 'btn btn--copper'), secondary: btn(menu(ctx), 'Shop Menu', 'btn btn--ghost') })}`;
   return out(ctx, { path: p, title: g.title || `${label}${NAME}`, description: g.description || `${label} at CastleLeaf, ${s.address.full}. Browse the category, then shop the live menu.`, crumbs, bodyClass: `page-product page-product--${c.slug}`, main, jsonld: faq.length ? [faqLd(faq)] : [] });
 }
 
@@ -403,7 +405,7 @@ function renderSpecials(ctx) {
   const lede = (plain(faqLine).match(/We do offer product bundles[^.]*\./) || [''])[0];
   const media = heroArt(gimg('g-feature-deli', { sizes: '(min-width: 1024px) 34vw, 84vw', eager: true, cls: 'frame__img' }));
   const main = `${hero(ctx, { kicker: 'Specials', h1Html: accent(plain(rec.h1)), lede: esc(lede), crumbs, cta: [{ href: '#s-bundles', label: 'See the bundles' }, { href: menu(ctx), label: 'Shop Menu' }], media, cls: 's-hero s-hero--specials' })}
-${band({ tone: 'cream', z: 6, cls: 's-after-hero s-bundles-band', id: 's-bundles', clip: clipOf(pool('copper', 's-pool--c'), pool('sage', 's-pool--bl'), leafArt('s-leafart--br')), inner: `<div class="wrap">
+${band({ tone: 'cream', z: 6, cls: 's-after-hero s-bundles-band', id: 's-bundles', clip: tex('g-tex-obsidian-vein', 'vein'), inner:`<div class="wrap">
 <ul class="s-bundles" role="list">${list.map(bundleTile).join('\n')}</ul>
 </div>` })}
 ${bannersBand(ctx, 4)}
@@ -423,7 +425,7 @@ function renderBundle(ctx, slug) {
   const media = heroArt(gimg(art.gimg, { sizes: '(min-width: 1024px) 30vw, 72vw', eager: true, cls: 'frame__img' }));
   const others = bundlesOf(ctx).filter((b) => b.slug !== slug);
   const main = `${hero(ctx, { kicker: 'Cannabis Bundles', h1Html: esc(h1), crumbs, cta: [{ href: shopUrl, label: 'Shop Now' }, { href: '/specials/', label: 'All bundles' }], media, cls: 's-hero s-hero--bundle' })}
-${band({ tone: 'cream', z: 6, cls: 's-after-hero s-offer', label: 's-offer-h', clip: clipOf(pool('copper', 's-pool--c'), leafArt('s-leafart--tl')), inner: `<div class="wrap wrap--narrow">
+${band({ tone: 'cream', z: 6, cls: 's-after-hero s-offer', label: 's-offer-h', clip: clipOf(pool('copper', 's-pool--c'), leafArt('s-leafart--tl'), goldAccent('tl', { sizes: '(max-width: 720px) 100vw, 90vw' })), inner: `<div class="wrap wrap--narrow">
 <div class="glass glass--strong s-offer__pane" data-spot data-reveal>
 <p class="kicker s-offer__kick">The bundle</p>
 ${h2 ? `<h2 class="display s-offer__price" id="s-offer-h">${rw(h2.html)}</h2>` : ''}
@@ -537,7 +539,7 @@ function renderLoyalty(ctx) {
   const faq = clientFaq(ctx, 'Do you offer discounts?');
   const media = heroArt(gimg('g-feature-vip', { sizes: '(min-width: 1024px) 34vw, 84vw', eager: true, cls: 'frame__img' }));
   const main = `${hero(ctx, { kicker: s.vip.title, h1Html: accent(h1), lede: esc(s.vip.line), crumbs, cta: [{ href: '#s-vip-form', label: s.vip.cta }], media, cls: 's-hero s-hero--vip' })}
-${band({ tone: 'cream', z: 6, cls: 's-after-hero s-vip', label: 's-vip-h', clip: clipOf(pool('copper', 's-pool--r'), pool('sage', 's-pool--bl'), leafArt('s-leafart--tl')), inner: `<div class="wrap s-vip__grid">
+${band({ tone: 'gold', z: 6, cls: 's-after-hero s-vip', label: 's-vip-h', clip: bandBg('g-tex-gold-leaf', { veil: 'gold' }), inner:`<div class="wrap s-vip__grid">
 <div class="s-vip__text">
 <span class="s-vip__mark" aria-hidden="true">${photo(ctx, 'cl/CL-Favicon.webp', { alt: '', sizes: '88px' })}</span>
 ${kicker(s.vip.title)}

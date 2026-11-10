@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Three small handmade stoneware dishes in a row on a pale limestone surface, each holding one dried cannabis flower bud of a different character: bright lime green, deep green with purple hues, frosty pale green; soft directional side light from the left, editorial still life, calm and refined, shallow depth of field. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "Three small black stoneware dishes with thin gold rims in a row on polished black stone, each holding one dried cannabis flower bud of a different character: bright lime green, deep green with purple hues, frosty pale green; a single warm golden side light from the left, the upper 30 percent plain dark stone, editorial still life, refined, shallow depth of field. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 63001
   },
   "seed": 63001,
-  "requestId": "01a1c301-ccfe-7d22-b1d1-44cc1876f1d0",
+  "requestId": "01a1c493-80b8-7ee3-99d5-71795271899e",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "31bfe1e05e14249a81a22c2e8d14d9c661f47d7ac7c386646b8894313919a129",
-  "raw": "tmp/img/raw/g-art-strains.1794273058224.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:11:00.731Z",
+  "sha256": "ddfb1c21fdf4366ca94c1a6633c2ee1f6887130a257b26cfd0d0d5524e68c449",
+  "raw": "tmp/img/raw/g-art-strains.1794299374093.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:36.141Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "Three cannabis flower buds of different colours in small stoneware dishes on pale stone"
+  "alt": "Three cannabis flower buds of different colours in small black dishes on polished black stone",
+  "post": []
 }

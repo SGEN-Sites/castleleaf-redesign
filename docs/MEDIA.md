@@ -38,17 +38,40 @@ hidden under reduced motion and has a pause button.
 
 All stills: FLUX 1.1 pro ultra. Cut-outs: FLUX 1.1 pro ultra on a plain studio ground, then BiRefNet v2. The category
 series was generated at 3:4, cropped to 4:5 and given one warm grade with the hero (the darks lifted to charcoal brown,
-fine grain), as was `g-feature-vip`. Cut-outs are trimmed to the subject with a small margin.
+fine grain). Cut-outs are trimmed to the subject with a small margin.
 
-### Stages and halls
+**Revision 1 (black and gold).** The site moved to CastleLeaf's black and gold, so 17 stills that were set in cream,
+linen and sage were made again with the same subjects and the same text zones, now on black stone in warm golden light:
+eight features (budtender, VIP, blog, first visit, law, card, kiosk, events) and nine of the twelve article pictures
+(all but cannabinoids, deli and history). The first-visit picture became a close view of a door handle, and the butter
+dish lost its sieve: the earlier tries showed lettering on a reflected sign or powder on the stone. Three images with a cool dusk or street tone (`g-feature-delivery`, `g-art-delivery`, `g-feature-firstvisit`)
+had the saturation of their blue hues cut by up to 80%, brightness kept. `g-stage-gallery` was made again without its
+arched niche.
+
+### Stages
 
 | Id | What it shows | Pixels | Where text can sit |
 |---|---|---|---|
 | `g-hero-lantern` | A dried cannabis flower under a clear glass cloche on a pale limestone plinth, lit by a single warm beam in a dark room | 2752x1536 | left 55% above the lower quarter: empty warm-dark wall with one soft diagonal patch of light, for light display type; the cloche stands right of centre (about 56 to 75% across) on a stone plinth (about 39 to 87% across, in the lower quarter); the far right falls off into shadow |
-| `g-stage-gallery` | An empty arched niche in a dark plaster wall, lit by a single warm beam of light | 2752x1536 | left 40% and the whole top band: smooth warm-dark wall; the lit arched niche sits right of centre (about 58-78% across) |
-| `g-hall-linen` | Decorative background (empty alt): pale linen and plaster in soft morning light | 2752x1536 | everywhere: high-key, low-contrast; the brightest light pool is upper right |
-| `g-hall-sage` | Decorative background (empty alt): a pale room in sage-tinted morning light with soft light rays | 2752x1536 | everywhere: high-key pale sage; the light rays enter from the upper left |
-| `g-arch-window` | A tall white arched window pouring soft morning light into an empty cream room | 2752x1536 | left 45%: smooth pale plaster wall in soft light; the arched window stands right of centre |
+| `g-stage-gallery` | An empty rectangular niche in a polished black stone wall, lit from above by a warm golden beam | 2752x1536 | left 38% and right 34%: polished black marble; the gold-lit niche is centred (about 39 to 64% across) |
+
+Taken out of the site in revision 1: `g-hall-linen`, `g-hall-sage` (pale linen and sage halls) and `g-arch-window` (an
+arched window in a cream room). Nothing used them after the black and gold change.
+
+### Textures (revision 1: black and gold)
+
+Generated in revision 1 for CastleLeaf's black and gold, after the client's own deal art (black stone, metallic gold paint).
+All FLUX 1.1 pro ultra, decorative (empty alt), labelled like every other generated still. The gold paint pieces are on
+pure black so the page can blend them in with `mix-blend-mode: screen`.
+
+| Id | What it shows | Pixels | Where text can sit |
+|---|---|---|---|
+| `g-tex-obsidian` | Glossy liquid black obsidian with flowing ripples and fine gold flecks | 2752x1536 | under a dark veil only (busy texture); calmest at the centre and left |
+| `g-tex-obsidian-vein` | Polished black stone crossed by thin veins of metallic gold | 2752x1536 | the large black fields between the veins |
+| `g-tex-gold-stroke` | One broad diagonal brush stroke of metallic gold paint on pure black | 2752x1536 | anywhere off the stroke (it runs from the lower left to the upper right) |
+| `g-tex-gold-ribbon` | Two long ribbons of metallic gold paint along the bottom edge of a pure black field | 3136x1344 | the upper two thirds (pure black) |
+| `g-tex-gold-leaf` | Crinkled gold leaf filling the frame | 2752x1536 | everywhere, with dark text |
+| `g-tex-gold-haze` | Soft golden haze and fine gold dust drifting across black | 2752x1536 | the lower half (calm black); the glow sits upper left |
 
 ### Category series
 
@@ -67,33 +90,33 @@ fine grain), as was `g-feature-vip`. Cut-outs are trimmed to the subject with a 
 
 | Id | What it shows | Pixels | Where text can sit |
 |---|---|---|---|
-| `g-feature-delivery` | A plain sealed kraft paper bag on the stone steps of a brownstone stoop at dusk, lit by a warm porch light | 2496x1664 | left 40%: dusk-blue brick and shadow; the bag stands right of centre on the steps |
-| `g-feature-budtender` | Two hands presenting a small glass jar of cannabis flower across a pale wood counter | 2496x1664 | left 35%: softly blurred warm shop background; the jar and hands sit centre-right |
-| `g-feature-vip` | A glass display vitrine holding a dark green velvet tray, lit by a single warm beam in a dark room | 2496x1664 | left 40%: deep warm darkness; the vitrine glows right of centre |
-| `g-feature-blog` | An open notebook with pressed green leaves beside a cup of tea on a linen tablecloth in window light | 2496x1664 | right 40%: pale linen tablecloth in window light |
-| `g-feature-firstvisit` | An open glass door leading into a bright, calm, empty shop interior with a pale wood floor and cream walls | 2496x1664 | upper 35%: soft bright ceiling and cream wall |
-| `g-feature-law` | A brass magnifying glass, a fountain pen and folded blank paper on natural linen in soft light | 2496x1664 | right 50%: blank cream paper |
-| `g-feature-card` | A blank cream card and a fountain pen lying on natural linen in soft light | 2496x1664 | left 45%: plain linen cloth |
+| `g-feature-delivery` | A plain sealed kraft paper bag on the stone steps of a brownstone stoop at dusk, lit by a warm porch light | 2496x1664 | left 40%: dark brick and shadow; the bag stands right of centre on the steps |
+| `g-feature-budtender` | Two hands presenting a small glass jar of cannabis flower across a black stone counter | 2496x1664 | left 35%: softly blurred dark shelves with small gold lights; the jar and hands sit centre-right |
+| `g-feature-vip` | A glass display vitrine holding a black velvet tray, lit by a single golden beam in a dark room | 2496x1664 | left 40%: deep black; the vitrine glows right of centre |
+| `g-feature-blog` | An open notebook with pressed leaves beside a black cup of tea on a polished black stone table in warm lamp light | 2496x1664 | right 40%: plain polished black stone |
+| `g-feature-firstvisit` | A brass handle on an open dark glass door, with a warm gold-lit boutique softly blurred behind | 2496x1664 | left 40%: calm dark glass |
+| `g-feature-law` | A brass magnifying glass, a fountain pen and folded blank paper on polished black stone in warm light | 2496x1664 | right 40%: plain polished black stone |
+| `g-feature-card` | A blank ivory card and a fountain pen lying on polished black stone in warm light | 2496x1664 | left 45%: plain polished black stone |
 | `g-feature-deli` | A row of glass deli jars of cannabis flower on a counter under a single warm light | 2496x1664 | left 35% and the top band: warm darkness |
-| `g-feature-kiosk` | A slim touch-screen kiosk with a softly glowing blank screen in a bright, minimal shop | 2496x1664 | left 45%: bright cream wall and pale floor |
-| `g-feature-events` | Warm string lights over a wooden table with framed abstract art prints leaning on a cream wall | 2496x1664 | upper 35%: soft dark wall above the string lights |
+| `g-feature-kiosk` | A slim touch-screen kiosk with a softly glowing blank gold screen in a dark, minimal boutique | 2496x1664 | left 45%: dark matte wall and black stone floor |
+| `g-feature-events` | Golden string lights over a dark wooden table with framed black and gold abstract prints leaning on a black wall | 2496x1664 | upper 35%: dark wall above the string lights |
 
 ### Article pool
 
 | Id | What it shows | Pixels | Where text can sit |
 |---|---|---|---|
-| `g-art-strains` | Three cannabis flower buds of different colours in small stoneware dishes on pale stone | 2496x1664 | upper 30%: plain pale stone |
-| `g-art-terpenes` | Citrus peel, lavender, black peppercorns, a pine sprig and a cannabis bud arranged on pale linen | 2496x1664 | right 35%: plain linen |
+| `g-art-strains` | Three cannabis flower buds of different colours in small black dishes on polished black stone | 2496x1664 | upper 30%: plain dark stone |
+| `g-art-terpenes` | Citrus peel, lavender, black peppercorns, a pine sprig and a cannabis bud arranged on black slate | 2496x1664 | right 35%: plain black slate |
 | `g-art-cannabinoids` | A macro view of frosty resin glands on a cannabis flower, glistening in warm light | 2496x1664 | left 35%: soft out-of-focus warm darkness |
-| `g-art-label` | A small glass jar with a blank paper tag beside a brass magnifying glass on linen | 2496x1664 | left 40%: plain linen |
-| `g-art-budtender` | Glass jars of cannabis flower and an open notepad on a pale wood counter in warm light | 2496x1664 | left 40%: blurred warm shop background |
+| `g-art-label` | A small glass jar with a blank paper tag beside a brass magnifying glass on black stone | 2496x1664 | left 40%: plain black stone |
+| `g-art-budtender` | Glass jars of cannabis flower and an open notepad on a black stone counter in warm light | 2496x1664 | left 40%: blurred dark shelves with small gold lights |
 | `g-art-deli` | An open glass jar of cannabis flower beside steel tongs on a pale counter in warm light | 2496x1664 | upper 30%: warm dark background |
-| `g-art-delivery` | A plain kraft paper bag on a doormat in front of a dark green front door in morning light | 2496x1664 | upper 35%: dark green door panels |
-| `g-art-decarb` | Broken-up dried cannabis flower on a parchment-lined baking tray on a pale kitchen counter | 2496x1664 | right 35%: plain cream counter |
-| `g-art-butter` | A block of pale green butter in a glass dish beside a small spatula and a strainer bowl on a pale counter | 2496x1664 | left 35%: plain cream counter |
+| `g-art-delivery` | A plain kraft paper bag on a doormat in front of a glossy black front door with brass hardware, lit by a porch lamp | 2496x1664 | upper 35%: black door panels |
+| `g-art-decarb` | Broken-up dried cannabis flower on a parchment-lined baking tray on a black stone counter | 2496x1664 | right 35%: plain black counter |
+| `g-art-butter` | A block of pale green butter in a glass dish beside a brass butter knife on black marble | 2496x1664 | left 35%: bare black marble |
 | `g-art-history` | A coil of natural hemp rope, dried stalks and a small lit clay oil lamp on a dark wooden table | 2496x1664 | upper 35%: warm darkness |
-| `g-art-etiquette` | A small wooden table with a glass carafe of water, a glass and a small cup on a quiet porch at golden hour | 2496x1664 | upper 35%: soft green garden background |
-| `g-art-edibles` | Squares of dark chocolate and sugar-dusted fruit jellies on a ceramic plate on linen | 2496x1664 | right 35%: plain linen |
+| `g-art-etiquette` | A small black table with a glass carafe of water, glasses and a small dish on a quiet terrace at dusk by lantern light | 2496x1664 | upper 35%: soft dark garden background |
+| `g-art-edibles` | Squares of dark chocolate and sugar-dusted fruit jellies on a black plate on polished black stone | 2496x1664 | right 35%: plain black stone |
 
 ### Cut-outs
 

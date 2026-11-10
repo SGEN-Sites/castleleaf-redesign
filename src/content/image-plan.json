@@ -40,13 +40,13 @@
     "dark feature band (category scroll-through) background",
     "night stages"
    ],
-   "calmArea": "left 40% and the whole top band: smooth warm-dark wall; the lit arched niche sits right of centre (about 58-78% across)",
+   "calmArea": "left 38% and right 34%: polished black marble with thin white veins; the gold-lit rectangular niche is centred (about 39 to 64% across, from 10% to 82% down); put text on the left third over a dark veil",
    "input": {
     "aspect_ratio": "16:9",
-    "seed": 41023
+    "seed": 91011
    },
-   "alt": "An empty arched niche in a dark plaster wall, lit by a single warm beam of light",
-   "prompt": "Wide tenebrist photograph of an empty dark gallery wall of warm plaster with one tall round-arched niche set into it, slightly right of centre at about 66 percent across the frame. A single warm lantern beam falls from the upper left into the niche, lighting its pale limestone sill and its curved back wall, with a soft cone of fine haze glowing in the beam. The niche is completely empty. The rest of the room recedes into deep warm charcoal-brown darkness, never pure black. The left part of the frame is calm empty dark wall. Painterly chiaroscuro, photographic and sharp. No objects, no furniture, no people."
+   "alt": "An empty rectangular niche in a polished black stone wall, lit from above by a warm golden beam",
+   "prompt": "An empty tall rectangular niche with softly rounded corners set into a wall of polished black stone, the niche lit from above by a single warm golden beam of light, glossy obsidian-like highlights on the black wall, faint golden haze in the beam, luxurious and calm, a wide smooth dark area on the left. No arch, no dome, no curved top. No text, no letters, no logos, no objects, no people, no plants."
   },
   {
    "id": "g-hall-linen",
@@ -62,7 +62,9 @@
     "seed": 41031
    },
    "alt": "",
-   "prompt": "An abstract, very pale, luminous view of sheer natural linen fabric hanging in soft folds in front of a cream plaster wall, soft early morning sunlight pouring through the linen from the upper right in long gentle rays, high key, airy and ethereal, almost white, palette of warm white, pale cream and a faint breath of pale sage, soft shadows, wide calm empty space, gentle soft focus toward the edges. No objects, no furniture, no plants, no window frame, nothing floating, no people."
+   "prompt": "An abstract, very pale, luminous view of sheer natural linen fabric hanging in soft folds in front of a cream plaster wall, soft early morning sunlight pouring through the linen from the upper right in long gentle rays, high key, airy and ethereal, almost white, palette of warm white, pale cream and a faint breath of pale sage, soft shadows, wide calm empty space, gentle soft focus toward the edges. No objects, no furniture, no plants, no window frame, nothing floating, no people.",
+   "optional": true,
+   "retired": "revision 1 (2026-11-10): light halls and an arched window, unused after the black and gold change; the files were taken out of the site"
   },
   {
    "id": "g-hall-sage",
@@ -77,7 +79,9 @@
     "seed": 41037
    },
    "alt": "",
-   "prompt": "A bright, airy, almost empty room of pale plaster filled with a soft pale sage-green mist, gentle morning light rays slanting through the haze from the upper left, very pale and luminous, almost white with a sage tint, ethereal and calm, high key, smooth soft gradients, wide empty space. No objects, no furniture, no orbs, no bokeh balls, no dust specks, no particles, nothing floating, no people."
+   "prompt": "A bright, airy, almost empty room of pale plaster filled with a soft pale sage-green mist, gentle morning light rays slanting through the haze from the upper left, very pale and luminous, almost white with a sage tint, ethereal and calm, high key, smooth soft gradients, wide empty space. No objects, no furniture, no orbs, no bokeh balls, no dust specks, no particles, nothing floating, no people.",
+   "optional": true,
+   "retired": "revision 1 (2026-11-10): light halls and an arched window, unused after the black and gold change; the files were taken out of the site"
   },
   {
    "id": "g-arch-window",
@@ -94,7 +98,9 @@
     "seed": 41041
    },
    "alt": "A tall white arched window pouring soft morning light into an empty cream room",
-   "prompt": "A tall white round-arched window set deep in a thick cream plaster wall, right of centre at about 64 percent across the frame, pouring soft morning light into a calm empty cream room; the glass shows only bright white sky; sheer linen falls softly at one side; long soft rays of light cross a pale limestone floor; ethereal, very pale, airy, high key; palette of cream, warm white and pale sage. The left part of the frame is smooth empty pale plaster. No furniture, no plants, no objects, nothing floating, no people, no view of buildings."
+   "prompt": "A tall white round-arched window set deep in a thick cream plaster wall, right of centre at about 64 percent across the frame, pouring soft morning light into a calm empty cream room; the glass shows only bright white sky; sheer linen falls softly at one side; long soft rays of light cross a pale limestone floor; ethereal, very pale, airy, high key; palette of cream, warm white and pale sage. The left part of the frame is smooth empty pale plaster. No furniture, no plants, no objects, nothing floating, no people, no view of buildings.",
+   "optional": true,
+   "retired": "revision 1 (2026-11-10): light halls and an arched window, unused after the black and gold change; the files were taken out of the site"
   },
   {
    "id": "g-cat-flower",
@@ -264,13 +270,14 @@
     "home How To Shop bento: Talk To A Budtender (2x1 tile)",
     "/book-a-budtender/ showcase"
    ],
-   "calmArea": "left 35%: softly blurred warm shop background; the jar and hands sit centre-right",
+   "calmArea": "left 35%: softly blurred dark shelves with small gold lights; the jar and hands sit centre-right",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 52013
    },
-   "alt": "Two hands presenting a small glass jar of cannabis flower across a pale wood counter",
-   "prompt": "Close view across a pale oak shop counter: two hands with short clean nails gently present a small clear glass jar with a glass lid filled with dried cannabis flower, held toward the viewer, centre-right of the frame. Only the hands, forearms and the lower chest of a plain sage-green apron are visible; the person's face and head are completely out of frame above. Warm, bright, welcoming shop light, shallow depth of field, softly blurred warm cream and copper shelves far behind. Exactly five fingers on each hand, natural anatomy. The jar is plain and unlabeled. No text, no name tag, no logo on the apron."
+   "alt": "Two hands presenting a small glass jar of cannabis flower across a black stone counter",
+   "prompt": "Close view across a polished black stone shop counter: two hands with short clean nails gently present a small clear glass jar with a glass lid filled with dried cannabis flower, held toward the viewer, centre-right of the frame. Only the hands, forearms and the lower chest of a plain black apron are visible; the face and head of the person are completely out of frame above. Warm golden boutique light, shallow depth of field, softly blurred dark shelves with small warm gold lights far behind. Exactly five fingers on each hand, natural anatomy. The jar is plain and unlabeled. No text, no name tag, no logo on the apron. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-feature-vip",
@@ -279,13 +286,14 @@
    "usedFor": [
     "VIP Club (/loyalty-sign-up/) and mega menu feature card"
    ],
-   "calmArea": "left 40%: deep warm darkness; the vitrine glows right of centre",
+   "calmArea": "left 40%: deep black; the vitrine glows right of centre",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 52017
    },
-   "alt": "A glass display vitrine holding a dark green velvet tray, lit by a single warm beam in a dark room",
-   "prompt": "Tenebrist photograph of a small glass display vitrine on a slim pale stone pedestal in a dark gallery, right of centre. Inside, a deep green velvet tray holds a small plain glass jar and a small antique brass key. A single warm lantern beam from the upper right lights the vitrine, with soft reflections and bright edge highlights on the glass and a faint haze in the beam; the room around falls into deep warm charcoal-brown darkness, never pure black. Painterly chiaroscuro, photographic and sharp. No people, no hands."
+   "alt": "A glass display vitrine holding a black velvet tray, lit by a single golden beam in a dark room",
+   "prompt": "Tenebrist photograph of a small glass display vitrine with thin brass edges on a slim black stone pedestal in a dark gallery, right of centre. Inside, a black velvet tray holds a small plain glass jar and a small antique brass key. A single warm golden beam from the upper right lights the vitrine, with soft reflections and bright gold edge highlights on the glass and a faint golden haze in the beam; the room around falls into deep true black, the left 40 percent dark and calm. The glass is clear with warm gold reflections only. Painterly chiaroscuro, photographic and sharp. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-feature-blog",
@@ -295,13 +303,14 @@
     "/blog/ hub hero or feature card",
     "mega menu Resources card"
    ],
-   "calmArea": "right 40%: pale linen tablecloth in window light",
+   "calmArea": "right 40%: plain polished black stone",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 52019
    },
-   "alt": "An open notebook with pressed green leaves beside a cup of tea on a linen tablecloth in window light",
-   "prompt": "An open notebook with completely blank cream pages, a few pressed green leaves lying between the pages, beside a cup of tea on a saucer, on a natural linen tablecloth in soft morning window light from the left, left of centre; pale, airy, calm editorial still life, palette of cream, warm white and sage. The pages are blank with no writing, no lines of text. No people, no hands."
+   "alt": "An open notebook with pressed leaves beside a black cup of tea on a polished black stone table in warm lamp light",
+   "prompt": "An open notebook with completely blank ivory pages and a few pressed dark leaves between the pages, beside a black porcelain cup of tea with a thin gold rim on a black saucer, left of centre on a polished black stone table, warm golden lamp light from the left, the right 40 percent plain polished black stone; a quiet editorial still life in black, ivory and gold. The pages are blank with no writing, no lines of text. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-feature-firstvisit",
@@ -312,13 +321,14 @@
     "New To Cannabis link card",
     "first-visit tiles"
    ],
-   "calmArea": "upper 35%: soft bright ceiling and cream wall",
+   "calmArea": "left 40%: calm dark glass",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 52021
    },
-   "alt": "An open glass door leading into a bright, calm, empty shop interior with a pale wood floor and cream walls",
-   "prompt": "A tall frameless glass door standing open into a bright calm modern boutique interior with a pale oak floor, warm cream plaster walls, soft daylight and a long low glass counter in the distance, generic and minimal, nobody inside, a few green plants. Clean, welcoming, quiet. The glass has no decals, no signage and no lettering; the walls have no posters. No people."
+   "alt": "A brass handle on an open dark glass door, with a warm gold-lit boutique softly blurred behind",
+   "prompt": "Close view of a long polished brass pull handle on a tall open door of dark smoked glass, the door standing ajar, with the inside of a calm, luxurious, empty boutique softly blurred behind it: warm golden cove light, matte black walls and a glossy black stone floor, deep shallow depth of field. The handle and door sit right of centre; the left 40 percent is calm dark glass. No street, no outdoors, no signs anywhere, no decals, no lettering, no posters. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1, attempt 3 rejected: a street and a pale pavement seen through the glass"
   },
   {
    "id": "g-feature-law",
@@ -328,13 +338,14 @@
     "/massachusetts-cannabis-laws/ hero",
     "law article cards"
    ],
-   "calmArea": "right 50%: blank cream paper",
+   "calmArea": "right 40%: plain polished black stone",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 52026
    },
-   "alt": "A brass magnifying glass, a fountain pen and folded blank paper on natural linen in soft light",
-   "prompt": "Editorial still life on a natural linen cloth, left of centre: a round brass magnifying glass with a smooth turned wooden handle, a black fountain pen with its cap on, and a few folded sheets of blank cream paper, soft window light from the left, calm palette of cream, sage and brass, the right 40 percent plain linen. Everything is blank and plain: no map, no compass, no dial, no letters, no words, no numbers, no engraving, nothing printed or written on the paper. No people, no hands."
+   "alt": "A brass magnifying glass, a fountain pen and folded blank paper on polished black stone in warm light",
+   "prompt": "Editorial still life on polished black stone, left of centre: a round brass magnifying glass with a smooth turned dark wooden handle, a black fountain pen with a gold clip and its cap on, and a few folded sheets of blank ivory paper, lit by a single warm golden light from the left, the right 40 percent plain polished black stone. Everything is blank and plain: no map, no compass, no dial, no letters, no words, no numbers, no engraving, nothing printed or written on the paper. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-feature-card",
@@ -344,13 +355,14 @@
     "/getting-a-medical-card/ hero",
     "ID / card notes"
    ],
-   "calmArea": "left 45%: plain linen cloth",
+   "calmArea": "left 45%: plain polished black stone",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 52027
    },
-   "alt": "A blank cream card and a fountain pen lying on natural linen in soft light",
-   "prompt": "A single completely blank cream card with rounded corners and a black fountain pen lying beside it on a natural linen cloth, right of centre, soft morning window light from the right, gentle shadows, calm minimal editorial still life, palette of cream, warm white and sage. The card is completely blank: no writing, no photo, no chip, no lines. No people, no hands."
+   "alt": "A blank ivory card and a fountain pen lying on polished black stone in warm light",
+   "prompt": "A single completely blank ivory card with rounded corners and a black fountain pen with a gold clip lying beside it on polished black stone, right of centre, a warm golden light from the right, gentle glossy reflections, the left 45 percent plain black stone; a calm minimal still life in black, ivory and gold. The card is completely blank: no writing, no photo, no chip, no lines. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-feature-deli",
@@ -375,13 +387,14 @@
     "home How To Shop bento: In-Store Kiosk tile",
     "/dispensary-guide/ kiosk step"
    ],
-   "calmArea": "left 45%: bright cream wall and pale floor",
+   "calmArea": "left 45%: dark matte wall and black stone floor",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 52031
    },
-   "alt": "A slim touch-screen kiosk with a softly glowing blank screen in a bright, minimal shop",
-   "prompt": "A slim freestanding touch-screen kiosk on a pale oak floor in a bright minimal boutique with warm cream plaster walls, right of centre, soft daylight; its portrait screen glows with a soft abstract gradient of sage green and cream with no interface, no icons, no buttons and no text. Clean, modern, calm, nobody around. No signage, no logos, no people."
+   "alt": "A slim touch-screen kiosk with a softly glowing blank gold screen in a dark, minimal boutique",
+   "prompt": "A slim freestanding black touch-screen kiosk with a thin brass edge on a polished black stone floor in a dark, luxurious, minimal boutique with matte black walls and a few warm golden accent lights, right of centre; its portrait screen glows with a soft abstract gradient of warm gold and amber with no interface, no icons, no buttons and no text; the left 45 percent dark wall and floor. Clean, modern and calm, nobody around. No signage, no logos, no people. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-feature-events",
@@ -391,13 +404,14 @@
     "home Upcoming Events band",
     "/events/ hero"
    ],
-   "calmArea": "upper 35%: soft dark wall above the string lights",
+   "calmArea": "upper 35%: dark wall above the string lights",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 52037
    },
-   "alt": "Warm string lights over a wooden table with framed abstract art prints leaning on a cream wall",
-   "prompt": "Warm string lights with small round bulbs hanging in soft loops over a long wooden table in the evening; on the table and leaning against a cream plaster wall stand four framed abstract art prints of simple shapes in sage, copper and navy; a cosy small gallery atmosphere, warm glow, soft shadows, calm, no people. The prints are abstract with no lettering, no signatures. No people, no hands."
+   "alt": "Golden string lights over a dark wooden table with framed black and gold abstract prints leaning on a black wall",
+   "prompt": "Warm golden string lights with small round bulbs hanging in soft loops over a long dark walnut table in an intimate evening gallery with matte black plaster walls; leaning against the wall and standing on the table are four framed abstract art prints of simple shapes in black, ivory and metallic gold leaf, in thin brass frames; deep black shadows, warm gold glow, glossy reflections on the table, calm and luxurious, the upper third a soft dark wall above the string lights. The prints are abstract with no lettering, no signatures. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-art-strains",
@@ -406,13 +420,14 @@
    "usedFor": [
     "article: strains / types"
    ],
-   "calmArea": "upper 30%: plain pale stone",
+   "calmArea": "upper 30%: plain dark stone",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 63001
    },
-   "alt": "Three cannabis flower buds of different colours in small stoneware dishes on pale stone",
-   "prompt": "Three small handmade stoneware dishes in a row on a pale limestone surface, each holding one dried cannabis flower bud of a different character: bright lime green, deep green with purple hues, frosty pale green; soft directional side light from the left, editorial still life, calm and refined, shallow depth of field. No people, no hands."
+   "alt": "Three cannabis flower buds of different colours in small black dishes on polished black stone",
+   "prompt": "Three small black stoneware dishes with thin gold rims in a row on polished black stone, each holding one dried cannabis flower bud of a different character: bright lime green, deep green with purple hues, frosty pale green; a single warm golden side light from the left, the upper 30 percent plain dark stone, editorial still life, refined, shallow depth of field. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-art-terpenes",
@@ -421,13 +436,14 @@
    "usedFor": [
     "article: terpenes / aroma"
    ],
-   "calmArea": "right 35%: plain linen",
+   "calmArea": "right 35%: plain black slate",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 63003
    },
-   "alt": "Citrus peel, lavender, black peppercorns, a pine sprig and a cannabis bud arranged on pale linen",
-   "prompt": "An aromatic editorial still life on pale natural linen in soft morning light: a curl of fresh orange peel, a sprig of lavender, a few black peppercorns, a small pine sprig and one small dried cannabis flower bud, arranged loosely left of centre, airy and calm, palette of cream, sage, orange and lavender. No people, no hands."
+   "alt": "Citrus peel, lavender, black peppercorns, a pine sprig and a cannabis bud arranged on black slate",
+   "prompt": "An aromatic still life on polished black slate in a single warm golden light from the upper left: a curl of fresh orange peel, a sprig of lavender, a few black peppercorns, a small pine sprig and one small dried cannabis flower bud, arranged loosely left of centre, rich natural colours glowing against the black, the right 35 percent plain black slate. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-art-cannabinoids",
@@ -451,13 +467,14 @@
    "usedFor": [
     "article: reading a product label"
    ],
-   "calmArea": "left 40%: plain linen",
+   "calmArea": "left 40%: plain black stone",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 63011
    },
-   "alt": "A small glass jar with a blank paper tag beside a brass magnifying glass on linen",
-   "prompt": "A small clear glass jar with a cork stopper holding dried flower, a completely blank cream paper tag tied to its neck with natural string, beside a small brass magnifying glass, on a natural linen cloth, right of centre, soft window light, calm editorial still life. The tag is completely blank with no writing at all. No people, no hands."
+   "alt": "A small glass jar with a blank paper tag beside a brass magnifying glass on black stone",
+   "prompt": "A small clear glass jar with a cork stopper holding dried flower, a completely blank ivory paper tag tied to its neck with natural string, beside a small brass magnifying glass, on polished black stone, right of centre, a single warm golden light, the left 40 percent plain black stone, calm editorial still life. The tag is completely blank with no writing at all. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-art-budtender",
@@ -466,13 +483,14 @@
    "usedFor": [
     "article: talking to a budtender"
    ],
-   "calmArea": "left 40%: blurred warm shop background",
+   "calmArea": "left 40%: blurred dark shelves with small gold lights",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 63013
    },
-   "alt": "Glass jars of cannabis flower and an open notepad on a pale wood counter in warm light",
-   "prompt": "A pale oak shop counter with three small clear glass jars of dried cannabis flower, a small open notepad with blank pages and a pencil, warm welcoming light, shallow depth of field with softly blurred cream and copper shelves behind, right of centre, calm. The jars are unlabeled and the notepad is blank. No people, no hands."
+   "alt": "Glass jars of cannabis flower and an open notepad on a black stone counter in warm light",
+   "prompt": "A polished black stone shop counter with three small clear glass jars of dried cannabis flower, a small open notepad with blank ivory pages and a brass pencil, warm golden boutique light, shallow depth of field with softly blurred dark shelves and small gold lights behind, right of centre, the left 40 percent blurred dark background, calm. The jars are unlabeled and the notepad is blank. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-art-deli",
@@ -496,13 +514,14 @@
    "usedFor": [
     "article: home delivery"
    ],
-   "calmArea": "upper 35%: dark green door panels",
+   "calmArea": "upper 35%: black door panels",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 63019
    },
-   "alt": "A plain kraft paper bag on a doormat in front of a dark green front door in morning light",
-   "prompt": "A plain sealed kraft paper bag with a folded top standing on a coir doormat in front of a dark green painted wooden front door with a brass handle, soft morning light from the side, calm and welcoming, centre-left. The bag is completely plain and unprinted; the doormat has no words. No house numbers, no people, no hands."
+   "alt": "A plain kraft paper bag on a doormat in front of a glossy black front door with brass hardware, lit by a porch lamp",
+   "prompt": "A plain sealed kraft paper bag with a folded top standing on a dark doormat in front of a glossy black front door with polished brass hardware, at dusk, lit by a warm golden porch lamp from above, centre-left, the upper 35 percent the black door panels; calm and welcoming. The bag is completely plain and unprinted; the doormat has no words. No house numbers, no people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-art-decarb",
@@ -511,13 +530,14 @@
    "usedFor": [
     "recipe article: decarboxylation"
    ],
-   "calmArea": "right 35%: plain cream counter",
+   "calmArea": "right 35%: plain black counter",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 63023
    },
-   "alt": "Broken-up dried cannabis flower on a parchment-lined baking tray on a pale kitchen counter",
-   "prompt": "A small metal baking tray lined with parchment paper holding broken-up dried cannabis flower spread in an even layer, a folded linen oven cloth beside it, on a pale stone kitchen counter, soft window light from the left, calm home kitchen still life, palette of cream, sage and warm metal. No people, no hands."
+   "alt": "Broken-up dried cannabis flower on a parchment-lined baking tray on a black stone counter",
+   "prompt": "A small black metal baking tray lined with parchment paper holding broken-up dried cannabis flower spread in an even layer, a folded black linen oven cloth beside it, on a polished black stone kitchen counter, a single warm golden light from the left, the right 35 percent plain black counter, calm home kitchen still life. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-art-butter",
@@ -526,13 +546,14 @@
    "usedFor": [
     "recipe article: infused butter"
    ],
-   "calmArea": "left 35%: plain cream counter",
+   "calmArea": "left 35%: plain black marble",
    "input": {
     "aspect_ratio": "3:2",
-    "seed": 63029
+    "seed": 63031
    },
-   "alt": "A block of pale green butter in a glass dish beside a small spatula and a strainer bowl on a pale counter",
-   "prompt": "A block of pale green-tinted butter in a small glass dish, a wooden spoon and a small fine-mesh sieve beside it, on a cream stone kitchen counter, soft morning window light, calm home kitchen still life, right of centre, palette of cream, pale green and warm wood. No people, no hands."
+   "alt": "A block of pale green butter in a glass dish beside a brass butter knife on black marble",
+   "prompt": "Minimal luxury kitchen still life: a small clear glass dish holding one neat block of pale green-tinted butter, a brass butter knife resting beside the dish, on a bare, clean, glossy black marble counter with thin gold veins, lit by a single warm golden light from the left, deep true-black background, right of centre, the left 35 percent bare black marble. Calm, clean and simple. No people, no hands.",
+   "rejectReason": "revision 1, attempts 2 to 4 rejected: white powder or crumbs scattered on the black marble"
   },
   {
    "id": "g-art-history",
@@ -556,13 +577,14 @@
    "usedFor": [
     "article: etiquette / good neighbour habits"
    ],
-   "calmArea": "upper 35%: soft green garden background",
+   "calmArea": "upper 35%: soft dark garden background",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 63037
    },
-   "alt": "A small wooden table with a glass carafe of water, a glass and a small cup on a quiet porch at golden hour",
-   "prompt": "A small round wooden table on a quiet covered porch at golden hour, set with a glass carafe of water, two clean drinking glasses and a small ceramic dish, two empty wooden chairs, a softly blurred green garden behind, warm low sunlight, calm and neighbourly. No people, no hands, no smoke."
+   "alt": "A small black table with a glass carafe of water, glasses and a small dish on a quiet terrace at dusk by lantern light",
+   "prompt": "A small round black table on a quiet covered terrace at dusk, set with a glass carafe of water, two clean drinking glasses and a small black ceramic dish, two empty dark wooden chairs, a warm golden lantern glowing beside them, the garden behind fallen into soft darkness, the upper 35 percent soft dark background, calm and neighbourly. No people, no hands, no smoke. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-art-edibles",
@@ -571,13 +593,14 @@
    "usedFor": [
     "article: edibles"
    ],
-   "calmArea": "right 35%: plain linen",
+   "calmArea": "right 35%: plain black stone",
    "input": {
     "aspect_ratio": "3:2",
     "seed": 63041
    },
-   "alt": "Squares of dark chocolate and sugar-dusted fruit jellies on a ceramic plate on linen",
-   "prompt": "A small handmade ceramic plate holding a few squares of dark chocolate and square artisanal fruit jellies dusted with sugar, on natural linen in soft morning window light, left of centre, elegant adult patisserie style, calm editorial still life. No packaging, no candy shapes, no people, no hands."
+   "alt": "Squares of dark chocolate and sugar-dusted fruit jellies on a black plate on polished black stone",
+   "prompt": "A small black ceramic plate with a thin gold rim holding a few squares of dark chocolate and square artisanal fruit jellies dusted with sugar, on polished black stone in a single warm golden light, left of centre, the right 35 percent plain black stone, elegant adult patisserie style, calm editorial still life. No packaging, no candy shapes, no people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow.",
+   "rejectReason": "revision 1 (black and gold): the light cream and sage version was off-palette"
   },
   {
    "id": "g-cut-jar",
@@ -650,6 +673,96 @@
    },
    "alt": "A fresh green cannabis fan leaf",
    "prompt": "Product photograph of one fresh green cannabis fan leaf with seven serrated leaflets on its stem, upright, whole leaf in frame with a wide margin, centred, on a plain seamless light grey studio background, soft even studio light, crisp clean edges. No people, no hands."
+  },
+  {
+   "id": "g-tex-obsidian",
+   "role": "texture",
+   "aspect": "16:9",
+   "usedFor": [
+    "obsidian bands, page heroes and the footer (revision 1, black and gold)"
+   ],
+   "calmArea": "centre and left: calm deep black; soft gold highlights run along the ripple edges at the right and top",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 91001
+   },
+   "alt": "",
+   "prompt": "Macro photograph of a polished black obsidian surface, deep glossy volcanic glass with smooth flowing conchoidal ripples, soft warm golden specular highlights catching the ripple edges at the upper right, mostly deep black with gentle reflections, luxurious and sharp, high detail, a wide calm dark area in the centre and left. No text, no letters, no numbers, no logos, no watermark, no people, no plants."
+  },
+  {
+   "id": "g-tex-obsidian-vein",
+   "role": "texture",
+   "aspect": "16:9",
+   "usedFor": [
+    "feature bands and bento tiles that need a richer black"
+   ],
+   "calmArea": "large calm black fields between a few thin gold veins; keep text off the veins",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 91002
+   },
+   "alt": "",
+   "prompt": "Top-down photograph of a slab of polished black obsidian stone crossed by a few thin irregular veins of shining metallic gold, like gold-filled cracks, glossy surface with soft reflections, deep black, luxurious, high detail, even soft light, large calm black areas between the veins. No text, no letters, no numbers, no logos, no watermark, no people, no plants."
+  },
+  {
+   "id": "g-tex-gold-stroke",
+   "role": "texture",
+   "aspect": "16:9",
+   "usedFor": [
+    "gold paint accent over black bands (blend: screen)"
+   ],
+   "calmArea": "pure black everywhere except the stroke band from lower left to upper right",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 91003
+   },
+   "alt": "",
+   "prompt": "A single broad sweeping brush stroke of thick metallic gold paint across a pure black background, visible bristle texture and ridges, glossy liquid gold highlights, a few small gold splatter droplets, the stroke runs diagonally from the lower left to the upper right, the rest of the frame is pure black. No text, no letters, no numbers, no logos, no watermark, no people, no plants."
+  },
+  {
+   "id": "g-tex-gold-ribbon",
+   "role": "texture",
+   "aspect": "21:9",
+   "usedFor": [
+    "gold paint along the bottom of a dark band or section seam (blend: screen)"
+   ],
+   "calmArea": "upper two thirds pure black and empty; gold only along the bottom edge",
+   "input": {
+    "aspect_ratio": "21:9",
+    "seed": 91004
+   },
+   "alt": "",
+   "prompt": "Two long curved ribbons of thick metallic gold paint brushed along the bottom edge of a pure black background, impasto texture with glossy highlights, fine gold flecks and dust near the strokes, the upper two thirds of the frame pure black and empty. No text, no letters, no numbers, no logos, no watermark, no people, no plants."
+  },
+  {
+   "id": "g-tex-gold-leaf",
+   "role": "texture",
+   "aspect": "16:9",
+   "usedFor": [
+    "the gold band (VIP Club, calls to action) behind dark text"
+   ],
+   "calmArea": "even all over; medium-light gold, keep text dark",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 91005
+   },
+   "alt": "",
+   "prompt": "Close-up texture of crinkled gold leaf foil laid flat over a surface, warm metallic gold with soft folds, fine cracks and subtle variations in tone, rich and luxurious, even soft lighting, fills the whole frame edge to edge. No text, no letters, no numbers, no logos, no watermark, no people, no plants."
+  },
+  {
+   "id": "g-tex-gold-haze",
+   "role": "texture",
+   "aspect": "16:9",
+   "usedFor": [
+    "ethereal light: golden haze behind glass panels on black"
+   ],
+   "calmArea": "lower half calm black; the glow sits upper left",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 91006
+   },
+   "alt": "",
+   "prompt": "Soft luminous golden haze and delicate wisps of mist drifting across a deep black background, ethereal warm gold light glowing from the upper left, fine airborne gold dust, calm and elegant, mostly black with luminous gold mist. No text, no letters, no numbers, no logos, no watermark, no people, no plants."
   }
  ]
 }

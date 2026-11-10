@@ -1,0 +1,30 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-tex-gold-ribbon",
+ "file": "assets/generated/g-tex-gold-ribbon.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Two long curved ribbons of thick metallic gold paint brushed along the bottom edge of a pure black background, impasto texture with glossy highlights, fine gold flecks and dust near the strokes, the upper two thirds of the frame pure black and empty. No text, no letters, no numbers, no logos, no watermark, no people, no plants., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "21:9",
+  "seed": 91004
+ },
+ "seed": 91004,
+ "requestId": "01a1c448-9017-7a51-967e-9938586738af",
+ "cutout": null,
+ "width": 3136,
+ "height": 1344,
+ "sha256": "1c3d906fb7359ae67975c35919945d078a996ba8066aa26737ab19dad79bc70a",
+ "raw": "tmp/img/raw/g-tex-gold-ribbon.1794294462692.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-10T07:07:44.784Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": null,
+  "notes": "Accepted by eye at full size on 2026-11-10 (revision 1, main session): no text, letters, logos, people or plants; no near-black safety frame (texture is dark by design; mean luminance checked).",
+  "at": "2026-11-10"
+ }
+}

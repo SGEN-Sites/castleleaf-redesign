@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Warm string lights with small round bulbs hanging in soft loops over a long wooden table in the evening; on the table and leaning against a cream plaster wall stand four framed abstract art prints of simple shapes in sage, copper and navy; a cosy small gallery atmosphere, warm glow, soft shadows, calm, no people. The prints are abstract with no lettering, no signatures. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "Warm golden string lights with small round bulbs hanging in soft loops over a long dark walnut table in an intimate evening gallery with matte black plaster walls; leaning against the wall and standing on the table are four framed abstract art prints of simple shapes in black, ivory and metallic gold leaf, in thin brass frames; deep black shadows, warm gold glow, glossy reflections on the table, calm and luxurious, the upper third a soft dark wall above the string lights. The prints are abstract with no lettering, no signatures. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 52037
   },
   "seed": 52037,
-  "requestId": "01a1c301-bca0-7f92-b4aa-68781edffe32",
+  "requestId": "01a1c493-559c-7391-9428-d6a5b52faa09",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "cc0bffb70c5b665f47c12a6245aea6ed3448d98d2a451c042caac08ed65f36e0",
-  "raw": "tmp/img/raw/g-feature-events.1794273055595.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:10:57.393Z",
+  "sha256": "3e559c0c2506ff022fb6a15cc0d1c52e0b01d851cca6af374b55d8422ee0d757",
+  "raw": "tmp/img/raw/g-feature-events.1794299360929.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:23.173Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "Warm string lights over a wooden table with framed abstract art prints leaning on a cream wall"
+  "alt": "Golden string lights over a dark wooden table with framed black and gold abstract prints leaning on a black wall",
+  "post": []
 }

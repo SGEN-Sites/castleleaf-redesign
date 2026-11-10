@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "A tall frameless glass door standing open into a bright calm modern boutique interior with a pale oak floor, warm cream plaster walls, soft daylight and a long low glass counter in the distance, generic and minimal, nobody inside, a few green plants. Clean, welcoming, quiet. The glass has no decals, no signage and no lettering; the walls have no posters. No people., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "Close view of a long polished brass pull handle on a tall open door of dark smoked glass, the door standing ajar, with the inside of a calm, luxurious, empty boutique softly blurred behind it: warm golden cove light, matte black walls and a glossy black stone floor, deep shallow depth of field. The handle and door sit right of centre; the left 40 percent is calm dark glass. No street, no outdoors, no signs anywhere, no decals, no lettering, no posters. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,21 @@
     "seed": 52021
   },
   "seed": 52021,
-  "requestId": "01a1c301-5743-7083-b1c5-3439f9e1a06b",
+  "requestId": "01a1c495-fe0d-76a3-bd9e-cd80120336a0",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "b688a272f37a42b72f3828e883a4ebbde23bcef93939471177c7813087ff6be5",
-  "raw": "tmp/img/raw/g-feature-firstvisit.1794273035289.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:10:37.285Z",
+  "sha256": "891099abb50dd05bf66104bbe244470f2c7b5080fe7daf3bbc89b8c4da47a9fe",
+  "raw": "tmp/img/raw/g-feature-firstvisit.1794299535504.jpg",
+  "attempt": 4,
+  "generatedAt": "2026-11-10T08:32:17.217Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black; revision 1 attempts: a reflected building sign with pseudo-lettering (rejected), a street and pale pavement through the glass (rejected), then this close view of the brass handle",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "An open glass door leading into a bright, calm, empty shop interior with a pale wood floor and cream walls"
+  "alt": "A brass handle on an open dark glass door, with a warm gold-lit boutique softly blurred behind",
+  "post": [
+    "blue saturation cut 80% at 220 deg, 170-270 deg (tmp/rev1/cool-to-neutral.py), AI label re-embedded"
+  ]
 }

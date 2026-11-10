@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "A plain sealed kraft paper bag with a folded top standing on a coir doormat in front of a dark green painted wooden front door with a brass handle, soft morning light from the side, calm and welcoming, centre-left. The bag is completely plain and unprinted; the doormat has no words. No house numbers, no people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "A plain sealed kraft paper bag with a folded top standing on a dark doormat in front of a glossy black front door with polished brass hardware, at dusk, lit by a warm golden porch lamp from above, centre-left, the upper 35 percent the black door panels; calm and welcoming. The bag is completely plain and unprinted; the doormat has no words. No house numbers, no people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,21 @@
     "seed": 63019
   },
   "seed": 63019,
-  "requestId": "01a1c302-2897-7d22-b2cf-8e6cc2eafc7d",
+  "requestId": "01a1c493-afa3-7981-b597-6d06b4b1d829",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "3a4d5ec8262b500d623e0cec29d830c04d7f4c27e8e7040a61f5c270f24f86bc",
-  "raw": "tmp/img/raw/g-art-delivery.1794273083753.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:11:25.927Z",
+  "sha256": "52cf62171c15e75d6c488cbb10eb76b2a828dc3670499bc73d91488d9b9871ac",
+  "raw": "tmp/img/raw/g-art-delivery.1794299385670.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:47.713Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "A plain kraft paper bag on a doormat in front of a dark green front door in morning light"
+  "alt": "A plain kraft paper bag on a doormat in front of a glossy black front door with brass hardware, lit by a porch lamp",
+  "post": [
+    "blue saturation cut 80% at 220 deg, 170-270 deg (tmp/rev1/cool-to-neutral.py), AI label re-embedded"
+  ]
 }

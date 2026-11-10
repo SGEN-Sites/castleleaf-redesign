@@ -1,0 +1,30 @@
+{
+ "tool": "tools/fal-gen.mjs",
+ "slot": "g-tex-gold-leaf",
+ "file": "assets/generated/g-tex-gold-leaf.jpg",
+ "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+ "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+ "model": "fal-ai/flux-pro/v1.1-ultra",
+ "prompt": "Close-up texture of crinkled gold leaf foil laid flat over a surface, warm metallic gold with soft folds, fine cracks and subtle variations in tone, rich and luxurious, even soft lighting, fills the whole frame edge to edge. No text, no letters, no numbers, no logos, no watermark, no people, no plants., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+ "input": {
+  "output_format": "jpeg",
+  "safety_tolerance": "5",
+  "aspect_ratio": "16:9",
+  "seed": 91005
+ },
+ "seed": 91005,
+ "requestId": "01a1c448-978c-70d3-8dcf-b34795186e61",
+ "cutout": null,
+ "width": 2752,
+ "height": 1536,
+ "sha256": "2f0c8b48b4f77f6259c3832f6ee1536f82f0cc81fd1c4899fa4c87fa1066226b",
+ "raw": "tmp/img/raw/g-tex-gold-leaf.1794294465947.jpg",
+ "attempt": 1,
+ "generatedAt": "2026-11-10T07:07:47.866Z",
+ "review": {
+  "verdict": "ACCEPT",
+  "reason": null,
+  "notes": "Accepted by eye at full size on 2026-11-10 (revision 1, main session): no text, letters, logos, people or plants; no near-black safety frame (texture is dark by design; mean luminance checked).",
+  "at": "2026-11-10"
+ }
+}

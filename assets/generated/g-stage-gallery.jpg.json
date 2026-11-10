@@ -5,27 +5,27 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Wide tenebrist photograph of an empty dark gallery wall of warm plaster with one tall round-arched niche set into it, slightly right of centre at about 66 percent across the frame. A single warm lantern beam falls from the upper left into the niche, lighting its pale limestone sill and its curved back wall, with a soft cone of fine haze glowing in the beam. The niche is completely empty. The rest of the room recedes into deep warm charcoal-brown darkness, never pure black. The left part of the frame is calm empty dark wall. Painterly chiaroscuro, photographic and sharp. No objects, no furniture, no people., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "An empty tall rectangular niche with softly rounded corners set into a wall of polished black stone, the niche lit from above by a single warm golden beam of light, glossy obsidian-like highlights on the black wall, faint golden haze in the beam, luxurious and calm, a wide smooth dark area on the left. No arch, no dome, no curved top. No text, no letters, no logos, no objects, no people, no plants., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
     "aspect_ratio": "16:9",
-    "seed": 41023
+    "seed": 91011
   },
-  "seed": 41023,
-  "requestId": "01a1c300-a868-7173-91cf-2a7f7ba8ad37",
+  "seed": 91011,
+  "requestId": "01a1c44f-fda3-76d1-b670-2fe912c60496",
   "cutout": null,
   "width": 2752,
   "height": 1536,
-  "sha256": "3302c4c2ee83fbeea61059c35cb1ded5c730b7a91ba8938c017b625a9d281667",
-  "raw": "tmp/img/raw/g-stage-gallery.1794272973002.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:09:35.040Z",
+  "sha256": "d4ccff466052d4965694a061ec81b854473cf45b5bd97c5216a525950d737560",
+  "raw": "tmp/img/raw/g-stage-gallery.1794294949620.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T07:15:51.420Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": null,
+    "notes": "Revision 1 (2026-11-10): regenerated without the arched niche (the operator asked for no dome shapes). Checked at full size: a rectangular gold-lit niche in black marble, no text, logos or people.",
+    "at": "2026-11-10"
   },
-  "post": [],
-  "alt": "An empty arched niche in a dark plaster wall, lit by a single warm beam of light"
+  "alt": "An empty rectangular niche in a polished black stone wall, lit from above by a warm golden beam"
 }

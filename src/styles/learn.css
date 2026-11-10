@@ -3,16 +3,16 @@
    steps, chip, tag, glass, prose) come from components.css. No pseudo-elements on component-owned elements. */
 
 /* ---------- hero additions (the hero is the contract's page-hero markup) ---------- */
-.n-hero__sub { margin: 0; font-family: var(--font-label); font-size: var(--fs-label); font-weight: 600; letter-spacing: var(--track-label); text-transform: uppercase; line-height: 1.5; color: var(--sage-text); }
+.n-hero__sub { margin: 0; font-family: var(--font-label); font-size: var(--fs-label); font-weight: 600; letter-spacing: var(--track-label); text-transform: uppercase; line-height: 1.5; color: var(--gold-bright); }
 .n-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 0; font-family: var(--font-label); font-size: var(--fs-small); line-height: 1.5; color: var(--text-3); }
 .n-meta > span { display: inline-flex; align-items: center; gap: 14px; }
-.n-meta > span + span::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--copper); }
+.n-meta > span + span::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
 .n-meta .tag { text-decoration: none; min-height: 32px; }
 .n-hero--article .page-hero__h1,
 .n-hero--event .page-hero__h1,
 .n-hero--res .page-hero__h1 { font-size: clamp(2.3rem, 4.3vw, 4.25rem); line-height: 1.04; max-width: 19ch; }
 .n-hero--article .page-hero__lede { font-size: clamp(1.05rem, 1.2vw, 1.2rem); max-width: 52ch; }
-.n-notice { display: inline-flex; align-items: center; gap: 10px; margin: 0; padding: 10px 18px; border-radius: var(--r-pill); background: rgba(184, 121, 98, 0.14); color: var(--copper-text); font-family: var(--font-label); font-weight: 600; font-size: var(--fs-small); line-height: 1.4; }
+.n-notice { display: inline-flex; align-items: center; gap: 10px; margin: 0; padding: 10px 18px; border-radius: var(--r-pill); background: color-mix(in srgb, var(--gold) 14%, transparent); border: 1px solid var(--hair-gold); color: var(--gold-light); font-family: var(--font-label); font-weight: 600; font-size: var(--fs-small); line-height: 1.4; }
 .n-notice .icon { width: 1.1em; height: 1.1em; flex: none; }
 
 /* ---------- featured story (hub) ---------- */
@@ -21,7 +21,7 @@
 .n-feat__pane { position: relative; z-index: var(--z-protrude); grid-column: 2; grid-row: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 14px; margin-left: calc(-1 * clamp(48px, 8vw, 130px)); padding: clamp(26px, 3vw, 46px); border-radius: var(--r-tile-lg); }
 .n-feat__title { font-size: clamp(1.9rem, 3vw, 3rem); line-height: 1.06; }
 .n-feat__title a { color: inherit; text-decoration: none; }
-.n-feat__title a:hover { color: var(--sage-text); }
+.n-feat__title a:hover { color: var(--gold-bright); }
 .n-feat__excerpt { margin: 0; color: var(--text-2); max-width: 46ch; }
 
 /* ---------- article lists: head, chips, the offset bento (three columns starting at different heights) ---------- */
@@ -51,12 +51,13 @@
 .n-body__wrap--solo { grid-template-columns: minmax(0, 1fr); }
 .n-body__wrap--solo .n-prose { margin-inline: auto; }
 .n-body__side { position: sticky; top: calc(var(--bar-gap, 12px) + var(--bar-h, 64px) + 28px); }
-.n-toc { padding: 22px 22px 16px; border-radius: var(--r-tile); background: var(--glass-strong); border: 1px solid var(--line); box-shadow: var(--shade-soft); }
-.n-toc__label { margin: 0 0 8px; font-family: var(--font-label); font-size: var(--fs-label); font-weight: 600; letter-spacing: var(--track-label); text-transform: uppercase; color: var(--copper-text); }
+.n-toc { padding: 22px 22px 16px; border-radius: var(--r-tile); background: var(--glass-sheen), var(--obsidian-2); border: 1px solid var(--glass-border-dark); box-shadow: var(--shade-soft); }
+.n-toc__label { margin: 0 0 8px; font-family: var(--font-label); font-size: var(--fs-label); font-weight: 600; letter-spacing: var(--track-label); text-transform: uppercase; color: var(--gold-bright); }
 .n-toc ol { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }
 .n-toc li { list-style: none; }
-.n-toc a { display: flex; align-items: center; min-height: 40px; padding-block: 6px; font-size: var(--fs-small); line-height: 1.35; color: var(--text-2); text-decoration: none; transition: color var(--dur-1), transform var(--dur-1) var(--ease); }
-.n-toc a:hover, .n-toc a:focus-visible { color: var(--sage-text); transform: translateX(4px); }
+.n-toc a { display: flex; align-items: center; min-height: 40px; padding-block: 6px; font-size: var(--fs-small); line-height: 1.35; color: var(--ivory-2); text-decoration: none; transition: color var(--dur-1), transform var(--dur-1) var(--ease); }
+.n-toc li + li a { border-top: 1px solid var(--line); }
+.n-toc a:hover, .n-toc a:focus-visible { color: var(--gold-light); transform: translateX(4px); }
 .n-prose { min-width: 0; max-width: var(--measure); }
 .n-prose h2, .n-sec, .n-rsec { scroll-margin-top: 130px; }
 .n-sec + .n-sec { margin-top: clamp(40px, 4.4vw, 64px); }
@@ -64,9 +65,9 @@
 .n-sec > h2 { margin-top: 0; }
 
 /* the one offset pull quote: it steps out of the reading column to the right */
-.n-pull { position: relative; margin: clamp(40px, 4.4vw, 64px) calc(-1 * clamp(0px, 9vw, 150px)) clamp(40px, 4.4vw, 64px) clamp(20px, 5vw, 80px); padding: clamp(28px, 3vw, 44px) clamp(26px, 3.2vw, 48px) clamp(26px, 3vw, 40px); border-radius: var(--r-tile-lg); background: var(--glass-sheen), var(--cream); box-shadow: var(--shade-soft); }
-.n-pull::before { content: "\201C"; position: absolute; top: -0.3em; left: 0.16em; font-family: var(--font-display); font-size: clamp(4.4rem, 7vw, 7rem); line-height: 1; color: var(--copper); }
-.n-pull blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: clamp(1.45rem, 2.2vw, 2.1rem); line-height: 1.26; color: var(--text); }
+.n-pull { position: relative; margin: clamp(40px, 4.4vw, 64px) calc(-1 * clamp(0px, 9vw, 150px)) clamp(40px, 4.4vw, 64px) clamp(20px, 5vw, 80px); padding: clamp(28px, 3vw, 44px) clamp(26px, 3.2vw, 48px) clamp(26px, 3vw, 40px); border-radius: var(--r-tile-lg); background: var(--glass-sheen), var(--obsidian-2); border: 1px solid var(--hair-gold); box-shadow: var(--shade-soft), inset 0 1px 0 color-mix(in srgb, var(--gold-light) 22%, transparent); }
+.n-pull::before { content: "\201C"; position: absolute; top: -0.3em; left: 0.16em; font-family: var(--font-display); font-size: clamp(4.4rem, 7vw, 7rem); line-height: 1; color: var(--gold); }
+.n-pull blockquote { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-style: italic; font-weight: 300; font-size: clamp(1.45rem, 2.2vw, 2.1rem); line-height: 1.26; color: var(--gold-bright); }
 .n-pull blockquote p { margin: 0; }
 .n-pull figcaption { margin-top: 12px; font-size: var(--fs-small); color: var(--text-3); }
 
@@ -74,7 +75,7 @@
 .n-callout { padding: clamp(20px, 2.4vw, 30px) clamp(22px, 2.6vw, 34px); border-radius: var(--r-tile); color: var(--text-2); }
 .n-callout > * + * { margin-top: 0.6em; }
 .n-callout p { margin: 0; }
-.n-callout__title { display: flex; align-items: center; gap: 10px; font-family: var(--font-label); font-weight: 600; font-size: var(--fs-label); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--copper-text); }
+.n-callout__title { display: flex; align-items: center; gap: 10px; font-family: var(--font-label); font-weight: 600; font-size: var(--fs-label); letter-spacing: var(--track-label); text-transform: uppercase; color: var(--gold-bright); }
 .n-callout__title .icon { width: 1.3em; height: 1.3em; }
 .n-callout--adult { margin-bottom: clamp(36px, 4vw, 56px); }
 .n-steps { margin-block: 1.4em; }
@@ -84,14 +85,14 @@
 .n-faqsec > h2 { margin-bottom: 0.7em; }
 .n-faq { margin-top: 1.2em; }
 .n-note { display: flex; align-items: center; gap: 10px; margin-top: clamp(40px, 4.4vw, 64px); font-size: var(--fs-small); font-style: italic; color: var(--text-3); }
-.n-note .icon { flex: none; width: 1.2em; height: 1.2em; color: var(--copper-text); }
+.n-note .icon { flex: none; width: 1.2em; height: 1.2em; color: var(--gold-bright); }
 
 /* previous / next */
 .n-pn { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 14px; margin-top: clamp(40px, 4.4vw, 64px); }
 .n-pn__link { display: flex; flex-direction: column; gap: 4px; min-height: 44px; padding: 18px 22px; border-radius: var(--r-tile); color: var(--text); text-decoration: none; transition: transform var(--dur-2) var(--ease); }
 .n-pn__link:hover, .n-pn__link:focus-visible { transform: translateY(-3px); }
 .n-pn__link--next { align-items: flex-end; text-align: right; }
-.n-pn__dir { font-family: var(--font-label); font-size: var(--fs-label); font-weight: 600; letter-spacing: var(--track-label); text-transform: uppercase; color: var(--copper-text); }
+.n-pn__dir { font-family: var(--font-label); font-size: var(--fs-label); font-weight: 600; letter-spacing: var(--track-label); text-transform: uppercase; color: var(--gold-bright); }
 .n-pn__title { font-family: var(--font-display); font-size: var(--fs-h4); line-height: 1.22; color: var(--text); }
 
 /* keep reading */
@@ -99,10 +100,9 @@
 
 /* the Shop Menu band (the page's one dark band) */
 .n-shop { text-align: center; }
-.n-shop__lantern { position: absolute; inset: 0; background: radial-gradient(46% 70% at 50% 108%, rgba(226, 166, 141, 0.2), transparent 72%); }
 .n-shop__text { display: flex; flex-direction: column; align-items: center; gap: 18px; max-width: 780px; margin-inline: auto; }
 .n-shop__title { margin: 0; font-size: var(--fs-h2); }
-.n-shop__line { margin: 0; max-width: 54ch; color: var(--text-on-dark-2); }
+.n-shop__line { margin: 0; max-width: 54ch; color: var(--ivory-2); }
 .n-shop .btn-row { justify-content: center; }
 
 /* ---------- events ---------- */
@@ -111,14 +111,14 @@
 .n-evbento { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--bento-gap); margin: 0; padding: 0; list-style: none; }
 .n-evgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--bento-gap); margin: 0; padding: 0; list-style: none; }
 .n-ev { list-style: none; min-width: 0; }
-.n-ev__card { position: relative; display: flex; flex-direction: column; gap: 14px; height: 100%; padding: 12px 12px 22px; border-radius: var(--r-tile); background: var(--glass-sheen), var(--white); border: 1px solid var(--line); box-shadow: var(--shade-soft); transition: transform var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease); }
+.n-ev__card { position: relative; display: flex; flex-direction: column; gap: 14px; height: 100%; padding: 12px 12px 22px; border-radius: var(--r-tile); background: var(--glass-sheen), var(--obsidian-2); border: 1px solid var(--glass-border-dark); box-shadow: var(--shade-soft); transition: transform var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease); }
 .n-ev__card:hover, .n-ev__card:focus-within { transform: translateY(-4px); box-shadow: var(--shade-deep); }
-.n-flyer { position: relative; display: block; aspect-ratio: 1; border-radius: calc(var(--r-tile) - 10px); overflow: hidden; background: var(--cream-2); }
+.n-flyer { position: relative; display: block; aspect-ratio: 1; border-radius: calc(var(--r-tile) - 10px); overflow: hidden; background: var(--jet); }
 .n-flyer img, .n-flyer .img-slot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; transition: transform 1.6s var(--ease); }
 .n-ev__card:hover .n-flyer img { transform: scale(1.035); }
 .n-ev__text { display: flex; flex-direction: column; gap: 6px; padding-inline: 8px; }
 .n-ev__date { display: flex; flex-wrap: wrap; gap: 4px 10px; margin: 0; font-size: var(--fs-label); line-height: 1.5; color: var(--text-3); }
-.n-ev__short { font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--copper-text); }
+.n-ev__short { font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-bright); }
 .n-ev__title { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: clamp(1.15rem, 1.5vw, 1.42rem); line-height: 1.2; color: var(--text); }
 .n-ev__title a { color: inherit; text-decoration: none; }
 .n-ev__title a::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: var(--r-tile); }
@@ -131,7 +131,7 @@
 /* the event page: the flyer whole in the hero frame */
 .n-hero--event .page-hero__media { width: min(100%, 400px); }
 .n-hero--event-tall .page-hero__media { width: min(100%, 290px); }
-.n-evframe { width: 100%; background: var(--cream-2); }
+.n-evframe { width: 100%; background: var(--jet); }
 .n-evframe .n-flyer__img, .n-evframe img { display: block; width: 100%; height: auto; border-radius: inherit; }
 .n-evframe .img-slot { aspect-ratio: 1; }
 .n-passed { white-space: nowrap; }
@@ -146,7 +146,7 @@
 .n-evnav { grid-column: 1 / -1; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
 .n-evnav__link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-family: var(--font-label); font-weight: 600; font-size: var(--fs-small); color: var(--text-2); text-decoration: none; transition: color var(--dur-1); }
 .n-evnav__link--next { margin-left: auto; text-align: right; }
-.n-evnav__link:hover, .n-evnav__link:focus-visible { color: var(--sage-text); }
+.n-evnav__link:hover, .n-evnav__link:focus-visible { color: var(--gold-bright); }
 .n-evnav__ico { flex: none; width: 1.1em; height: 1.1em; }
 .n-evnav__link--prev .n-evnav__ico { rotate: 90deg; }
 .n-evnav__link--next .n-evnav__ico { rotate: -90deg; }
@@ -161,6 +161,57 @@
 .n-rsec + .n-rsec { margin-top: clamp(48px, 5vw, 84px); }
 .n-rsec > * + * { margin-top: 1.05em; }
 .n-rsec > .kicker { margin-bottom: -0.4em; }
+
+/* ---------- REVISION 1: obsidian and gold ----------
+   Black grounds lead, gold is the accent, ivory type. Textures only in the heroes (g-tex-obsidian-vein) and the closing
+   bands (g-tex-gold-haze), both through bandBg(); the band's own --pools layer (components.css .band::after) paints over
+   .band__clip, so each band sets its veil there. Long reading stays on calm black. */
+/* The texture fades by its own alpha mask (mask values are alpha, not colour), so where it thins out the band's own black
+   ground and grain show, exactly as in the next band: no seam at the hero's foot, and the components' haze seams
+   (.band--haze-top::before, painted under .band__clip) show through the faded top of a closing band. */
+.n-tex { opacity: 1; }
+.n-tex--vein {
+  /* 136% wide, clipped on the right: the veins' bright crossing moves behind the frame, away from the H1 */
+  width: 136%; max-width: none; object-position: 50% 42%;
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 56%, transparent 100%), linear-gradient(90deg, rgb(0 0 0 / 0.07) 0%, rgb(0 0 0 / 0.1) 42%, rgb(0 0 0 / 0.5) 60%, rgb(0 0 0 / 0.86) 100%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(180deg, #000 0%, #000 56%, transparent 100%), linear-gradient(90deg, rgb(0 0 0 / 0.07) 0%, rgb(0 0 0 / 0.1) 42%, rgb(0 0 0 / 0.5) 60%, rgb(0 0 0 / 0.86) 100%);
+  mask-composite: intersect;
+}
+.n-tex--haze {
+  object-position: 22% 30%;
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 24%, #000 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 24%, #000 100%);
+}
+.page-hero.n-hero {
+  background-color: var(--obsidian);
+  --pools: radial-gradient(36% 56% at 80% 36%, color-mix(in srgb, var(--gold-light) 10%, transparent), transparent 72%);
+}
+/* the hero frame's rim: a gold hairline and a glossy gold sheen (the component's white rim read as grey on black) */
+.n-hero .arch-frame::before { border-color: var(--hair-gold); background: linear-gradient(180deg, color-mix(in srgb, var(--gold-light) 24%, transparent), transparent 52%); }
+.n-hero .arch-frame::after { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--gold-light) 34%, transparent), inset 0 40px 60px -40px color-mix(in srgb, var(--gold-light) 20%, transparent); }
+
+/* the closing bands: gold haze and dust behind the glass and the centred type, a soft black core keeps the words calm */
+.band.n-shop {
+  --pools:
+    var(--lantern-live),
+    radial-gradient(52% 62% at 50% 54%, color-mix(in srgb, var(--jet) 66%, transparent), transparent 100%),
+    linear-gradient(180deg, color-mix(in srgb, var(--night) 30%, transparent), color-mix(in srgb, var(--night) 55%, transparent));
+}
+.band.n-about { background-color: var(--obsidian); --pools: linear-gradient(180deg, transparent 30%, color-mix(in srgb, var(--obsidian) 40%, transparent) 100%); }
+
+/* long reading: calm black, ivory body, gold links with a visible underline */
+.band.n-body { --pools: none; }
+/* the featured story band: its gold pool sits low by the glass pane, so no lit edge where it meets the hero */
+.band.n-feat { --pools: radial-gradient(55% 60% at 88% 78%, color-mix(in srgb, var(--gold) 12%, transparent), transparent 72%); }
+/* the pane's glass lies over the photo, so its small kicker takes the small-gold-text token (R2), as on dark glass */
+.n-feat__pane .kicker { color: var(--gold-light); }
+.n-prose { color: var(--ivory-2); }
+.n-prose a:not([class]) { color: var(--gold-bright); text-decoration-line: underline; text-decoration-color: color-mix(in srgb, var(--gold-bright) 65%, transparent); text-decoration-thickness: 1.5px; text-underline-offset: 0.24em; }
+.n-prose a:not([class]):hover, .n-prose a:not([class]):focus-visible { color: var(--gold-light); text-decoration-color: currentColor; }
+.n-prose strong, .n-prose b { color: var(--ivory); }
+.n-faq details[open] .faq__ico { color: var(--on-gold); }
+@media (hover: hover) { .n-faq summary:hover .faq__ico { background: color-mix(in srgb, var(--gold) 20%, transparent); } }
 
 /* ---------- reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
@@ -205,4 +256,6 @@
   .n-about__bento { --cols: 1; }
   .n-banner { --ar: 4 / 3; }
   .n-pn__link--next { align-items: flex-start; text-align: left; }
+  /* the hero stacks, so the veil runs top to bottom: the veins stay faint behind the full-width type */
+  .n-tex--vein { width: 100%; object-position: 74% 42%; -webkit-mask-image: linear-gradient(180deg, rgb(0 0 0 / 0.2) 0%, rgb(0 0 0 / 0.24) 62%, transparent 100%); mask-image: linear-gradient(180deg, rgb(0 0 0 / 0.2) 0%, rgb(0 0 0 / 0.24) 62%, transparent 100%); }
 }

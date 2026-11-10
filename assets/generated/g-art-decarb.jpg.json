@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "A small metal baking tray lined with parchment paper holding broken-up dried cannabis flower spread in an even layer, a folded linen oven cloth beside it, on a pale stone kitchen counter, soft window light from the left, calm home kitchen still life, palette of cream, sage and warm metal. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "A small black metal baking tray lined with parchment paper holding broken-up dried cannabis flower spread in an even layer, a folded black linen oven cloth beside it, on a polished black stone kitchen counter, a single warm golden light from the left, the right 35 percent plain black counter, calm home kitchen still life. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 63023
   },
   "seed": 63023,
-  "requestId": "01a1c302-4394-7b82-b0ae-3e88075814af",
+  "requestId": "01a1c493-b1a8-7cc0-97ad-ff9e6ca72c2e",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "6027d5bc851899d25e637ea80337905e3496e38bb7c5b1fe91b7cd283b3a84f9",
-  "raw": "tmp/img/raw/g-art-decarb.1794273085470.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:11:27.196Z",
+  "sha256": "72b3b9c4d40688f1cbcf765bd2f27aaaa97dfc9bf950c2e8fc2e2673ee26e30d",
+  "raw": "tmp/img/raw/g-art-decarb.1794299384494.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:46.467Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "Broken-up dried cannabis flower on a parchment-lined baking tray on a pale kitchen counter"
+  "alt": "Broken-up dried cannabis flower on a parchment-lined baking tray on a black stone counter",
+  "post": []
 }

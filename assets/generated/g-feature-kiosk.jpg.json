@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "A slim freestanding touch-screen kiosk on a pale oak floor in a bright minimal boutique with warm cream plaster walls, right of centre, soft daylight; its portrait screen glows with a soft abstract gradient of sage green and cream with no interface, no icons, no buttons and no text. Clean, modern, calm, nobody around. No signage, no logos, no people., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "A slim freestanding black touch-screen kiosk with a thin brass edge on a polished black stone floor in a dark, luxurious, minimal boutique with matte black walls and a few warm golden accent lights, right of centre; its portrait screen glows with a soft abstract gradient of warm gold and amber with no interface, no icons, no buttons and no text; the left 45 percent dark wall and floor. Clean, modern and calm, nobody around. No signage, no logos, no people. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 52031
   },
   "seed": 52031,
-  "requestId": "01a1c301-852f-7463-9563-160150a7bf81",
+  "requestId": "01a1c493-550a-7f13-937c-c6f33aa3b9d3",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "5f9bb0cac35f683fca62f9373deda30ab59591f456c740ac5c55a294972e4168",
-  "raw": "tmp/img/raw/g-feature-kiosk.1794273051783.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:10:53.884Z",
+  "sha256": "b1a8953a67a06fb763509b2a78c38f621a37e95b1d2e9b206d65dcb6f2bdd4fd",
+  "raw": "tmp/img/raw/g-feature-kiosk.1794299362453.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:24.205Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "A slim touch-screen kiosk with a softly glowing blank screen in a bright, minimal shop"
+  "alt": "A slim touch-screen kiosk with a softly glowing blank gold screen in a dark, minimal boutique",
+  "post": []
 }

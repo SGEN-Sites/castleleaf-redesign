@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "An open notebook with completely blank cream pages, a few pressed green leaves lying between the pages, beside a cup of tea on a saucer, on a natural linen tablecloth in soft morning window light from the left, left of centre; pale, airy, calm editorial still life, palette of cream, warm white and sage. The pages are blank with no writing, no lines of text. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "An open notebook with completely blank ivory pages and a few pressed dark leaves between the pages, beside a black porcelain cup of tea with a thin gold rim on a black saucer, left of centre on a polished black stone table, warm golden lamp light from the left, the right 40 percent plain polished black stone; a quiet editorial still life in black, ivory and gold. The pages are blank with no writing, no lines of text. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 52019
   },
   "seed": 52019,
-  "requestId": "01a1c301-4772-7c32-8607-5ea8750c585f",
+  "requestId": "01a1c493-2ae6-7320-908e-5341b86f7a34",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "c296d91c17451dabce87bcdbf8bcd150a1e4840e543428ef3b3789ecdc3e0c21",
-  "raw": "tmp/img/raw/g-feature-blog.1794273030796.jpg",
-  "attempt": 1,
-  "generatedAt": "2026-11-10T01:10:33.093Z",
+  "sha256": "24ad44a4656475fc468786508fde48debfbd73fb7ca9ddb73b73984f147baa54",
+  "raw": "tmp/img/raw/g-feature-blog.1794299349965.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T08:29:11.428Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "An open notebook with pressed green leaves beside a cup of tea on a linen tablecloth in window light"
+  "alt": "An open notebook with pressed leaves beside a black cup of tea on a polished black stone table in warm lamp light",
+  "post": []
 }

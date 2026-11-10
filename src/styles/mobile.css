@@ -38,8 +38,8 @@
   .nav-toggle { width: 46px; justify-content: center; padding: 0; }
 
   /* big glass goes opaque on phones; live blur stays on the header, the drawer and dialogs */
-  .glass:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--linen) 95%, transparent); -webkit-backdrop-filter: none; backdrop-filter: none; }
-  .glass--strong:not(.age-gate__dialog) { --fill: var(--linen); }
+  .glass:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--obsidian-2) 95%, transparent); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .glass--strong:not(.age-gate__dialog) { --fill: var(--obsidian-2); }
   .glass--dark:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--night-2) 96%, transparent); }
   .glass--navy:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--navy-deep) 96%, transparent); }
   .btn--glass { -webkit-backdrop-filter: none; backdrop-filter: none; }
@@ -61,11 +61,18 @@
   .swipe::-webkit-scrollbar { display: none; }
   .swipe > * { flex: 0 0 min(78%, 300px); scroll-snap-align: start; }
 
+  /* the gold paint accent steps back on a phone so it never fights the words above it */
+  .gold-accent { width: 86vw; opacity: 0.55; }
+  .site-footer__ribbon { height: 96px; }
+
   /* breakouts: smaller, and never wider than the screen */
   .frame--bleed, .frame--bleed-start { --bleed: 12px; }
   .page-hero__media { width: min(66%, 270px, calc(var(--hero-frame-h) * var(--hero-frame-k))); margin-right: 2%; margin-bottom: calc(-1 * (var(--hero-pad-b) + var(--overhang) * 0.7)); }
   .page-hero { --hero-frame-h: 52vh; }
-  .page-hero__chip { left: auto; right: 58%; bottom: 10%; max-width: 46vw; padding: 10px 12px; }
+  /* the address chip: one line across the frame's upper left (an explicit width, so the absolute box is no longer squeezed to a word per
+     line), high enough to sit inside the first screen. The shop's hero note (.s-heroart__note) flows under its art on phones by the shop
+     lane's own rule, so it is left alone here. */
+  .page-hero__chip:not(.s-heroart__note) { left: -42%; right: auto; top: 16%; bottom: auto; width: max-content; max-width: 142%; padding: 10px 14px; }
 
   /* taps and the 13px floor */
   .btn { min-height: 48px; }

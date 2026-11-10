@@ -1,7 +1,7 @@
 // sitemap.mjs - PAGES lane: /site-map/ (every rendered page, grouped by section; runs last so ctx.pages is complete) and
-// /404.html (a calm night stage with the lantern, links home and to the menu).
+// /404.html (a calm night stage on glossy obsidian with the lantern, links home and to the menu).
 import { esc, escA, linkAttrs, gimg, menu, stripTags } from './util.mjs';
-import { page, pageHero, icon, markHtml } from './shell.mjs';
+import { page, pageHero, icon, markHtml, bandBg } from './shell.mjs';
 
 const GROUPS = [
   { key: 'visit', label: 'Visit CastleLeaf', test: (p) => /^\/(about|contact|directions|faqs|reviews|book-a-budtender|stores)\//.test(p) || p === '/' },
@@ -50,13 +50,13 @@ ${groups.filter((g) => g.items.length).map((g, i) => `<section class="glass glas
 
 function notFound(ctx) {
   const main = `<section class="band band--night p-404" data-lantern aria-labelledby="p-404-h">
-<div class="band__clip" aria-hidden="true">${gimg('g-stage-gallery', { alt: '', cls: 'band__bg', sizes: '100vw', eager: true })}<span class="band__veil band__veil--night"></span></div>
+${bandBg('g-tex-obsidian', { cls: 'p-tex p-tex--obsidian', veil: 'obsidian', eager: true })}
 <div class="wrap p-404__inner">
 <span class="p-404__mark">${markHtml(ctx, { alt: '', eager: true, sizes: '96px' })}</span>
 <p class="kicker">Error 404</p>
 <h1 class="display p-404__h" id="p-404-h">This room is <em class="accent">empty</em></h1>
 <p class="lede p-404__lede">The page you are looking for has moved or does not exist. The lantern is still lit at the front door.</p>
-<p class="btn-row p-404__cta"><a class="btn btn--copper"${linkAttrs('/')}>Back home${icon('arrow')}</a><a class="btn btn--light"${linkAttrs(menu(ctx))}>Shop Menu${icon('ext')}</a><a class="btn btn--light"${linkAttrs('/site-map/')}>Site Map${icon('arrow')}</a></p>
+<p class="btn-row p-404__cta"><a class="btn"${linkAttrs('/')}>Back home${icon('arrow')}</a><a class="btn btn--ghost"${linkAttrs(menu(ctx))}>Shop Menu${icon('ext')}</a><a class="btn btn--ghost"${linkAttrs('/site-map/')}>Site Map${icon('arrow')}</a></p>
 </div>
 </section>`;
   return { path: '/404.html', html: page({ ctx, path: '/404.html', title: 'Page Not Found | CastleLeaf', description: 'This page could not be found on the CastleLeaf site.', canonical: (ctx.site.origin || '') + '/404.html', bodyClass: 'p-page p-404-page', main }) };

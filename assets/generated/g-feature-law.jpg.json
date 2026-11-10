@@ -5,7 +5,7 @@
   "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
   "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
   "model": "fal-ai/flux-pro/v1.1-ultra",
-  "prompt": "Editorial still life on a natural linen cloth, left of centre: a round brass magnifying glass with a smooth turned wooden handle, a black fountain pen with its cap on, and a few folded sheets of blank cream paper, soft window light from the left, calm palette of cream, sage and brass, the right 40 percent plain linen. Everything is blank and plain: no map, no compass, no dial, no letters, no words, no numbers, no engraving, nothing printed or written on the paper. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "prompt": "Editorial still life on polished black stone, left of centre: a round brass magnifying glass with a smooth turned dark wooden handle, a black fountain pen with a gold clip and its cap on, and a few folded sheets of blank ivory paper, lit by a single warm golden light from the left, the right 40 percent plain polished black stone. Everything is blank and plain: no map, no compass, no dial, no letters, no words, no numbers, no engraving, nothing printed or written on the paper. No people, no hands. Low-key luxury photograph in black and gold: deep true-black surroundings (never brown, never grey), polished black stone with glossy reflections, a single warm golden light, crisp metallic gold and brass highlights, clean and calm. No green tint, no green glow., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
   "input": {
     "output_format": "jpeg",
     "safety_tolerance": "5",
@@ -13,19 +13,19 @@
     "seed": 52026
   },
   "seed": 52026,
-  "requestId": "01a1c3fd-690d-7eb3-8b23-e2c3907fdeed",
+  "requestId": "01a1c493-53a9-7301-afcf-6d7561186362",
   "cutout": null,
   "width": 2496,
   "height": 1664,
-  "sha256": "243a8b41406c9501170e19508e86416d9abeae0076988bc5d58b9c57a00d5f53",
-  "raw": "tmp/img/raw/g-feature-law.1794289535954.jpg",
-  "attempt": 4,
-  "generatedAt": "2026-11-10T05:45:37.837Z",
+  "sha256": "fa033692fc4031075d32df49b4f476bd0dcde54d2202aad2a662c4e25717d5ce",
+  "raw": "tmp/img/raw/g-feature-law.1794299360787.jpg",
+  "attempt": 5,
+  "generatedAt": "2026-11-10T08:29:22.962Z",
   "review": {
     "verdict": "ACCEPT",
-    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black; attempts 1-3 rejected: pseudo-text on the map (1, 2) and garbled letters on the compass dial (3); attempt 4 has no map or dial",
-    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+    "reason": "Revision 1: regenerated in black and gold (the cream and sage version was off-palette). Checked at full size: no text or pseudo-text, no logo, no face, not near-black",
+    "reviewedAt": "2026-11-10T08:33:08.331238+00:00"
   },
-  "post": [],
-  "alt": "A brass magnifying glass, a fountain pen and folded blank paper on natural linen in soft light"
+  "alt": "A brass magnifying glass, a fountain pen and folded blank paper on polished black stone in warm light",
+  "post": []
 }
