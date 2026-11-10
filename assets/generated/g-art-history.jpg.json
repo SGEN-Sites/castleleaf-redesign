@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-history",
+  "file": "assets/generated/g-art-history.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A coil of thick natural hemp rope, a bundle of dried hemp stalks with seed heads and a small old clay oil lamp, unlit, on a dark wooden table under warm lamp light from the right, the background falling into warm darkness, tenebrist chiaroscuro, the objects right of centre, calm dark space on the left. No books, no paper, no lettering anywhere, no people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 63033
+  },
+  "seed": 63033,
+  "requestId": "01a1c3fe-cf36-70c0-9c22-344018573e10",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "24639ada2c745b09c21448b06cdfb5bdfc27a92ba33b750fba15df9b07a8ea61",
+  "raw": "tmp/img/raw/g-art-history.1794289627637.jpg",
+  "attempt": 3,
+  "generatedAt": "2026-11-10T05:47:09.638Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black; attempts 1-2 rejected: pseudo-text on a book spine (1) and on a book cover (2); attempt 3 has no books",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "A coil of natural hemp rope, dried stalks and a small lit clay oil lamp on a dark wooden table"
+}

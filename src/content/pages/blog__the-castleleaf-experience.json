@@ -1,0 +1,446 @@
+{
+ "slug": "blog__the-castleleaf-experience",
+ "path": "/blog/the-castleleaf-experience/",
+ "source": "https://www.castleleaf.com/blog/the-castleleaf-experience/",
+ "captured": "2026-11-10",
+ "title": "The Passion Behind Our Boston Cannabis Dispensary | CastleLeaf",
+ "description": "At CastleLeaf, we believe cannabis is for everyone. Learn the passion behind our immersive, educational adult-use cannabis dispensary for the Boston community.",
+ "canonical": "https://www.castleleaf.com/blog/the-castleleaf-experience/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "The Passion Behind Our Boston Cannabis Dispensary | CastleLeaf",
+  "og:description": "At CastleLeaf, we believe cannabis is for everyone. Learn the passion behind our immersive, educational adult-use cannabis dispensary for the Boston community.",
+  "og:url": "https://www.castleleaf.com/blog/the-castleleaf-experience/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2024-06-11T14:18:22-04:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2024/06/product-preroll.jpg",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2024/06/product-preroll.jpg",
+  "og:image:width": "485",
+  "og:image:height": "380",
+  "og:image:alt": "CastleLeaf The CastleLeaf Experience",
+  "og:image:type": "image/jpeg"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://www.castleleaf.com/#person",
+     "name": "CastleLeaf",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     },
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.castleleaf.com/#website",
+     "url": "https://www.castleleaf.com",
+     "name": "CastleLeaf",
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.castleleaf.com/wp-content/uploads/2024/06/product-preroll.jpg",
+     "url": "https://www.castleleaf.com/wp-content/uploads/2024/06/product-preroll.jpg",
+     "width": "485",
+     "height": "380",
+     "caption": "CastleLeaf The CastleLeaf Experience",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/",
+        "name": "The CastleLeaf Experience"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/#webpage",
+     "url": "https://www.castleleaf.com/blog/the-castleleaf-experience/",
+     "name": "The Passion Behind Our Boston Cannabis Dispensary | CastleLeaf",
+     "datePublished": "2023-05-05T09:00:12-04:00",
+     "dateModified": "2024-06-11T14:18:22-04:00",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2024/06/product-preroll.jpg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/#author",
+     "name": "CastleLeaf Cannabis Dispensary",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "url": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "caption": "CastleLeaf Cannabis Dispensary",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://www.castleleaf.com"
+     ]
+    },
+    {
+     "@type": "Article",
+     "headline": "The Passion Behind Our Boston Cannabis Dispensary | CastleLeaf",
+     "keywords": "The CastleLeaf Experience",
+     "datePublished": "2023-05-05T09:00:12-04:00",
+     "dateModified": "2024-06-11T14:18:22-04:00",
+     "author": {
+      "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/#author",
+      "name": "CastleLeaf Cannabis Dispensary"
+     },
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "description": "At CastleLeaf, we believe cannabis is for everyone. Learn the passion behind our immersive, educational adult-use cannabis dispensary for the Boston community.",
+     "name": "The Passion Behind Our Boston Cannabis Dispensary | CastleLeaf",
+     "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/#webpage"
+     },
+     "image": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2024/06/product-preroll.jpg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.castleleaf.com/blog/the-castleleaf-experience/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  }
+ ],
+ "h1": "The CastleLeaf Experience",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "The CastleLeaf Experience"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "<time>May 5, 2023</time>"
+     ]
+    },
+    {
+     "t": "nav",
+     "label": "breadcrumbs",
+     "blocks": [
+      {
+       "t": "p",
+       "html": "<a href=\"https://www.castleleaf.com\">Home</a> / The CastleLeaf Experience"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "We started CastleLeaf from the belief that cannabis is for everyone. It can be enjoyed at every (legal) age, in every stage of wonder, and with every amount of experience. With that in mind, we set out to open an accessible, safe and stigma-free, adult-use Boston dispensary that had the potential to be so much more. An art gallery. An event space. An education center. A manufacturing site. A hub for collaboration. And a way to give back to our Brighton community. We wanted to create something bigger than a single person, product, or industry. We wanted to find our purpose."
+    },
+    {
+     "t": "p",
+     "html": "<strong>Our purpose is to find your purpose.</strong>"
+    },
+    {
+     "t": "p",
+     "html": "Does this feel familiar? You walk into a retail cannabis store ready to make a purchase, and whether you’re a beginner or a regular, you’re spoken at and not to. You either leave empty handed or with something you didn’t want, feeling uninspired, overwhelmed and a little defeated."
+    },
+    {
+     "t": "p",
+     "html": "Yeah, <em>we get it.</em>"
+    },
+    {
+     "t": "p",
+     "html": "We get it because we’ve been there, so we wanted to do things differently. When you walk into CastleLeaf, our job is to be a steward for your experience. We embrace all levels of curiosity. We want to understand what your goals are, where you are in your cannabis journey, and what you’d like to achieve. Are you looking for something to uplift your creative potential? We’ve got you. Are you after something to take the edge off the day? No problem. Maybe you’re searching for something to help you sleep. We’re on it."
+    },
+    {
+     "t": "p",
+     "html": "And, while we’re helping you find the perfect product that meets your needs, we’d also love to hear about that new project you’re working on. That painting you’d like to submit to our artist gallery. That new band you’re excited about. That local business up the street you’re starting. We hope to cultivate cannabis culture in such a way that every part of your life is elevated to its highest potential."
+    },
+    {
+     "t": "p",
+     "html": "So tell us everything! We’re here to listen."
+    },
+    {
+     "t": "img",
+     "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYwIiBoZWlnaHQ9IjE3MDciIHZpZXdCb3g9IjAgMCAyNTYwIDE3MDciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+",
+     "alt": "",
+     "width": "2560",
+     "height": "1707"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/blog/how-does-cannabis-work/",
+       "html": "PrevHow Does Cannabis Work?",
+       "rel": "prev"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

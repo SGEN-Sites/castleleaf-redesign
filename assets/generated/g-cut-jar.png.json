@@ -1,0 +1,36 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cut-jar",
+  "file": "assets/generated/g-cut-jar.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of a single clear glass apothecary jar with a round glass lid, filled with dried green cannabis flower buds, standing upright, whole jar in frame with a wide margin, centred, on a plain seamless light grey studio background, soft even studio light, crisp clean edges, a soft contact shadow. The jar is completely plain and unlabeled. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 74001
+  },
+  "seed": 74001,
+  "requestId": "01a1c302-8b02-73b0-9207-444444861f0c",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1c302-cd3b-7371-8594-31d150c1ea5b"
+  },
+  "width": 1039,
+  "height": 1925,
+  "sha256": "a2443a914d0df64324329bae5dda9b865247472b49573e8aeea3e27cb70b31bb",
+  "raw": "tmp/img/raw/g-cut-jar.1794273101638.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:11:46.956Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [
+    "trimmed to the alpha bounding box + 4% margin (tmp/img/post.py trim)"
+  ],
+  "alt": "A glass apothecary jar of cannabis flower"
+}

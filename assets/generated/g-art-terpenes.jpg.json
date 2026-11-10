@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-terpenes",
+  "file": "assets/generated/g-art-terpenes.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "An aromatic editorial still life on pale natural linen in soft morning light: a curl of fresh orange peel, a sprig of lavender, a few black peppercorns, a small pine sprig and one small dried cannabis flower bud, arranged loosely left of centre, airy and calm, palette of cream, sage, orange and lavender. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 63003
+  },
+  "seed": 63003,
+  "requestId": "01a1c301-f50a-7593-80d2-20ffa21f270e",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "96b10066120f08c98ceac1cc61f4f6b5e5f2c4934fda75ff610aa4eea1ca20d1",
+  "raw": "tmp/img/raw/g-art-terpenes.1794273065393.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:11:07.643Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "Citrus peel, lavender, black peppercorns, a pine sprig and a cannabis bud arranged on pale linen"
+}

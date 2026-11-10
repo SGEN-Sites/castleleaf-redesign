@@ -1,0 +1,141 @@
+{
+  "order": 11,
+  "slug": "cannabis-in-massachusetts-a-short-history",
+  "path": "/blog/cannabis-in-massachusetts-a-short-history/",
+  "title": "Cannabis in Massachusetts: A Short History | CastleLeaf",
+  "h1": "Cannabis in Massachusetts: A Short History",
+  "description": "From the 2008 decriminalization vote to medical cannabis in 2012, Question 4 in 2016 and the first adult-use stores in late 2018: how Massachusetts got here.",
+  "categories": [
+    {
+      "name": "News & Culture",
+      "slug": "news-and-culture"
+    }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-history",
+  "imageAlt": "",
+  "excerpt": "It took three ballot questions, a new state agency and a good deal of patience to get from the ballot box to the shop counter. Here’s the short version.",
+  "pull": "You could say the shop counter started at the ballot box.",
+  "relatedCategories": [
+    "flower"
+  ],
+  "related": [
+    "cannabis-etiquette",
+    "the-castleleaf-experience",
+    "how-to-read-a-cannabis-label"
+  ],
+  "sections": [
+    {
+      "id": "ballot-box",
+      "heading": "From the ballot box to the shop counter",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Some states changed their cannabis laws through their legislatures. Massachusetts got here mostly through its voters, one ballot question at a time. You could say the shop counter started at the ballot box."
+        },
+        {
+          "type": "p",
+          "html": "Knowing the history makes the present easier to understand: why there are limits on how much you can buy, why edibles come in small servings, and why every store checks your ID at the door."
+        },
+        {
+          "type": "p",
+          "html": "Here’s the short version, with the milestones that matter most and none of the legalese. For the rules as they stand today, see our <a href=\"/massachusetts-cannabis-laws/\">guide to Massachusetts cannabis laws</a>."
+        }
+      ]
+    },
+    {
+      "id": "decriminalization-2008",
+      "heading": "2008: decriminalization",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "In 2008, Massachusetts voters approved a ballot question that decriminalized possession of a small amount of cannabis, an ounce or less. Instead of a criminal charge, it became a civil offense, closer to a ticket than a court case."
+        },
+        {
+          "type": "p",
+          "html": "It wasn’t legalization, and selling cannabis was still against the law. But it showed that public opinion was moving."
+        }
+      ]
+    },
+    {
+      "id": "medical-2012",
+      "heading": "2012: medical cannabis",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Four years later, in 2012, voters approved a ballot question allowing medical cannabis. It set up a system for registered patients to obtain cannabis through state-approved medical dispensaries."
+        },
+        {
+          "type": "p",
+          "html": "Medical cannabis still has its own rules and registration in Massachusetts. CastleLeaf is an Adult-Use only retail provider, so our <a href=\"/getting-a-medical-card/\">guide to getting a medical card</a> is there for background."
+        }
+      ]
+    },
+    {
+      "id": "question-4-2016",
+      "heading": "2016: Question 4 and adult use",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "In November 2016, voters passed Question 4, legalizing cannabis for adults 21 and older. It made possession and private use legal for adults and set out a plan for licensed, regulated adult-use stores."
+        },
+        {
+          "type": "p",
+          "html": "The following year, state lawmakers revised the law, and the <strong>Cannabis Control Commission</strong> got to work as the state agency that licenses and regulates cannabis businesses, from growers and testing labs to the stores you can walk into today."
+        }
+      ]
+    },
+    {
+      "id": "first-stores-2018",
+      "heading": "Late 2018: the first stores open",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Building a regulated market from scratch takes time: rules to write, licenses to issue, products to test. The first licensed adult-use stores in Massachusetts opened their doors in late 2018, two years after the vote."
+        },
+        {
+          "type": "p",
+          "html": "Since then, adult-use stores have opened in communities across the state. Cities and towns have a say in whether, and where, cannabis businesses can open within their borders."
+        }
+      ]
+    },
+    {
+      "id": "today",
+      "heading": "Where that leaves us today",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Today, anyone 21+ with a valid government ID can shop at any adult-use dispensary in Massachusetts, visitors from out of state included. A few rules worth remembering, straight from our FAQ:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "You can purchase up to 1oz (28 grams) flower equivalent per day, and no more than 5 grams of concentrates.",
+            "Edibles are capped at 5mg per serving and 100mg per package.",
+            "Public consumption is illegal in MA. Please consume responsibly on private property only.",
+            "Cannabis is not legal at the federal level, so it can’t travel outside Massachusetts with you."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "CastleLeaf is glad to be part of this story in Brighton. We believe cannabis is for everyone, and the best way to honor the votes that brought us here is to keep things safe, legal and welcoming. You Belong Here."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When did adult-use cannabis become legal in Massachusetts?",
+      "a_html": "Voters approved adult use with Question 4 in November 2016. The first licensed adult-use stores opened in late 2018."
+    },
+    {
+      "q": "Who regulates cannabis in Massachusetts?",
+      "a_html": "The Cannabis Control Commission, the state agency that licenses and regulates cannabis businesses. Cities and towns also have a say in where stores can open."
+    },
+    {
+      "q": "Is a medical card required to shop at CastleLeaf?",
+      "a_html": "No. CastleLeaf is an Adult-Use only retail provider. Anyone 21+ with a valid government issued ID can make a purchase at CastleLeaf."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-feature-firstvisit",
+  "file": "assets/generated/g-feature-firstvisit.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A tall frameless glass door standing open into a bright calm modern boutique interior with a pale oak floor, warm cream plaster walls, soft daylight and a long low glass counter in the distance, generic and minimal, nobody inside, a few green plants. Clean, welcoming, quiet. The glass has no decals, no signage and no lettering; the walls have no posters. No people., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 52021
+  },
+  "seed": 52021,
+  "requestId": "01a1c301-5743-7083-b1c5-3439f9e1a06b",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "b688a272f37a42b72f3828e883a4ebbde23bcef93939471177c7813087ff6be5",
+  "raw": "tmp/img/raw/g-feature-firstvisit.1794273035289.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:10:37.285Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "An open glass door leading into a bright, calm, empty shop interior with a pale wood floor and cream walls"
+}

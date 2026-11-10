@@ -1,0 +1,331 @@
+{
+ "slug": "specials__500mg-tinctures-2-for-551000mg-tinctures-2-for100",
+ "path": "/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+ "source": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+ "captured": "2026-11-10",
+ "title": "500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100 - CastleLeaf Cannabis Dispensary in Brighton, MA",
+ "description": "Good Vibes 500 MG tinctures 2 for $55",
+ "canonical": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100 - CastleLeaf Cannabis Dispensary in Brighton, MA",
+  "og:description": "Good Vibes 500 MG tinctures 2 for $55",
+  "og:url": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+  "og:site_name": "CastleLeaf",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2026/11/395eca93-b287-44c9-bfc1-05ac973126e2.jpeg.jpeg",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2026/11/395eca93-b287-44c9-bfc1-05ac973126e2.jpeg.jpeg",
+  "og:image:width": "1714",
+  "og:image:height": "963",
+  "og:image:alt": "500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100",
+  "og:image:type": "image/jpeg"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/specials/",
+        "name": "Specials"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+        "name": "500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  },
+  {
+   "@context": "http://schema.org",
+   "@type": "Offer",
+   "name": "500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100",
+   "description": "Good Vibes 500 MG tinctures 2 for $55",
+   "availability": "https://schema.org/InStock",
+   "@id": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+   "url": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+   "image": "https://joint-product-photos.s3.amazonaws.com/production/specials/5686/395eca93-b287-44c9-bfc1-05ac973126e2.jpeg",
+   "validFrom": "2026-02-09T00:00:00+00:00",
+   "validThrough": "2029-03-08T00:00:00+00:00",
+   "priceCurrency": "USD",
+   "seller": {
+    "@type": "Organization",
+    "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686"
+   },
+   "eligibleRegion": {
+    "@type": "Place",
+    "address": "Brighton, MA"
+   }
+  }
+ ],
+ "h1": "500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "nav",
+     "label": "breadcrumbs",
+     "blocks": [
+      {
+       "t": "p",
+       "html": "<a href=\"https://www.castleleaf.com\">Home</a> / <a href=\"https://www.castleleaf.com/specials/\">Specials</a> / 500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100"
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzE0IiBoZWlnaHQ9Ijk2MyIgdmlld0JveD0iMCAwIDE3MTQgOTYzIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==",
+     "alt": "",
+     "width": "1714",
+     "height": "963"
+    },
+    {
+     "t": "h1",
+     "html": "500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100"
+    },
+    {
+     "t": "h2",
+     "html": "Good Vibes 500 MG tinctures 2 for $55"
+    },
+    {
+     "t": "p",
+     "html": "*Website cart may not reflect the bundled price but it will be adjusted at time of payment."
+    }
+   ]
+  }
+ ]
+}

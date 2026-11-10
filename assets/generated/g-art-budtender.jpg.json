@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-budtender",
+  "file": "assets/generated/g-art-budtender.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A pale oak shop counter with three small clear glass jars of dried cannabis flower, a small open notepad with blank pages and a pencil, warm welcoming light, shallow depth of field with softly blurred cream and copper shelves behind, right of centre, calm. The jars are unlabeled and the notepad is blank. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 63013
+  },
+  "seed": 63013,
+  "requestId": "01a1c302-0dfc-7871-b658-7f60664fecb4",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "f8f53719f754c473974446ca780f10e7cd165abb7b8bc19ab5d3b484df610373",
+  "raw": "tmp/img/raw/g-art-budtender.1794273080345.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:11:22.437Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "Glass jars of cannabis flower and an open notepad on a pale wood counter in warm light"
+}

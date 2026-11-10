@@ -1,0 +1,19 @@
+{
+  "photos": {},
+  "media": {
+    "hero-loop": {
+      "mp4": "/assets/media/hero-lantern.mp4",
+      "mp4Small": "/assets/media/hero-lantern-phone.mp4",
+      "poster": "/assets/media/hero-lantern-poster.webp",
+      "w": 1920,
+      "h": 1072,
+      "smallW": 720,
+      "smallH": 1280,
+      "smallObjectPosition": "72.6% 50%",
+      "duration": 20,
+      "ai": true,
+      "source": "g-hero-lantern",
+      "note": "AI-generated illustrative motion from the g-hero-lantern still, played forward then in reverse. Not footage of the store, its staff, customers or products."
+    }
+  }
+}

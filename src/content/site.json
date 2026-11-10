@@ -1,0 +1,122 @@
+{
+  "_note": "CastleLeaf's facts. Every value is from its own live pages (www.castleleaf.com, captured 2026-11-10) unless the key says otherwise. Operator-supplied facts are marked and also listed in facts/client-facts.json. docs/OPEN-DECISIONS.md lists where the client's own pages disagree.",
+  "name": "CastleLeaf",
+  "longName": "CastleLeaf Cannabis",
+  "aboutName": "Castleleaf Dispensary & Craft Kitchen",
+  "tagline": "Craft Kitchen & Dispensary",
+  "origin": "https://www.castleleaf.com",
+  "address": { "street": "100 Leo M Birmingham Pkwy", "city": "Brighton", "state": "MA", "zip": "02135", "full": "100 Leo M Birmingham Pkwy, Brighton, MA 02135", "neighbourhood": "Allston-Brighton" },
+  "phone": "(617) 202-5066",
+  "phoneHref": "tel:+16172025066",
+  "email": "info@castleleaf.com",
+  "hours": {
+    "label": "Hours",
+    "days": [
+      ["Sunday", "11:00am to 7:55pm"],
+      ["Monday", "10:00am to 9:55pm"],
+      ["Tuesday", "10:00am to 9:55pm"],
+      ["Wednesday", "10:00am to 9:55pm"],
+      ["Thursday", "10:00am to 9:55pm"],
+      ["Friday", "10:00am to 9:55pm"],
+      ["Saturday", "10:00am to 9:55pm"]
+    ],
+    "text": "Mon to Sat 10:00am to 9:55pm, Sun 11:00am to 7:55pm",
+    "holidays": "Closed Thanksgiving Day & Christmas Day"
+  },
+  "adultUseOnly": "CastleLeaf is an Adult-Use only retail provider.",
+  "ways": {
+    "_source": "home page 'How To Shop At Castle Leaf Dispensary' and the FAQ 'How can I buy it?'",
+    "intro": "We make it convenient for you to shop at our dispensary with options like online ordering and in-store browsing, aiming to make the experience helpful and accessible.",
+    "items": [
+      { "key": "online", "title": "Order Online", "line": "Order from home and swing by when you're ready", "cta": "See Our Menu", "href": "menu" },
+      { "key": "delivery", "title": "Local Delivery", "line": "Cannabis quickly delivered straight to your door", "cta": "Order for delivery", "href": "/delivery/" },
+      { "key": "budtender", "title": "Talk To A Budtender", "line": "Speak to a Budtender or visit our Fresh Counter at the store", "cta": "Book A Budtender", "href": "/book-a-budtender/" },
+      { "key": "kiosk", "title": "In-Store Kiosk", "line": "Place an order at our in-store kiosk and shop in peace", "cta": "Get Directions", "href": "/directions/" }
+    ],
+    "buyOptions": ["Order Online", "(pick-up in-store or Home Delivery)", "Walk-in Express (in-store kiosk)", "In-store Budtender Experience"]
+  },
+  "delivery": {
+    "_source": "home page 'Local Delivery' tile and 'Order Online (pick-up in-store or Home Delivery)'; operator request 2026-11-10: 'they offer local delivery'. The live FAQ still answers 'Do you offer delivery?' with 'Coming Soon!' (OPEN-DECISIONS A1). Zones, fees, minimums and delivery hours are NOT known: never state them.",
+    "title": "Local Delivery",
+    "line": "Cannabis quickly delivered straight to your door",
+    "orderLine": "Order Online (pick-up in-store or Home Delivery)"
+  },
+  "budtenders": {
+    "_source": "home page, about page, FAQ, book-a-budtender page; operator request 2026-11-10: 'they have highly educated budtenders' (operator-supplied, OPEN-DECISIONS A2). No names, credentials, certifications or numbers are known: never invent them. Staff first names appear only inside customers' own reviews.",
+    "operatorClaim": "Highly educated budtenders",
+    "lines": [
+      "Our knowledgeable and friendly staff are always available to answer questions, offer personalized recommendations, and ensure every visit is a positive one.",
+      "We believe that finding the right cannabis should be simple, enjoyable, and educational, which is why we've designed a dispensary experience tailored to your preferences.",
+      "That said, we strive to educate adult-use consumers about the therapeutic benefits of cannabis."
+    ],
+    "book": "Whether you're taking the first step on your cannabis journey or figuring out which products you prefer, you can book an appointment online with one of our in-store budtenders to get your questions answered.",
+    "bookStatus": "Coming Soon!"
+  },
+  "menu": {
+    "_note": "The client's live online menu (Joint Commerce on its own domain, product data from Dutchie). Shop buttons leave for these URLs; in-site browsing uses /shop/ and /products/<slug>/.",
+    "base": "https://www.castleleaf.com/menu/",
+    "featured": "https://www.castleleaf.com/menu/featured-products/",
+    "staffPicks": "https://www.castleleaf.com/menu/staff-picks/",
+    "specials": "https://www.castleleaf.com/specials/",
+    "categories": [
+      { "slug": "flower", "url": "https://www.castleleaf.com/categories/flower/" },
+      { "slug": "flower-deli", "url": "https://www.castleleaf.com/categories/flower/bulk-flower/" },
+      { "slug": "pre-rolls", "url": "https://www.castleleaf.com/categories/pre-rolls/" },
+      { "slug": "vaporizers", "url": "https://www.castleleaf.com/categories/vaporizers/" },
+      { "slug": "edibles", "url": "https://www.castleleaf.com/categories/edibles/" },
+      { "slug": "concentrates", "url": "https://www.castleleaf.com/categories/concentrates/" },
+      { "slug": "topicals", "url": "https://www.castleleaf.com/categories/topicals/" },
+      { "slug": "tinctures", "url": "https://www.castleleaf.com/categories/tinctures/" },
+      { "slug": "accessories", "url": "https://www.castleleaf.com/categories/accessories/" },
+      { "slug": "merch", "url": "https://www.castleleaf.com/categories/merc/" }
+    ],
+    "effects": [
+      { "slug": "creative", "label": "Creative", "url": "https://www.castleleaf.com/effects/creative/", "photo": "cl/CL-Effects-Creative.webp" },
+      { "slug": "sleep", "label": "Sleep", "url": "https://www.castleleaf.com/effects/sleepy/", "photo": "cl/CL-Effects-Sleep.webp" },
+      { "slug": "energetic", "label": "Energetic", "url": "https://www.castleleaf.com/effects/energetic/", "photo": "cl/CL-Effects-Energetic.webp" },
+      { "slug": "calm", "label": "Calm", "url": "https://www.castleleaf.com/effects/calm/", "photo": "cl/CL-Effects-Calm.webp" },
+      { "slug": "happy", "label": "Happy", "url": "https://www.castleleaf.com/effects/happy/", "photo": "cl/CL-Effects-Happy.webp" }
+    ],
+    "strains": [
+      { "label": "Indica", "url": "https://www.castleleaf.com/strains/indica/" },
+      { "label": "Sativa", "url": "https://www.castleleaf.com/strains/sativa/" },
+      { "label": "Hybrid", "url": "https://www.castleleaf.com/strains/hybrid/" },
+      { "label": "Indica Hybrid", "url": "https://www.castleleaf.com/strains/indica-hybrid/" },
+      { "label": "Sativa Hybrid", "url": "https://www.castleleaf.com/strains/sativa-hybrid/" },
+      { "label": "High CBD", "url": "https://www.castleleaf.com/strains/high-cbd/" },
+      { "label": "One To One", "url": "https://www.castleleaf.com/strains/one-to-one/" },
+      { "label": "Two To One", "url": "https://www.castleleaf.com/strains/two-to-one/" }
+    ]
+  },
+  "categories": [
+    { "slug": "flower", "label": "Flower", "photo": "cl/CL-Ctgry-Flower.webp", "gimg": "g-cat-flower" },
+    { "slug": "pre-rolls", "label": "Pre-Rolls", "photo": "cl/CL-Ctgry-PreRolls.webp", "gimg": "g-cat-prerolls" },
+    { "slug": "vaporizers", "label": "Vaporizers", "photo": "cl/CL-Ctgry-Vapes.webp", "gimg": "g-cat-vaporizers" },
+    { "slug": "edibles", "label": "Edibles", "photo": "cl/CL-Ctgry-Edibles.webp", "gimg": "g-cat-edibles" },
+    { "slug": "concentrates", "label": "Concentrates", "photo": "cl/CL-Ctgry-Concentrates.webp", "gimg": "g-cat-concentrates" },
+    { "slug": "topicals", "label": "Topicals", "photo": "cl/CL-Ctgry-Topicals.webp", "gimg": "g-cat-topicals" },
+    { "slug": "tinctures", "label": "Tinctures", "photo": "cl/CL-Ctgry-Tinctures.webp", "gimg": "g-cat-tinctures" },
+    { "slug": "accessories", "label": "Accessories", "photo": "cl/CL-Ctgry-Accessories.webp", "gimg": "g-cat-accessories" }
+  ],
+  "flowerDeli": {
+    "_source": "header menu 'Flower Deli' (bulk flower), home 'visit our Fresh Counter at the store', the bundle 'Mix and Match Our bulk flowers'",
+    "label": "Flower Deli",
+    "counter": "Fresh Counter",
+    "deal": "Mix and Match Our bulk flowers",
+    "dealLine": "3.5 g for $22 , 7g for $42 , 14g for $60 , 28g for $110 Tax Included"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/castleleaf.boston",
+    "instagram": "https://www.instagram.com/castleleaf2025/",
+    "instagramHandle": "castleleaf2025"
+  },
+  "payment": "We accept cash or debit cards. If you forget cash, no worries…you've got you covered with an ATM on site.",
+  "parking": "Yes! We have plenty of on site parking in our parking lot as well as street parking in front of the dispensary.",
+  "mapEmbed": "https://maps.google.com/maps?q=100%20Leo%20M%20Birmingham%20Pkwy%2C%20Brighton%2C%20MA%2002135&t=m&z=15&output=embed&iwloc=near&hl=en_US",
+  "directions": "https://www.google.com/maps/dir/?api=1&destination=100+Leo+M+Birmingham+Pkwy%2C+Brighton%2C+MA+02135",
+  "ageGate": { "title": "Welcome!", "question": "Are you over 21 years of age?", "yes": "Yes", "no": "No", "denied": "This site is only for adults 21 and older." },
+  "vip": { "title": "VIP Club", "line": "Join our VIP Club for messages and updates!", "cta": "Join Now" },
+  "copyright": "Copyright © 2026 CastleLeaf. All Rights Reserved.",
+  "legalLine": "For adults 21 and older with a valid government ID. Please consume responsibly on private property only.",
+  "_legalLineSource": "assembled from the client's own FAQ answers ('Anyone 21+ with a valid government issued ID', 'Please consume responsibly on private property only.'); no Massachusetts-mandated warning appears on the live site (OPEN-DECISIONS A6)"
+}

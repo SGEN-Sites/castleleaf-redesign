@@ -1,0 +1,72 @@
+{
+  "order": 3,
+  "slug": "cannabinoids-thc-cbd-cbg-cbn",
+  "path": "/blog/cannabinoids-thc-cbd-cbg-cbn/",
+  "title": "THC, CBD, CBG and CBN: Meet the Cannabinoids | CastleLeaf",
+  "h1": "THC, CBD, CBG and CBN: Meet the Cannabinoids",
+  "description": "THC, CBD, CBG and CBN turn up on labels everywhere. Meet the best known cannabinoids, how the plant makes them and what the numbers on a package actually mean.",
+  "categories": [
+    { "name": "Cannabis 101", "slug": "cannabis-101" }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-cannabinoids",
+  "imageAlt": "",
+  "excerpt": "Four sets of letters, one plant. How cannabis builds its cannabinoids, how they change with heat and time, and what to keep in mind when you compare them.",
+  "pull": "A bigger number doesn’t mean a better experience.",
+  "relatedCategories": ["tinctures", "edibles"],
+  "related": ["how-to-read-a-cannabis-label", "decarboxylation-basics", "how-does-cannabis-work"],
+  "sections": [
+    {
+      "id": "one-plant",
+      "heading": "One plant, many compounds",
+      "blocks": [
+        { "type": "p", "html": "Cannabinoids are the compounds that make cannabis, well, cannabis. Scientists have identified more than a hundred of them, though most appear only in tiny amounts. We gave you the quick version of THC, CBD and CBN in <a href=\"/blog/pulling-back-the-curtain-on-cannabis/\">Pulling Back The Curtain On Cannabis</a>. This time, let’s look at how they’re related, because they really are one family." }
+      ]
+    },
+    {
+      "id": "family-tree",
+      "heading": "The family tree",
+      "blocks": [
+        { "type": "p", "html": "Inside the flower’s trichomes, the plant first builds a compound called CBGA. Think of it as the family matriarch. Enzymes in the plant then turn most of that CBGA into THCA or CBDA, depending on the plant’s genetics." },
+        { "type": "p", "html": "That little “A” stands for acid. In the growing plant, and in raw flower on the shelf, cannabinoids sit mostly in these acid forms. Heat changes them: a flame, a vaporizer or a warm oven removes a small part of the molecule and turns THCA into THC and CBDA into CBD. The process is called decarboxylation, and it has <a href=\"/blog/decarboxylation-basics/\">its own article</a>." }
+      ]
+    },
+    {
+      "id": "meet-the-four",
+      "heading": "Meet the four",
+      "blocks": [
+        { "type": "h3", "text": "THC" },
+        { "type": "p", "html": "Delta-9-tetrahydrocannabinol is the main intoxicating cannabinoid in cannabis, and usually the first number people look for on a label. A bigger number doesn’t mean a better experience. It just means more THC." },
+        { "type": "h3", "text": "CBD" },
+        { "type": "p", "html": "Cannabidiol is THC’s best known sibling. It isn’t intoxicating the way THC is, and many products pair the two in a ratio such as 1:1 or 2:1. Check which cannabinoid comes first, since the order isn’t the same on every package. On our menu, High CBD, One To One and Two To One are among the ways to browse." },
+        { "type": "h3", "text": "CBG" },
+        { "type": "p", "html": "Cannabigerol is the activated form of CBGA, the matriarch. Because most CBGA is converted as the plant matures, CBG usually shows up in small amounts, though some growers breed plants that keep more of it. Research on CBG is still early, so take big promises with a pinch of salt." },
+        { "type": "h3", "text": "CBN" },
+        { "type": "p", "html": "Cannabinol forms slowly as THC breaks down with age, air and light, which is why older flower often tests higher in CBN than fresh flower. Some products add it on purpose. Research on CBN by itself is limited, so keep your expectations modest and let your own experience guide you." }
+      ]
+    },
+    {
+      "id": "reading-the-numbers",
+      "heading": "Reading the numbers",
+      "blocks": [
+        { "type": "p", "html": "Flower and concentrates usually show cannabinoids as a percentage of weight. Edibles and tinctures usually show milligrams, per serving and per package. You may also see “total THC”, which adds the THC already present to the THC that the THCA will become once heated." },
+        { "type": "callout", "html": "<strong>For the curious:</strong> when THCA turns into THC it loses a little weight, so labs usually multiply the THCA figure by about 0.877 before adding it in. That’s why total THC comes out a bit lower than the two numbers simply added together." },
+        { "type": "p", "html": "Our guide to <a href=\"/blog/how-to-read-a-cannabis-label/\">reading a cannabis label</a> walks through the rest of the package, line by line." }
+      ]
+    },
+    {
+      "id": "finding-your-balance",
+      "heading": "Finding your balance",
+      "blocks": [
+        { "type": "p", "html": "Numbers are useful, but they can’t tell you how a product will feel. Your body, your experience, the dose and the setting all play a part, and everyone responds differently. Begin with a little and be patient. If you take medication or have a health condition, talk to a doctor before you try cannabis." },
+        { "type": "p", "html": "When you’re ready to explore, browse our <a href=\"/products/tinctures/\">tinctures</a> and <a href=\"/products/edibles/\">edibles</a>, where cannabinoids are listed in milligrams, or <a href=\"/book-a-budtender/\">book a budtender</a> and compare ratios together. Rather stay in? <a href=\"/delivery/\">Local delivery</a> brings your order straight to your door." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is CBD the same as THC?", "a_html": "No. They’re related cannabinoids, but CBD isn’t intoxicating the way THC is. Many products combine the two, so check the label for the amount of each." },
+    { "q": "Why does raw flower list THCA instead of THC?", "a_html": "In raw flower, most THC is still in its acid form, THCA. The heat of smoking, vaping or baking converts it, and labels often show a total THC figure that accounts for this." },
+    { "q": "What are CBG and CBN?", "a_html": "CBG is the activated form of CBGA, the compound the plant builds first. CBN forms as THC ages. Both usually appear in small amounts, and research on each is still developing." }
+  ]
+}

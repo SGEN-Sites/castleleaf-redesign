@@ -1,0 +1,34 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cat-prerolls",
+  "file": "assets/generated/g-cat-prerolls.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame; at the left of the ledge stands one lit cream pillar candle whose flame burns clean and steady, and at the centre lie three cannabis pre-rolled joints side by side at a slight diagonal: cone-shaped, natural unbleached light-brown rolling paper, the wide end packed with ground green cannabis flower and closed with a small twist, the narrow end with a short brown card crutch. Clearly cannabis joints as sold in a dispensary, unlit, fresh. A single warm lantern beam falls from the upper right onto the subject; the air is clear and perfectly still. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. Plain paper with no print. No smoke, no steam, no vapour, no wisps, no ash, no people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 7105
+  },
+  "seed": 7105,
+  "requestId": "01a1c3fc-d7db-7951-8803-2f4ac7c0c2cb",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "59b7128f102891c832749ddb167194279cbb2738b86b42746cd99a0f00baa23d",
+  "raw": "tmp/img/raw/g-cat-prerolls.1794289498770.jpg",
+  "attempt": 4,
+  "generatedAt": "2026-11-10T05:45:00.313Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black; attempts 1-3 rejected: empty paper cones with a smoke wisp (1), cigarette-like white filters and smoke (2), rolled tubes that read as scrolls (3)",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [
+    "crop 3:4 -> 4:5 from the bottom (tmp/img/post.py crop45)",
+    "warm toe lift + fine grain (tmp/img/grade.py)"
+  ],
+  "alt": "Three unlit pre-rolls of unbleached paper beside a lit candle on a pale stone ledge in a warm beam of light"
+}

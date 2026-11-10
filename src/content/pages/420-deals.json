@@ -1,0 +1,670 @@
+{
+ "slug": "420-deals",
+ "path": "/420-deals/",
+ "source": "https://www.castleleaf.com/420-deals/",
+ "captured": "2026-11-10",
+ "title": "CastleLeaf 420 Deals near Brighton Boston MA",
+ "description": "Our exclusive 420 Deals are here. Shop 420 Edibles, Vapes, Flower and other Cannabis Products at CastleLeaf in Brighton Boston MA",
+ "canonical": "https://www.castleleaf.com/420-deals/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "CastleLeaf 420 Deals near Brighton Boston MA",
+  "og:description": "Our exclusive 420 Deals are here. Shop 420 Edibles, Vapes, Flower and other Cannabis Products at CastleLeaf in Brighton Boston MA",
+  "og:url": "https://www.castleleaf.com/420-deals/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2025-01-22T11:27:50-05:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/elementor/thumbs/RRH-420-Img-r0c8ljlrhi4w4lxjw783qkpkdgyyklo2r31npbsmio.webp",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/elementor/thumbs/RRH-420-Img-r0c8ljlrhi4w4lxjw783qkpkdgyyklo2r31npbsmio.webp",
+  "og:image:alt": "CastleLeaf 420"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://www.castleleaf.com/#person",
+     "name": "CastleLeaf",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     },
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.castleleaf.com/#website",
+     "url": "https://www.castleleaf.com",
+     "name": "CastleLeaf",
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.castleleaf.com/wp-content/uploads/elementor/thumbs/RRH-420-Img-r0c8ljlrhi4w4lxjw783qkpkdgyyklo2r31npbsmio.webp",
+     "url": "https://www.castleleaf.com/wp-content/uploads/elementor/thumbs/RRH-420-Img-r0c8ljlrhi4w4lxjw783qkpkdgyyklo2r31npbsmio.webp",
+     "width": "200",
+     "height": "200",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/420-deals/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/420-deals/",
+        "name": "420 Deals"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.castleleaf.com/420-deals/#webpage",
+     "url": "https://www.castleleaf.com/420-deals/",
+     "name": "CastleLeaf 420 Deals near Brighton Boston MA",
+     "datePublished": "2024-03-22T09:13:35-04:00",
+     "dateModified": "2025-01-22T11:27:50-05:00",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/elementor/thumbs/RRH-420-Img-r0c8ljlrhi4w4lxjw783qkpkdgyyklo2r31npbsmio.webp"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.castleleaf.com/420-deals/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.castleleaf.com/420-deals/#author",
+     "name": "CastleLeaf Cannabis Dispensary",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "url": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "caption": "CastleLeaf Cannabis Dispensary",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://www.castleleaf.com"
+     ]
+    },
+    {
+     "@type": "Article",
+     "headline": "CastleLeaf 420 Deals near Brighton Boston MA",
+     "keywords": "CastleLeaf 420,420 Deals,420 Dispensary Deals,420 Brighton,420 Boston",
+     "datePublished": "2024-03-22T09:13:35-04:00",
+     "dateModified": "2025-01-22T11:27:50-05:00",
+     "author": {
+      "@id": "https://www.castleleaf.com/420-deals/#author",
+      "name": "CastleLeaf Cannabis Dispensary"
+     },
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "description": "Our exclusive 420 Deals are here. Shop 420 Edibles, Vapes, Flower and other Cannabis Products at CastleLeaf in Brighton Boston MA",
+     "name": "CastleLeaf 420 Deals near Brighton Boston MA",
+     "@id": "https://www.castleleaf.com/420-deals/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/420-deals/#webpage"
+     },
+     "image": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/elementor/thumbs/RRH-420-Img-r0c8ljlrhi4w4lxjw783qkpkdgyyklo2r31npbsmio.webp"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.castleleaf.com/420-deals/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  }
+ ],
+ "h1": "CastleLeaf 420 Offers Brighton",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "CastleLeaf 420 Offers Brighton"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/menu/",
+       "html": "Shop All"
+      }
+     ]
+    },
+    {
+     "t": "h2",
+     "html": "420 Edible Offers Near Me"
+    },
+    {
+     "t": "p",
+     "html": "<a href=\"/categories/edibles/\">Shop All Edibles</a>"
+    },
+    {
+     "t": "h2",
+     "html": "420 Dispensary Offers Near Me"
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/concentrates-3-for-40/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/concentrates-3-for-40/\">Concentrates 3 for $40</a>"
+    },
+    {
+     "t": "text",
+     "html": "Concentrates 1 for $20 or 3 for $40"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/concentrates-3-for-40/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/1-2g-infused-live-resin-donut-prerolls-2-for-20/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/1-2g-infused-live-resin-donut-prerolls-2-for-20/\">1.2g Infused Live Resin Donut Prerolls 2 for $20</a>"
+    },
+    {
+     "t": "text",
+     "html": "1.2g Infused Live Resin Donut Prerolls 1 for $17, 2 for $20"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/1-2g-infused-live-resin-donut-prerolls-2-for-20/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/fast-acting-chill-syrups-500mg-2-for-55-1000mg-2-for-105/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiB2aWV3Qm94PSIwIDAgODAwIDQ1MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "450"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/fast-acting-chill-syrups-500mg-2-for-55-1000mg-2-for-105/\">Fast Acting Chill Syrups 500mg 2 for $55 , 1000mg 2 for $105</a>"
+    },
+    {
+     "t": "text",
+     "html": "Fast Acting Chill Syrups 500mg 1 for $40 2 for $55 1000mg 1 for $70 2 for $105"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/fast-acting-chill-syrups-500mg-2-for-55-1000mg-2-for-105/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/\">500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100</a>"
+    },
+    {
+     "t": "text",
+     "html": "Good Vibes 500 MG tinctures 2 for $55"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/nectar-drinks-4-for-20/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/nectar-drinks-4-for-20/\">Nectar Drinks 4 for $20</a>"
+    },
+    {
+     "t": "text",
+     "html": "4 Nectar drinks for $20"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/nectar-drinks-4-for-20/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/mix-and-match-our-bulk-flowers/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/mix-and-match-our-bulk-flowers/\">Mix and Match Our bulk flowers</a>"
+    },
+    {
+     "t": "text",
+     "html": "3.5 g for $22 , 7g for $42 , 14g for $60 , 28g for $110 Tax Included"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/mix-and-match-our-bulk-flowers/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-left\" viewBox=\"0 0 256 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z\"></path></svg>"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-right\" viewBox=\"0 0 256 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z\"></path></svg>"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/specials/",
+       "html": "Shop Specials"
+      }
+     ]
+    },
+    {
+     "t": "h2",
+     "html": "420 Vaporizer Offers Near Me"
+    },
+    {
+     "t": "p",
+     "html": "<a href=\"/categories/vaporizers/\">Shop All Vaporizers</a>"
+    },
+    {
+     "t": "h2",
+     "html": "420 Featured Brand"
+    },
+    {
+     "t": "p",
+     "html": "<a href=\"/menu/featured/\">Shop Featured Brand</a>"
+    },
+    {
+     "t": "img",
+     "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjEyMDAiIHZpZXdCb3g9IjAgMCAxMjAwIDEyMDAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+",
+     "alt": "Cannabis Dispensary 420 Deals",
+     "width": "1200",
+     "height": "1200"
+    },
+    {
+     "t": "h2",
+     "html": "It's always 4/20 at CastleLeaf"
+    },
+    {
+     "t": "p",
+     "html": "But when THE April 20th celebration rolls around we get even more excited! Originating in the 1970s among a group of high school students, this day has blossomed into a worldwide celebration of cannabis culture and advocacy for its legalization. And here at CastleLeaf, we’re buzzing with anticipation to make this 420 unforgettable for you in MA! So, what are you waiting for? Drop by our dispensary and join in on the festivities! Let’s make this year’s celebration one for the books!"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/menu/",
+       "html": "Shop All"
+      }
+     ]
+    },
+    {
+     "t": "h2",
+     "html": "420 Flower Offers Near Me"
+    },
+    {
+     "t": "p",
+     "html": "<a href=\"/categories/flower/\">Shop All Flower</a>"
+    },
+    {
+     "t": "h2",
+     "html": "Our Best 420 Cannabis Offers near Brighton"
+    },
+    {
+     "t": "p",
+     "html": "We’re pulling out all the stops to ensure your 420 experience is nothing short of amazing! Picture this: jaw-dropping deals, amazing bundles both in-store and online, featuring an array of top-notch cannabis products like <a href=\"/specials/\">Bundles</a>, <a href=\"/categories/edibles/\">Edibles</a>, <a href=\"/categories/vaporizers/\">Vapes</a>, <a href=\"/categories/flower/\">Flower</a>, <a href=\"/categories/concentrates/\">Concentrates</a> that’ll elevate your celebration to new heights. From tantalizing discounts on our expansive selection to keeping you in the loop about the hottest local events and festivities, we’ve got you covered."
+    },
+    {
+     "t": "img",
+     "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjEyMDAiIHZpZXdCb3g9IjAgMCAxMjAwIDEyMDAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+",
+     "alt": "Cannabis Dispensary 420 Deals",
+     "width": "1200",
+     "height": "1200"
+    },
+    {
+     "t": "h2",
+     "html": "420 Pre-Rolls Offers Near Me"
+    },
+    {
+     "t": "p",
+     "html": "<a href=\"/categories/pre-rolls/\">Shop All Pre-Rolls</a>"
+    }
+   ]
+  }
+ ]
+}

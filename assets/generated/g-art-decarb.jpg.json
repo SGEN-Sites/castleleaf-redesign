@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-decarb",
+  "file": "assets/generated/g-art-decarb.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A small metal baking tray lined with parchment paper holding broken-up dried cannabis flower spread in an even layer, a folded linen oven cloth beside it, on a pale stone kitchen counter, soft window light from the left, calm home kitchen still life, palette of cream, sage and warm metal. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 63023
+  },
+  "seed": 63023,
+  "requestId": "01a1c302-4394-7b82-b0ae-3e88075814af",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "6027d5bc851899d25e637ea80337905e3496e38bb7c5b1fe91b7cd283b3a84f9",
+  "raw": "tmp/img/raw/g-art-decarb.1794273085470.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:11:27.196Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "Broken-up dried cannabis flower on a parchment-lined baking tray on a pale kitchen counter"
+}

@@ -1,0 +1,484 @@
+{
+ "slug": "blog__what-to-do-with-your-weed",
+ "path": "/blog/what-to-do-with-your-weed/",
+ "source": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/",
+ "captured": "2026-11-10",
+ "title": "What Do I Do With My Weed? - CastleLeaf Cannabis Dispensary",
+ "description": "From dabbing to storing, our cannabis dispensary in Massachusetts is here to provide some helpful tips and information on what to do once you’ve purchased.",
+ "canonical": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "What Do I Do With My Weed? - CastleLeaf Cannabis Dispensary",
+  "og:description": "From dabbing to storing, our cannabis dispensary in Massachusetts is here to provide some helpful tips and information on what to do once you’ve purchased.",
+  "og:url": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2024-06-11T14:19:17-04:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2024/06/Blog3-pipeandflower.jpeg",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2024/06/Blog3-pipeandflower.jpeg",
+  "og:image:width": "1400",
+  "og:image:height": "933",
+  "og:image:alt": "What To Do With Your Weed",
+  "og:image:type": "image/jpeg"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://www.castleleaf.com/#person",
+     "name": "CastleLeaf",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     },
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.castleleaf.com/#website",
+     "url": "https://www.castleleaf.com",
+     "name": "CastleLeaf",
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.castleleaf.com/wp-content/uploads/2024/06/Blog3-pipeandflower.jpeg",
+     "url": "https://www.castleleaf.com/wp-content/uploads/2024/06/Blog3-pipeandflower.jpeg",
+     "width": "1400",
+     "height": "933",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/",
+        "name": "What To Do With Your Weed"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/#webpage",
+     "url": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/",
+     "name": "What Do I Do With My Weed? - CastleLeaf Cannabis Dispensary",
+     "datePublished": "2023-04-24T09:00:43-04:00",
+     "dateModified": "2024-06-11T14:19:17-04:00",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2024/06/Blog3-pipeandflower.jpeg"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/#author",
+     "name": "CastleLeaf Cannabis Dispensary",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "url": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "caption": "CastleLeaf Cannabis Dispensary",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://www.castleleaf.com"
+     ]
+    },
+    {
+     "@type": "Article",
+     "headline": "What Do I Do With My Weed? - CastleLeaf Cannabis Dispensary",
+     "keywords": "What To Do With Your Weed",
+     "datePublished": "2023-04-24T09:00:43-04:00",
+     "dateModified": "2024-06-11T14:19:17-04:00",
+     "author": {
+      "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/#author",
+      "name": "CastleLeaf Cannabis Dispensary"
+     },
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "description": "From dabbing to storing, our cannabis dispensary in Massachusetts is here to provide some helpful tips and information on what to do once you’ve purchased.",
+     "name": "What Do I Do With My Weed? - CastleLeaf Cannabis Dispensary",
+     "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/#webpage"
+     },
+     "image": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2024/06/Blog3-pipeandflower.jpeg"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.castleleaf.com/blog/what-to-do-with-your-weed/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  }
+ ],
+ "h1": "What To Do With Your Weed",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "What To Do With Your Weed"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "<time>April 24, 2023</time>"
+     ]
+    },
+    {
+     "t": "nav",
+     "label": "breadcrumbs",
+     "blocks": [
+      {
+       "t": "p",
+       "html": "<a href=\"https://www.castleleaf.com\">Home</a> / What To Do With Your Weed"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "From smoking or dabbing cannabis to storing and everything in between, our dispensary in Massachusetts is here to provide some helpful tips and information on what to do with your cannabis once you’ve procured it. As always, if you have any questions or thoughts, hit us up! <em>Weed</em> love to chat more."
+    },
+    {
+     "t": "h2",
+     "html": "What’s the deal with dabbing?"
+    },
+    {
+     "t": "p",
+     "html": "<a href=\"https://www.verywellmind.com/marijuana-dabbing-4797506\" target=\"_blank\" rel=\"noopener\">Dabbing</a> is a consumption method for <a href=\"https://weedmaps.com/learn/products-and-how-to-consume/cannabis-concentrates\" target=\"_blank\" rel=\"noopener\">cannabis concentrates</a>. Concentrates typically offer a more potent and immediate high. It will also produce a strong flavor and terpene-rich aroma. Concentrates come in many forms including wax, badder, shatter and budder."
+    },
+    {
+     "t": "p",
+     "html": "If you’re interested in exploring the many consumption methods of concentrates, our bud tenders will be happy to walk you through options."
+    },
+    {
+     "t": "img",
+     "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjkxNCIgdmlld0JveD0iMCAwIDEwMjQgOTE0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==",
+     "alt": "",
+     "width": "1024",
+     "height": "914"
+    },
+    {
+     "t": "h2",
+     "html": "How do I store my cannabis?"
+    },
+    {
+     "t": "p",
+     "html": "When it comes to storing and preserving your cannabis, there are four main variables you want to control:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "light",
+      "air",
+      "temperature,",
+      "humidity"
+     ]
+    },
+    {
+     "t": "p",
+     "html": "If you have a basement that holds a moderate temperature (or a wine fridge), cannabis will benefit from the same level of care as you would take storing wine. And as always, please ensure the product is safely stored away from anyone under 21."
+    },
+    {
+     "t": "h2",
+     "html": "How do I preserve the terpenes?"
+    },
+    {
+     "t": "p",
+     "html": "We recommend <a href=\"https://store.bovedainc.com/products/boveda-humidor-bags-large-for-cigar\" target=\"_blank\" rel=\"noopener\">Boveda Humidor Bags</a> to keep your products fresh."
+    },
+    {
+     "t": "h2",
+     "html": "Cooking/ Refining my cannabis"
+    },
+    {
+     "t": "p",
+     "html": "If cooking and cannabis both happen to be passions of yours, there are tons of ways to utilize leftover cannabis trimmings in the kitchen. We recommend checking out <a href=\"https://www.amazon.com/Bong-App%C3%A9tit-Mastering-Cooking-Weed/dp/0399580107\" target=\"_blank\" rel=\"noopener\">Bong Appétit: Mastering the Art of Cooking with Weed</a> for the best tips and tricks."
+    },
+    {
+     "t": "p",
+     "html": "For more helpful tips on what to do with your weed, check out our <a href=\"https://www.castleleaf.com/blog/\"><strong>blog</strong></a> page for more cannabis education! Come visit our Boston cannabis dispensary anytime to visit our budtenders and learn more about specific cannabis products and how to consume."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/blog/pulling-back-the-curtain-on-cannabis/",
+       "html": "PrevPulling Back The Curtain On Cannabis",
+       "rel": "prev"
+      }
+     ]
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/blog/how-does-cannabis-work/",
+       "html": "How Does Cannabis Work?Next",
+       "rel": "next"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

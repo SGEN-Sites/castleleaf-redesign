@@ -1,0 +1,57 @@
+{
+  "slug": "getting-a-medical-card",
+  "path": "/getting-a-medical-card/",
+  "title": "Getting A Medical Card | CastleLeaf",
+  "description": "How the Massachusetts medical marijuana program works in general terms: certifying providers, registering with the Commission and caregivers. Adult-use note.",
+  "kicker": "The medical program",
+  "h1": "Getting A Medical Card",
+  "lede": "A plain-language look at how the Massachusetts medical marijuana program works. One thing first: CastleLeaf is an adult-use only store, so we don't serve the medical program.",
+  "sections": [
+    {
+      "id": "adult-use-only",
+      "heading": "First, a note about CastleLeaf",
+      "blocks": [
+        { "type": "callout", "html": "CastleLeaf is an Adult-Use only retail provider. We don't serve the state's medical program, and a medical card isn't what gets you in our door: to shop with us, all you need is a valid government ID that shows you're 21+." }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How the medical program works",
+      "kicker": "In general terms",
+      "blocks": [
+        { "type": "p", "html": "Massachusetts voters approved medical marijuana in 2012, and today the program is overseen by the Cannabis Control Commission. In broad strokes, it runs like this." },
+        {
+          "type": "steps",
+          "items": [
+            { "title": "See a certifying provider", "text": "A healthcare provider who is registered with the program as a certifying provider decides whether to issue you a certification." },
+            { "title": "Register with the Commission", "text": "With a certification in place, you register as a patient with the Cannabis Control Commission, following the steps it publishes." },
+            { "title": "Shop at a medical dispensary", "text": "Registered patients buy from dispensaries licensed to serve the medical program, under that program's own rules." }
+          ]
+        },
+        { "type": "h3", "text": "Caregivers" },
+        { "type": "p", "html": "The program also recognizes caregivers: adults who register with the program so they can purchase on a registered patient's behalf." }
+      ]
+    },
+    {
+      "id": "details",
+      "heading": "Where to get the details",
+      "blocks": [
+        { "type": "p", "html": "Eligibility, fees and processing times are set by the program and can change, so the most reliable source is the <a href=\"https://masscannabiscontrol.com/\">Cannabis Control Commission</a> itself." },
+        { "type": "p", "html": "And if you're 21 or older and simply curious about cannabis, you're welcome at CastleLeaf as an adult-use shopper. Our <a href=\"/dispensary-guide/\">dispensary guide</a> walks you through a first visit." },
+        { "type": "callout", "html": "This page is a plain-language summary, not legal or medical advice." }
+      ]
+    }
+  ],
+  "_claims": [
+    "cl-adult-use-only",
+    "cl-not-serving-medical-program-derived-from-adult-use-only",
+    "cl-id-21-plus-valid-government-id",
+    "gen-ma-medical-ballot-question-2012",
+    "gen-ma-medical-program-overseen-by-ccc",
+    "gen-ma-medical-certifying-provider-registered",
+    "gen-ma-medical-patient-registers-with-ccc",
+    "gen-ma-medical-dispensaries-licensed-for-medical",
+    "gen-ma-medical-caregivers-register-and-purchase-for-patient",
+    "gen-eligibility-fees-times-set-by-program"
+  ]
+}

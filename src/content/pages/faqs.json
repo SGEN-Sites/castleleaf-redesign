@@ -1,0 +1,889 @@
+{
+ "slug": "faqs",
+ "path": "/faqs/",
+ "source": "https://www.castleleaf.com/faqs/",
+ "captured": "2026-11-10",
+ "title": "FAQs - CastleLeaf Cannabis Dispensary in Brighton, MA",
+ "description": "CastleLeaf FAQs in Brighton MA - Answers to commonly asked questions about our services. Find out all you need to know about CastleLeaf.",
+ "canonical": "https://www.castleleaf.com/faqs/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "FAQs - CastleLeaf Cannabis Dispensary in Brighton, MA",
+  "og:description": "CastleLeaf FAQs in Brighton MA - Answers to commonly asked questions about our services. Find out all you need to know about CastleLeaf.",
+  "og:url": "https://www.castleleaf.com/faqs/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2024-07-26T09:12:54-04:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "CastleLeaf OpenGraph",
+  "og:image:type": "image/png"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://www.castleleaf.com/#person",
+     "name": "CastleLeaf",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     },
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.castleleaf.com/#website",
+     "url": "https://www.castleleaf.com",
+     "name": "CastleLeaf",
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "width": "1200",
+     "height": "630",
+     "caption": "CastleLeaf OpenGraph",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/faqs/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/faqs/",
+        "name": "FAQs"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.castleleaf.com/faqs/#webpage",
+     "url": "https://www.castleleaf.com/faqs/",
+     "name": "FAQs - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2021-12-27T03:08:53-05:00",
+     "dateModified": "2024-07-26T09:12:54-04:00",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.castleleaf.com/faqs/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.castleleaf.com/faqs/#author",
+     "name": "CastleLeaf Cannabis Dispensary",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "url": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "caption": "CastleLeaf Cannabis Dispensary",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://www.castleleaf.com"
+     ]
+    },
+    {
+     "@type": "Article",
+     "headline": "FAQs - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2021-12-27T03:08:53-05:00",
+     "dateModified": "2024-07-26T09:12:54-04:00",
+     "author": {
+      "@id": "https://www.castleleaf.com/faqs/#author",
+      "name": "CastleLeaf Cannabis Dispensary"
+     },
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "description": "CastleLeaf FAQs in Brighton MA - Answers to commonly asked questions about our services. Find out all you need to know about CastleLeaf.",
+     "name": "FAQs - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "@id": "https://www.castleleaf.com/faqs/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/faqs/#webpage"
+     },
+     "image": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.castleleaf.com/faqs/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How can I buy it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ve come to the right place. If you still have questions, stop by and chat with one of our bud tenders or give us a call. But if you’re ready to roll (a joint, for example…) you can make a purchase right here on the site.Order Online (pick-up in-store or Home Delivery)Walk-in Express (in-store kiosk)In-store Budtender Experience"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What do I need to know about being an Adult-Use (recreational) customer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For starters, CastleLeaf is an Adult-Use only retail provider. That said, we strive to educate adult-use consumers about the therapeutic benefits of cannabis. Adult use (recreational) consumers can shop at any adult-use dispensary with a valid government ID that shows they are 21+, can purchase up to 1oz per day, and edibles are capped at 5mg per serving and 100mg per package."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are your store hours?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sunday\n            \n            \n              11:00am &#8211; 7:55pm            \n          \n        \n              \n          \n            \n              Monday\n            \n            \n              10:00am &#8211; 9:55pm            \n          \n        \n              \n          \n            \n              Tuesday\n            \n            \n              10:00am &#8211; 9:55pm            \n          \n        \n              \n          \n            \n              Wednesday\n            \n            \n              10:00am &#8211; 9:55pm            \n          \n        \n              \n          \n            \n              Thursday\n            \n            \n              10:00am &#8211; 9:55pm            \n          \n        \n              \n          \n            \n              Friday\n            \n            \n              10:00am &#8211; 9:55pm            \n          \n        \n              \n          \n            \n              Saturday\n            \n            \n              10:00am &#8211; 9:55pm            \n          \n        \n          \n Closed Thanksgiving Day &amp; Christmas Day"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What will be for sale?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We carry a range of the highest quality cannabis products available in Massachusetts, including dry flower, pre-rolled joints, edibles, vape pens, concentrates, topicals, tinctures, and more."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much can I purchase at once?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "MA state law allows customers to purchase up to 1oz (28 grams) flower equivalent per day and no more than 5 grams of concentrates. You can buy a mix of products including; flower, edibles, and concentrates.Because some products (like concentrates) have a higher level of THC than flower, you won’t be able to purchase the same amount in both forms. The ‘Marijuana Equivalency’ rules equate 1oz of retail (recreational) flower = 8g of concentrate (shatter, wax, etc.) or 800mg of active THC in an infused food or beverageIt’s important to remember that these regulations apply to sales, not possession. As per Massachusetts State Law, you are allowed to legally possess 1oz (or 28g) of THC at any one time."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "When will the Craft Kitchen be open?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We don’t have an exact date yet but hopefully in 2024! We are building out the Kitchen as a phase two. Please stay tuned for more information on our website and sign up for our newsletter HERE."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What do I need to make a purchase? Form of ID?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Anyone 21+ with a valid government issued ID can make a purchase at CastleLeaf."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "I am from out of state. Can I make a purchase at CastleLeaf?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! Anyone 21+ with a valid government ID can make a purchase including out of state."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What form of payment do you accept?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We accept cash or debit cards. If you forget cash, no worries…you’ve got you covered with an ATM on site."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I drive with cannabis in my car?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, as long as you are transporting your purchase in a sealed container only. Consuming while driving is illegal and dangerous."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I travel out of Massachusetts with Cannabis?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Cannabis is not legal at the federal level in the United States, so travel outside of the state of Massachusetts with cannabis products is prohibited."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I consume anywhere?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Public consumption is illegal in MA. We ask that you respect the law and the community that we operate in. Please consume responsibly on private property only."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is there parking at your dispensary?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes! We have plenty of on site parking in our parking lot as well as street parking in front of the dispensary."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is your return policy?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "All sales are final. In the unlikely event you receive a defective product we will happily replace it for you at a manager’s discretion. For any return questions, email us at: info@castleleaf.com"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you offer discounts?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Due to Massachusetts state regulations we cannot offer discounts on recreational cannabis. We do offer product bundles and competitive everyday low prices."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you offer delivery?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Coming Soon! Sign up for our mailing list to receive our latest updates."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you a local influencer or community leader looking to collaborate?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Contact us at info@castleleaf.com"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is CastleLeaf hiring?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We’re always hiring! Check out our careers page."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How can I sell my art / glassware / merch / etc at CastleLeaf?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Contact us at info@castleleaf.com"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Still have questions about CastleLeaf & Adult-Use cannabis",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Contact us at info@castleleaf.com"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Interested in learning more about our products and process?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Read more on our Blog."
+     }
+    }
+   ]
+  }
+ ],
+ "h1": "FAQs from CastleLeaf",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "FAQs from CastleLeaf"
+    },
+    {
+     "t": "h2",
+     "html": "Cannabis Dispensary located near Brighton, MA"
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "details",
+       "summary": "How can I buy it?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "You’ve come to the right place. If you still have questions, stop by and chat with one of our bud tenders or give us a call. But if you’re ready to roll (a joint, for example…) you can make a purchase right here on the site."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "<a href=\"/menu/\">Order Online</a> (pick-up in-store or Home Delivery)",
+          "Walk-in Express (in-store kiosk)",
+          "In-store Budtender Experience"
+         ]
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "What do I need to know about being an Adult-Use (recreational) customer?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "For starters, CastleLeaf is an Adult-Use only retail provider. That said, we strive to educate adult-use consumers about the therapeutic benefits of cannabis."
+        },
+        {
+         "t": "p",
+         "html": "Adult use (recreational) consumers can shop at any adult-use dispensary with a valid government ID that shows they are 21+, can purchase up to 1oz per day, and edibles are capped at 5mg per serving and 100mg per package."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "What are your store hours?",
+       "blocks": [
+        {
+         "t": "ul",
+         "items": [
+          {
+           "blocks": [
+            {
+             "t": "text",
+             "html": "Sunday"
+            },
+            {
+             "t": "text",
+             "html": "11:00am – 7:55pm"
+            }
+           ]
+          },
+          {
+           "blocks": [
+            {
+             "t": "text",
+             "html": "Monday"
+            },
+            {
+             "t": "text",
+             "html": "10:00am – 9:55pm"
+            }
+           ]
+          },
+          {
+           "blocks": [
+            {
+             "t": "text",
+             "html": "Tuesday"
+            },
+            {
+             "t": "text",
+             "html": "10:00am – 9:55pm"
+            }
+           ]
+          },
+          {
+           "blocks": [
+            {
+             "t": "text",
+             "html": "Wednesday"
+            },
+            {
+             "t": "text",
+             "html": "10:00am – 9:55pm"
+            }
+           ]
+          },
+          {
+           "blocks": [
+            {
+             "t": "text",
+             "html": "Thursday"
+            },
+            {
+             "t": "text",
+             "html": "10:00am – 9:55pm"
+            }
+           ]
+          },
+          {
+           "blocks": [
+            {
+             "t": "text",
+             "html": "Friday"
+            },
+            {
+             "t": "text",
+             "html": "10:00am – 9:55pm"
+            }
+           ]
+          },
+          {
+           "blocks": [
+            {
+             "t": "text",
+             "html": "Saturday"
+            },
+            {
+             "t": "text",
+             "html": "10:00am – 9:55pm"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "t": "p",
+         "html": "Closed Thanksgiving Day &amp; Christmas Day"
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "What will be for sale?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "We carry a range of the highest quality cannabis products available in Massachusetts, including dry flower, pre-rolled joints, edibles, vape pens, concentrates, topicals, tinctures, and more."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "How much can I purchase at once?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "MA state law allows customers to purchase up to 1oz (28 grams) flower equivalent per day and no more than 5 grams of concentrates. You can buy a mix of products including; flower, edibles, and concentrates."
+        },
+        {
+         "t": "ul",
+         "items": [
+          "Because some products (like concentrates) have a higher level of THC than flower, you won’t be able to purchase the same amount in both forms. The ‘Marijuana Equivalency’ rules equate 1oz of retail (recreational) flower = 8g of concentrate (shatter, wax, etc.) or 800mg of active THC in an infused food or beverage",
+          "It’s important to remember that these regulations apply to sales, not possession. As per Massachusetts State Law, you are allowed to legally possess 1oz (or 28g) of THC at any one time."
+         ]
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "When will the Craft Kitchen be open?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "We don’t have an exact date yet but hopefully in 2024! We are building out the Kitchen as a phase two. Please stay tuned for more information on our website and sign up for our newsletter <a href=\"/loyalty-sign-up/\">HERE</a>."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "What do I need to make a purchase? Form of ID?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Anyone 21+ with a valid government issued ID can make a purchase at CastleLeaf."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "I am from out of state. Can I make a purchase at CastleLeaf?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Yes! Anyone 21+ with a valid government ID can make a purchase including out of state."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "What form of payment do you accept?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "We accept cash or debit cards. If you forget cash, no worries…you’ve got you covered with an ATM on site."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Can I drive with cannabis in my car?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Yes, as long as you are transporting your purchase in a sealed container only. Consuming while driving is illegal and dangerous."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Can I travel out of Massachusetts with Cannabis?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Cannabis is not legal at the federal level in the United States, so travel outside of the state of Massachusetts with cannabis products is prohibited."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Can I consume anywhere?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Public consumption is illegal in MA. We ask that you respect the law and the community that we operate in. Please consume responsibly on private property only."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Is there parking at your dispensary?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Yes! We have plenty of on site parking in our parking lot as well as street parking in front of the dispensary."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "What is your return policy?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "All sales are final. In the unlikely event you receive a defective product we will happily replace it for you at a manager’s discretion. For any return questions, email us at: <a href=\"mailto:info@castleleaf.com\">info@castleleaf.com</a>"
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Do you offer discounts?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Due to Massachusetts state regulations we cannot offer discounts on recreational cannabis. We do offer product bundles and competitive everyday low prices."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Do you offer delivery?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Coming Soon! Sign up for our mailing list to receive our latest updates."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Are you a local influencer or community leader looking to collaborate?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Contact us at <a href=\"mailto:info@castleleaf.com\">info@castleleaf.com</a>"
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Is CastleLeaf hiring?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "We’re always hiring! Check out our <a href=\"/jobs/\">careers</a> page."
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "How can I sell my art / glassware / merch / etc at CastleLeaf?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Contact us at <a href=\"mailto:info@castleleaf.com\">info@castleleaf.com</a>"
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Still have questions about CastleLeaf &amp; Adult-Use cannabis",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Contact us at <a href=\"mailto:info@castleleaf.com\">info@castleleaf.com</a>"
+        }
+       ]
+      },
+      {
+       "t": "details",
+       "summary": "Interested in learning more about our products and process?",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Read more on our <a href=\"/blog/\">Blog</a>."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "Still have questions? Connect with the CastleLeaf team today!"
+    }
+   ]
+  }
+ ]
+}

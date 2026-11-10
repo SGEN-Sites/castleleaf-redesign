@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-feature-card",
+  "file": "assets/generated/g-feature-card.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A single completely blank cream card with rounded corners and a black fountain pen lying beside it on a natural linen cloth, right of centre, soft morning window light from the right, gentle shadows, calm minimal editorial still life, palette of cream, warm white and sage. The card is completely blank: no writing, no photo, no chip, no lines. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 52027
+  },
+  "seed": 52027,
+  "requestId": "01a1c301-7874-7590-ae1f-88477333b056",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "49c3a32a75367ead1cde0254844f7ae33f91dafd679f0faf97cc23e35e3ec489",
+  "raw": "tmp/img/raw/g-feature-card.1794273050157.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:10:52.622Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "A blank cream card and a fountain pen lying on natural linen in soft light"
+}

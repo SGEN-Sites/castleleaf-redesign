@@ -1,0 +1,72 @@
+{
+  "order": 6,
+  "slug": "decarboxylation-basics",
+  "path": "/blog/decarboxylation-basics/",
+  "title": "Decarboxylation Basics for Home Cooks | CastleLeaf",
+  "h1": "Decarboxylation Basics for Home Cooks",
+  "description": "Raw flower needs heat before it works in food. A clear, step by step guide to decarboxylation at home: what happens, how to do it and how to store the result.",
+  "categories": [
+    { "name": "Recipes", "slug": "recipes" }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-decarb",
+  "imageAlt": "",
+  "excerpt": "Before cannabis goes into butter, oil or anything else in your kitchen, it needs gentle heat. Here’s what decarboxylation does and how to do it at home.",
+  "pull": "If you blended raw cannabis flower into a smoothie, you’d get a grassy smoothie and not much else.",
+  "relatedCategories": ["flower"],
+  "related": ["simple-cannabutter", "cannabinoids-thc-cbd-cbg-cbn", "what-to-do-with-your-weed"],
+  "sections": [
+    {
+      "id": "why-heat",
+      "heading": "Why raw flower needs heat",
+      "blocks": [
+        { "type": "p", "html": "Here’s a kitchen fact that surprises people. If you blended raw cannabis flower into a smoothie, you’d get a grassy smoothie and not much else. The THC in raw flower is still mostly in its acid form, THCA, which doesn’t produce the effects THC is known for." },
+        { "type": "p", "html": "Heat changes that. Warming the flower removes a small piece of the THCA molecule, releasing a little carbon dioxide and leaving THC behind. CBDA goes through the same change and becomes CBD. Smoking and vaping do this in an instant. In the kitchen you do it on purpose, slowly, and that’s decarboxylation, or decarbing for short. Our guide to <a href=\"/blog/cannabinoids-thc-cbd-cbg-cbn/\">THC, CBD, CBG and CBN</a> explains the chemistry in a little more depth." }
+      ]
+    },
+    {
+      "id": "how-to-decarb",
+      "heading": "How to decarb in a home oven",
+      "blocks": [
+        { "type": "steps", "items": [
+          { "title": "Heat the oven low", "text": "Most home guides land somewhere around 240°F. Home ovens rarely match their dials exactly, so an oven thermometer is worth having." },
+          { "title": "Break up the flower", "text": "Break it into small pieces by hand or with a coarse grind. Skip the fine powder, which is harder to strain out later." },
+          { "title": "Spread it out", "text": "Spread the pieces across a parchment-covered tray in one thin, even layer." },
+          { "title": "Bake and stir", "text": "Bake for roughly 30 to 40 minutes, stirring gently halfway through. The flower should turn from green to a light golden brown and smell toasty." },
+          { "title": "Cool and store", "text": "Let it cool completely, then keep it in an airtight jar somewhere cool and dark until you’re ready to infuse." }
+        ] }
+      ]
+    },
+    {
+      "id": "low-and-slow",
+      "heading": "Why low and slow",
+      "blocks": [
+        { "type": "p", "html": "Too little heat and some of the THCA stays as it is. Too much and you start losing what you set out to keep: THC itself begins to break down, and terpenes, the compounds behind aroma and flavor, are volatile enough that some will drift away whatever you do. A gentle oven is the happy medium between activating the flower and keeping its character." },
+        { "type": "p", "html": "Expect a smell. Decarbing is aromatic, so open a window, run the fan and perhaps let the neighbors know you’re not burning dinner." }
+      ]
+    },
+    {
+      "id": "what-comes-next",
+      "heading": "What comes next",
+      "blocks": [
+        { "type": "p", "html": "Decarbed flower is ready to infuse into a fat such as butter or oil, because cannabinoids dissolve in fat rather than water. Our <a href=\"/blog/simple-cannabutter/\">simple cannabutter</a> recipe picks up exactly where this one ends." },
+        { "type": "p", "html": "Homemade infusions are hard to measure precisely, so think of every batch as unknown strength. Try a small amount first, wait at least two hours before having more, and follow the same <a href=\"/blog/edibles-start-low-go-slow/\">start low, go slow</a> rule you’d use for any edible." },
+        { "type": "callout", "html": "<strong>Label everything.</strong> Mark homemade infusions clearly, keep them away from anyone under 21 and from pets, and never leave them where they could be mistaken for ordinary food." }
+      ]
+    },
+    {
+      "id": "choosing-flower",
+      "heading": "Choosing flower for the kitchen",
+      "blocks": [
+        { "type": "p", "html": "Cooking is a fine place to be practical. Whether you like to experiment or follow a recipe to the letter, our <a href=\"/blog/what-to-do-with-your-weed/\">What To Do With Your Weed</a> post has a few more ideas for cannabis in the kitchen, and you can read about our <a href=\"/blog/what-is-a-flower-deli/\">Flower Deli</a> before you shop." },
+        { "type": "p", "html": "Not sure which flower suits your recipe? <a href=\"/book-a-budtender/\">Ask one of our budtenders</a>, browse our <a href=\"/products/flower/\">flower</a>, or have it brought to your door with <a href=\"/delivery/\">local delivery</a>. And if you’d rather skip the oven entirely, ready-made <a href=\"/products/edibles/\">edibles</a> have already been through this step." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Do I need to decarb flower before making edibles?", "a_html": "Yes. Raw flower holds mostly THCA, which needs heat to become THC. Decarbing activates it before it goes into butter, oil or a recipe." },
+    { "q": "Does decarbing smell?", "a_html": "Quite a bit. Open a window, run the kitchen fan and keep the oven low, which also holds on to more of the aroma." },
+    { "q": "Do I need to decarb flower for smoking or vaping?", "a_html": "No. The heat of smoking or vaping decarboxylates the flower as you use it. Decarbing is a step for the kitchen, where you want the flower activated before it goes into a recipe." }
+  ]
+}

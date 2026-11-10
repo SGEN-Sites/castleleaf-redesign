@@ -1,0 +1,25 @@
+{
+  "slug": "shop",
+  "path": "/shop/",
+  "title": "Shop By Cannabis Category | CastleLeaf",
+  "description": "Shop by cannabis category at CastleLeaf in Brighton, MA: flower, pre-rolls, vaporizers, edibles, concentrates, topicals, tinctures, accessories and more.",
+  "kicker": "The CastleLeaf shop",
+  "h1": "Shop By Cannabis Category",
+  "lede": "Eight ways in, one friendly counter. Pick a category to learn the basics, then head to the live menu when you're ready to roll.",
+  "sections": [
+    {
+      "id": "intro",
+      "heading": "Find your format",
+      "blocks": [
+        { "type": "p", "html": "Whether you already have a favorite or you're starting from scratch, each category page covers what it is, how people choose and what to ask a budtender. When you know what you're after, our live menu shows what's in stock, and you can order online for pick-up in-store or Home Delivery. Partial to bulk flower? Mix and match our bulk flowers at the Flower Deli, right at our Fresh Counter." }
+      ]
+    }
+  ],
+  "_claims": [
+    "cl-categories-eight",
+    "cl-faq-ready-to-roll-voice",
+    "cl-order-online-pickup-or-home-delivery",
+    "cl-flower-deli-mix-and-match-bulk",
+    "cl-flower-deli-fresh-counter-pairing-site-json"
+  ]
+}

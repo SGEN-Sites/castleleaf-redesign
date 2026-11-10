@@ -1,0 +1,34 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cat-edibles",
+  "file": "assets/generated/g-cat-edibles.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame and on it sits a small handmade stoneware dish holding a few square artisanal fruit jellies dusted with sugar and two squares of dark chocolate, at the centre, elegant and adult, like a fine patisserie. A single warm lantern beam falls from the upper right onto the subject; the air is clear and perfectly still. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No packaging, no candy shapes, no people, no hands. No smoke, no steam, no vapour, no wisps., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 7101
+  },
+  "seed": 7101,
+  "requestId": "01a1c3fa-f2f4-7c03-90f7-1717de2c3861",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "5acee9757a25e26e0eceeb15cc84508160fec36718b6fbfc78f9cc9ba2e9d842",
+  "raw": "tmp/img/raw/g-cat-edibles.1794289382719.jpg",
+  "attempt": 2,
+  "generatedAt": "2026-11-10T05:43:04.742Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black; attempt 1 rejected: smoke plume beside the dish",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [
+    "crop 3:4 -> 4:5 from the bottom (tmp/img/post.py crop45)",
+    "warm toe lift + fine grain (tmp/img/grade.py)"
+  ],
+  "alt": "Sugar-dusted fruit jellies on a small patterned dish beside a lit candle on a pale stone ledge in warm light"
+}

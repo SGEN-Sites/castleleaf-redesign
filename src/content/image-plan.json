@@ -1,0 +1,655 @@
+{
+ "about": "IMAGERY lane plan for the LANTERN KEEP redesign. Generated imagery is mood only: never captioned or described as CastleLeaf's store, staff, customers or products. Every id below is read by gimg('<id>') from assets/generated/<id>.jpg (backdrops) or .png (cut-outs, alpha). aspect = the delivered file's ratio; input.aspect_ratio = what the model was asked for (FLUX ultra has no 4:5, so the category series is generated at 3:4 and cropped to 4:5). calmArea = where text can sit.",
+ "defaults": {
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "input": {
+   "output_format": "jpeg",
+   "safety_tolerance": "5"
+  },
+  "cutoutModel": "fal-ai/birefnet/v2",
+  "cutoutInput": {
+   "model": "Matting",
+   "operating_resolution": "2048x2048",
+   "output_format": "png",
+   "refine_foreground": true
+  },
+  "style": "Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces."
+ },
+ "images": [
+  {
+   "id": "g-hero-lantern",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "home hero stage (behind the type and the arched building frame)",
+    "hero-loop key frame"
+   ],
+   "calmArea": "left 55% above the lower quarter: empty warm-dark wall with one soft diagonal patch of light, for light display type; the cloche stands right of centre (about 56 to 75% across) on a stone plinth (about 39 to 87% across, in the lower quarter); the far right falls off into shadow",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 41017
+   },
+   "alt": "A dried cannabis flower under a clear glass cloche on a pale limestone plinth, lit by a single warm beam in a dark room",
+   "prompt": "Wide tenebrist still life photograph in a dark candlelit gallery room. A single dried cannabis flower bud, sage green with fine orange pistils and sparkling frosty trichomes, rests under a clear blown-glass cloche bell jar on a small square pale limestone plinth. The plinth stands right of centre, at about 62 percent across the frame, its top at about 62 percent of the frame height, its base fading into shadow. One warm lantern-coloured beam of light falls diagonally from the upper right onto the cloche, catching bright clean highlights on the curved glass and lighting a soft cone of fine haze in the air. Everything else falls into deep warm charcoal-brown darkness, never pure black. The whole left half of the frame is calm, empty, softly graded dark wall with nothing in it; the far right edge also falls off into shadow. Painterly chiaroscuro like an old master painting, but photographic and razor sharp on the flower and the glass. No people, no hands."
+  },
+  {
+   "id": "g-stage-gallery",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "dark feature band (category scroll-through) background",
+    "night stages"
+   ],
+   "calmArea": "left 40% and the whole top band: smooth warm-dark wall; the lit arched niche sits right of centre (about 58-78% across)",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 41023
+   },
+   "alt": "An empty arched niche in a dark plaster wall, lit by a single warm beam of light",
+   "prompt": "Wide tenebrist photograph of an empty dark gallery wall of warm plaster with one tall round-arched niche set into it, slightly right of centre at about 66 percent across the frame. A single warm lantern beam falls from the upper left into the niche, lighting its pale limestone sill and its curved back wall, with a soft cone of fine haze glowing in the beam. The niche is completely empty. The rest of the room recedes into deep warm charcoal-brown darkness, never pure black. The left part of the frame is calm empty dark wall. Painterly chiaroscuro, photographic and sharp. No objects, no furniture, no people."
+  },
+  {
+   "id": "g-hall-linen",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "light linen bands (behind glass tiles and long text)",
+    "page-hero grounds"
+   ],
+   "calmArea": "everywhere: high-key, low-contrast; the brightest light pool is upper right",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 41031
+   },
+   "alt": "",
+   "prompt": "An abstract, very pale, luminous view of sheer natural linen fabric hanging in soft folds in front of a cream plaster wall, soft early morning sunlight pouring through the linen from the upper right in long gentle rays, high key, airy and ethereal, almost white, palette of warm white, pale cream and a faint breath of pale sage, soft shadows, wide calm empty space, gentle soft focus toward the edges. No objects, no furniture, no plants, no window frame, nothing floating, no people."
+  },
+  {
+   "id": "g-hall-sage",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "sage mist bands (effects bento, quiet sections)"
+   ],
+   "calmArea": "everywhere: high-key pale sage; the light rays enter from the upper left",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 41037
+   },
+   "alt": "",
+   "prompt": "A bright, airy, almost empty room of pale plaster filled with a soft pale sage-green mist, gentle morning light rays slanting through the haze from the upper left, very pale and luminous, almost white with a sage tint, ethereal and calm, high key, smooth soft gradients, wide empty space. No objects, no furniture, no orbs, no bokeh balls, no dust specks, no particles, nothing floating, no people."
+  },
+  {
+   "id": "g-arch-window",
+   "role": "backdrop",
+   "aspect": "16:9",
+   "usedFor": [
+    "ethereal hall moments",
+    "page heroes that need an arch",
+    "about/visit bands"
+   ],
+   "calmArea": "left 45%: smooth pale plaster wall in soft light; the arched window stands right of centre",
+   "input": {
+    "aspect_ratio": "16:9",
+    "seed": 41041
+   },
+   "alt": "A tall white arched window pouring soft morning light into an empty cream room",
+   "prompt": "A tall white round-arched window set deep in a thick cream plaster wall, right of centre at about 64 percent across the frame, pouring soft morning light into a calm empty cream room; the glass shows only bright white sky; sheer linen falls softly at one side; long soft rays of light cross a pale limestone floor; ethereal, very pale, airy, high key; palette of cream, warm white and pale sage. The left part of the frame is smooth empty pale plaster. No furniture, no plants, no objects, nothing floating, no people, no view of buildings."
+  },
+  {
+   "id": "g-cat-flower",
+   "role": "category",
+   "aspect": "4:5",
+   "postCrop": "4:5",
+   "usedFor": [
+    "home category scroll-through",
+    "/shop/ bento",
+    "/products/flower/ hero"
+   ],
+   "calmArea": "upper 45%: warm darkness above the subject (title over the dark top or the dark foot under a scrim)",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 7101
+   },
+   "alt": "A dried cannabis flower bud on a pale stone ledge in a single warm beam of light",
+   "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame and on it rests a single large dried cannabis flower bud, sage green with orange pistils and sparkling frosty trichomes, at the centre. A single warm lantern beam falls from the upper right onto the subject, a faint haze glowing in the beam. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No people, no hands."
+  },
+  {
+   "id": "g-cat-prerolls",
+   "role": "category",
+   "aspect": "4:5",
+   "postCrop": "4:5",
+   "usedFor": [
+    "home category scroll-through",
+    "/shop/ bento",
+    "/products/pre-rolls/ hero"
+   ],
+   "calmArea": "upper 45%: warm darkness above the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 7105
+   },
+   "alt": "Three unlit pre-rolls of unbleached paper beside a lit candle on a pale stone ledge in a warm beam of light",
+   "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame; at the left of the ledge stands one lit cream pillar candle whose flame burns clean and steady, and at the centre lie three cannabis pre-rolled joints side by side at a slight diagonal: cone-shaped, natural unbleached light-brown rolling paper, the wide end packed with ground green cannabis flower and closed with a small twist, the narrow end with a short brown card crutch. Clearly cannabis joints as sold in a dispensary, unlit, fresh. A single warm lantern beam falls from the upper right onto the subject; the air is clear and perfectly still. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. Plain paper with no print. No smoke, no steam, no vapour, no wisps, no ash, no people, no hands."
+  },
+  {
+   "id": "g-cat-vaporizers",
+   "role": "category",
+   "aspect": "4:5",
+   "postCrop": "4:5",
+   "usedFor": [
+    "home category scroll-through",
+    "/shop/ bento",
+    "/products/vaporizers/ hero"
+   ],
+   "calmArea": "upper 40%: warm darkness above the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 7101
+   },
+   "alt": "A slim unbranded vaporizer pen and a small cartridge of golden oil on a pale stone ledge in a single warm beam of light",
+   "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame and on it stand a slim matte charcoal vaporizer pen and a small clear glass cartridge of golden amber oil, upright side by side at the centre, both completely plain with no markings. A single warm lantern beam falls from the upper right onto the subject, a faint haze glowing in the beam. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No vapour, no people, no hands."
+  },
+  {
+   "id": "g-cat-edibles",
+   "role": "category",
+   "aspect": "4:5",
+   "postCrop": "4:5",
+   "usedFor": [
+    "home category scroll-through",
+    "/shop/ bento",
+    "/products/edibles/ hero"
+   ],
+   "calmArea": "upper 45%: warm darkness above the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 7101
+   },
+   "alt": "Sugar-dusted fruit jellies on a small patterned dish beside a lit candle on a pale stone ledge in warm light",
+   "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame and on it sits a small handmade stoneware dish holding a few square artisanal fruit jellies dusted with sugar and two squares of dark chocolate, at the centre, elegant and adult, like a fine patisserie. A single warm lantern beam falls from the upper right onto the subject; the air is clear and perfectly still. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No packaging, no candy shapes, no people, no hands. No smoke, no steam, no vapour, no wisps."
+  },
+  {
+   "id": "g-cat-concentrates",
+   "role": "category",
+   "aspect": "4:5",
+   "postCrop": "4:5",
+   "usedFor": [
+    "home category scroll-through",
+    "/shop/ bento",
+    "/products/concentrates/ hero"
+   ],
+   "calmArea": "upper 45%: warm darkness above the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 7101
+   },
+   "alt": "A glossy piece of amber resin in a small glass dish beside a slim steel tool, on a pale stone ledge in warm light",
+   "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame and on it sits a small shallow clear glass dish holding a glistening translucent piece of golden amber resin, like a shard of honey glass, with a slim polished steel tool resting beside it, at the centre. A single warm lantern beam falls from the upper right onto the subject and glows through the amber, a faint haze glowing in the beam. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No people, no hands."
+  },
+  {
+   "id": "g-cat-topicals",
+   "role": "category",
+   "aspect": "4:5",
+   "postCrop": "4:5",
+   "usedFor": [
+    "home category scroll-through",
+    "/shop/ bento",
+    "/products/topicals/ hero"
+   ],
+   "calmArea": "upper 45%: warm darkness above the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 7101
+   },
+   "alt": "A small frosted glass jar of pale balm with its lid set beside it, on a pale stone ledge in warm light",
+   "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame and on it sits a small round frosted glass jar of smooth pale cream balm, open, its plain lid set beside it, with a small sprig of fresh green leaves, at the centre; the jar is completely plain and unlabeled. A single warm lantern beam falls from the upper right onto the subject, a faint haze glowing in the beam. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No people, no hands."
+  },
+  {
+   "id": "g-cat-tinctures",
+   "role": "category",
+   "aspect": "4:5",
+   "postCrop": "4:5",
+   "usedFor": [
+    "home category scroll-through",
+    "/shop/ bento",
+    "/products/tinctures/ hero"
+   ],
+   "calmArea": "upper 40%: warm darkness above the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 7101
+   },
+   "alt": "A small amber glass dropper bottle on a pale stone ledge in a single warm beam of light",
+   "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame and on it stands a small amber glass dropper bottle with a black rubber dropper cap, completely plain and unlabeled, with a single golden drop on the stone beside it, at the centre. A single warm lantern beam falls from the upper right onto the subject and glows through the amber glass, a faint haze glowing in the beam. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No people, no hands."
+  },
+  {
+   "id": "g-cat-accessories",
+   "role": "category",
+   "aspect": "4:5",
+   "postCrop": "4:5",
+   "usedFor": [
+    "home category scroll-through",
+    "/shop/ bento",
+    "/products/accessories/ hero"
+   ],
+   "calmArea": "upper 45%: warm darkness above the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 7104
+   },
+   "alt": "A brass herb grinder and a small corked glass jar beside a lit candle on a pale stone ledge in a warm beam of light",
+   "prompt": "Vertical tenebrist still life photograph in a dark gallery: a pale limestone ledge runs across the lower third of the frame; at the left of the ledge stands one lit cream pillar candle whose flame burns clean and steady, and at the centre rest a round matte brass herb grinder with its lid closed and a small clear glass storage jar with a cork stopper, both plain with no markings. A single warm lantern beam falls from the upper right onto the subject; the air is clear and perfectly still. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No pipes, no bongs, no smoking devices. No smoke, no steam, no vapour, no wisps, no people, no hands."
+  },
+  {
+   "id": "g-feature-delivery",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "home How To Shop bento: Local Delivery (2x2 tile)",
+    "/delivery/ hero"
+   ],
+   "calmArea": "left 40%: dusk-blue brick and shadow; the bag stands right of centre on the steps",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52011
+   },
+   "alt": "A plain sealed kraft paper bag on the stone steps of a brownstone stoop at dusk, lit by a warm porch light",
+   "prompt": "A plain sealed kraft paper bag, its top folded closed twice, standing on the worn brownstone steps of a Boston row-house stoop at dusk, right of centre. A warm porch lamp above the door casts a soft golden light on the bag and the steps; the deep blue dusk sky tones and the brick facade in the background fall into soft focus, a dark wooden front door slightly blurred. Calm, inviting, quiet evening. The bag is completely plain and unprinted with no logo, no sticker, no receipt, no tape with writing. No house numbers, no people, no hands."
+  },
+  {
+   "id": "g-feature-budtender",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "home How To Shop bento: Talk To A Budtender (2x1 tile)",
+    "/book-a-budtender/ showcase"
+   ],
+   "calmArea": "left 35%: softly blurred warm shop background; the jar and hands sit centre-right",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52013
+   },
+   "alt": "Two hands presenting a small glass jar of cannabis flower across a pale wood counter",
+   "prompt": "Close view across a pale oak shop counter: two hands with short clean nails gently present a small clear glass jar with a glass lid filled with dried cannabis flower, held toward the viewer, centre-right of the frame. Only the hands, forearms and the lower chest of a plain sage-green apron are visible; the person's face and head are completely out of frame above. Warm, bright, welcoming shop light, shallow depth of field, softly blurred warm cream and copper shelves far behind. Exactly five fingers on each hand, natural anatomy. The jar is plain and unlabeled. No text, no name tag, no logo on the apron."
+  },
+  {
+   "id": "g-feature-vip",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "VIP Club (/loyalty-sign-up/) and mega menu feature card"
+   ],
+   "calmArea": "left 40%: deep warm darkness; the vitrine glows right of centre",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52017
+   },
+   "alt": "A glass display vitrine holding a dark green velvet tray, lit by a single warm beam in a dark room",
+   "prompt": "Tenebrist photograph of a small glass display vitrine on a slim pale stone pedestal in a dark gallery, right of centre. Inside, a deep green velvet tray holds a small plain glass jar and a small antique brass key. A single warm lantern beam from the upper right lights the vitrine, with soft reflections and bright edge highlights on the glass and a faint haze in the beam; the room around falls into deep warm charcoal-brown darkness, never pure black. Painterly chiaroscuro, photographic and sharp. No people, no hands."
+  },
+  {
+   "id": "g-feature-blog",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/blog/ hub hero or feature card",
+    "mega menu Resources card"
+   ],
+   "calmArea": "right 40%: pale linen tablecloth in window light",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52019
+   },
+   "alt": "An open notebook with pressed green leaves beside a cup of tea on a linen tablecloth in window light",
+   "prompt": "An open notebook with completely blank cream pages, a few pressed green leaves lying between the pages, beside a cup of tea on a saucer, on a natural linen tablecloth in soft morning window light from the left, left of centre; pale, airy, calm editorial still life, palette of cream, warm white and sage. The pages are blank with no writing, no lines of text. No people, no hands."
+  },
+  {
+   "id": "g-feature-firstvisit",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/dispensary-guide/ hero",
+    "New To Cannabis link card",
+    "first-visit tiles"
+   ],
+   "calmArea": "upper 35%: soft bright ceiling and cream wall",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52021
+   },
+   "alt": "An open glass door leading into a bright, calm, empty shop interior with a pale wood floor and cream walls",
+   "prompt": "A tall frameless glass door standing open into a bright calm modern boutique interior with a pale oak floor, warm cream plaster walls, soft daylight and a long low glass counter in the distance, generic and minimal, nobody inside, a few green plants. Clean, welcoming, quiet. The glass has no decals, no signage and no lettering; the walls have no posters. No people."
+  },
+  {
+   "id": "g-feature-law",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/massachusetts-cannabis-laws/ hero",
+    "law article cards"
+   ],
+   "calmArea": "right 50%: blank cream paper",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52026
+   },
+   "alt": "A brass magnifying glass, a fountain pen and folded blank paper on natural linen in soft light",
+   "prompt": "Editorial still life on a natural linen cloth, left of centre: a round brass magnifying glass with a smooth turned wooden handle, a black fountain pen with its cap on, and a few folded sheets of blank cream paper, soft window light from the left, calm palette of cream, sage and brass, the right 40 percent plain linen. Everything is blank and plain: no map, no compass, no dial, no letters, no words, no numbers, no engraving, nothing printed or written on the paper. No people, no hands."
+  },
+  {
+   "id": "g-feature-card",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "/getting-a-medical-card/ hero",
+    "ID / card notes"
+   ],
+   "calmArea": "left 45%: plain linen cloth",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52027
+   },
+   "alt": "A blank cream card and a fountain pen lying on natural linen in soft light",
+   "prompt": "A single completely blank cream card with rounded corners and a black fountain pen lying beside it on a natural linen cloth, right of centre, soft morning window light from the right, gentle shadows, calm minimal editorial still life, palette of cream, warm white and sage. The card is completely blank: no writing, no photo, no chip, no lines. No people, no hands."
+  },
+  {
+   "id": "g-feature-deli",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "Flower Deli tile (/shop/, /products/flower/#flower-deli)"
+   ],
+   "calmArea": "left 35% and the top band: warm darkness",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52029
+   },
+   "alt": "A row of glass deli jars of cannabis flower on a counter under a single warm light",
+   "prompt": "A row of four large clear glass apothecary jars with glass lids, each filled with dried cannabis flower buds, standing on a pale oak counter under one warm pendant light, right of centre; the background falls into deep warm charcoal-brown darkness, tenebrist chiaroscuro, glowing highlights on the glass, faint haze in the light. The jars are plain and unlabeled. No people, no hands."
+  },
+  {
+   "id": "g-feature-kiosk",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "home How To Shop bento: In-Store Kiosk tile",
+    "/dispensary-guide/ kiosk step"
+   ],
+   "calmArea": "left 45%: bright cream wall and pale floor",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52031
+   },
+   "alt": "A slim touch-screen kiosk with a softly glowing blank screen in a bright, minimal shop",
+   "prompt": "A slim freestanding touch-screen kiosk on a pale oak floor in a bright minimal boutique with warm cream plaster walls, right of centre, soft daylight; its portrait screen glows with a soft abstract gradient of sage green and cream with no interface, no icons, no buttons and no text. Clean, modern, calm, nobody around. No signage, no logos, no people."
+  },
+  {
+   "id": "g-feature-events",
+   "role": "feature",
+   "aspect": "3:2",
+   "usedFor": [
+    "home Upcoming Events band",
+    "/events/ hero"
+   ],
+   "calmArea": "upper 35%: soft dark wall above the string lights",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 52037
+   },
+   "alt": "Warm string lights over a wooden table with framed abstract art prints leaning on a cream wall",
+   "prompt": "Warm string lights with small round bulbs hanging in soft loops over a long wooden table in the evening; on the table and leaning against a cream plaster wall stand four framed abstract art prints of simple shapes in sage, copper and navy; a cosy small gallery atmosphere, warm glow, soft shadows, calm, no people. The prints are abstract with no lettering, no signatures. No people, no hands."
+  },
+  {
+   "id": "g-art-strains",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: strains / types"
+   ],
+   "calmArea": "upper 30%: plain pale stone",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63001
+   },
+   "alt": "Three cannabis flower buds of different colours in small stoneware dishes on pale stone",
+   "prompt": "Three small handmade stoneware dishes in a row on a pale limestone surface, each holding one dried cannabis flower bud of a different character: bright lime green, deep green with purple hues, frosty pale green; soft directional side light from the left, editorial still life, calm and refined, shallow depth of field. No people, no hands."
+  },
+  {
+   "id": "g-art-terpenes",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: terpenes / aroma"
+   ],
+   "calmArea": "right 35%: plain linen",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63003
+   },
+   "alt": "Citrus peel, lavender, black peppercorns, a pine sprig and a cannabis bud arranged on pale linen",
+   "prompt": "An aromatic editorial still life on pale natural linen in soft morning light: a curl of fresh orange peel, a sprig of lavender, a few black peppercorns, a small pine sprig and one small dried cannabis flower bud, arranged loosely left of centre, airy and calm, palette of cream, sage, orange and lavender. No people, no hands."
+  },
+  {
+   "id": "g-art-cannabinoids",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: cannabinoids"
+   ],
+   "calmArea": "left 35%: soft out-of-focus warm darkness",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63007
+   },
+   "alt": "A macro view of frosty resin glands on a cannabis flower, glistening in warm light",
+   "prompt": "Extreme macro photograph of a cannabis flower surface covered in glistening frosty trichomes, tiny round resin heads on slender stalks, orange pistils curling through, warm lantern light from the right, background falling into soft warm darkness, very shallow depth of field, crisp detail in the focal plane. No people, no hands."
+  },
+  {
+   "id": "g-art-label",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: reading a product label"
+   ],
+   "calmArea": "left 40%: plain linen",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63011
+   },
+   "alt": "A small glass jar with a blank paper tag beside a brass magnifying glass on linen",
+   "prompt": "A small clear glass jar with a cork stopper holding dried flower, a completely blank cream paper tag tied to its neck with natural string, beside a small brass magnifying glass, on a natural linen cloth, right of centre, soft window light, calm editorial still life. The tag is completely blank with no writing at all. No people, no hands."
+  },
+  {
+   "id": "g-art-budtender",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: talking to a budtender"
+   ],
+   "calmArea": "left 40%: blurred warm shop background",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63013
+   },
+   "alt": "Glass jars of cannabis flower and an open notepad on a pale wood counter in warm light",
+   "prompt": "A pale oak shop counter with three small clear glass jars of dried cannabis flower, a small open notepad with blank pages and a pencil, warm welcoming light, shallow depth of field with softly blurred cream and copper shelves behind, right of centre, calm. The jars are unlabeled and the notepad is blank. No people, no hands."
+  },
+  {
+   "id": "g-art-deli",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: buying from the flower deli"
+   ],
+   "calmArea": "upper 30%: warm dark background",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63017
+   },
+   "alt": "An open glass jar of cannabis flower beside steel tongs on a pale counter in warm light",
+   "prompt": "A large clear glass apothecary jar with its glass lid set beside it, filled with dried cannabis flower buds, a pair of small stainless steel tongs and a small glass dish next to it, on a pale oak counter, warm light from the upper right, background falling into warm darkness, tenebrist mood, sharp. The jar is unlabeled. No people, no hands."
+  },
+  {
+   "id": "g-art-delivery",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: home delivery"
+   ],
+   "calmArea": "upper 35%: dark green door panels",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63019
+   },
+   "alt": "A plain kraft paper bag on a doormat in front of a dark green front door in morning light",
+   "prompt": "A plain sealed kraft paper bag with a folded top standing on a coir doormat in front of a dark green painted wooden front door with a brass handle, soft morning light from the side, calm and welcoming, centre-left. The bag is completely plain and unprinted; the doormat has no words. No house numbers, no people, no hands."
+  },
+  {
+   "id": "g-art-decarb",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "recipe article: decarboxylation"
+   ],
+   "calmArea": "right 35%: plain cream counter",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63023
+   },
+   "alt": "Broken-up dried cannabis flower on a parchment-lined baking tray on a pale kitchen counter",
+   "prompt": "A small metal baking tray lined with parchment paper holding broken-up dried cannabis flower spread in an even layer, a folded linen oven cloth beside it, on a pale stone kitchen counter, soft window light from the left, calm home kitchen still life, palette of cream, sage and warm metal. No people, no hands."
+  },
+  {
+   "id": "g-art-butter",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "recipe article: infused butter"
+   ],
+   "calmArea": "left 35%: plain cream counter",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63029
+   },
+   "alt": "A block of pale green butter in a glass dish beside a small spatula and a strainer bowl on a pale counter",
+   "prompt": "A block of pale green-tinted butter in a small glass dish, a wooden spoon and a small fine-mesh sieve beside it, on a cream stone kitchen counter, soft morning window light, calm home kitchen still life, right of centre, palette of cream, pale green and warm wood. No people, no hands."
+  },
+  {
+   "id": "g-art-history",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: history / culture"
+   ],
+   "calmArea": "upper 35%: warm darkness",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63033
+   },
+   "alt": "A coil of natural hemp rope, dried stalks and a small lit clay oil lamp on a dark wooden table",
+   "prompt": "A coil of thick natural hemp rope, a bundle of dried hemp stalks with seed heads and a small old clay oil lamp, unlit, on a dark wooden table under warm lamp light from the right, the background falling into warm darkness, tenebrist chiaroscuro, the objects right of centre, calm dark space on the left. No books, no paper, no lettering anywhere, no people, no hands."
+  },
+  {
+   "id": "g-art-etiquette",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: etiquette / good neighbour habits"
+   ],
+   "calmArea": "upper 35%: soft green garden background",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63037
+   },
+   "alt": "A small wooden table with a glass carafe of water, a glass and a small cup on a quiet porch at golden hour",
+   "prompt": "A small round wooden table on a quiet covered porch at golden hour, set with a glass carafe of water, two clean drinking glasses and a small ceramic dish, two empty wooden chairs, a softly blurred green garden behind, warm low sunlight, calm and neighbourly. No people, no hands, no smoke."
+  },
+  {
+   "id": "g-art-edibles",
+   "role": "article",
+   "aspect": "3:2",
+   "usedFor": [
+    "article: edibles"
+   ],
+   "calmArea": "right 35%: plain linen",
+   "input": {
+    "aspect_ratio": "3:2",
+    "seed": 63041
+   },
+   "alt": "Squares of dark chocolate and sugar-dusted fruit jellies on a ceramic plate on linen",
+   "prompt": "A small handmade ceramic plate holding a few squares of dark chocolate and square artisanal fruit jellies dusted with sugar, on natural linen in soft morning window light, left of centre, elegant adult patisserie style, calm editorial still life. No packaging, no candy shapes, no people, no hands."
+  },
+  {
+   "id": "g-cut-jar",
+   "role": "cutout",
+   "aspect": "subject bounding box",
+   "cutout": true,
+   "file": "assets/generated/g-cut-jar.png",
+   "usedFor": [
+    "home bundles .tile--pop",
+    "/shop/ and /products/flower/ pop tiles"
+   ],
+   "calmArea": "transparent around the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 74001
+   },
+   "alt": "A glass apothecary jar of cannabis flower",
+   "prompt": "Product photograph of a single clear glass apothecary jar with a round glass lid, filled with dried green cannabis flower buds, standing upright, whole jar in frame with a wide margin, centred, on a plain seamless light grey studio background, soft even studio light, crisp clean edges, a soft contact shadow. The jar is completely plain and unlabeled. No people, no hands."
+  },
+  {
+   "id": "g-cut-tincture",
+   "role": "cutout",
+   "aspect": "subject bounding box",
+   "cutout": true,
+   "file": "assets/generated/g-cut-tincture.png",
+   "usedFor": [
+    "home bundles .tile--pop",
+    "/products/tinctures/ pop tile"
+   ],
+   "calmArea": "transparent around the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 74003
+   },
+   "alt": "An amber glass dropper bottle",
+   "prompt": "Product photograph of a single amber glass dropper bottle with a black rubber dropper cap, standing upright, whole bottle in frame with a wide margin, centred, on a plain seamless light grey studio background, soft even studio light, crisp clean edges, a soft contact shadow. The bottle is completely plain and unlabeled. No people, no hands."
+  },
+  {
+   "id": "g-cut-preroll",
+   "role": "cutout",
+   "aspect": "subject bounding box",
+   "cutout": true,
+   "file": "assets/generated/g-cut-preroll.png",
+   "usedFor": [
+    "/products/pre-rolls/ pop tile",
+    "bundle tiles"
+   ],
+   "calmArea": "transparent around the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 74009
+   },
+   "alt": "One cone-shaped pre-roll of unbleached paper with a twisted tip, standing upright",
+   "prompt": "Product photograph of one single cannabis pre-roll joint, cone-shaped, natural unbleached light-brown rolling paper, standing upright on its narrow end, which has a short brown card crutch, and widening toward the top, where ground green cannabis flower is visible and the paper is closed with a small neat twist; whole object in frame with a wide margin, centred, on a plain seamless light grey studio background, soft even studio light, crisp clean edges. Plain paper with no print. No smoke, no ash, no people, no hands."
+  },
+  {
+   "id": "g-cut-leaf",
+   "role": "cutout",
+   "aspect": "subject bounding box",
+   "cutout": true,
+   "file": "assets/generated/g-cut-leaf.png",
+   "usedFor": [
+    "pop tiles",
+    "category and article accents (anchored, never floating)"
+   ],
+   "calmArea": "transparent around the subject",
+   "input": {
+    "aspect_ratio": "3:4",
+    "seed": 74011
+   },
+   "alt": "A fresh green cannabis fan leaf",
+   "prompt": "Product photograph of one fresh green cannabis fan leaf with seven serrated leaflets on its stem, upright, whole leaf in frame with a wide margin, centred, on a plain seamless light grey studio background, soft even studio light, crisp clean edges. No people, no hands."
+  }
+ ]
+}

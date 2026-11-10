@@ -1,0 +1,106 @@
+{
+  "_note": "Removals declared by a contract decision, read by tools/words-check.mjs. 'remove' = phrases the rebuild deliberately does not print; 'split' = capture glue to split into the words the live page shows. Every entry carries its why (docs/OPEN-DECISIONS.md B7).",
+  "event__*": {
+    "why": "The events plugin's 'Add to calendar' export menu: plugin runtime with no function on a static page, and every event has passed.",
+    "remove": [
+      "Add to calendar",
+      "Google Calendar",
+      "iCalendar",
+      "Outlook 365",
+      "Outlook Live"
+    ]
+  },
+  "events": {
+    "why": "The events plugin search and view controls (List, Month, Today, the date picker), its screen-reader status line and its hidden second copy of the notice: plugin UI with no function on a static page.",
+    "remove": [
+      "0 events found.",
+      "There are no upcoming events.",
+      "Events Search and Views Navigation",
+      "Search",
+      "Event Views Navigation",
+      "List",
+      "Today",
+      "Upcoming Upcoming",
+      "Select date.",
+      "List",
+      "Month"
+    ]
+  },
+  "blog__how-does-cannabis-work": {
+    "why": "The capture glued the Prev/Next label to the neighbouring post's title; the page prints them as separate words.",
+    "split": {
+      "prevwhat": "prev what",
+      "experiencenext": "experience next"
+    }
+  },
+  "blog__pulling-back-the-curtain-on-cannabis": {
+    "why": "The capture glued the Next label to the neighbouring post's title; the page prints them as separate words.",
+    "split": {
+      "weednext": "weed next"
+    }
+  },
+  "blog__the-castleleaf-experience": {
+    "why": "The capture glued the Prev label to the neighbouring post's title; the page prints them as separate words.",
+    "split": {
+      "prevhow": "prev how"
+    }
+  },
+  "blog__what-to-do-with-your-weed": {
+    "why": "The capture glued the Prev label to the neighbouring post's title; the page prints them as separate words.",
+    "split": {
+      "prevpulling": "prev pulling"
+    }
+  },
+  "home": {
+    "why": "Responsive duplicates: the live page carries desktop copies (elementor-hidden-mobile) and phone copies (elementor-hidden-desktop elementor-hidden-tablet) of these buttons; the rebuild prints the most a visitor sees at one width (Shop Featured Products, Shop Budtender’s Picks and Shop Edibles once, Shop Flower twice).",
+    "remove": [
+      "Shop Featured Products",
+      "Shop Budtender’s Picks",
+      "Shop Flower",
+      "Shop Edibles"
+    ]
+  },
+  "home#d2a": {
+    "why": "BUILD-CONTRACT D2a: the live home FAQ pairs these two questions with the wrong answers; the rebuild shows the FAQ page’s own question and answer pairs instead.",
+    "remove": [
+      "What are your store hours?",
+      "What form of payment do you accept?"
+    ]
+  },
+  "home#typo": {
+    "why": "BUILD-CONTRACT D2a: the live “Talk To A Bundtender” is a typo, printed “Talk To A Budtender”.",
+    "split": {
+      "bundtender": "budtender"
+    }
+  },
+  "recreational__*": {
+    "why": "BUILD-CONTRACT D2a: the town template’s “Talk To A Bundtender” is a typo, printed “Talk To A Budtender”.",
+    "split": {
+      "bundtender": "budtender"
+    }
+  },
+  "faqs": {
+    "why": "BUILD-CONTRACT D2a: the live FAQ still answers “Do you offer delivery?” with this line while the home page sells local delivery; the rebuild answers with the home page’s two delivery lines (OPEN-DECISIONS A1).",
+    "remove": [
+      "Coming Soon! Sign up for our mailing list to receive our latest updates."
+    ]
+  },
+  "stores__brighton-ma": {
+    "why": "BUILD-CONTRACT D2a: the live FAQ still answers “Do you offer delivery?” with this line while the home page sells local delivery; the rebuild answers with the home page’s two delivery lines (OPEN-DECISIONS A1).",
+    "remove": [
+      "Coming Soon! Sign up for our mailing list to receive our latest updates."
+    ]
+  },
+  "jobs": {
+    "why": "The job-board widget’s own control, not carried (BUILD-CONTRACT section 6, /jobs/); the Indeed link stays.",
+    "remove": [
+      "Load more listings"
+    ]
+  },
+  "advertising-with-us": {
+    "why": "BUILD-CONTRACT D3: the previous web vendor’s line is not carried; its leftover label would stand alone.",
+    "remove": [
+      "Powered by"
+    ]
+  }
+}

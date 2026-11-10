@@ -1,0 +1,81 @@
+{
+  "order": 5,
+  "slug": "edibles-start-low-go-slow",
+  "path": "/blog/edibles-start-low-go-slow/",
+  "title": "Edibles: Start Low, Go Slow | CastleLeaf",
+  "h1": "Edibles: Start Low, Go Slow",
+  "description": "Edibles work differently from smoking or vaping. Learn why they take longer, why they can feel stronger and how to plan a calm first try, one step at a time.",
+  "categories": [
+    { "name": "Cannabis 101", "slug": "cannabis-101" }
+  ],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-art-edibles",
+  "imageAlt": "",
+  "excerpt": "The golden rule of edibles fits on a sticky note: start low, go slow. Here’s why it matters and how to plan a first experience you’ll actually enjoy.",
+  "pull": "The classic mistake is to feel nothing after an hour, decide it isn’t working and take another piece.",
+  "relatedCategories": ["edibles", "tinctures"],
+  "related": ["how-to-read-a-cannabis-label", "how-does-cannabis-work", "simple-cannabutter"],
+  "sections": [
+    {
+      "id": "the-golden-rule",
+      "heading": "The golden rule",
+      "blocks": [
+        { "type": "p", "html": "If you remember one thing about edibles, make it this: start low, go slow. We said it in <a href=\"/blog/how-does-cannabis-work/\">How Does Cannabis Work?</a>, where we suggested 2.5 mg to 5 mg for people new to edibles, and we’ll happily keep saying it. It’s the difference between a lovely evening and a very long one." },
+        { "type": "p", "html": "Cannabis is for everyone, and so is taking your time with it. Here’s why edibles deserve a little extra patience." }
+      ]
+    },
+    {
+      "id": "why-edibles-are-different",
+      "heading": "Why edibles are different",
+      "blocks": [
+        { "type": "p", "html": "When you inhale cannabis, it reaches your bloodstream through your lungs and you notice the effects fairly quickly. When you eat it, it takes the scenic route: through your stomach and then your liver, which converts part of the THC into a cousin called 11-hydroxy-THC. Many people find the result feels different from inhaling, and often stronger." },
+        { "type": "p", "html": "That journey explains two things every edible fan should know:" },
+        { "type": "ul", "items": [
+          "<strong>They take longer.</strong> Effects can begin anywhere from about half an hour to two hours after eating, sometimes longer, depending on your body and what else is in your stomach.",
+          "<strong>They last longer.</strong> An edible’s effects tend to stretch over several hours, often longer than people expect."
+        ] },
+        { "type": "p", "html": "The classic mistake is to feel nothing after an hour, decide it isn’t working and take another piece. Then both arrive at once." }
+      ]
+    },
+    {
+      "id": "plan-a-first-try",
+      "heading": "Planning a first try",
+      "blocks": [
+        { "type": "steps", "items": [
+          { "title": "Read the label", "text": "Check the milligrams of THC per serving. In Massachusetts, edibles are capped at 5 mg of THC a serving and 100 mg a package." },
+          { "title": "Choose a small dose", "text": "Start at or below one serving. Many edibles can be cut, so half a serving is a perfectly good place to begin." },
+          { "title": "Pick your setting", "text": "Somewhere comfortable and private, with nowhere to be and no driving. A familiar room and good company make a difference." },
+          { "title": "Wait, then wait some more", "text": "Give it at least two hours before you even think about more. A kitchen timer is a wonderful thing." },
+          { "title": "Make a note", "text": "Write down the product, the dose and what you noticed. Next time, you’ll know exactly where to start." }
+        ] },
+        { "type": "p", "html": "Tinctures are measured with a dropper rather than by the piece, and the same rule applies: a small amount, then patience." }
+      ]
+    },
+    {
+      "id": "good-habits",
+      "heading": "A few good habits",
+      "blocks": [
+        { "type": "ul", "items": [
+          "Skip the alcohol. Mixing the two makes the experience harder to predict.",
+          "Keep edibles in their original packaging, stored away from anyone under 21 and from pets. Many look just like ordinary snacks.",
+          "Enjoy them on private property only. Public consumption is illegal in Massachusetts, and driving under the influence is illegal and dangerous.",
+          "If you take medication or have a health condition, talk to a doctor first."
+        ] }
+      ]
+    },
+    {
+      "id": "if-you-take-too-much",
+      "heading": "If you take too much",
+      "blocks": [
+        { "type": "p", "html": "It happens, and it passes. Find a quiet, comfortable spot, sip some water, put on something familiar and remind yourself that the feeling is temporary. It’s nice to have a trusted friend nearby. If you feel unwell or worried, contact a medical professional, and in an emergency, call 911." },
+        { "type": "callout", "html": "<strong>New to edibles?</strong> <a href=\"/book-a-budtender/\">Ask one of our budtenders</a> to walk you through serving sizes and flavors before you choose. Browse <a href=\"/products/edibles/\">edibles</a> and <a href=\"/products/tinctures/\">tinctures</a> anytime, then pick up in store or order <a href=\"/delivery/\">local delivery</a>." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "How long before I feel an edible?", "a_html": "Anywhere from about half an hour to two hours, sometimes longer. It depends on your body and what you’ve eaten, so give it a full two hours before you take more." },
+    { "q": "What’s a good first dose?", "a_html": "A small one. In <a href=\"/blog/how-does-cannabis-work/\">How Does Cannabis Work?</a> we suggested 2.5 mg to 5 mg for people new to edibles. Everyone responds differently, so the low end is a fine place to start." },
+    { "q": "Why do edibles feel different from smoking?", "a_html": "When you eat cannabis, your liver processes the THC and turns some of it into a related compound, 11-hydroxy-THC. Many people find the experience stronger and longer lasting as a result." }
+  ]
+}

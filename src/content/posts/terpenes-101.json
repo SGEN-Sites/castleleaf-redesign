@@ -1,0 +1,79 @@
+{
+  "order": 2,
+  "slug": "terpenes-101",
+  "path": "/blog/terpenes-101/",
+  "title": "Terpenes 101: What Your Nose Already Knows | CastleLeaf",
+  "h1": "Terpenes 101: What Your Nose Already Knows",
+  "description": "Terpenes give cannabis its citrus, pine, pepper and earthy notes. A friendly guide to what they are, the ones you will meet most and how to explore by aroma.",
+  "categories": [
+    { "name": "Cannabis 101", "slug": "cannabis-101" }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-terpenes",
+  "imageAlt": "",
+  "excerpt": "We promised a closer look at terpenes, and here it is: what they are, where else you’ve met them, and how your nose can guide your next choice.",
+  "pull": "Your nose has been collecting them for years, from the kitchen, the garden and the woods.",
+  "relatedCategories": ["flower", "vaporizers"],
+  "related": ["pulling-back-the-curtain-on-cannabis", "indica-sativa-hybrid-explained", "what-is-a-flower-deli"],
+  "sections": [
+    {
+      "id": "a-promise-kept",
+      "heading": "A promise kept",
+      "blocks": [
+        { "type": "p", "html": "In <a href=\"/blog/pulling-back-the-curtain-on-cannabis/\">Pulling Back The Curtain On Cannabis</a>, we asked you to stay tuned for a closer look at terpenes. Thank you for your patience. Pour yourself something nice, because this one is all about smell." },
+        { "type": "p", "html": "Terpenes are aromatic compounds made by plants, and cannabis makes a lot of them: researchers have identified more than a hundred. They form in the same tiny, frosty glands on the flower, called trichomes, that make cannabinoids like THC. When you open a jar and catch a burst of lemon, pine or pepper, you’re meeting terpenes." }
+      ]
+    },
+    {
+      "id": "you-already-know-them",
+      "heading": "You already know them",
+      "blocks": [
+        { "type": "p", "html": "Here’s the fun part: terpenes aren’t unique to cannabis. Your nose has been collecting them for years, from the kitchen, the garden and the woods. A few you’re likely to meet:" },
+        { "type": "ul", "items": [
+          "<strong>Myrcene:</strong> earthy and musky, with a hint of ripe fruit. It’s also found in hops.",
+          "<strong>Limonene:</strong> bright and zesty, in the same family of scents as orange and lemon peel.",
+          "<strong>Pinene:</strong> fresh and green, like pine needles and rosemary.",
+          "<strong>Linalool:</strong> soft and floral, best known from lavender.",
+          "<strong>Caryophyllene:</strong> warm and peppery, also found in black pepper and cloves.",
+          "<strong>Humulene:</strong> woody and herbal, and named after the hop plant."
+        ] },
+        { "type": "p", "html": "Every cultivar carries its own blend, usually led by a few dominant terpenes, which is why one flower can smell like a fruit bowl and another like a walk through the forest." }
+      ]
+    },
+    {
+      "id": "why-they-matter",
+      "heading": "Why they matter",
+      "blocks": [
+        { "type": "p", "html": "Terpenes shape flavor and aroma, and for many people that alone makes them worth knowing. Two flowers with similar THC numbers can smell and taste completely different, and plenty of shoppers find they keep coming back to the same family of scents." },
+        { "type": "p", "html": "You’ll also hear bold claims about what single terpenes do. Some people report that certain aromas suit them better than others, and researchers are still studying how terpenes and cannabinoids behave together, the idea known as the entourage effect that we touched on in <a href=\"/blog/how-does-cannabis-work/\">How Does Cannabis Work?</a>. The science is young and everyone responds differently, so we’d rather you trust your own experience than a chart." },
+        { "type": "p", "html": "If you prefer vaporizers, check the packaging: many list their terpenes, and some say whether those terpenes came from cannabis or from other plants." }
+      ]
+    },
+    {
+      "id": "explore-by-aroma",
+      "heading": "How to explore by aroma",
+      "blocks": [
+        { "type": "steps", "items": [
+          { "title": "Notice what you like", "text": "Next time you enjoy a product, jot down how it smelled and tasted. Citrus? Pine? Pepper? Earth?" },
+          { "title": "Check the label", "text": "Many products list their leading terpenes, sometimes with percentages. Look for the same names on your favorites." },
+          { "title": "Compare a pair", "text": "Try two products with similar THC numbers but different leading terpenes, on different days, and see which one suits you." },
+          { "title": "Ask about the aroma", "text": "Describe the scents you love to a budtender and ask for something in the same family." }
+        ] }
+      ]
+    },
+    {
+      "id": "keep-them-fresh",
+      "heading": "Keep them fresh",
+      "blocks": [
+        { "type": "p", "html": "Terpenes are volatile, which is a scientist’s way of saying they evaporate easily. Heat, light, air and time all wear them down, which is why a forgotten bag of flower smells flat. Keep cannabis in an airtight container somewhere cool and dark and you’ll hold on to more of the aroma you chose it for. Our post <a href=\"/blog/what-to-do-with-your-weed/\">What To Do With Your Weed</a> has more storage tips." },
+        { "type": "callout", "html": "<strong>Shopping by scent?</strong> Browse our <a href=\"/products/flower/\">flower</a> and <a href=\"/products/vaporizers/\">vaporizers</a>, or <a href=\"/book-a-budtender/\">book a budtender</a> and tell them which aromas you love. Once you’ve chosen, pick it up in store or let <a href=\"/delivery/\">local delivery</a> bring it straight to your door." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Do terpenes get you high?", "a_html": "No. Terpenes are aromatic compounds, not intoxicating ones like THC. They shape how cannabis smells and tastes, and researchers are still studying how they interact with cannabinoids." },
+    { "q": "Are cannabis terpenes the same as the ones in lemons or lavender?", "a_html": "Often, yes. Limonene, linalool and many others turn up all over the plant world. Cannabis simply makes its own mix, which is why one flower can smell like citrus and another like a pine forest." },
+    { "q": "Where can I find the terpenes in a product?", "a_html": "Many labels list the leading terpenes, sometimes with percentages. If yours doesn’t, <a href=\"/book-a-budtender/\">ask one of our budtenders</a> to point you toward products with the aroma you’re after." }
+  ]
+}

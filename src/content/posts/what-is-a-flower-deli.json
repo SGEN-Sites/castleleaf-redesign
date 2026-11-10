@@ -1,0 +1,151 @@
+{
+  "order": 8,
+  "slug": "what-is-a-flower-deli",
+  "path": "/blog/what-is-a-flower-deli/",
+  "title": "What Is a Flower Deli? | CastleLeaf",
+  "h1": "What Is a Flower Deli?",
+  "description": "How a cannabis flower deli works, why buying by weight at a fresh counter is handy, and how the CastleLeaf Mix and Match bulk flower bundle comes together.",
+  "categories": [
+    {
+      "name": "Shopping & Reviews",
+      "slug": "shopping-and-reviews"
+    }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-deli",
+  "imageAlt": "",
+  "excerpt": "Picture the deli counter at your favorite market, then swap the cold cuts for cannabis flower. Here’s how buying by weight works, and how our own Flower Deli does it.",
+  "pull": "You choose the flower and the amount, and it’s weighed out for you, much like asking for a half pound of sliced turkey at the market.",
+  "relatedCategories": [
+    "flower",
+    "pre-rolls"
+  ],
+  "related": [
+    "how-to-talk-to-a-budtender",
+    "indica-sativa-hybrid-explained",
+    "terpenes-101"
+  ],
+  "sections": [
+    {
+      "id": "the-idea",
+      "heading": "The idea, in a sentence or two",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "A flower deli is a counter where cannabis flower is sold by weight from larger containers, rather than only in jars or pouches that were sealed somewhere else. You choose the flower and the amount, and it’s weighed out for you, much like asking for a half pound of sliced turkey at the market."
+        },
+        {
+          "type": "p",
+          "html": "The name is a little playful, and so is the experience. It turns buying flower into a conversation at a counter instead of a grab from a shelf."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "heading": "How a deli counter usually works",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Browse the counter",
+              "text": "Each flower usually has its name, its type and its cannabinoid numbers listed, so you can compare before you choose."
+            },
+            {
+              "title": "Ask about anything",
+              "text": "This is the moment to ask a budtender about aroma, strength and how each flower tends to be described. Everyone responds differently, so their notes are a starting point, not a promise."
+            },
+            {
+              "title": "Pick your amount",
+              "text": "Deli counters sell by weight, so you can buy a little to try something new or a larger amount of a favorite."
+            },
+            {
+              "title": "Weighed and sealed",
+              "text": "In most deli setups, your flower is weighed on a scale and packed into a sealed, labeled container before it leaves the counter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-people-like-it",
+      "heading": "Why people like buying by weight",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Flexibility.</strong> Try a small amount of something new without committing to a big jar.",
+            "<strong>Variety.</strong> Mix a few flowers instead of settling on one, handy if your weekend mood differs from your weeknight one.",
+            "<strong>Value.</strong> Larger weights often bring the price per gram down, and a bundle makes that easy to see.",
+            "<strong>Conversation.</strong> A counter invites questions, and questions lead to better choices."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "New to flower? It helps to know a few words first. Our guides to <a href=\"/blog/indica-sativa-hybrid-explained/\">indica, sativa and hybrid</a> and to <a href=\"/blog/terpenes-101/\">terpenes</a> cover the vocabulary you’ll hear at the counter."
+        }
+      ]
+    },
+    {
+      "id": "our-flower-deli",
+      "heading": "The CastleLeaf Flower Deli",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "At our Brighton store, look for the Fresh Counter. As we put it: “Speak to a Budtender or visit our Fresh Counter at the store.” Online, the Flower Deli has its own place on our menu as <a href=\"/categories/flower/bulk-flower/\">bulk flower</a>."
+        },
+        {
+          "type": "h3",
+          "text": "Mix and Match Our bulk flowers"
+        },
+        {
+          "type": "p",
+          "html": "Our Flower Deli bundle is called exactly that. Here it is, as written on its <a href=\"/specials/mix-and-match-our-bulk-flowers/\">bundle page</a>:"
+        },
+        {
+          "type": "callout",
+          "html": "<strong>Mix and Match Our bulk flowers</strong><br>3.5 g for $22 , 7g for $42 , 14g for $60 , 28g for $110 Tax Included"
+        },
+        {
+          "type": "p",
+          "html": "If you order online, the bundle page also notes that the website cart may not reflect the bundled price, and that it will be adjusted at time of payment."
+        },
+        {
+          "type": "p",
+          "html": "Mixing and matching is the fun part. Pair a familiar favorite with something new, or build a small flight of different aromas and take notes on what you enjoy. Our post <a href=\"/blog/pulling-back-the-curtain-on-cannabis/\">Pulling Back The Curtain On Cannabis</a> recommends keeping a cannabis journal, and a deli bundle is a fine excuse to start one."
+        }
+      ]
+    },
+    {
+      "id": "counter-tips",
+      "heading": "A few counter tips",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Bring a valid government ID that shows you’re 21+.",
+            "Massachusetts law allows up to 1oz (28 grams) flower equivalent per day, so plan your mix with that in mind.",
+            "Not sure where to begin? Tell a budtender what you usually enjoy and let them suggest a starting mix.",
+            "We accept cash or debit cards, and there’s an ATM on site.",
+            "At home, keep flower in an airtight container away from heat and light, and out of reach of anyone under 21."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is deli flower different from pre-packaged flower?",
+      "a_html": "It’s the same kind of product sold a different way. At a deli counter, flower is weighed to order, while pre-packaged flower comes sealed in set sizes. Both have their place, and a budtender can help you weigh up the two."
+    },
+    {
+      "q": "Can I mix different flowers in one bundle?",
+      "a_html": "That’s the idea behind Mix and Match Our bulk flowers. The sizes and prices are listed on the <a href=\"/specials/mix-and-match-our-bulk-flowers/\">bundle page</a>, tax included."
+    },
+    {
+      "q": "Can I find bulk flower on the online menu?",
+      "a_html": "Yes. The Flower Deli has its own section on our menu as <a href=\"/categories/flower/bulk-flower/\">bulk flower</a>. Order from home and swing by when you’re ready."
+    }
+  ]
+}

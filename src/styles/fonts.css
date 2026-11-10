@@ -1,0 +1,11 @@
+/* fonts.css - self-hosted OFL faces. CastleLeaf's live faces (Fertigo Pro for headings, Proxima Nova for text) are
+   commercial Adobe Fonts and cannot ship in a public repo, so the redesign uses two free faces in the same spirit:
+   Fraunces (a warm old-style serif with optical sizes, for the castle's classic wordmark feel) and Figtree (a clean
+   geometric-humanist sans, close to Proxima Nova). Latin subsets from Google Fonts; tools/subset-fonts.py cuts them. */
+@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 100 900; font-display: swap; src: url('/assets/fonts/fraunces-normal-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Fraunces'; font-style: italic; font-weight: 100 900; font-display: swap; src: url('/assets/fonts/fraunces-italic-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Figtree'; font-style: normal; font-weight: 300 900; font-display: swap; src: url('/assets/fonts/figtree-normal-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Figtree'; font-style: italic; font-weight: 300 900; font-display: swap; src: url('/assets/fonts/figtree-italic-latin.woff2') format('woff2'); }
+/* size-matched fallbacks so a late web font does not re-wrap the hero headline */
+@font-face { font-family: 'Fraunces Fallback'; src: local('Georgia'); size-adjust: 104%; ascent-override: 92%; descent-override: 24%; line-gap-override: 0%; }
+@font-face { font-family: 'Figtree Fallback'; src: local('Arial'); size-adjust: 98%; ascent-override: 96%; descent-override: 25%; line-gap-override: 0%; }

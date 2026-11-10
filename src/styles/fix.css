@@ -1,0 +1,36 @@
+/* fix.css - main session, loads last. */
+/* On a very tall viewport the parallax offset (measured from the viewport centre) hits its clamp and could push a framed
+   image over text. Tall screens lose the parallax, nothing else. */
+@media (min-height: 1400px) {
+  [data-depth] { translate: none; }
+}
+/* Captured SEO H1s run long ("Recreational Cannabis Dispensary near North Waltham, MA 02455"): build.mjs tags them by
+   visible length so the inner hero keeps its CTA on the first screen at 1280x585. */
+.page-hero h1.h1--mid { font-size: clamp(2.3rem, 4.4vw, 4.3rem); }
+.page-hero h1.h1--long { font-size: clamp(2rem, 3.5vw, 3.4rem); line-height: 1.06; }
+
+/* Home hero, pinned mode only (integration review 2026-11-10): at the end of the pin the morning wash took the lantern
+   still to near-white, and the next band's top padding (sized for the flow-mode frame, which crosses 120 px at 1280)
+   left about 210 px of empty linen under the risen frame. The stage now brightens without bleaching, and in pinned mode
+   (where the frame has risen by 10vh and crosses about 65 px) the How To Shop band starts closer. Flow mode (phones,
+   short screens, reduced motion) keeps the full padding. */
+@media (min-width: 1024px) and (min-height: 560px) and (prefers-reduced-motion: no-preference) {
+  html.js .h-hero[data-pin] .h-hero__day { opacity: calc(var(--p, 0) * 0.42 - 0.08); }
+  html.js .h-hero[data-pin] .h-hero__haze { transform: scaleY(calc(0.21 + var(--p, 0) * 0.3)); }
+  html.js .h-hero[data-pin] + .band { padding-top: calc(var(--section-y) * 0.5 + 76px); }
+}
+
+/* Phones and tablets: every tap target at least 44 x 44 px (gate phone audit at 390 and 360, 2026-11-10). Boxes grow, the
+   visible text does not move: inline links get block padding (an inline box's padding does not change line layout). The
+   slideshow dots (7 x 44 px would overflow a 360 px row and squeeze the arrows) give way to the arrows and swiping. */
+@media (max-width: 1023px) {
+  .crumbs a { min-width: 44px; min-height: 44px; }
+  .link-arrow { min-height: 44px; }
+  .footer__links a { display: inline-flex; align-items: center; min-width: 44px; min-height: 44px; }
+  .mainbar__logo, .site-footer a.logo { display: inline-flex; align-items: center; min-height: 44px; }
+  .acard__meta a.tag, .n-meta a.tag { min-height: 44px; }
+  .rotator__dots { display: none; }
+  .rotator__btn { flex: none; width: 44px; height: 44px; }
+  .p-offer__title a, .s-deliband__dealname a { display: inline-flex; align-items: center; min-height: 44px; }
+  .faq__a a, .callout a { padding-block: 12px; }
+}

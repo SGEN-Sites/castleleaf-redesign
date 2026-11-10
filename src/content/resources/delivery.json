@@ -1,0 +1,76 @@
+{
+  "slug": "delivery",
+  "path": "/delivery/",
+  "title": "Local Delivery | CastleLeaf",
+  "description": "Local cannabis delivery from CastleLeaf in Brighton, MA. Order online, choose Home Delivery and keep a valid government ID handy. For adults 21 and older.",
+  "kicker": "Home Delivery",
+  "h1": "Local Delivery",
+  "lede": "Cannabis quickly delivered straight to your door. Browse the menu from the sofa, choose Home Delivery, and keep your ID within reach for the knock.",
+  "sections": [
+    {
+      "id": "how-it-works",
+      "heading": "How delivery works",
+      "kicker": "Four easy steps",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            { "title": "Browse the live menu", "text": "Open our menu and take your time. Wander the categories, read the product details and fill your cart at your own pace." },
+            { "title": "Choose Home Delivery", "text": "Place your order online and choose Home Delivery. Rather collect it yourself? Pick-up in-store is right there as well." },
+            { "title": "Have your ID ready", "text": "Keep a valid government ID that shows you're 21 or older close at hand for when your order arrives." },
+            { "title": "Someone 21+ receives it", "text": "An adult 21 or older takes the order in person, ID in hand. Then it's all yours to enjoy at home, on private property." }
+          ]
+        },
+        { "type": "p", "html": "Ready when you are: <a href=\"/menu/\">open the menu</a> and start a delivery order." },
+        { "type": "callout", "html": "Got a question before you order? Call us at <a href=\"tel:+16172025066\">(617) 202-5066</a> and we'll talk it through with you." }
+      ]
+    },
+    {
+      "id": "other-ways-to-shop",
+      "heading": "Other ways to shop",
+      "kicker": "Pickup, kiosk or a chat",
+      "blocks": [
+        { "type": "p", "html": "Delivery is one door into CastleLeaf. There are three more, and you're welcome to use whichever suits the day." },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Order Online for pick-up.</strong> Order from home and swing by when you're ready. <a href=\"/menu/\">See Our Menu</a>.",
+            "<strong>Walk-in Express.</strong> Place an order at our in-store kiosk and shop in peace.",
+            "<strong>In-store Budtender Experience.</strong> Speak to a Budtender or visit our Fresh Counter at the store, where our highly educated budtenders are glad to show you around."
+          ]
+        },
+        { "type": "p", "html": "You'll find us at <a href=\"/directions/\">100 Leo M Birmingham Pkwy, Brighton, MA 02135</a>, with plenty of on site parking in our lot and street parking out front." }
+      ]
+    },
+    {
+      "id": "delivery-questions",
+      "heading": "Delivery questions",
+      "blocks": [
+        {
+          "type": "faq",
+          "items": [
+            { "q": "Who can receive a delivery?", "a_html": "An adult 21 or older with a valid government ID. The simplest plan is to be home yourself, with your ID ready, when the order arrives." },
+            { "q": "Can I order for pickup instead?", "a_html": "Yes. When you order online you can choose pick-up in-store or Home Delivery. Order from home and swing by when you're ready: we're at <a href=\"/directions/\">100 Leo M Birmingham Pkwy</a> in Brighton." },
+            { "q": "Can I talk to a budtender first?", "a_html": "Please do. Give us a call at <a href=\"tel:+16172025066\">(617) 202-5066</a> or stop by and chat with one of our budtenders. Booking a budtender online is coming soon on our <a href=\"/book-a-budtender/\">Book A Budtender</a> page." }
+          ]
+        }
+      ]
+    }
+  ],
+  "_claims": [
+    "cl-delivery-line",
+    "cl-order-online-pickup-or-home-delivery",
+    "cl-id-21-plus-valid-government-id",
+    "cl-ways-order-online-line",
+    "cl-buy-options-walk-in-express-kiosk",
+    "cl-ways-kiosk-line",
+    "cl-ways-budtender-fresh-counter-line",
+    "op-highly-educated-budtenders",
+    "cl-phone",
+    "cl-address",
+    "cl-parking",
+    "cl-faq-call-or-chat-with-budtenders",
+    "cl-book-a-budtender-coming-soon",
+    "cl-faq-private-property-only"
+  ]
+}

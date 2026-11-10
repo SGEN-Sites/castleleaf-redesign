@@ -1,0 +1,36 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cut-preroll",
+  "file": "assets/generated/g-cut-preroll.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of one single cannabis pre-roll joint, cone-shaped, natural unbleached light-brown rolling paper, standing upright on its narrow end, which has a short brown card crutch, and widening toward the top, where ground green cannabis flower is visible and the paper is closed with a small neat twist; whole object in frame with a wide margin, centred, on a plain seamless light grey studio background, soft even studio light, crisp clean edges. Plain paper with no print. No smoke, no ash, no people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 74009
+  },
+  "seed": 74009,
+  "requestId": "01a1c3fe-5031-7541-aad4-7671d0e61cef",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1c3fe-763f-7fb2-b8b2-1bbc3be4180e"
+  },
+  "width": 368,
+  "height": 1798,
+  "sha256": "48c61d5c5c62e468670967b652b72d7b34c0b80031460a601c60e3427cfaa3ef",
+  "raw": "tmp/img/raw/g-cut-preroll.1794289593542.jpg",
+  "attempt": 3,
+  "generatedAt": "2026-11-10T05:46:39.550Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black; attempts 1-2 rejected: a plain white cone, then a straight tube that did not read as a pre-roll",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [
+    "trimmed to the alpha bounding box + 4% margin (tmp/img/post.py trim)"
+  ],
+  "alt": "One cone-shaped pre-roll of unbleached paper with a twisted tip, standing upright"
+}

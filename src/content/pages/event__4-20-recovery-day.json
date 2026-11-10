@@ -1,0 +1,422 @@
+{
+ "slug": "event__4-20-recovery-day",
+ "path": "/event/4-20-recovery-day/",
+ "source": "https://www.castleleaf.com/event/4-20-recovery-day/",
+ "captured": "2026-11-10",
+ "title": "4.20 Recovery Day! - CastleLeaf",
+ "description": "",
+ "canonical": "https://www.castleleaf.com/event/4-20-recovery-day/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "4.20 Recovery Day! - CastleLeaf",
+  "og:url": "https://www.castleleaf.com/event/4-20-recovery-day/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2024-06-11T14:43:10-04:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2024/04/IG-Story-Apr-4.21.jpg",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2024/04/IG-Story-Apr-4.21.jpg",
+  "og:image:width": "1080",
+  "og:image:height": "1920",
+  "og:image:alt": "4.20 Recovery Day!",
+  "og:image:type": "image/jpeg"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/event/4-20-recovery-day/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/events/",
+        "name": "Events"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://www.castleleaf.com/event/4-20-recovery-day/",
+        "name": "4.20 Recovery Day!"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  },
+  [
+   {
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "4.20 Recovery Day!",
+    "description": "",
+    "image": "https://www.castleleaf.com/wp-content/uploads/2024/04/IG-Story-Apr-4.21.jpg",
+    "url": "https://www.castleleaf.com/event/4-20-recovery-day/",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "startDate": "2024-04-21T11:00:00-04:00",
+    "endDate": "2024-04-21T19:00:00-04:00",
+    "performer": "Organization"
+   }
+  ]
+ ],
+ "h1": "CastleLeaf Cannabis Dispensary Events",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "CastleLeaf Cannabis Dispensary Events"
+    },
+    {
+     "t": "img",
+     "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==",
+     "alt": "Loading Events",
+     "width": "64",
+     "height": "64"
+    },
+    {
+     "t": "p",
+     "html": "<a href=\"https://www.castleleaf.com/events/\"> « All Events</a>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "This event has passed."
+     ]
+    },
+    {
+     "t": "h1",
+     "html": "4.20 Recovery Day!"
+    },
+    {
+     "t": "text",
+     "html": "April 21, 2024 @ 11:00 am"
+    },
+    {
+     "t": "text",
+     "html": "-"
+    },
+    {
+     "t": "text",
+     "html": "7:00 pm"
+    },
+    {
+     "t": "nav",
+     "label": "Event Navigation",
+     "blocks": [
+      {
+       "t": "ul",
+       "items": [
+        "<a href=\"https://www.castleleaf.com/event/4-20-party-tavern-in-the-square-allston/\">« 4.20 Party @ Tavern in the Square Allston!</a>",
+        ""
+       ]
+      }
+     ]
+    },
+    {
+     "t": "img",
+     "src": "https://www.castleleaf.com/wp-content/uploads/2024/04/IG-Story-Apr-4.21.jpg",
+     "alt": "",
+     "width": "1080",
+     "height": "1920"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg\n\t class=\"tribe-common-c-svgicon tribe-common-c-svgicon--cal-export tribe-events-c-subscribe-dropdown__export-icon\" \taria-hidden=\"true\"\n\tviewBox=\"0 0 23 17\"\n\txmlns=\"http://www.w3.org/2000/svg\"\n>\n\t<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M.128.896V16.13c0 .211.145.383.323.383h15.354c.179 0 .323-.172.323-.383V.896c0-.212-.144-.383-.323-.383H.451C.273.513.128.684.128.896Zm16 6.742h-.901V4.679H1.009v10.729h14.218v-3.336h.901V7.638ZM1.01 1.614h14.218v2.058H1.009V1.614Z\" />\n\t<path d=\"M20.5 9.846H8.312M18.524 6.953l2.89 2.909-2.855 2.855\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</svg>"
+    },
+    {
+     "t": "button",
+     "html": "Add to calendar",
+     "aria-label": "View links to add events to your calendar"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg\n\t class=\"tribe-common-c-svgicon tribe-common-c-svgicon--caret-down tribe-events-c-subscribe-dropdown__button-icon\" \taria-hidden=\"true\"\n\tviewBox=\"0 0 10 7\"\n\txmlns=\"http://www.w3.org/2000/svg\"\n>\n\t<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1.008.609L5 4.6 8.992.61l.958.958L5 6.517.05 1.566l.958-.958z\" class=\"tribe-common-c-svgicon__svg-fill\"/>\n</svg>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "<a href=\"https://www.google.com/calendar/event?action=TEMPLATE&amp;dates=20240421T110000/20240421T190000&amp;text=4.20%20Recovery%20Day%21&amp;trp=false&amp;ctz=America/New_York&amp;sprop=website:https://www.castleleaf.com\" target=\"_blank\" rel=\"noopener noreferrer nofollow noindex\"> Google Calendar </a>",
+      "<a href=\"webcal://www.castleleaf.com/event/4-20-recovery-day/?ical=1\" target=\"_blank\" rel=\"noopener noreferrer nofollow noindex\"> iCalendar </a>",
+      "<a href=\"https://outlook.office.com/owa/?path=/calendar/action/compose&amp;rrv=addevent&amp;startdt=2024-04-21T11%3A00%3A00-04%3A00&amp;enddt=2024-04-21T19%3A00%3A00-04%3A00&amp;location&amp;subject=4.20%20Recovery%20Day%21&amp;body\" target=\"_blank\" rel=\"noopener noreferrer nofollow noindex\"> Outlook 365 </a>",
+      "<a href=\"https://outlook.live.com/owa/?path=/calendar/action/compose&amp;rrv=addevent&amp;startdt=2024-04-21T11%3A00%3A00-04%3A00&amp;enddt=2024-04-21T19%3A00%3A00-04%3A00&amp;location&amp;subject=4.20%20Recovery%20Day%21&amp;body\" target=\"_blank\" rel=\"noopener noreferrer nofollow noindex\"> Outlook Live </a>"
+     ]
+    },
+    {
+     "t": "h2",
+     "html": "Details"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "Date: <abbr title=\"2024-04-21\"> April 21, 2024 </abbr>",
+      "Time: 11:00 am - 7:00 pm"
+     ]
+    },
+    {
+     "t": "nav",
+     "label": "Event Navigation",
+     "blocks": [
+      {
+       "t": "ul",
+       "items": [
+        "<a href=\"https://www.castleleaf.com/event/4-20-party-tavern-in-the-square-allston/\">« 4.20 Party @ Tavern in the Square Allston!</a>",
+        ""
+       ]
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<strong>We’re Open!:</strong> Featuring our curated cannabis experience, our collaborative artist gallery (coming soon), our Fresh Counter, and more, we’re hoping to become your go-to spot. (As long as you’re 21+, of course!)"
+    },
+    {
+     "t": "p",
+     "html": "<strong>Exhibit Program:</strong> (coming soon!) Calling all artists! We’re looking to showcase local artists of varying styles and modalities in our storefront including painting, photography, murals, ceramics, glasswork, apparel, music, and more. Interested in showcasing or performing at one of our events? Get in touch."
+    },
+    {
+     "t": "p",
+     "html": "<strong>Events &amp; Partnerships:</strong> Being a part of the community means lifting each other up. If you’d like to collaborate, let’s connect."
+    },
+    {
+     "t": "p",
+     "html": "<strong>Education:</strong> CastleLeaf is a place where you can purchase high-quality cannabis goods and grow your curiosity. Check back here for future educational opportunities. We look forward to learning together."
+    },
+    {
+     "t": "img",
+     "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjAwIiBoZWlnaHQ9IjQyNSIgdmlld0JveD0iMCAwIDE2MDAgNDI1Ij48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==",
+     "alt": "",
+     "width": "1600",
+     "height": "425"
+    }
+   ]
+  }
+ ]
+}

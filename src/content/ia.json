@@ -1,0 +1,181 @@
+{
+  "_note": "The adopted information architecture (promo strip, five-item main bar in this order with mega menus, Shop CTA, page types, footer columns, a Yes/No age gate) mapped onto ONE store. Labels are the client's where the client names the thing (its own menu: Bundles, VIP Club, Flower Deli, Book A Budtender ...), neutral otherwise. Never name the adopted site in any public file. href 'menu' = the client's live menu (util.mjs menu()), 'directions' = site.directions.",
+  "promo": {
+    "text": "Local Delivery: Cannabis quickly delivered straight to your door",
+    "link": { "label": "Order online", "href": "/delivery/" },
+    "pickup": { "label": "Pick up at", "store": "100 Leo M Birmingham Pkwy, Brighton", "href": "/stores/brighton-ma/" },
+    "hours": "Mon to Sat 10:00am to 9:55pm, Sun 11:00am to 7:55pm",
+    "links": [
+      { "label": "About", "href": "/about/" },
+      { "label": "Contact", "href": "/contact/" }
+    ]
+  },
+  "cta": { "label": "Shop Menu", "href": "menu" },
+  "nav": [
+    { "label": "Menu", "href": "menu", "external": true },
+    {
+      "label": "Explore",
+      "href": "/shop/",
+      "mega": {
+        "feature": { "gimg": "g-feature-delivery", "title": "Local Delivery", "line": "Cannabis quickly delivered straight to your door", "href": "/delivery/" },
+        "groups": [
+          {
+            "title": "Shop By Category", "kind": "cards", "href": "/shop/",
+            "links": [
+              { "label": "Flower", "href": "/products/flower/", "gimg": "g-cat-flower" },
+              { "label": "Pre-Rolls", "href": "/products/pre-rolls/", "gimg": "g-cat-prerolls" },
+              { "label": "Vaporizers", "href": "/products/vaporizers/", "gimg": "g-cat-vaporizers" },
+              { "label": "Edibles", "href": "/products/edibles/", "gimg": "g-cat-edibles" },
+              { "label": "Concentrates", "href": "/products/concentrates/", "gimg": "g-cat-concentrates" },
+              { "label": "Topicals", "href": "/products/topicals/", "gimg": "g-cat-topicals" },
+              { "label": "Tinctures", "href": "/products/tinctures/", "gimg": "g-cat-tinctures" },
+              { "label": "Accessories", "href": "/products/accessories/", "gimg": "g-cat-accessories" }
+            ]
+          },
+          {
+            "title": "Shop By Cannabis Effect", "kind": "links",
+            "note": "Everyone responds differently. Ask a budtender.",
+            "links": [
+              { "label": "Creative", "href": "https://www.castleleaf.com/effects/creative/", "external": true },
+              { "label": "Sleep", "href": "https://www.castleleaf.com/effects/sleepy/", "external": true },
+              { "label": "Energetic", "href": "https://www.castleleaf.com/effects/energetic/", "external": true },
+              { "label": "Calm", "href": "https://www.castleleaf.com/effects/calm/", "external": true },
+              { "label": "Happy", "href": "https://www.castleleaf.com/effects/happy/", "external": true }
+            ]
+          },
+          {
+            "title": "More ways to shop", "kind": "links",
+            "links": [
+              { "label": "Flower Deli", "href": "/products/flower/#flower-deli" },
+              { "label": "Bundles", "href": "/specials/" },
+              { "label": "Budtender's Picks", "href": "https://www.castleleaf.com/menu/staff-picks/", "external": true },
+              { "label": "Merch", "href": "https://www.castleleaf.com/categories/merc/", "external": true },
+              { "label": "Shop By Strain", "href": "https://www.castleleaf.com/strains/", "external": true }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "VIP Club",
+      "href": "/loyalty-sign-up/",
+      "mega": {
+        "feature": { "gimg": "g-feature-vip", "title": "VIP Club", "line": "Join our VIP Club for messages and updates!", "href": "/loyalty-sign-up/" },
+        "groups": [
+          {
+            "title": "Offers", "kind": "links",
+            "links": [
+              { "label": "Join the VIP Club", "href": "/loyalty-sign-up/" },
+              { "label": "Cannabis Bundles", "href": "/specials/" },
+              { "label": "420 Offers", "href": "/420-deals/" },
+              { "label": "Green Wednesday Offers", "href": "/green-wednesday-deals/" },
+              { "label": "Events", "href": "/events/" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "Resources",
+      "href": "/blog/",
+      "mega": {
+        "feature": { "gimg": "g-feature-blog", "title": "The CastleLeaf Blog", "line": "Clear, friendly reading on cannabis from the team behind the counter.", "href": "/blog/" },
+        "groups": [
+          {
+            "title": "Guides", "kind": "cards",
+            "links": [
+              { "label": "Book A Budtender", "href": "/book-a-budtender/", "gimg": "g-feature-budtender" },
+              { "label": "Dispensary Guide", "href": "/dispensary-guide/", "gimg": "g-feature-firstvisit" },
+              { "label": "Massachusetts Cannabis Laws", "href": "/massachusetts-cannabis-laws/", "gimg": "g-feature-law" },
+              { "label": "Getting A Medical Card", "href": "/getting-a-medical-card/", "gimg": "g-feature-card" }
+            ]
+          },
+          {
+            "title": "Learn", "kind": "links",
+            "links": [
+              { "label": "Blog", "href": "/blog/" },
+              { "label": "Cannabis 101", "href": "/blog/cannabis-101/" },
+              { "label": "Recipes", "href": "/blog/recipes/" },
+              { "label": "FAQs", "href": "/faqs/" },
+              { "label": "Reviews", "href": "/reviews/" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "Dispensary",
+      "href": "/stores/brighton-ma/",
+      "mega": {
+        "store": { "photo": "cl/CL-Image-Hero.webp", "title": "CastleLeaf Brighton", "href": "/stores/brighton-ma/" },
+        "groups": [
+          {
+            "title": "Visit", "kind": "links",
+            "links": [
+              { "label": "Our Brighton dispensary", "href": "/stores/brighton-ma/" },
+              { "label": "Local Delivery", "href": "/delivery/" },
+              { "label": "Directions", "href": "/directions/" },
+              { "label": "Areas we serve", "href": "/recreational/" },
+              { "label": "Get directions on maps", "href": "directions", "external": true }
+            ]
+          },
+          {
+            "title": "Company", "kind": "links",
+            "links": [
+              { "label": "About", "href": "/about/" },
+              { "label": "Contact", "href": "/contact/" },
+              { "label": "Events", "href": "/events/" },
+              { "label": "Jobs", "href": "/jobs/" },
+              { "label": "Advertising With Us", "href": "/advertising-with-us/" }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "title": "Shop",
+        "links": [
+          { "label": "Shop All", "href": "menu", "external": true },
+          { "label": "Shop Bundles", "href": "/specials/" },
+          { "label": "Shop By Category", "href": "/shop/" },
+          { "label": "Shop By Effect", "href": "https://www.castleleaf.com/effects/", "external": true },
+          { "label": "Shop By Strain", "href": "https://www.castleleaf.com/strains/", "external": true },
+          { "label": "Local Delivery", "href": "/delivery/" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About", "href": "/about/" },
+          { "label": "Contact", "href": "/contact/" },
+          { "label": "Directions", "href": "/directions/" },
+          { "label": "Events", "href": "/events/" },
+          { "label": "Advertising With Us", "href": "/advertising-with-us/" },
+          { "label": "Jobs", "href": "/jobs/" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "VIP Club", "href": "/loyalty-sign-up/" },
+          { "label": "Book A Budtender", "href": "/book-a-budtender/" },
+          { "label": "Blog", "href": "/blog/" },
+          { "label": "FAQs", "href": "/faqs/" },
+          { "label": "Reviews", "href": "/reviews/" },
+          { "label": "Dispensary Guide", "href": "/dispensary-guide/" },
+          { "label": "Massachusetts Cannabis Laws", "href": "/massachusetts-cannabis-laws/" },
+          { "label": "Accessibility", "href": "/accessibility/" },
+          { "label": "Sitemap", "href": "/site-map/" }
+        ]
+      }
+    ],
+    "legal": [
+      { "label": "Privacy Policy", "href": "/privacy-policy/" },
+      { "label": "Terms Of Use", "href": "/terms-of-use/" }
+    ],
+    "follow": "Follow"
+  }
+}

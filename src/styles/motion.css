@@ -1,0 +1,84 @@
+/* motion.css (FOUNDATION, "LANTERN KEEP"): reveals, depth, scroll scale, pin and track, tilt, marquee, the footer light. site.js adds state
+   classes and sets vars. No floating loops anywhere ([data-float] does not exist in this build).
+   House rules:
+   - a reveal is an animation with fill-mode BACKWARDS: once it ends nothing of it stays applied, so the element ends at filter:none, opacity:1,
+     transform:none and every glass pane inside can blur again. The hidden pre-state only applies with JS (html.js), and a CSS safety un-hides it
+     at 5 s even if site.js never runs (site.js itself shows everything at 2.5 s when the observer never answered).
+   - [data-depth] uses the individual `translate` property and [data-scale-scroll] `scale`, so they compose with a transform on the same element.
+   - everything here is off under prefers-reduced-motion.
+
+   [data-pin], the scroll-through engine:
+     <section data-pin style="--pin-h:160vh"> <div class="pin-stage"> ...content... </div> </section>
+   From 1024px wide and 560px tall (and no reduced motion) the section is --pin-h tall and .pin-stage sticks at the top, 100vh high; site.js sets
+   --p (0 to 1) on the section every frame: write transforms with var(--p, 0), e.g. transform: translateY(calc(var(--p, 0) * -18vh)). Outside that
+   range --p is absent and the section is normal flow. [data-pin="track"]: a child [data-track] (flex row) moves horizontally; site.js sets the
+   section's height (100vh + the overflow) and --track-x (px). Below the range the track is a swipe row. Pinned-only CSS of your own goes under
+   @media (min-width: 1024px) and (min-height: 560px) and (prefers-reduced-motion: no-preference) { html.js ... }. */
+@keyframes reveal-up { from { opacity: 0; transform: translateY(26px); filter: blur(8px); } to { opacity: 1; transform: none; filter: none; } }
+@keyframes reveal-rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@keyframes reveal-wipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+@keyframes reveal-arch { from { clip-path: inset(100% 0 0 0 round 999px 999px 0 0); opacity: 0.4; } 40% { opacity: 1; } to { clip-path: inset(0 0 0 0 round 999px 999px 0 0); opacity: 1; } }
+@keyframes line-rise { from { transform: translateY(108%); } to { transform: none; } }
+@keyframes reveal-safety { to { opacity: 1; clip-path: none; } }
+@keyframes marquee { to { transform: translateX(-50%); } }
+@keyframes wordmark-sweep { from { background-position: 200% 0; } to { background-position: 0% 0; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  html.js [data-reveal]:not(.is-in) { opacity: 0; animation: reveal-safety 1ms linear 5s forwards; }
+  html.js [data-reveal].is-in { animation: reveal-up var(--dur-3) var(--ease) backwards; animation-delay: calc(var(--i, 0) * 90ms); }
+  html.js [data-reveal="wipe"].is-in { animation: reveal-wipe 1.15s var(--ease-in-out) backwards; animation-delay: calc(var(--i, 0) * 110ms); }
+  html.js [data-reveal="arch"].is-in { animation: reveal-arch 1.3s var(--ease-in-out) backwards; animation-delay: calc(var(--i, 0) * 110ms + 0.1s); }
+  html.js [data-reveal="lines"].is-in { animation: none; }
+  html.reveal-all [data-reveal]:not(.is-in) { opacity: 1; clip-path: none; }
+  .line { display: block; overflow: hidden; padding-block: 0.06em 0.14em; margin-block: -0.06em -0.14em; }
+  .line__in { display: block; animation: line-rise 1.05s var(--ease) backwards; animation-delay: calc(var(--l, 0) * 110ms + var(--i, 0) * 90ms); }
+
+  [data-depth] { translate: 0 var(--py, 0px); }
+  [data-depth].is-moving { will-change: translate; }
+  [data-scale-scroll] { scale: var(--ss, 1); }
+
+  [data-tilt] { transition: transform 0.6s var(--ease); }
+  [data-tilt].is-tilting { transform: perspective(1100px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform 120ms linear; }
+
+  .marquee { overflow: hidden; }
+  .marquee__track { display: flex; width: max-content; animation: marquee var(--marquee-dur, 52s) linear infinite; }
+  .marquee__group { display: flex; flex: none; align-items: center; gap: inherit; padding-right: 2.6em; }
+  .marquee:hover .marquee__track, .marquee:focus-within .marquee__track, .marquee.is-paused .marquee__track { animation-play-state: paused; }
+
+  .age-gate:not([hidden]) .age-gate__dialog, html.gate-pending .age-gate__dialog { animation: reveal-up var(--dur-3) var(--ease) backwards; }
+  .nav-scrim:not([hidden]) { animation: fade-in var(--dur-2) var(--ease); }
+}
+
+/* phones, tablets and touch screens: the reveal rises and fades with no blur (an animated filter on many elements is costly on a phone GPU) */
+@media (prefers-reduced-motion: no-preference) and (max-width: 1023.98px), (prefers-reduced-motion: no-preference) and (hover: none) {
+  html.js [data-reveal]:not([data-reveal="wipe"]):not([data-reveal="lines"]):not([data-reveal="arch"]).is-in { animation-name: reveal-rise; animation-duration: 0.8s; }
+  .age-gate:not([hidden]) .age-gate__dialog, html.gate-pending .age-gate__dialog { animation-name: reveal-rise; animation-duration: 0.8s; }
+}
+/* Save-Data (site.js adds html.save-data): no decorative video starts, the still under it stays */
+html.save-data video[autoplay], html.save-data video[data-after-load], html.save-data video[data-inview-play] { display: none; }
+/* a hero loop fades in over its still once it really plays */
+video[data-after-load], video[data-inview-play] { opacity: 0; transition: opacity 1.2s var(--ease); }
+video.is-playing { opacity: 1; }
+
+/* the pin engine: only with JS, from 1024 x 560, without reduced motion */
+@media (min-width: 1024px) and (min-height: 560px) and (prefers-reduced-motion: no-preference) {
+  html.js [data-pin] { position: relative; height: var(--pin-h, 170vh); }
+  html.js [data-pin] > .pin-stage { position: sticky; top: 0; height: 100vh; }
+  html.js [data-pin="track"] > .pin-stage { overflow-x: clip; overflow-y: visible; }
+  html.js [data-pin="track"] [data-track] { display: flex; width: max-content; max-width: none; transform: translate3d(var(--track-x, 0px), 0, 0); will-change: transform; }
+}
+/* below the range a track is a swipe row, with no page overflow */
+[data-track] { max-width: 100%; }
+@media (max-width: 1023.98px), (max-height: 559.98px), (prefers-reduced-motion: reduce) {
+  [data-pin="track"] [data-track], html:not(.js) [data-track] { display: flex; width: auto; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+  [data-track] > * { scroll-snap-align: start; flex: none; }
+}
+html:not(.js) [data-track] { display: flex; overflow-x: auto; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  [data-depth] { translate: none; }
+  [data-scale-scroll] { scale: none; }
+  video[autoplay], video[data-after-load], video[data-inview-play], .hero-video { display: none; }
+}

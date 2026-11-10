@@ -1,0 +1,34 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cat-flower",
+  "file": "assets/generated/g-cat-flower.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Vertical tenebrist still life photograph in a dark candlelit gallery: a pale limestone ledge runs across the lower third of the frame and on it rests a single large dried cannabis flower bud, sage green with orange pistils and sparkling frosty trichomes, at the centre. A single warm lantern beam falls from the upper right onto the subject, a faint haze glowing in the beam. Everything around falls into deep warm charcoal-brown darkness, never pure black. Calm dark empty space in the upper half. Painterly chiaroscuro like an old master still life, photographic and razor sharp on the subject. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 7101
+  },
+  "seed": 7101,
+  "requestId": "01a1c300-a907-7740-a93a-b5acd882cb47",
+  "cutout": null,
+  "width": 1792,
+  "height": 2240,
+  "sha256": "665e33172220b369219e12a71c3345bc7b5185cbbcb2ee840dd6e71c400e43f7",
+  "raw": "tmp/img/raw/g-cat-flower.1794272979959.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:09:42.095Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [
+    "crop 3:4 -> 4:5 from the bottom (tmp/img/post.py crop45)",
+    "warm toe lift + fine grain (tmp/img/grade.py)"
+  ],
+  "alt": "A dried cannabis flower bud on a pale stone ledge in a single warm beam of light"
+}

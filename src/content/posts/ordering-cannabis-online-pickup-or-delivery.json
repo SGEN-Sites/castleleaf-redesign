@@ -1,0 +1,159 @@
+{
+  "order": 9,
+  "slug": "ordering-cannabis-online-pickup-or-delivery",
+  "path": "/blog/ordering-cannabis-online-pickup-or-delivery/",
+  "title": "Ordering Cannabis Online: Pickup or Delivery? | CastleLeaf",
+  "h1": "Ordering Cannabis Online: Pickup or Delivery?",
+  "description": "How ordering cannabis online works at CastleLeaf: browse the menu, pick up in store, use the Walk-in Express kiosk or choose Local Delivery to your door.",
+  "categories": [
+    {
+      "name": "Shopping & Reviews",
+      "slug": "shopping-and-reviews"
+    }
+  ],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-art-delivery",
+  "imageAlt": "",
+  "excerpt": "Browse from the couch, then pick it up, tap through the kiosk or have it brought to your door. Here’s how each way of ordering from CastleLeaf works.",
+  "pull": "Delivery doesn’t skip the ID check: it simply brings the counter to your doorstep.",
+  "relatedCategories": [
+    "flower",
+    "edibles"
+  ],
+  "related": [
+    "how-to-talk-to-a-budtender",
+    "what-is-a-flower-deli",
+    "edibles-start-low-go-slow"
+  ],
+  "sections": [
+    {
+      "id": "ways-to-shop",
+      "heading": "More than one way to shop",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "We make it convenient to shop at our dispensary, with options like online ordering and in-store browsing. Here are the ways to buy, as our FAQ lists them:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Order Online</strong> (pick-up in-store or Home Delivery)",
+            "<strong>Walk-in Express</strong> (in-store kiosk)",
+            "<strong>In-store Budtender Experience</strong>"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "This guide walks through the first two, with a closer look at Local Delivery. For the third, see <a href=\"/blog/how-to-talk-to-a-budtender/\">how to talk to a budtender</a>."
+        }
+      ]
+    },
+    {
+      "id": "online-menu",
+      "heading": "Start with the online menu",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Our <a href=\"/menu/\">online menu</a> is the shop window you can browse from anywhere: flower, pre-rolls, vaporizers, edibles, concentrates, topicals, tinctures and accessories, sorted into categories so you can compare at your own pace."
+        },
+        {
+          "type": "p",
+          "html": "A few habits make online ordering easier:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Read each listing closely: the size, the type and any cannabinoid numbers shown.",
+            "Look at our <a href=\"/specials/\">specials</a> before you check out. On bundle pages we note that the website cart may not reflect the bundled price, but it will be adjusted at time of payment.",
+            "If you’re new, keep your first order small and simple. Everyone responds differently."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pickup",
+      "heading": "Pickup: order from home, swing by when you’re ready",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Pickup is the classic, and our line for it says it all: “Order from home and swing by when you’re ready.” Build your cart, place the order, then head to 100 Leo M Birmingham Pkwy in Brighton. There’s plenty of on-site parking in our lot, plus street parking in front of the dispensary."
+        },
+        {
+          "type": "p",
+          "html": "Bring a valid government ID that shows you’re 21+. That goes for everyone, visitors from out of state included. We accept cash or debit cards, and if you forget cash, there’s an ATM on site. For opening times, see <a href=\"/stores/brighton-ma/\">our store page</a>."
+        }
+      ]
+    },
+    {
+      "id": "kiosk",
+      "heading": "Walk-in Express, the in-store kiosk",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Already in the neighborhood and know what you want? Our Walk-in Express is an in-store kiosk: “Place an order at our in-store kiosk and shop in peace.” It suits the decisive visit, on your own terms."
+        },
+        {
+          "type": "p",
+          "html": "Changed your mind halfway through? Our knowledgeable and friendly staff are close by if you’d rather talk it through."
+        }
+      ]
+    },
+    {
+      "id": "local-delivery",
+      "heading": "Local Delivery, straight to your door",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "And then there’s the easiest seat in the house: your own. CastleLeaf offers Local Delivery, “Cannabis quickly delivered straight to your door.” Choose Home Delivery when you order online, and your order comes to you."
+        },
+        {
+          "type": "p",
+          "html": "Delivery doesn’t skip the ID check: it simply brings the counter to your doorstep. A little delivery etiquette goes a long way:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Someone 21 or older with a valid government ID needs to receive the order. Have your ID in hand when the doorbell rings.",
+            "Be home, and keep your phone close, just in case.",
+            "Give clear directions. In triple-deckers and apartment buildings, a unit number and a note about which door to use help a lot.",
+            "Put your order away as soon as it arrives, somewhere children, pets and anyone under 21 can’t get to it."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Our <a href=\"/delivery/\">Local Delivery</a> page has more on how it works. Questions before you order? Call us at <a href=\"tel:+16172025066\">(617) 202-5066</a>."
+        }
+      ]
+    },
+    {
+      "id": "which-one",
+      "heading": "Which one suits you?",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Pickup</strong> if you like a quick stop, and maybe a chat at the counter.",
+            "<strong>Walk-in Express</strong> if you’re already here and know what you want.",
+            "<strong>Local Delivery</strong> if the couch is calling, or the weather is doing its Boston thing.",
+            "<strong>A budtender</strong> if you’re still deciding. That’s what they’re there for."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need an ID for delivery?",
+      "a_html": "Yes. Someone 21 or older with a valid government ID must receive the order, just as you would show ID at our counter."
+    },
+    {
+      "q": "Can visitors from out of state order for pickup?",
+      "a_html": "Yes! Anyone 21+ with a valid government ID can make a purchase, including out of state. Remember that cannabis can’t travel outside Massachusetts with you."
+    },
+    {
+      "q": "How do I pay in store?",
+      "a_html": "We accept cash or debit cards, and there’s an ATM on site. For delivery questions, call us at <a href=\"tel:+16172025066\">(617) 202-5066</a>."
+    }
+  ]
+}

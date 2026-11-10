@@ -1,0 +1,124 @@
+/* tokens.css - "LANTERN KEEP": glassmorphism x bento x tenebrism x ethereal, on CastleLeaf's own brand.
+   Client colours from the live site's global palette: sage #719370 (primary), cream #F7EDE1 (secondary), warm
+   charcoal #2D2A27 (text), navy #242B43 (accent), copper #B87962 (the shop's shelf colour). Ethereal = luminous
+   linen and cream halls with soft light pools; tenebrism = a few gallery-dark stages where one subject is lit by a
+   single warm lantern light. Light grounds lead: dark stages are accents (hero stage, one feature band, footer).
+   Main session owns this file: lanes USE these names and never hard-code a colour that has a token. */
+:root {
+  /* ethereal grounds (light grounds lead) */
+  --linen: #fbf7f1;             /* page ground */
+  --cream: #f7ede1;             /* the client's secondary */
+  --cream-2: #efe3d3;
+  --parchment: #e6d6c2;
+  --sage-mist: #e9efe4;         /* a sage-tinted hall */
+  --white: #ffffff;
+
+  /* the client's greens */
+  --sage: #719370;              /* brand primary: fills, icons, big type only (3.2:1 on linen) */
+  --sage-soft: #b5cbb1;         /* sage on dark grounds: 10:1 on --night */
+  --sage-text: #4f6e4f;         /* sage words on light: 5.35:1 on --linen, 4.94:1 on --cream */
+  --sage-deep: #456445;         /* button fill: white text 6.64:1 */
+  --sage-night: #2f4231;        /* a dark sage stage */
+
+  /* copper: the shelves and the lantern light */
+  --copper: #b87962;            /* decorative, rims, big type on dark (5.0:1 on --night) */
+  --copper-text: #8f5340;       /* copper words on light: 5.66:1 on --linen */
+  --copper-glow: #e2a68d;       /* lit edges and words on dark: 8.5:1 on --night */
+  --copper-grad: linear-gradient(100deg, #8f5340 0%, #b87962 32%, #f0c3a8 52%, #b87962 72%, #8f5340 100%);
+
+  /* tenebrist darks (accents) */
+  --night: #1a1816;             /* gallery dark, warm */
+  --night-2: #24211e;
+  --charcoal: #2d2a27;          /* the client's text colour */
+  --navy: #242b43;              /* the client's accent */
+  --navy-deep: #171b2c;
+
+  /* text */
+  --ink: #2d2a27;
+  --text: var(--ink);
+  --text-2: #4a4540;            /* body on light: 8.9:1 on --linen */
+  --text-3: #655e56;            /* captions on light: 6.0:1 on --linen */
+  --text-on-dark: #f7ede1;      /* 15.3:1 on --night */
+  --text-on-dark-2: #d9cfc3;    /* 11.5:1 on --night */
+
+  /* lines */
+  --line: rgba(45, 42, 39, 0.12);
+  --line-2: rgba(45, 42, 39, 0.24);
+  --line-on-dark: rgba(247, 237, 225, 0.16);
+  --hair-copper: rgba(184, 121, 98, 0.6);
+
+  /* light (ethereal pools and the tenebrist lantern) */
+  --pool-sage: radial-gradient(60% 70% at 18% 20%, rgba(113, 147, 112, 0.22), transparent 70%);
+  --pool-copper: radial-gradient(55% 60% at 82% 30%, rgba(226, 166, 141, 0.26), transparent 72%);
+  --pool-cream: radial-gradient(70% 80% at 50% 0%, rgba(255, 255, 255, 0.9), transparent 70%);
+  --haze: linear-gradient(180deg, rgba(251, 247, 241, 0) 0%, rgba(251, 247, 241, 0.55) 60%, var(--linen) 100%);
+  --lantern: radial-gradient(42% 58% at var(--lx, 68%) var(--ly, 42%), rgba(240, 195, 168, 0.34) 0%, rgba(184, 121, 98, 0.12) 38%, rgba(26, 24, 22, 0) 72%);
+  --vignette: radial-gradient(120% 90% at 50% 40%, rgba(26, 24, 22, 0) 45%, rgba(26, 24, 22, 0.75) 100%);
+  --grain: url('/assets/brand/grain.png');
+
+  /* glass (mid plane): frosted vitrines */
+  --glass: rgba(251, 247, 241, 0.46);
+  --glass-strong: rgba(251, 247, 241, 0.78);
+  --glass-dark: rgba(26, 24, 22, 0.42);
+  --glass-navy: rgba(23, 27, 44, 0.46);
+  --glass-border: rgba(255, 255, 255, 0.66);
+  --glass-border-dark: rgba(247, 237, 225, 0.18);
+  --glass-blur: 22px;
+  --glass-sat: 140%;
+  --glass-sheen: linear-gradient(120deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 44%);
+  --glass-shadow: 0 30px 70px -38px rgba(45, 42, 39, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  --glass-shadow-dark: 0 34px 80px -34px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+
+  /* shapes: bento tiles, and the castle arch (the store's round towers and arched windows) */
+  --r-tile: 28px;
+  --r-tile-lg: 36px;
+  --r-sm: 16px;
+  --r-xs: 10px;
+  --r-arch: 999px 999px var(--r-tile) var(--r-tile);
+  --r-pill: 999px;
+  --bento-gap: clamp(12px, 1.4vw, 20px);
+
+  /* type */
+  --font-display: 'Fraunces', 'Fraunces Fallback', Georgia, 'Times New Roman', serif;
+  --font-body: 'Figtree', 'Figtree Fallback', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-label: var(--font-body);
+  --fs-mega: clamp(3.2rem, 8.2vw, 8.6rem);
+  --fs-h1: clamp(2.7rem, 5.6vw, 5.6rem);
+  --fs-h2: clamp(2.1rem, 4vw, 4rem);
+  --fs-h3: clamp(1.4rem, 2vw, 1.95rem);
+  --fs-h4: clamp(1.15rem, 1.4vw, 1.35rem);
+  --fs-lede: clamp(1.1rem, 1.3vw, 1.28rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9375rem;
+  --fs-label: 0.8125rem;        /* the floor: never smaller */
+  --lh-tight: 1;
+  --lh-snug: 1.14;
+  --lh-body: 1.68;
+  --track-display: -0.02em;
+  --track-label: 0.18em;
+  --measure: 64ch;
+
+  /* space and layers */
+  --wrap: 1280px;
+  --wrap-wide: 1560px;
+  --wrap-narrow: 760px;
+  --gutter: max(clamp(20px, 4.4vw, 72px), calc(env(safe-area-inset-left, 0px) + 12px), calc(env(safe-area-inset-right, 0px) + 12px));
+  --section-y: clamp(72px, 9.5vw, 160px);
+  --overhang: clamp(56px, 8vw, 132px);   /* extra top padding of a band under a protruding frame (declared here on :root so every band can read it) */
+  --z-back: -1;
+  --z-band: 1;
+  --z-band-over: 2;
+  --z-protrude: 6;
+  --z-header: 50;
+  --z-mega: 60;
+  --z-drawer: 70;
+  --z-gate: 90;
+
+  /* motion */
+  --ease: cubic-bezier(0.22, 0.8, 0.24, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-1: 0.28s;
+  --dur-2: 0.6s;
+  --dur-3: 1.1s;
+  --focus-ring: 0 0 0 3px var(--linen), 0 0 0 5px var(--sage-deep);
+}

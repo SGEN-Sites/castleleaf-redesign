@@ -1,0 +1,175 @@
+{
+  "flower": {
+    "label": "Flower",
+    "title": "Flower | CastleLeaf",
+    "description": "Cannabis flower at CastleLeaf in Brighton, MA: what it is, how people choose between types, and what to ask our budtenders before you buy. For adults 21+.",
+    "kicker": "The classic",
+    "h1": "Cannabis Flower",
+    "lede": "The cannabis plant's dried and cured bud, and the format most people picture first. Roll it, pack it or vaporize it: flower goes wherever you take it.",
+    "sections": [
+      { "heading": "What it is", "html": "<p>Flower is the cannabis plant's harvested bud, dried, cured and sold by weight. Our menu sorts it by type, from Indica, Sativa and Hybrid to High CBD.</p>" },
+      { "heading": "How people choose", "html": "<p>Most people start with the type, then look at the cannabinoid content and the aroma notes on the label. Treat those as a starting point rather than a promise: everyone responds differently, and a small amount is a fine place to begin.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask what's fresh in, how a strain tends to smell and taste, and which size makes sense for a first try. Fancy mixing and matching? Ask about the <a href=\"/products/flower/#flower-deli\">Flower Deli</a>.</p>" }
+    ],
+    "tip": "Tell us how you like to enjoy it, rolled, packed or vaporized, and we'll narrow the shelf from there.",
+    "faq": [
+      { "q": "How much flower can I buy in a day?", "a_html": "Massachusetts allows up to 1oz (28 grams) flower equivalent per day. Our <a href=\"/massachusetts-cannabis-laws/\">cannabis laws guide</a> explains how other products count toward that limit." },
+      { "q": "What do Indica, Sativa and Hybrid mean?", "a_html": "They're traditional names for types of cannabis, and our menu uses them to sort flower. They're a handy starting point, but everyone responds differently, so ask a budtender to help you compare." }
+    ],
+    "_claims": ["cl-menu-strain-types", "cl-faq-purchase-limit-1oz-28g-per-day", "cl-flower-deli-mix-and-match-bulk", "gen-flower-definition"]
+  },
+  "pre-rolls": {
+    "label": "Pre-Rolls",
+    "title": "Pre-Rolls | CastleLeaf",
+    "description": "Pre-rolls at CastleLeaf in Brighton, MA: ready-rolled joints with nothing to grind or roll, how people choose them and what to ask our budtenders. For 21+.",
+    "kicker": "Ready when you are",
+    "h1": "Pre-Rolls",
+    "lede": "Flower that's already rolled and ready to go. No grinder, no papers, no practice required.",
+    "sections": [
+      { "heading": "What it is", "html": "<p>A pre-roll is a joint rolled for you ahead of time, filled with ground flower. Pre-rolls come as singles and in packs, in a range of sizes, and some are infused with concentrate, which raises their THC.</p>" },
+      { "heading": "How people choose", "html": "<p>Size comes first: a smaller pre-roll suits a first try or a short moment, a larger one a longer session. Then check whether it's plain flower or infused, and read the label for the strain type.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask whether a pre-roll is infused, which strain is inside and how it compares with buying the same flower loose. New to it all? Ask for a small one to start.</p>" }
+    ],
+    "tip": "New to pre-rolls? Start small and take a few slow puffs. You can always light it again later.",
+    "faq": [
+      { "q": "Are infused pre-rolls stronger?", "a_html": "Generally, yes. Infused pre-rolls add concentrate to the flower, and concentrates have a higher level of THC than flower. Take it slowly: everyone responds differently." },
+      { "q": "How should I store pre-rolls?", "a_html": "Keep them in their packaging in a cool, dark spot that children and pets can't reach." }
+    ],
+    "_claims": ["gen-pre-roll-definition", "gen-infused-pre-rolls-contain-concentrate", "cl-faq-concentrates-higher-thc-than-flower", "gen-storage-advice"]
+  },
+  "vaporizers": {
+    "label": "Vaporizers",
+    "title": "Vaporizers | CastleLeaf",
+    "description": "Vaporizers at CastleLeaf in Brighton, MA: how vape pens, cartridges and batteries work, how people choose, and what to ask our budtenders. For adults 21+.",
+    "kicker": "Vapor, not smoke",
+    "h1": "Vapes and Vaporizers",
+    "lede": "Pens, cartridges and devices that heat cannabis into vapor instead of burning it. Discreet, tidy and easy to pace.",
+    "sections": [
+      { "heading": "What it is", "html": "<p>A vaporizer warms cannabis oil or flower until it gives off vapor, without setting it alight. Most vape pens pair a battery with a cartridge, and some come as a single disposable piece.</p>" },
+      { "heading": "How people choose", "html": "<p>The first choice is the hardware: a disposable, or a cartridge for a battery you already own. After that, look at the oil type and the strain on the label, and remember that a single puff can go further than you expect.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask whether a cartridge fits your battery, how the oil was made and how to store it. If you're unsure about the fit, bring your battery along: it's the quickest way to check.</p>" }
+    ],
+    "tip": "Take one gentle puff, then wait a few minutes before the next. Pacing is the whole trick with vapes.",
+    "faq": [
+      { "q": "Will a cartridge fit my battery?", "a_html": "Many cartridges share a common thread, but not all do. Bring your battery along and a budtender will check the fit with you." },
+      { "q": "Disposable or cartridge?", "a_html": "A disposable is the simplest start, with no separate battery to buy. A cartridge suits you if you already own a battery or plan to keep vaping." }
+    ],
+    "_claims": ["gen-vaporizer-definition", "gen-cartridge-battery-compatibility"]
+  },
+  "edibles": {
+    "label": "Edibles",
+    "title": "Edibles | CastleLeaf",
+    "description": "Cannabis edibles at CastleLeaf in Brighton, MA: the serving and package limits, how to pace yourself, and what to ask our budtenders. For adults 21 and up.",
+    "kicker": "Low and slow",
+    "h1": "Cannabis Edibles",
+    "lede": "Cannabis you eat or drink, measured by the serving. In Massachusetts, edibles are capped at 5mg per serving and 100mg per package.",
+    "sections": [
+      { "heading": "What it is", "html": "<p>Edibles are foods and drinks made with cannabis, from sweets to beverages. Every serving is measured, and the label shows how much THC each serving holds.</p>" },
+      { "heading": "How people choose", "html": "<p>Start with a format you'd enjoy anyway, a sweet or a drink, then look at the serving size. Edibles take longer to arrive than smoked or vaped cannabis and tend to last longer, so one serving and some patience is the classic first step.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask how many servings are in a package, how the product is meant to be portioned and what other shoppers like about it.</p>" }
+    ],
+    "tip": "Have one serving, then give it a good while before you decide on another. Patience is the secret ingredient.",
+    "faq": [
+      { "q": "How strong is one serving?", "a_html": "In Massachusetts, edibles are capped at 5mg of THC per serving and 100mg per package. Everyone responds differently, so start with one serving." },
+      { "q": "Why haven't I felt anything yet?", "a_html": "Edibles build more slowly than smoking or vaping. Give it time before having more, and never drive after consuming." }
+    ],
+    "_claims": ["cl-home-edibles-5mg-serving-100mg-package", "gen-edibles-slower-onset", "gen-edibles-label-thc-per-serving", "cl-faq-consuming-while-driving-illegal"]
+  },
+  "concentrates": {
+    "label": "Concentrates",
+    "title": "Concentrates | CastleLeaf",
+    "description": "Cannabis concentrates at CastleLeaf in Brighton, MA: shatter, wax and other extracts, the daily purchase limit, and what to ask our budtenders first. 21+.",
+    "kicker": "For the experienced",
+    "h1": "Cannabis Concentrates",
+    "lede": "Extracts such as shatter and wax, with a higher level of THC than flower, so a small amount is plenty.",
+    "sections": [
+      { "heading": "What it is", "html": "<p>Concentrates are extracts that draw the cannabinoids and aromas out of the plant into a smaller, stronger form. They come in many textures, from glassy shatter to soft wax, and they're enjoyed with dedicated gear.</p>" },
+      { "heading": "How people choose", "html": "<p>Method comes first: some people use a dab rig, others a concentrate vaporizer. Then come the texture, the strain and the extraction style. Massachusetts allows no more than 5 grams of concentrates per day, so it pays to choose thoughtfully.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask which gear a concentrate needs, how much to use for a first try and how to store it. If you're new to cannabis, ask about a gentler format first.</p>" }
+    ],
+    "tip": "With concentrates, think crumb, not spoonful. Start tiny and you'll never regret it.",
+    "faq": [
+      { "q": "Are concentrates stronger than flower?", "a_html": "Yes. Concentrates have a higher level of THC than flower, which is why they're best for experienced consumers." },
+      { "q": "How much concentrate can I buy?", "a_html": "Massachusetts allows no more than 5 grams of concentrates per day. Our <a href=\"/massachusetts-cannabis-laws/\">cannabis laws guide</a> explains how concentrates count toward the daily limit." }
+    ],
+    "_claims": ["cl-faq-concentrates-higher-thc-than-flower", "cl-faq-concentrates-shatter-wax", "cl-faq-concentrates-max-5g", "gen-concentrate-definition"]
+  },
+  "topicals": {
+    "label": "Topicals",
+    "title": "Topicals | CastleLeaf",
+    "description": "Cannabis topicals at CastleLeaf in Brighton, MA: lotions and balms you apply to the skin, how people choose them and what to ask our budtenders. For 21+.",
+    "kicker": "Applied, not inhaled",
+    "h1": "Cannabis Topicals",
+    "lede": "Lotions, balms and other cannabis products made for the skin. No smoke, no vapor, nothing to swallow.",
+    "sections": [
+      { "heading": "What it is", "html": "<p>Topicals are cannabis-infused products you apply to the skin, such as lotions and balms. They're a format for people who'd rather not smoke, vape or eat cannabis.</p>" },
+      { "heading": "How people choose", "html": "<p>Texture and scent tend to decide it first, then the cannabinoids listed on the label. Try a small amount on a small patch of skin before using more.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask what's in a topical besides cannabis, how much to apply and how it compares with the others on the shelf.</p>" }
+    ],
+    "tip": "Read the full ingredients list with us. It's the surest way to find a topical you'll actually reach for.",
+    "faq": [
+      { "q": "How do I use a topical?", "a_html": "Apply it to the skin as the label directs. Start with a small amount on a small area, and keep it away from your eyes." },
+      { "q": "Is a topical the same as an edible?", "a_html": "No. Topicals are made for the skin and should never be eaten. Keep them in their packaging, out of reach of children and pets." }
+    ],
+    "_claims": ["gen-topical-definition", "gen-topical-small-patch-label-directions", "gen-storage-advice"]
+  },
+  "tinctures": {
+    "label": "Tinctures",
+    "title": "Tinctures | CastleLeaf",
+    "description": "Cannabis tinctures at CastleLeaf in Brighton, MA: liquid cannabis measured by the dropper, how to read the label, and what to ask our budtenders. For 21+.",
+    "kicker": "Drop by drop",
+    "h1": "Cannabis Tinctures",
+    "lede": "Liquid cannabis in a small bottle with a dropper, made for careful, measured servings.",
+    "sections": [
+      { "heading": "What it is", "html": "<p>A tincture is cannabis extract in liquid form, usually sold in a small dropper bottle. Measuring a serving is simple, and the label tells you how it's meant to be taken.</p>" },
+      { "heading": "How people choose", "html": "<p>Most people look at the total amount in the bottle, the serving size and the ratio of cannabinoids on the label. Our menu also lets you browse by ratios such as One To One and Two To One.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask how many servings are in the bottle, how a dropper translates into a serving and how to store it once it's open.</p>" }
+    ],
+    "tip": "Measure every time, even when you think you know the dropper by heart. Steady hands, steady servings.",
+    "faq": [
+      { "q": "How do I measure a serving?", "a_html": "Use the dropper and follow the label. Start with one serving and give it time before you take more: everyone responds differently." },
+      { "q": "How should I store a tincture?", "a_html": "Keep the cap tight and the bottle in a cool, dark spot that children and pets can't reach." }
+    ],
+    "_claims": ["gen-tincture-definition", "cl-menu-ratio-filters-one-to-one-two-to-one", "gen-storage-advice"]
+  },
+  "accessories": {
+    "label": "Accessories",
+    "title": "Accessories | CastleLeaf",
+    "description": "Cannabis accessories at CastleLeaf in Brighton, MA: the gear you roll, heat, grind and store with, how people choose it, and what to ask our budtenders. 21+.",
+    "kicker": "The right gear",
+    "h1": "Accessories",
+    "lede": "The supporting cast: the gear you roll, heat, grind and store your cannabis with.",
+    "sections": [
+      { "heading": "What it is", "html": "<p>In a dispensary, accessories usually means the gear around cannabis, such as papers, grinders, batteries, pipes and storage. What's on our shelf changes, and the live menu shows what's in stock.</p>" },
+      { "heading": "How people choose", "html": "<p>Start with how you enjoy cannabis, then pick the gear that suits it. Roll your own? Papers and a grinder. Vape? A battery that fits your cartridges. Keeping flower fresh? Airtight storage.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask what pairs with the gear you already own, which battery fits which cartridge, and how to keep everything clean.</p>" }
+    ],
+    "tip": "Bring the piece you already use. Matching gear is far easier with it in hand.",
+    "faq": [
+      { "q": "Do I need special gear to start?", "a_html": "Not necessarily. Edibles need nothing extra and a pre-roll only needs a light, while loose flower and cartridges call for a few basics." },
+      { "q": "Can I sell my own art, glassware or merch at CastleLeaf?", "a_html": "Contact us at <a href=\"mailto:info@castleleaf.com\">info@castleleaf.com</a>." }
+    ],
+    "_claims": ["gen-accessories-definition", "cl-faq-sell-art-glassware-merch-email"]
+  },
+  "flower-deli": {
+    "label": "Flower Deli",
+    "title": "Flower Deli | CastleLeaf",
+    "description": "The Flower Deli at CastleLeaf's Fresh Counter in Brighton, MA: mix and match our bulk flowers, tax included, with a budtender to guide you. For adults 21+.",
+    "kicker": "At the Fresh Counter",
+    "h1": "The Flower Deli",
+    "lede": "Mix and Match Our bulk flowers at our Fresh Counter, where your flower is picked with you rather than for you.",
+    "deal": "Mix and Match Our bulk flowers",
+    "dealLine": "3.5 g for $22 , 7g for $42 , 14g for $60 , 28g for $110 Tax Included",
+    "sections": [
+      { "heading": "What it is", "html": "<p>The Flower Deli is our bulk flower counter. Instead of buying one pre-packed strain, you mix and match our bulk flowers, and the deal is tax included.</p>" },
+      { "heading": "How people choose", "html": "<p>Pick a size first, then the flowers to make it up. Some shoppers stick with a favorite, others build a little sampler. Everyone responds differently, so a smaller size is a fine way to try something new.</p>" },
+      { "heading": "What to ask a budtender", "html": "<p>Ask which bulk flowers are on the counter, how they compare and which mix suits your size. Visit our Fresh Counter at the store, or browse the <a href=\"https://www.castleleaf.com/categories/flower/bulk-flower/\">Flower Deli menu</a> first.</p>" }
+    ],
+    "tip": "Tell us what you've liked before, and we'll help you mix a size you'll be glad you picked.",
+    "faq": [
+      { "q": "What does mix and match mean?", "a_html": "You choose from our bulk flowers to make up your size, rather than buying a single pre-packed strain. A budtender at the Fresh Counter will walk you through it." },
+      { "q": "Where is the Flower Deli?", "a_html": "At our Fresh Counter, inside the store at <a href=\"/directions/\">100 Leo M Birmingham Pkwy, Brighton</a>." }
+    ],
+    "_claims": ["cl-flower-deli-label", "cl-flower-deli-fresh-counter-pairing-site-json", "cl-flower-deli-mix-and-match-bulk", "cl-flower-deli-deal-line-verbatim", "cl-flower-deli-tax-included", "cl-ways-budtender-fresh-counter-line", "cl-address", "interp-mix-and-match-means-combining-strains-to-a-size"]
+  }
+}

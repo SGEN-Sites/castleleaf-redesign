@@ -1,0 +1,109 @@
+{
+  "slug": "dispensary-guide",
+  "path": "/dispensary-guide/",
+  "title": "Your First Dispensary Visit | CastleLeaf",
+  "description": "A first visit to CastleLeaf in Brighton, MA, step by step: your ID, the menu, the Flower Deli, our budtenders, paying, parking and the in-store kiosk.",
+  "kicker": "Dispensary Guide",
+  "h1": "Your First Dispensary Visit",
+  "lede": "New to dispensaries, or just new to us? Here's how a visit to our little castle by Boston Landing goes, from the front door to the bag in your hand.",
+  "sections": [
+    {
+      "id": "first-visit",
+      "heading": "Your first visit, step by step",
+      "kicker": "Seven easy steps",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            { "title": "Bring your ID", "text": "Anyone 21+ with a valid government issued ID can make a purchase at CastleLeaf, visitors from out of state included. It's the one thing you can't shop without, so keep it handy." },
+            { "title": "Find us and park", "text": "We're at 100 Leo M Birmingham Pkwy in Brighton. There's plenty of on site parking in our lot, plus street parking in front of the dispensary." },
+            { "title": "Peek at the menu", "text": "A look at our live menu before you come means you arrive with a short list. You can even order online, then swing by when you're ready." },
+            { "title": "Say hello to a budtender", "text": "Tell our budtenders what you've enjoyed before, what you'd rather skip and how you like to consume. They'll offer personalized recommendations from there." },
+            { "title": "Visit the Fresh Counter", "text": "Our Flower Deli lives at the Fresh Counter, where you can mix and match our bulk flowers. Ask a budtender what's on the counter." },
+            { "title": "Or try the kiosk", "text": "Know what you want, or simply like to browse alone? Place an order at our in-store kiosk and shop in peace. We call it Walk-in Express." },
+            { "title": "Pay and head home", "text": "We accept cash or debit cards, and if you forget cash, no worries: there's an ATM on site. Keep your purchase sealed for the ride home." }
+          ]
+        },
+        { "type": "p", "html": "Coming by car, bus, Green Line or bike? Our <a href=\"/directions/\">directions page</a> has the routes, and our <a href=\"/stores/brighton-ma/\">store page</a> has the hours." }
+      ]
+    },
+    {
+      "id": "budtenders",
+      "heading": "Meet our budtenders",
+      "kicker": "Highly educated budtenders",
+      "blocks": [
+        { "type": "p", "html": "Our knowledgeable and friendly staff are always available to answer questions, offer personalized recommendations, and ensure every visit is a positive one. Whether it's your first time or your five hundredth, they meet you where you are." },
+        { "type": "p", "html": "We believe that finding the right cannabis should be simple, enjoyable, and educational. So ask the curious question, the basic question, the oddly specific question. Curiosity breeds creativity, after all." },
+        { "type": "callout", "html": "Want a little one-on-one time? Online booking is coming soon on our <a href=\"/book-a-budtender/\">Book A Budtender</a> page. Until then, call <a href=\"tel:+16172025066\">(617) 202-5066</a> or simply stop by." }
+      ]
+    },
+    {
+      "id": "choose-by-format",
+      "heading": "How to choose by format",
+      "kicker": "Find your format",
+      "blocks": [
+        { "type": "p", "html": "There's no wrong way in, only the way that suits you. Here's each format in a sentence or two. Everyone responds differently, so start low and go slow." },
+        {
+          "type": "ul",
+          "items": [
+            "<strong><a href=\"/products/flower/\">Flower</a>.</strong> The classic and the most flexible: roll it, pack it or vaporize it.",
+            "<strong><a href=\"/products/pre-rolls/\">Pre-Rolls</a>.</strong> Flower that's already rolled, so there's nothing to grind and nothing to fold.",
+            "<strong><a href=\"/products/vaporizers/\">Vaporizers</a>.</strong> Pens and cartridges that heat cannabis into vapor instead of burning it. Discreet, and easy to keep to a small puff.",
+            "<strong><a href=\"/products/edibles/\">Edibles</a>.</strong> Cannabis you eat or drink. In Massachusetts they're capped at 5mg per serving and 100mg per package. Their effects build more slowly than smoking or vaping, so have one serving and give it time.",
+            "<strong><a href=\"/products/concentrates/\">Concentrates</a>.</strong> Extracts such as shatter and wax, with a higher level of THC than flower. Best saved for experienced consumers with the right gear.",
+            "<strong><a href=\"/products/tinctures/\">Tinctures</a>.</strong> Liquid cannabis measured with a dropper. The label shows the serving size and how it's meant to be taken.",
+            "<strong><a href=\"/products/topicals/\">Topicals</a>.</strong> Lotions and balms you apply to the skin, for anyone who'd rather not smoke, vape or eat cannabis."
+          ]
+        },
+        { "type": "callout", "html": "Still torn between two? That's exactly what our budtenders are for. There are no silly questions at our counter." }
+      ]
+    },
+    {
+      "id": "etiquette",
+      "heading": "A little dispensary etiquette",
+      "kicker": "Good manners, good visit",
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Have your ID out and ready. It keeps things moving for everyone.",
+            "Ask anything. A budtender would much rather answer a question than watch you guess.",
+            "Give fellow shoppers a little room at the counter. Everyone's basket is their own business.",
+            "Bring cash or a debit card. Forgot cash? The ATM on site has you covered.",
+            "Keep your purchase sealed until you're home. Public consumption is illegal in Massachusetts, so please consume responsibly on private property only.",
+            "Be a good neighbor. We're proud to be part of Allston-Brighton, and we ask that you respect the law and the community we operate in."
+          ]
+        },
+        { "type": "p", "html": "That's the whole secret. You belong here, so come as you are." }
+      ]
+    }
+  ],
+  "_claims": [
+    "cl-id-21-plus-valid-government-id",
+    "cl-faq-out-of-state-buyers-welcome",
+    "cl-address",
+    "cl-neighborhood-boston-landing",
+    "cl-parking",
+    "cl-ways-order-online-line",
+    "cl-budtenders-personalized-recommendations",
+    "cl-flower-deli-fresh-counter-pairing-site-json",
+    "cl-flower-deli-mix-and-match-bulk",
+    "cl-ways-kiosk-line",
+    "cl-buy-options-walk-in-express-kiosk",
+    "cl-payment-cash-debit-atm",
+    "cl-faq-transport-sealed-container",
+    "op-highly-educated-budtenders",
+    "cl-budtenders-lines",
+    "cl-value-curiosity-breeds-creativity",
+    "cl-book-a-budtender-coming-soon",
+    "cl-phone",
+    "cl-faq-concentrates-higher-thc-than-flower",
+    "cl-home-edibles-5mg-serving-100mg-package",
+    "cl-faq-public-consumption-illegal",
+    "cl-faq-private-property-only",
+    "cl-faq-respect-law-and-community",
+    "cl-value-you-belong-here",
+    "gen-edibles-slower-onset",
+    "gen-format-descriptions"
+  ]
+}

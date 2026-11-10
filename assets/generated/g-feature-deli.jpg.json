@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-feature-deli",
+  "file": "assets/generated/g-feature-deli.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A row of four large clear glass apothecary jars with glass lids, each filled with dried cannabis flower buds, standing on a pale oak counter under one warm pendant light, right of centre; the background falls into deep warm charcoal-brown darkness, tenebrist chiaroscuro, glowing highlights on the glass, faint haze in the light. The jars are plain and unlabeled. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 52029
+  },
+  "seed": 52029,
+  "requestId": "01a1c301-7aa9-72c2-bccf-055c41ba23d6",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "beda9446657b2f245cc1af6e74bebde5aec7f6c96319bc58f963b697ba7ed870",
+  "raw": "tmp/img/raw/g-feature-deli.1794273050744.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:10:52.706Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "A row of glass deli jars of cannabis flower on a counter under a single warm light"
+}

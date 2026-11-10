@@ -1,0 +1,33 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-hero-lantern",
+  "file": "assets/generated/g-hero-lantern.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Wide tenebrist still life photograph in a dark candlelit gallery room. A single dried cannabis flower bud, sage green with fine orange pistils and sparkling frosty trichomes, rests under a clear blown-glass cloche bell jar on a small square pale limestone plinth. The plinth stands right of centre, at about 62 percent across the frame, its top at about 62 percent of the frame height, its base fading into shadow. One warm lantern-coloured beam of light falls diagonally from the upper right onto the cloche, catching bright clean highlights on the curved glass and lighting a soft cone of fine haze in the air. Everything else falls into deep warm charcoal-brown darkness, never pure black. The whole left half of the frame is calm, empty, softly graded dark wall with nothing in it; the far right edge also falls off into shadow. Painterly chiaroscuro like an old master painting, but photographic and razor sharp on the flower and the glass. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9",
+    "seed": 41017
+  },
+  "seed": 41017,
+  "requestId": "01a1c300-a85f-78c1-b652-f6f09bd98457",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "189d38df638e35735a11e6aab4c581fd57fb37f8dee4660866d1169cff5c6354",
+  "raw": "tmp/img/raw/g-hero-lantern.1794272979880.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:09:42.345Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [
+    "warm toe lift + fine grain (tmp/img/grade.py)"
+  ],
+  "alt": "A dried cannabis flower under a clear glass cloche on a pale limestone plinth, lit by a single warm beam in a dark room"
+}

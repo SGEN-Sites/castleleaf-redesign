@@ -1,0 +1,107 @@
+/* mobile.css (FOUNDATION, "LANTERN KEEP"): tablets and phones. Loaded after every lane's sheet except fix.css.
+   Phones: 44px taps, no text under 13px, opaque panes on big glass (live blur only on the header, the drawer and dialogs), bento to two or one
+   columns, swipe rows, smaller breakouts, no horizontal overflow at 390. The drawer itself lives in shell.css. */
+
+/* ---------------------------------------------------------------- tablets */
+@media (max-width: 1023.98px) {
+  /* lanes choose tablet / phone columns with --cols-md / --cols-sm on their bento (default 2); --cols stays the desktop count */
+  .bento { --row: clamp(170px, 30vw, 240px); grid-template-columns: repeat(var(--cols-md, 2), minmax(0, 1fr)); }
+  .bento .tile--big { grid-column: span 2; grid-row: span 2; }
+  .bento .tile--wide { grid-column: span 2; }
+  .page-hero--media .page-hero__inner { grid-template-columns: minmax(0, 1fr); }
+  .page-hero__h1, .page-hero__h1.h1--mid, .page-hero__h1.h1--long { max-width: none; }
+  .page-hero__media { justify-self: end; width: min(64%, 340px, calc(var(--hero-frame-h) * var(--hero-frame-k))); margin-top: 4px; margin-right: 4%; }
+  .page-hero__chip { left: -18%; }
+  .frame--bleed { --bleed: clamp(16px, 4vw, 40px); }
+}
+
+/* ---------------------------------------------------------------- phones */
+@media (max-width: 720px) {
+  :root {
+    --promo-h: 44px; --bar-h: 58px;
+    --bar-x: max(10px, calc(env(safe-area-inset-left, 0px) + 8px), calc(env(safe-area-inset-right, 0px) + 8px));
+    --section-y: clamp(64px, 16vw, 92px); --hero-top: calc(var(--bar-gap) + var(--bar-h) + 30px);
+    --overhang: clamp(44px, 12vw, 64px); --r-tile: 22px; --r-tile-lg: 28px;
+  }
+  .promo { font-size: var(--fs-label); }
+  .promo__inner { padding-inline: 12px; gap: 8px; }
+  .promo__ico { display: none; }
+  .promo__offer { gap: 8px; }
+  .promo__text { white-space: nowrap; }
+  .promo__link { min-height: 44px; flex: none; }
+  .mainbar { gap: 6px; padding-inline: 14px 7px; }
+  .mainbar__logo { width: clamp(128px, 36vw, 150px); }
+  .header-tools { gap: 6px; }
+  .header-cta { padding-inline: 0.95em; font-size: 0.875rem; }
+  .header-cta .icon { display: none; }
+  .nav-toggle__t { display: none; }
+  .nav-toggle { width: 46px; justify-content: center; padding: 0; }
+
+  /* big glass goes opaque on phones; live blur stays on the header, the drawer and dialogs */
+  .glass:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--linen) 95%, transparent); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .glass--strong:not(.age-gate__dialog) { --fill: var(--linen); }
+  .glass--dark:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--night-2) 96%, transparent); }
+  .glass--navy:not(.age-gate__dialog) { --fill: color-mix(in srgb, var(--navy-deep) 96%, transparent); }
+  .btn--glass { -webkit-backdrop-filter: none; backdrop-filter: none; }
+  .tile { padding: 20px; }
+
+  /* bento: two columns of small tiles, big and wide tiles take the row */
+  .bento { --row: 150px; grid-auto-rows: auto; grid-template-columns: repeat(var(--cols-sm, 2), minmax(0, 1fr)); }
+  .bento > .tile { min-height: 150px; }
+  .bento .tile--big, .bento .tile--wide { grid-column: 1 / -1; }
+  .bento .tile--big { grid-row: span 1; min-height: 300px; }
+  .bento .tile--tall { grid-row: span 1; min-height: 240px; }
+  .bento--one { --cols-sm: 1; }
+  .tile--pop .tile__body { max-width: 62%; }
+  .tile__pop { height: 112%; max-width: 44%; right: 2%; }
+
+  /* swipe rows: any .swipe container (and a pinned track below 1024px) scrolls sideways inside the page, never the page itself */
+  .swipe { display: flex; gap: 12px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+    margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter); scrollbar-width: none; }
+  .swipe::-webkit-scrollbar { display: none; }
+  .swipe > * { flex: 0 0 min(78%, 300px); scroll-snap-align: start; }
+
+  /* breakouts: smaller, and never wider than the screen */
+  .frame--bleed, .frame--bleed-start { --bleed: 12px; }
+  .page-hero__media { width: min(66%, 270px, calc(var(--hero-frame-h) * var(--hero-frame-k))); margin-right: 2%; margin-bottom: calc(-1 * (var(--hero-pad-b) + var(--overhang) * 0.7)); }
+  .page-hero { --hero-frame-h: 52vh; }
+  .page-hero__chip { left: auto; right: 58%; bottom: 10%; max-width: 46vw; padding: 10px 12px; }
+
+  /* taps and the 13px floor */
+  .btn { min-height: 48px; }
+  .btn--sm { min-height: 44px; }
+  .chip, .tag { min-height: 36px; }
+  .chip { min-height: 44px; }
+  .crumbs a { display: inline-flex; align-items: center; min-height: 44px; }
+  .footer__links a, .footer__social a, .footer__legal a, .footer__totop { min-height: 44px; }
+  .footer__addr a { min-height: 44px; align-items: center; }
+  .link-arrow { min-height: 44px; }
+  .mega__link, .nav__quick a { min-height: 46px; }
+  .faq summary { min-height: 52px; }
+
+  /* footer */
+  .site-footer { padding-top: clamp(90px, 24vw, 110px); }
+  .footer__vip { flex-direction: column; align-items: flex-start; }
+  .footer__vip .btn { width: 100%; }
+  .footer__top { grid-template-columns: minmax(0, 1fr); }
+  .footer__cols { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px 18px; }
+  .footer__cols .footer__col:last-child { grid-column: 1 / -1; }
+  .footer__word { font-size: min(10.8vw, 4.4rem); letter-spacing: 0.04em; text-indent: 0.04em; }
+  .footer__bottom { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .footer__legal { gap: 0; }
+
+  /* the gate on a phone */
+  .age-gate__dialog { padding-inline: 20px; }
+  .age-gate__actions .btn { flex: 1 1 0; min-width: 0; }
+}
+
+/* touch: a short press state instead of hover lifts that would stick after a tap */
+@media (hover: none) {
+  .tile:active, .cat-card:active, .acard:active, .mega__card:active .mega__card-media { transform: scale(0.985); transition-duration: 0.12s; }
+  .btn:active { transform: translateY(1px); }
+}
+
+@media (max-width: 380px) {
+  .header-cta { padding-inline: 0.8em; }
+  .mainbar__logo { width: 120px; }
+}

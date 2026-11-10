@@ -1,0 +1,78 @@
+{
+  "order": 1,
+  "slug": "indica-sativa-hybrid-explained",
+  "path": "/blog/indica-sativa-hybrid-explained/",
+  "title": "Indica, Sativa and Hybrid, Explained | CastleLeaf",
+  "h1": "Indica, Sativa and Hybrid, Explained",
+  "description": "Indica, sativa and hybrid lead most cannabis menus. Here is where the names came from, why they tell only part of the story and what to read next instead.",
+  "categories": [
+    { "name": "Cannabis 101", "slug": "cannabis-101" }
+  ],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-art-strains",
+  "imageAlt": "",
+  "excerpt": "Three little words sort most cannabis menus. A friendly look at where indica, sativa and hybrid came from, and why the label is a starting point, not a promise.",
+  "pull": "If the label is the cover of the book, the chemistry is the story inside.",
+  "relatedCategories": ["flower", "pre-rolls"],
+  "related": ["terpenes-101", "cannabinoids-thc-cbd-cbg-cbn", "how-to-talk-to-a-budtender"],
+  "sections": [
+    {
+      "id": "three-words",
+      "heading": "Three words on every menu",
+      "blocks": [
+        { "type": "p", "html": "Open almost any cannabis menu, ours included, and the first thing you’ll notice is a sorting system: indica, sativa and hybrid. On our menu you’ll also find Indica Hybrid and Sativa Hybrid, for plants that lean one way or the other." },
+        { "type": "p", "html": "They’re handy words. They’re also some of the most misunderstood words in cannabis, so pull up a chair and let’s untangle them together." }
+      ]
+    },
+    {
+      "id": "where-the-names-came-from",
+      "heading": "Where the names came from",
+      "blocks": [
+        { "type": "p", "html": "The words are much older than any dispensary. Eighteenth century botanists used them to describe what they could see in the field: the shape of a plant, the width of its leaves and the part of the world it grew in. Over the years, growers settled on a simple picture." },
+        { "type": "ul", "items": [
+          "<strong>Indica</strong> plants were described as short and bushy, with broad, deep green leaflets.",
+          "<strong>Sativa</strong> plants were described as tall and airy, with long, slender leaflets.",
+          "<strong>Hybrid</strong> simply means a cross of the two. After decades of breeding, that describes most cannabis grown today."
+        ] },
+        { "type": "p", "html": "Notice what that list is about: height, leaves and family trees. It’s a description of how a plant grows, written long before anyone could measure what was inside it." }
+      ]
+    },
+    {
+      "id": "folk-wisdom",
+      "heading": "The folk wisdom, and its limits",
+      "blocks": [
+        { "type": "p", "html": "Somewhere along the way, the names picked up reputations. Indica came to stand for a heavy, unwind-on-the-sofa evening. Sativa came to stand for a bright, chatty afternoon. You’ll still hear people talk that way, and plenty of shoppers use the labels as a first filter." },
+        { "type": "p", "html": "The trouble is that a plant’s shape doesn’t decide how it feels. Studies that compare the label on a product with its lab results have found the two don’t line up as neatly as the names suggest. Two flowers sold as indica can be chemically quite different, and an indica and a sativa can turn out to be close cousins." },
+        { "type": "p", "html": "And then there’s you. Your body, your mood, your setting and how much you use all shape the experience. Everyone responds differently, which is why we see these labels as a starting point rather than a promise." }
+      ]
+    },
+    {
+      "id": "look-closer",
+      "heading": "What to look at instead",
+      "blocks": [
+        { "type": "p", "html": "If the label is the cover of the book, the chemistry is the story inside. A few details are worth a closer look:" },
+        { "type": "ul", "items": [
+          "<strong>Cannabinoids.</strong> How much THC and CBD a product holds, and whether minor cannabinoids such as CBG show up. Our guide to <a href=\"/blog/cannabinoids-thc-cbd-cbg-cbn/\">THC, CBD, CBG and CBN</a> walks through them.",
+          "<strong>Terpenes.</strong> The aromatic compounds behind citrus, pine, pepper and earthy notes. Start with <a href=\"/blog/terpenes-101/\">Terpenes 101</a>.",
+          "<strong>The grower.</strong> The same cultivar name from two different growers can smell, look and feel different, so the grower is part of the story too.",
+          "<strong>Your journal.</strong> In <a href=\"/blog/pulling-back-the-curtain-on-cannabis/\">Pulling Back The Curtain On Cannabis</a> we suggested keeping a cannabis journal, and it’s still one of our favorite tips: what you tried, how much you had and what you noticed."
+        ] }
+      ]
+    },
+    {
+      "id": "using-the-labels-well",
+      "heading": "Using the labels well",
+      "blocks": [
+        { "type": "p", "html": "None of this makes the words useless. They’re a shared vocabulary, a quick way to say “I’d like something that leans this way” and start a conversation. Use them to narrow the field, then let the details do the rest." },
+        { "type": "callout", "html": "<strong>Curious where to begin?</strong> Tell <a href=\"/book-a-budtender/\">one of our budtenders</a> what kind of day or evening you have in mind, what you’ve enjoyed before and what you didn’t. Together you can read past the label to the cannabinoids and terpenes underneath." },
+        { "type": "p", "html": "When you know what you’re after, browse our <a href=\"/products/flower/\">flower</a> and <a href=\"/products/pre-rolls/\">pre-rolls</a>, then pick up in store or have your order brought to you with <a href=\"/delivery/\">local delivery</a>. Curiosity breeds creativity, and that goes for finding your favorites too." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Will an indica always feel one way and a sativa another?", "a_html": "Not reliably. Those reputations are tradition more than rule. The label describes how a plant grows, while the experience depends on its cannabinoids and terpenes, the amount you use and you. Everyone responds differently." },
+    { "q": "What does hybrid mean on a menu?", "a_html": "A hybrid is a cross between indica and sativa plants. Most cannabis grown today has mixed ancestry, so on our menu you’ll also see Indica Hybrid and Sativa Hybrid for plants that lean one way." },
+    { "q": "What should I look at besides the label?", "a_html": "Check the cannabinoid numbers, any terpenes listed and the grower. Our guide to <a href=\"/blog/how-to-read-a-cannabis-label/\">reading a cannabis label</a> shows where to find each one." }
+  ]
+}

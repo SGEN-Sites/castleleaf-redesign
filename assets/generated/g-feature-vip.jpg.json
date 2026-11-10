@@ -1,0 +1,33 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-feature-vip",
+  "file": "assets/generated/g-feature-vip.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Tenebrist photograph of a small glass display vitrine on a slim pale stone pedestal in a dark gallery, right of centre. Inside, a deep green velvet tray holds a small plain glass jar and a small antique brass key. A single warm lantern beam from the upper right lights the vitrine, with soft reflections and bright edge highlights on the glass and a faint haze in the beam; the room around falls into deep warm charcoal-brown darkness, never pure black. Painterly chiaroscuro, photographic and sharp. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 52017
+  },
+  "seed": 52017,
+  "requestId": "01a1c301-41d1-7a42-b377-c148340a14ba",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "5dc9ceb9f7054676a187ce928eacf9f1e090aa32bdaaa520cae47770135fedb4",
+  "raw": "tmp/img/raw/g-feature-vip.1794273017417.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:10:18.900Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [
+    "warm toe lift + fine grain (tmp/img/grade.py)"
+  ],
+  "alt": "A glass display vitrine holding a dark green velvet tray, lit by a single warm beam in a dark room"
+}

@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-etiquette",
+  "file": "assets/generated/g-art-etiquette.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A small round wooden table on a quiet covered porch at golden hour, set with a glass carafe of water, two clean drinking glasses and a small ceramic dish, two empty wooden chairs, a softly blurred green garden behind, warm low sunlight, calm and neighbourly. No people, no hands, no smoke., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 63037
+  },
+  "seed": 63037,
+  "requestId": "01a1c302-7c21-7081-8da4-fdc2b1ae608c",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "95537219e617f04c14a72025a770c059e6d5c783fb0a786c0afa1c8819b21aa8",
+  "raw": "tmp/img/raw/g-art-etiquette.1794273094808.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:11:36.296Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "A small wooden table with a glass carafe of water, a glass and a small cup on a quiet porch at golden hour"
+}

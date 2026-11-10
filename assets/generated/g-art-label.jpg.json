@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-label",
+  "file": "assets/generated/g-art-label.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A small clear glass jar with a cork stopper holding dried flower, a completely blank cream paper tag tied to its neck with natural string, beside a small brass magnifying glass, on a natural linen cloth, right of centre, soft window light, calm editorial still life. The tag is completely blank with no writing at all. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 63011
+  },
+  "seed": 63011,
+  "requestId": "01a1c302-0af4-7090-a222-ddf17440b209",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "7723b437d059196db35728d5e0046e518b0d92af6c44028ab7696cdcf14ccbd6",
+  "raw": "tmp/img/raw/g-art-label.1794273077437.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:11:19.587Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "A small glass jar with a blank paper tag beside a brass magnifying glass on linen"
+}

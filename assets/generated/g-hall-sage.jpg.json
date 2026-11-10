@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-hall-sage",
+  "file": "assets/generated/g-hall-sage.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A bright, airy, almost empty room of pale plaster filled with a soft pale sage-green mist, gentle morning light rays slanting through the haze from the upper left, very pale and luminous, almost white with a sage tint, ethereal and calm, high key, smooth soft gradients, wide empty space. No objects, no furniture, no orbs, no bokeh balls, no dust specks, no particles, nothing floating, no people., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "16:9",
+    "seed": 41037
+  },
+  "seed": 41037,
+  "requestId": "01a1c300-a861-7790-9401-6687c5480749",
+  "cutout": null,
+  "width": 2752,
+  "height": 1536,
+  "sha256": "249801cb054317359823956b45b79e69545f97c502897ef48ed956d3c774d284",
+  "raw": "tmp/img/raw/g-hall-sage.1794272971304.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:09:33.194Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": ""
+}

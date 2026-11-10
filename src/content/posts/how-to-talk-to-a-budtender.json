@@ -1,0 +1,142 @@
+{
+  "order": 7,
+  "slug": "how-to-talk-to-a-budtender",
+  "path": "/blog/how-to-talk-to-a-budtender/",
+  "title": "How to Talk to a Budtender | CastleLeaf",
+  "h1": "How to Talk to a Budtender",
+  "description": "What to say at the counter, what to bring up and how a CastleLeaf budtender helps you choose, whether it is your first visit or your fiftieth in Brighton.",
+  "categories": [
+    {
+      "name": "Shopping & Reviews",
+      "slug": "shopping-and-reviews"
+    }
+  ],
+  "popular": true,
+  "readTime": "4 min read",
+  "image": "g-art-budtender",
+  "imageAlt": "",
+  "excerpt": "A good budtender conversation feels less like a quiz and more like a chat with a well-read friend. Here’s what to bring up, what to ask and how our team helps you choose.",
+  "pull": "There is no wrong way to start, and “I have no idea what I’m doing” is a perfectly good opening line.",
+  "relatedCategories": [
+    "flower",
+    "edibles"
+  ],
+  "related": [
+    "what-is-a-flower-deli",
+    "how-to-read-a-cannabis-label",
+    "the-castleleaf-experience"
+  ],
+  "sections": [
+    {
+      "id": "start-anywhere",
+      "heading": "Start anywhere, honestly",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Walking up to a cannabis counter can feel a little like ordering wine in a restaurant where everyone else seems to know the vintages. Here’s the secret: nobody expects you to. Budtenders talk with beginners, regulars and the curious but cautious all day long, and the best conversations start in plain words."
+        },
+        {
+          "type": "p",
+          "html": "There is no wrong way to start, and “I have no idea what I’m doing” is a perfectly good opening line. So is “I liked something last spring and can’t remember what it was.” Honesty gets you further than jargon ever will."
+        },
+        {
+          "type": "p",
+          "html": "At CastleLeaf, this is our favorite part of the day. In our own words: “Our knowledgeable and friendly staff are always available to answer questions, offer personalized recommendations, and ensure every visit is a positive one.” We’re proud of our highly educated budtenders, and a good conversation with them usually begins with one simple question: what are you hoping for?"
+        }
+      ]
+    },
+    {
+      "id": "what-to-bring-up",
+      "heading": "What to bring up",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "You don’t need a script, but a few details help a budtender narrow a big menu down to a short, sensible list."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Your experience.</strong> First time ever, first time in years, or a regular looking for something new. Each one points to a different starting place.",
+            "<strong>The occasion.</strong> A quiet night in, a creative afternoon, dinner with friends. Describe the moment rather than guessing at the product.",
+            "<strong>How you like to consume.</strong> Smoking, vaping, edibles or not sure yet. If you’d rather not smoke, say so early.",
+            "<strong>What has worked before, and what hasn’t.</strong> Bring a label or a photo of one. Product names, cannabinoid numbers and terpene notes are all useful clues.",
+            "<strong>Your budget.</strong> Saying a number out loud is normal and saves everyone time. It also lets a budtender point out a bundle when one fits."
+          ]
+        },
+        {
+          "type": "callout",
+          "html": "A budtender is a guide to products, not a doctor. If you take medication or have a health question, talk with a medical professional before you try cannabis."
+        }
+      ]
+    },
+    {
+      "id": "good-questions",
+      "heading": "Good questions to ask",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Once the basics are on the table, turn it around and ask a few questions of your own."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "What would you suggest for someone at my level, and why?",
+            "How much should I start with, and how long should I leave it before having more?",
+            "What do the numbers on this label mean for me?",
+            "Is there a smaller size, so I can try it before I commit?"
+          ]
+        },
+        {
+          "type": "p",
+          "html": "If an answer doesn’t make sense, ask again. Cannabis comes with a lot of vocabulary, and a good budtender would much rather explain twice than have you leave unsure. For a head start on the words, our guide to <a href=\"/blog/how-to-read-a-cannabis-label/\">reading a cannabis label</a> walks through them."
+        }
+      ]
+    },
+    {
+      "id": "how-we-help",
+      "heading": "How a budtender helps you choose",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Think of the conversation as a funnel. A budtender listens, asks a follow-up or two, then narrows the shelves to two or three options that suit what you described. You’ll usually hear why each one made the list: the format, the strength on the label, the aroma, the size."
+        },
+        {
+          "type": "p",
+          "html": "We call this the In-store Budtender Experience, one of the ways to buy listed in our FAQ. Our own line puts it simply: “Speak to a Budtender or visit our Fresh Counter at the store.” If flower is your thing, read <a href=\"/blog/what-is-a-flower-deli/\">how our Flower Deli works</a> before you come in."
+        },
+        {
+          "type": "p",
+          "html": "And if you only want to browse? Say so. A good budtender will give you room, and will still be there when a question comes up."
+        }
+      ]
+    },
+    {
+      "id": "book-or-drop-in",
+      "heading": "Book a budtender, or simply drop in",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "We believe “finding the right cannabis should be simple, enjoyable, and educational,” and an unhurried conversation is the best way we know to get there. Online booking on our <a href=\"/book-a-budtender/\">Book A Budtender</a> page is Coming Soon! Until then, talk to a budtender in the store at 100 Leo M Birmingham Pkwy in Brighton, or call us at <a href=\"tel:+16172025066\">(617) 202-5066</a>."
+        },
+        {
+          "type": "p",
+          "html": "Bring your questions, your curiosity and a valid government ID that shows you’re 21+. We’ll bring the conversation."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need an appointment to talk to a budtender?",
+      "a_html": "No. Our staff are on hand to answer questions in the store. Online booking is Coming Soon! on our <a href=\"/book-a-budtender/\">Book A Budtender</a> page. In the meantime, you can always call us at <a href=\"tel:+16172025066\">(617) 202-5066</a>."
+    },
+    {
+      "q": "What should I bring?",
+      "a_html": "A valid government ID that shows you’re 21+, plus any labels or photos of products you’ve enjoyed before. We accept cash or debit cards, and there’s an ATM on site."
+    },
+    {
+      "q": "Is it okay to say I’m new to cannabis?",
+      "a_html": "Absolutely. Plenty of people start exactly there, and it helps a budtender suggest a sensible starting point. Everyone responds to cannabis differently, so starting small is never a bad plan."
+    }
+  ]
+}

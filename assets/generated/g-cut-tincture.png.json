@@ -1,0 +1,36 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-cut-tincture",
+  "file": "assets/generated/g-cut-tincture.png",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "Product photograph of a single amber glass dropper bottle with a black rubber dropper cap, standing upright, whole bottle in frame with a wide margin, centred, on a plain seamless light grey studio background, soft even studio light, crisp clean edges, a soft contact shadow. The bottle is completely plain and unlabeled. No people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:4",
+    "seed": 74003
+  },
+  "seed": 74003,
+  "requestId": "01a1c302-8ff8-7a33-838c-24abd600cf55",
+  "cutout": {
+    "model": "fal-ai/birefnet/v2",
+    "requestId": "01a1c302-cf57-7751-a0a2-fda9ed62fe11"
+  },
+  "width": 715,
+  "height": 1824,
+  "sha256": "cdfd08247ab9e3027410753c19e238a3104f50af47df7c8991e287212fa39355",
+  "raw": "tmp/img/raw/g-cut-tincture.1794273101645.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:11:48.556Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [
+    "trimmed to the alpha bounding box + 4% margin (tmp/img/post.py trim)"
+  ],
+  "alt": "An amber glass dropper bottle"
+}

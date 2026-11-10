@@ -1,0 +1,448 @@
+{
+ "slug": "accessibility",
+ "path": "/accessibility/",
+ "source": "https://www.castleleaf.com/accessibility/",
+ "captured": "2026-11-10",
+ "title": "Accessibility - CastleLeaf Cannabis Dispensary in Brighton, MA",
+ "description": "Find accessible cannabis products at our Brighton, MA dispensary. Discover a wide range of options for all your needs.",
+ "canonical": "https://www.castleleaf.com/accessibility/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Accessibility - CastleLeaf Cannabis Dispensary in Brighton, MA",
+  "og:description": "Find accessible cannabis products at our Brighton, MA dispensary. Discover a wide range of options for all your needs.",
+  "og:url": "https://www.castleleaf.com/accessibility/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2024-06-06T09:59:53-04:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "CastleLeaf OpenGraph",
+  "og:image:type": "image/png"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://www.castleleaf.com/#person",
+     "name": "CastleLeaf",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     },
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.castleleaf.com/#website",
+     "url": "https://www.castleleaf.com",
+     "name": "CastleLeaf",
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "width": "1200",
+     "height": "630",
+     "caption": "CastleLeaf OpenGraph",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/accessibility/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/accessibility/",
+        "name": "Accessibility"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.castleleaf.com/accessibility/#webpage",
+     "url": "https://www.castleleaf.com/accessibility/",
+     "name": "Accessibility - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2024-06-06T09:53:27-04:00",
+     "dateModified": "2024-06-06T09:59:53-04:00",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.castleleaf.com/accessibility/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.castleleaf.com/accessibility/#author",
+     "name": "CastleLeaf Cannabis Dispensary",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "url": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "caption": "CastleLeaf Cannabis Dispensary",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://www.castleleaf.com"
+     ]
+    },
+    {
+     "@type": "Article",
+     "headline": "Accessibility - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2024-06-06T09:53:27-04:00",
+     "dateModified": "2024-06-06T09:59:53-04:00",
+     "author": {
+      "@id": "https://www.castleleaf.com/accessibility/#author",
+      "name": "CastleLeaf Cannabis Dispensary"
+     },
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "description": "Find accessible cannabis products at our Brighton, MA dispensary. Discover a wide range of options for all your needs.",
+     "name": "Accessibility - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "@id": "https://www.castleleaf.com/accessibility/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/accessibility/#webpage"
+     },
+     "image": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.castleleaf.com/accessibility/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  }
+ ],
+ "h1": "Accessibility",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "Accessibility"
+    },
+    {
+     "t": "p",
+     "html": "We firmly believe that CastleLeaf should be available and accessible to anyone, and are committed to providing a website that is accessible to the widest possible audience, regardless of circumstance and ability."
+    },
+    {
+     "t": "p",
+     "html": "To fulfill this promise, we aim to adhere as closely as possible to the World Wide Web Consortium’s (W3C) Web Content Accessibility Guidelines 2.1 (WCAG 2.1) at the AA level. These guidelines explain how to make web content more accessible to people with a wide array of disabilities. Complying with those guidelines helps us provide a site that is accessible to all people, from the blind to the motor impaired."
+    },
+    {
+     "t": "p",
+     "html": "This website utilizes various technologies all meant to make it more accessible. We utilize an interface that allows persons with specific disabilities to adjust the website’s UI (user interface) and design it to their personal needs. This interface replaces the conventional approach to accessibility in which all users are presented with the same diminished interface or design."
+    },
+    {
+     "t": "p",
+     "html": "<strong>Here are some of the interface’s capabilities:</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      "<strong>Font adjustments</strong> – users can increase and decrease its size, change its family (type), adjust the spacing, alignment, line height, and more.",
+      "<strong>Color adjustments</strong>– users can select various color contrast profiles such as light, dark, inverted and monochrome. Additionally, users can swap color schemes of titles, texts, and backgrounds, with over 7 different coloring options.",
+      "<strong>Animations </strong>– epileptic users can stop all running animations with the click of a button. Animations controlled by the interface include videos, GIFs and CSS flashing transitions.",
+      "<strong>Content highlighting</strong> – users can choose to emphasize important elements such as links and titles. They can also choose to highlight focused or hovered elements only.",
+      "<strong>Audio muting</strong> – users with hearing devices may experience headaches or other issues due to automatic audio playing. This option lets users mute the entire website instantly.",
+      "<strong>Cognitive disorders </strong>– we utilize a search engine that is linked to Wikipedia and Wiktionary, allowing people with cognitive disorders to decipher meanings of phrases, initials, slang, and others.",
+      "<strong>Additional functions</strong> – we provide users the option to change cursor color and size, use a printing mode, enable a virtual keyboard and many other functions."
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Additionally, the website utilizes an AI-based application that runs in the background and optimizes its accessibility level every 24 hours. This AI engine remediates the website’s HTML issues and orients the functionality and behavior of the site for screen readers used by the visually impaired, and keyboard functions used by individuals with motor impairments."
+    },
+    {
+     "t": "h2",
+     "html": "We Utilize AI for the following accessibility components:"
+    },
+    {
+     "t": "p",
+     "html": "Screen-reader optimization: The AI runs in the background and learns the website’s components from top to bottom, thereby providing screen-readers with meaningful data using the ARIA set of attributes. For example, it will provide accurate form labels; descriptions for actionable icons (social media icons, search icons, cart icons, etc.); validation guidance for form inputs; element roles such as buttons, menus, modal dialogues (popups), and others. Additionally, the AI scans all of the website’s images and provides an accurate and meaningful image-object-recognition-based description as an ALT (alternate text) tag. It will also extract texts that are embedded within the image, using an OCR (optical character recognition) technology. To turn on screen-reader adjustments at any time, users need only to press the Alt+1 keyboard combination. Screen-reader users also get automatic announcements to turn adjustments on as soon as they enter the website."
+    },
+    {
+     "t": "p",
+     "html": "Keyboard navigation optimization: The AI adjusts the website’s HTML, and adds various behaviors using JavaScript code to make the website fully operable by a keyboard. This includes the ability to navigate the entire site using the TAB and SHIFT+TAB keys, operate dropdowns with the arrow keys, close them with ESC, trigger buttons and links using the Enter key, navigate between radio and checkbox elements using the arrow keys, and fill them in with the Spacebar or Enter key.Additionally, keyboard users will find quick-navigation and content-skip menus (available at any time by clicking Alt+1). The AI will also handle triggered popups by moving the keyboard focus towards them as soon as they appear, and not allow the focus drift outside of it."
+    },
+    {
+     "t": "h2",
+     "html": "Browser and Assistive Technology Compatibility:"
+    },
+    {
+     "t": "p",
+     "html": "We aim to support the widest array of browsers and assistive technologies as possible, so our users can choose the best fitting tools for them, with as few limitations as possible. Therefore, we have worked very hard to be able to support all major systems that comprise over 95% of the user market share including: Google Chrome, Mozilla Firefox, Apple Safari, Opera, Microsoft Edge and I.E 11 or above, JAWS and NVDA (screen readers), both for Windows and for MAC users. This website is operable using other platforms as well, though we are not officially supporting them and recommend users to utilize the aforementioned systems."
+    },
+    {
+     "t": "h2",
+     "html": "Notes, Comments and Feeback"
+    },
+    {
+     "t": "p",
+     "html": "Despite our very best efforts to allow anybody to adjust the website to their needs, it is possible that there will still be pages or sections that are not fully accessible, are in the process of becoming accessible, or are lacking an adequate technological solution to make them accessible. Still, we are constantly improving the accessibility interface, adding, updating and improving its options and features, and developing and adopting new technologies. All this is meant to reach the optimal level of accessibility, at all times, and in accordance with technological advancements."
+    },
+    {
+     "t": "p",
+     "html": "If you’ve discovered a malfunction, if you find any aspect of the interface difficult to use, or if you have ideas for improvement, we’ll be happy to hear from you. Simply click on “<a href=\"/contact/\">Contact Us</a>” at the bottom of our footer, and fill out the Contact Us form. Alternatively, you can send an email to our team at <a href=\"mailto:info@castleleaf.com\">info@castleleaf.com</a>."
+    }
+   ]
+  }
+ ]
+}

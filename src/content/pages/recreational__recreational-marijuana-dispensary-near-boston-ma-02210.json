@@ -1,0 +1,879 @@
+{
+ "slug": "recreational__recreational-marijuana-dispensary-near-boston-ma-02210",
+ "path": "/recreational/recreational-marijuana-dispensary-near-boston-ma-02210/",
+ "source": "https://www.castleleaf.com/recreational/recreational-marijuana-dispensary-near-boston-ma-02210/",
+ "captured": "2026-11-10",
+ "title": "Recreational Marijuana Dispensary Near Boston, MA 02210 - CastleLeaf",
+ "description": "Looking for a Recreational Marijuana Dispensary Near Boston, MA 02210? - Visit CastleLeaf Cannabis Dispensary in Brighton, MA",
+ "canonical": "https://www.castleleaf.com/recreational/recreational-marijuana-dispensary-near-boston-ma-02210/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Recreational Marijuana Dispensary Near Boston, MA 02210 - CastleLeaf",
+  "og:description": "Looking for a Recreational Marijuana Dispensary Near Boston, MA 02210? - Visit CastleLeaf Cannabis Dispensary in Brighton, MA",
+  "og:url": "https://www.castleleaf.com/recreational/recreational-marijuana-dispensary-near-boston-ma-02210/",
+  "og:site_name": "CastleLeaf",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "CastleLeaf OpenGraph",
+  "og:image:type": "image/png"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/recreational/recreational-marijuana-dispensary-near-boston-ma-02210/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/recreational/",
+        "name": "Recreational Geo"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "3",
+       "item": {
+        "@id": "https://www.castleleaf.com/recreational/recreational-marijuana-dispensary-near-boston-ma-02210/",
+        "name": "Recreational Marijuana Dispensary Near Boston, MA 02210"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  }
+ ],
+ "h1": "Recreational Cannabis Dispensary near Boston, MA 02210",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "Recreational Cannabis Dispensary near Boston, MA 02210"
+    },
+    {
+     "t": "h2",
+     "html": "Your resource for the MA region’s finest craft products"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/menu/recreational/",
+       "html": "Shop Rec Menu"
+      }
+     ]
+    },
+    {
+     "t": "h2",
+     "html": "Shop By Category"
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "linkcard",
+       "href": "/categories/flower/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Flower"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/categories/pre-rolls/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Pre-Rolls"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/categories/vaporizers/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Vaporizers"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/categories/edibles/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Edibles"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/categories/concentrates/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Concentrates"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/categories/topicals/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Topicals"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/categories/tinctures/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Tinctures"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/categories/accessories/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Accessories"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-eicon-chevron-left\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z\"></path></svg>"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-eicon-chevron-right\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z\"></path></svg>"
+    },
+    {
+     "t": "h2",
+     "html": "Boston, MA 02210 Area Recreational Cannabis Dispensary"
+    },
+    {
+     "t": "p",
+     "html": "CastleLeaf is a Brighton, MA-based recreational (adult use, 21+) Cannabis dispensary (weed store) that proudly serves customers from Boston, MA 02210."
+    },
+    {
+     "t": "p",
+     "html": "<em>Check out our extensive online Cannabis menu and feel welcome to place a recreational pick up order.</em>"
+    },
+    {
+     "t": "h2",
+     "html": "We Value Our Boston, MA 02210 Customers"
+    },
+    {
+     "t": "p",
+     "html": "CastleLeaf proudly serves the Boston, MA 02210 community handling all recreational Cannabis needs. Check out our reviews to see what your Boston, MA 02210 neighbors are saying about us!"
+    },
+    {
+     "t": "img",
+     "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxODQiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCAxODQgNjAiPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHN0eWxlPSJmaWxsOiNjZmQ0ZGI7ZmlsbC1vcGFjaXR5OiAwLjE7Ii8+PC9zdmc+",
+     "alt": "Google Logo",
+     "width": "184",
+     "height": "60"
+    },
+    {
+     "t": "text",
+     "html": "4.6"
+    },
+    {
+     "t": "text",
+     "html": "(347)"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/reviews/",
+       "html": "Read All Reviews"
+      }
+     ]
+    },
+    {
+     "t": "h2",
+     "html": "CastleLeaf Upcoming Events"
+    },
+    {
+     "t": "h3",
+     "html": "There is no Event"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/events/",
+       "html": "View All Events"
+      }
+     ]
+    },
+    {
+     "t": "h2",
+     "html": "Shop Offers &amp; Save"
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/concentrates-3-for-40/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/concentrates-3-for-40/\">Concentrates 3 for $40</a>"
+    },
+    {
+     "t": "text",
+     "html": "Concentrates 1 for $20 or 3 for $40"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/concentrates-3-for-40/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/1-2g-infused-live-resin-donut-prerolls-2-for-20/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/1-2g-infused-live-resin-donut-prerolls-2-for-20/\">1.2g Infused Live Resin Donut Prerolls 2 for $20</a>"
+    },
+    {
+     "t": "text",
+     "html": "1.2g Infused Live Resin Donut Prerolls 1 for $17, 2 for $20"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/1-2g-infused-live-resin-donut-prerolls-2-for-20/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/fast-acting-chill-syrups-500mg-2-for-55-1000mg-2-for-105/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDUwIiB2aWV3Qm94PSIwIDAgODAwIDQ1MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "450"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/fast-acting-chill-syrups-500mg-2-for-55-1000mg-2-for-105/\">Fast Acting Chill Syrups 500mg 2 for $55 , 1000mg 2 for $105</a>"
+    },
+    {
+     "t": "text",
+     "html": "Fast Acting Chill Syrups 500mg 1 for $40 2 for $55 1000mg 1 for $70 2 for $105"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/fast-acting-chill-syrups-500mg-2-for-55-1000mg-2-for-105/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/\">500MG TINCTURES 2 FOR $55,1000MG tinctures 2 for$100</a>"
+    },
+    {
+     "t": "text",
+     "html": "Good Vibes 500 MG tinctures 2 for $55"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/500mg-tinctures-2-for-551000mg-tinctures-2-for100/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/nectar-drinks-4-for-20/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/nectar-drinks-4-for-20/\">Nectar Drinks 4 for $20</a>"
+    },
+    {
+     "t": "text",
+     "html": "4 Nectar drinks for $20"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/nectar-drinks-4-for-20/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "https://www.castleleaf.com/specials/mix-and-match-our-bulk-flowers/",
+     "blocks": [
+      {
+       "t": "img",
+       "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDQ5IiB2aWV3Qm94PSIwIDAgODAwIDQ0OSI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+       "alt": "",
+       "width": "800",
+       "height": "449"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "<a href=\"https://www.castleleaf.com/specials/mix-and-match-our-bulk-flowers/\">Mix and Match Our bulk flowers</a>"
+    },
+    {
+     "t": "text",
+     "html": "3.5 g for $22 , 7g for $42 , 14g for $60 , 28g for $110 Tax Included"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "https://www.castleleaf.com/specials/mix-and-match-our-bulk-flowers/",
+       "html": "Order Now"
+      }
+     ]
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-left\" viewBox=\"0 0 256 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z\"></path></svg>"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-right\" viewBox=\"0 0 256 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z\"></path></svg>"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/specials/",
+       "html": "Shop All Offers"
+      }
+     ]
+    },
+    {
+     "t": "h2",
+     "html": "How To Shop At Castle Leaf"
+    },
+    {
+     "t": "p",
+     "html": "We make it convenient for you to shop at our dispensary with options like online ordering and in-store browsing, aiming to make the experience helpful and accessible."
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/book-a-budtender/",
+       "html": "New To Cannabis?"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "/menu/",
+     "blocks": [
+      {
+       "t": "svg",
+       "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" viewBox=\"0 0 200 200\"><defs> </defs><path id=\"Path_40250\" data-name=\"Path 40250\" class=\"cls-2\" d=\"M163.2,46.8c-.3-.2-.6-.3-1-.3-29.9.9-55-15.5-55.3-15.7-.7-.4-18.4-11-38.5-7-12.8,2.5-23.5,10.4-31.9,23.3-.1.2-.2.4-.2.6v73.4c0,38.7,60.4,54.8,63,56.1.4.2.8.2,1.2,0,2.6-1.2,63-10.7,63-56.1V47.6c0-.3-.2-.6-.4-.8Z\"></path><g id=\"Expanded\"><g id=\"Group_518\" data-name=\"Group 518\"><g id=\"Group_513\" data-name=\"Group 513\"><path id=\"Path_51950\" data-name=\"Path 51950\" class=\"cls-1\" d=\"M140.4,145.7H59.5c-4.5,0-8.1-3.6-8.1-8.1v-60.7c0-4.5,3.6-8.1,8.1-8.1h80.9c4.5,0,8.1,3.6,8.1,8.1v60.7c0,4.5-3.6,8.1-8.1,8.1ZM59.5,72.9c-2.2,0-4,1.8-4,4v60.7c0,2.2,1.8,4,4,4h80.9c2.2,0,4-1.8,4-4v-60.7c0-2.2-1.8-4-4-4H59.5Z\"></path></g><g id=\"Group_514\" data-name=\"Group 514\"><path id=\"Path_51951\" data-name=\"Path 51951\" class=\"cls-1\" d=\"M128.3,157.8h-56.6c-1.1,0-2-.9-2-2s.9-2,2-2h56.7c1.1,0,2,.9,2,2s-.9,2-2,2Z\"></path></g><g id=\"Group_515\" data-name=\"Group 515\"><path id=\"Path_51952\" data-name=\"Path 51952\" class=\"cls-1\" d=\"M114.1,157.8h-28.3c-.6,0-1.2-.3-1.6-.8-.4-.5-.4-1.2-.2-1.8l4-12.1c.2-.8,1-1.4,1.8-1.4h20.2c.9,0,1.6.6,1.8,1.4l3.8,11.7c.3.2.5.6.4,1,0,1.1-.7,2-1.8,2,0,0-.2,0-.2,0ZM88.6,153.8h22.7l-2.6-8.1h-17.4l-2.6,8.1Z\"></path></g><g id=\"Group_516\" data-name=\"Group 516\"><path id=\"Path_51953\" data-name=\"Path 51953\" class=\"cls-1\" d=\"M140.4,129.5H59.5v-52.6h80.9v52.6ZM63.5,125.5h72.8v-44.5H63.5v44.5Z\"></path></g><g id=\"Group_517\" data-name=\"Group 517\"><ellipse id=\"Ellipse_16\" data-name=\"Ellipse 16\" class=\"cls-1\" cx=\"99.9\" cy=\"135.3\" rx=\"3.5\" ry=\"4.5\"></ellipse></g></g></g></svg>"
+      },
+      {
+       "t": "h3",
+       "html": "Order Online"
+      },
+      {
+       "t": "text",
+       "html": "Order from home and swing by when you're ready"
+      },
+      {
+       "t": "text",
+       "html": "See Our Menu"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "/book-a-budtender/",
+     "blocks": [
+      {
+       "t": "svg",
+       "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" viewBox=\"0 0 200 200\"><defs> </defs><path id=\"Path_40251\" data-name=\"Path 40251\" class=\"cls-5\" d=\"M163.2,46.8c-.3-.2-.6-.3-1-.3-29.9.9-55-15.5-55.3-15.7-.7-.4-18.4-11-38.5-7-12.8,2.5-23.5,10.4-31.9,23.3-.1.2-.2.4-.2.6v73.4c0,38.7,60.4,54.8,63,56.1.4.2.8.2,1.2,0,2.6-1.2,63-10.7,63-56.1V47.6c0-.3-.2-.6-.4-.8Z\"></path><g id=\"Budtender_icon\" data-name=\"Budtender icon\"><path id=\"Path_40246\" data-name=\"Path 40246\" class=\"cls-4\" d=\"M96,69.1c9,0,16.3,8.4,16.3,18.8s-7.3,18.8-16.3,18.8-16.3-8.4-16.3-18.8,7.3-18.8,16.3-18.8ZM96,64.8c-11.4,0-20.6,10.3-20.6,23.1s9.2,23.1,20.6,23.1,20.6-10.3,20.6-23.1-9.2-23.1-20.6-23.1Z\"></path><path id=\"Path_40247\" data-name=\"Path 40247\" class=\"cls-4\" d=\"M140.6,151.2H51.5c-1.2,0-2.1-1-2.1-2.2v-7.5c0-22.2,7.9-29.3,32.1-29.3.6,0,1.2.3,1.6.8,4.5,5.3,10.8,10.9,13,10.9s8.5-5.6,13-10.9c.4-.5,1-.8,1.6-.8,24.2,0,32,7.1,32.1,29.3v7.5c0,1.2-1,2.1-2.1,2.2ZM53.7,146.9h84.7v-5.3c0-19.6-5.6-24.9-26.8-25-3.1,3.5-10.7,11.6-15.6,11.6s-12.5-8.1-15.6-11.6c-21.2.2-26.7,5.4-26.8,25v5.3Z\"></path><path id=\"Path_40249\" data-name=\"Path 40249\" class=\"cls-2\" d=\"M126,123.8c13.8,0,25,11.2,25,25s-11.2,25-25,25-25-11.2-25-25c0-13.8,11.2-25,25-25h0Z\"></path><g id=\"Group_237\" data-name=\"Group 237\"><g id=\"Shape\"><g id=\"Group_236\" data-name=\"Group 236\"><path id=\"Path_40248\" data-name=\"Path 40248\" class=\"cls-1\" d=\"M106.6,141.6c-.6-.2-1.2.1-1.3.7,0,.2,0,.5,0,.7,2.5,5.5,6.3,10.4,11,14.2-2.9.3-5.8,1.1-8.4,2.4-.6.3-.8,1.1-.4,1.7.1.2.3.3.4.4,3.5,1.8,7.3,2.6,11.2,2.4-.6,1.2-1,2.5-1.2,3.8,0,.6.3,1.1.9,1.2.2,0,.4,0,.5,0,2.5-.7,4.8-2.3,6.3-4.4v3.7c0,.4.3.7.7.7s.7-.3.7-.7h0v-3.7c1.6,2.1,3.8,3.6,6.3,4.4.6.2,1.2-.1,1.4-.7,0-.2,0-.3,0-.5-.2-1.3-.7-2.5-1.2-3.7,3.9.2,7.7-.6,11.2-2.4.6-.3.8-1.1.4-1.7-.1-.2-.3-.3-.4-.4-2.6-1.3-5.5-2.1-8.4-2.4,4.8-3.7,8.6-8.6,11-14.2.2-.5,0-1.2-.6-1.4-.2,0-.5-.1-.7,0-5.8,1.8-11,5.1-15.3,9.4,1.3-7.8-.5-16.7-3.5-23.6-.2-.5-.8-.8-1.4-.6-.2.1-.4.3-.6.6-3,6.8-4.8,15.7-3.5,23.6-4.2-4.3-9.5-7.6-15.2-9.4h0ZM108.9,160.6c5.1-2.4,11.6-3.2,16.2,0-4.6,3.3-11.2,2.3-16.2,0h0ZM119.4,167.5c.3-1.3.8-2.5,1.4-3.6,1.6-.3,3.1-.8,4.4-1.6-.9,2.6-3.3,4.3-5.8,5.2ZM133.2,167.5c-2.6-.9-4.9-2.6-5.9-5.2,1.4.8,2.9,1.3,4.4,1.6.7,1.1,1.2,2.3,1.4,3.6h0ZM127.4,160.6c4.6-3.3,11.2-2.3,16.2,0-5.1,2.4-11.6,3.2-16.2,0h0ZM145.7,143.2c-2.6,5.4-6.8,10.8-11.9,13.9-1.8,0-3.7.5-5.4,1.3.7-1.4,1.2-2.9,1.7-4.4,3.7-5,9.8-8.8,15.6-10.8h0ZM126.3,128.8c3.9,9.3,5.5,22.1,0,30.6-5.5-8.5-3.8-21.3,0-30.6ZM124.1,158.4c-1.7-.8-3.5-1.2-5.4-1.3-5.1-3.2-9.3-8.6-11.9-13.9,5.8,2,11.9,5.8,15.6,10.8.4,1.5,1,3,1.7,4.4h0Z\"></path></g></g></g><g id=\"smiley_face\" data-name=\"smiley face\"><path id=\"Path_51954\" data-name=\"Path 51954\" class=\"cls-3\" d=\"M88.4,93s1.9,4.3,8,4.3,7.9-4.3,7.9-4.3\"></path><circle id=\"Ellipse_17\" data-name=\"Ellipse 17\" class=\"cls-4\" cx=\"90.5\" cy=\"83.5\" r=\"3.1\"></circle><circle id=\"Ellipse_18\" data-name=\"Ellipse 18\" class=\"cls-4\" cx=\"101.6\" cy=\"83.5\" r=\"3.1\"></circle></g></g></svg>"
+      },
+      {
+       "t": "h3",
+       "html": "Talk To A Bundtender"
+      },
+      {
+       "t": "text",
+       "html": "Speak to a Budtender or visit our Fresh Counter at the store"
+      },
+      {
+       "t": "text",
+       "html": "Book A Budtender"
+      }
+     ]
+    },
+    {
+     "t": "linkcard",
+     "href": "/directions/",
+     "blocks": [
+      {
+       "t": "svg",
+       "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" viewBox=\"0 0 200 200\"><defs> </defs><path id=\"Path_40252\" data-name=\"Path 40252\" class=\"cls-2\" d=\"M163.2,46.8c-.3-.2-.6-.3-1-.3-29.9.9-55-15.5-55.3-15.7-.7-.4-18.4-11-38.5-7-12.8,2.5-23.5,10.4-31.9,23.3-.1.2-.2.4-.2.6v73.4c0,38.7,60.4,54.8,63,56.1.4.2.8.2,1.2,0,2.6-1.2,63-10.7,63-56.1V47.6c0-.3-.2-.6-.4-.8Z\"></path><path id=\"icon\" class=\"cls-1\" d=\"M121.2,68.8h-41.9c-6.6,0-11.9,5.7-11.9,12.6v62.1c0,5.8,3.6,10,10.7,12.4,5.1,1.7,10.3,3.1,22.2,3.1s17.3-1.4,22.2-3.1c2.6-.9,10.7-3.7,10.7-12.4v-62.1c0-6.9-5.3-12.6-11.9-12.6ZM129.3,143.5c0,4.8-3.4,7.1-8.1,8.8s-9.3,2.9-21,2.9-16.4-1.4-21-2.9-8.1-3.9-8.1-8.8v-62.1c0-4.8,3.6-8.8,8.1-8.8h41.9c4.5,0,8.1,3.9,8.1,8.8v62.1ZM96.8,121.7c0,1.6-1.3,2.9-2.9,2.9-1.6,0-2.9-1.3-2.9-2.9,0-1.6,1.3-2.9,2.9-2.9h0c1.6,0,2.9,1.3,2.9,2.9h0ZM104.9,121.7c0,1.6-1.3,2.9-2.9,2.9-1.6,0-2.9-1.3-2.9-2.9,0-1.6,1.3-2.9,2.9-2.9h0c1.6,0,2.9,1.3,2.9,2.9h0ZM92.7,143.6h15.2v3.9h-15.2v-3.9ZM120.6,77.7h-40.6c-2.4,0-4.3,2.1-4.3,4.5v51c0,2.4,1.9,4.4,4.3,4.5h40.6c2.4,0,4.3-2.1,4.3-4.5v-51c0-2.4-1.9-4.4-4.3-4.5h0ZM121,133.2c0,.4-.2.6-.4.6h-40.6c-.2,0-.4-.3-.4-.6v-51c0-.4.2-.6.4-.6h40.6c.2,0,.4.3.4.6v51ZM116.1,91.8h-3.2c-.7,0-1.4.5-1.6,1.2-.7,2.2-1.6,5-2.6,7.9h-21.6c-1,0-2,.3-2.7,1.1-.6.8-.8,1.9-.4,2.8.4,1,3.5,8.9,3.8,9.6.4,1.5,1.7,2.6,3.2,2.5h13.3c1.7,0,3.1-1.1,3.7-2.7.3-.9,4.8-14.8,6.2-19h1.9c1,0,1.7-.8,1.7-1.8,0-.9-.8-1.7-1.7-1.7h0ZM104.7,113.2c-.1.3-.3.4-.4.4h-13.2c0,0-3.3-8.3-3.6-9.2h20.1c-1.5,4.5-2.7,8.4-2.9,8.8h0Z\"></path></svg>"
+      },
+      {
+       "t": "h3",
+       "html": "In-Store Kiosk"
+      },
+      {
+       "t": "text",
+       "html": "Place an order at our in-store kiosk and shop in peace"
+      },
+      {
+       "t": "text",
+       "html": "Get Directions"
+      }
+     ]
+    },
+    {
+     "t": "svg",
+     "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"Layer_1\" data-name=\"Layer 1\" viewBox=\"0 0 200 200\"><defs> </defs><path id=\"Path_40253\" data-name=\"Path 40253\" class=\"cls-2\" d=\"M163.2,46.8c-.3-.2-.6-.3-1-.3-29.9.9-55-15.5-55.3-15.7-.7-.4-18.4-11-38.5-7-12.8,2.5-23.5,10.4-31.9,23.3-.1.2-.2.4-.2.6v73.4c0,38.7,60.4,54.8,63,56.1.4.2.8.2,1.2,0,2.6-1.2,63-10.7,63-56.1V47.6c0-.3-.2-.6-.4-.8Z\"></path><path id=\"Path_40244\" data-name=\"Path 40244\" class=\"cls-1\" d=\"M134.9,138.4c-4.6,0-8.3,3.7-8.3,8.3,0,4.6,3.7,8.3,8.3,8.3,4.6,0,8.2-3.7,8.3-8.3,0-4.6-3.7-8.3-8.3-8.3ZM134.9,150.6c-2.2,0-3.9-1.8-3.9-4,0-2.2,1.8-3.9,4-3.9,2.2,0,3.9,1.8,3.9,3.9,0,2.2-1.8,4-4,3.9h0ZM145.5,97c-.7-2.6-2.6-3.5-4.9-3.5h-10.2c-1.2,0-1.9.9-1.9,2.6v16.4c0,1.8.6,2.8,2,2.8h16.6c3.5,0,3.3-2.3,2.4-5.2-.8-2.8-3.4-10.5-4-13.2h0ZM132.7,111.3v-13.6s8.7,0,8.7,0l4.2,13.6h-12.9ZM154.4,91.7c-1.7-5-6.3-8.4-11.6-8.5h-14.9c-1.7,0-3.4.5-4.9,1.4v-11.4c0-2.4-1.9-4.3-4.3-4.3h-56.7c-2.4,0-4.3,1.9-4.3,4.3v7.3h-18.2c-1.2,0-2.2,1-2.2,2.2s1,2.2,2.2,2.2h18.2v7.2h-2.4c-1.2,0-2.2,1-2.2,2.2s1,2.2,2.2,2.2h2.4v7.2h-9.2c-1.2,0-2.2,1-2.2,2.2s1,2.2,2.2,2.2h9.2v7.3c0,.3,0,.7.1,1-3.1,1.6-5,4.7-5,8.1v15.2c0,5.2,3.4,8.3,9.1,8.3h2.5c.5,9.7,8.6,17.3,18.3,17.3,9.8,0,17.8-7.6,18.4-17.3h15.5c.5,9.7,8.6,17.3,18.3,17.3,9.8,0,17.8-7.6,18.4-17.3h.2c5,0,9-3.7,9-8.3v-23.1c0-2.8-7.9-24.5-7.9-24.5h0ZM62,107.7h8.8c1.2,0,2.2-1,2.2-2.2s-1-2.2-2.2-2.2h-8.8v-7.2h34.7c1.2,0,2.2-1,2.2-2.2s-1-2.2-2.2-2.2h-34.7v-7.2h17.9c1.2,0,2.2-1,2.2-2.2s-1-2.2-2.2-2.2h-17.9v-7.3h56.7v41.8h-56.7v-7.2ZM82.8,160.7c-7.7,0-14-6.3-14-14,0-7.7,6.3-14,14-14,7.7,0,14,6.3,14,14,0,0,0,0,0,0,0,7.7-6.3,14-14,14h0ZM134.9,160.7c-7.7,0-14-6.3-14-14,0-7.7,6.3-14,14-14,7.7,0,14,6.3,14,14,0,0,0,0,0,0,0,7.7-6.3,14-14,14h0ZM158,139.3c0,3.2-3.7,4.1-5.1,4-.9-6.7-7.7-15-18-15-8.9,0-16.5,6.3-18.1,15h-16.1c-1.9-10-11.5-16.5-21.4-14.7-7.5,1.4-13.3,7.2-14.7,14.7h-2.7c-4.8,0-4.8-2.8-4.8-4v-15.2c0-2.6,2-4.7,4.6-4.8h56.9c2.5,0,4.4-2,4.4-4.5,0,0,0-.2,0-.3v-22.5c0-2.6,2.2-4.7,4.8-4.6,0,0,0,0,0,0h14.9c3.4.1,6.4,2.4,7.5,5.7,0,0,7.7,21.1,7.7,23.1v23.1ZM82.7,138.4c-4.6,0-8.3,3.7-8.3,8.3s3.7,8.3,8.3,8.3c4.6,0,8.2-3.7,8.3-8.3,0-4.6-3.7-8.3-8.3-8.3h0ZM82.7,150.6c-2.2,0-3.9-1.8-3.9-4,0-2.2,1.8-3.9,4-3.9,2.2,0,3.9,1.8,3.9,3.9,0,2.2-1.8,4-4,3.9h0,0Z\"></path></svg>"
+    },
+    {
+     "t": "h3",
+     "html": "Local Delivery"
+    },
+    {
+     "t": "text",
+     "html": "Cannabis quickly delivered straight to your door"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-eicon-chevron-left\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z\"></path></svg>"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-eicon-chevron-right\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z\"></path></svg>"
+    },
+    {
+     "t": "h2",
+     "html": "Shop By Effect"
+    },
+    {
+     "t": "grid",
+     "blocks": [
+      {
+       "t": "linkcard",
+       "href": "/effects/creative/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Creative"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/effects/sleep/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Sleep"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/effects/energetic/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Energetic"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/effects/calm/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Calm"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      },
+      {
+       "t": "linkcard",
+       "href": "/effects/happy/",
+       "blocks": [
+        {
+         "t": "h3",
+         "html": "Happy"
+        },
+        {
+         "t": "text",
+         "html": "Shop Now"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-eicon-chevron-left\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z\"></path></svg>"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-eicon-chevron-right\" viewBox=\"0 0 1000 1000\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z\"></path></svg>"
+    }
+   ]
+  }
+ ]
+}

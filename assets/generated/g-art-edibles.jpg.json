@@ -1,0 +1,31 @@
+{
+  "tool": "tools/fal-gen.mjs",
+  "slot": "g-art-edibles",
+  "file": "assets/generated/g-art-edibles.jpg",
+  "iptcDigitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia",
+  "provenance": "AI-generated (fal.ai). Illustrative only: never a photograph of Castle Leaf, its store, staff, customers, products or brands.",
+  "model": "fal-ai/flux-pro/v1.1-ultra",
+  "prompt": "A small handmade ceramic plate holding a few squares of dark chocolate and square artisanal fruit jellies dusted with sugar, on natural linen in soft morning window light, left of centre, elegant adult patisserie style, calm editorial still life. No packaging, no candy shapes, no people, no hands., Fine art photograph, medium format, true-to-life materials and textures, crisp focus on the subject, fine natural film grain. Absolutely no text, no letters, no numbers, no writing, no labels, no stickers, no logos, no brand names, no signage, no symbols of any script anywhere in the image. No faces.",
+  "input": {
+    "output_format": "jpeg",
+    "safety_tolerance": "5",
+    "aspect_ratio": "3:2",
+    "seed": 63041
+  },
+  "seed": 63041,
+  "requestId": "01a1c302-7d61-7793-816c-b5df4077ae49",
+  "cutout": null,
+  "width": 2496,
+  "height": 1664,
+  "sha256": "4f1853b915aa42498038b08b724aa6efed5c19af01b65275384cf4eab7dc1f7d",
+  "raw": "tmp/img/raw/g-art-edibles.1794273096531.jpg",
+  "attempt": 1,
+  "generatedAt": "2026-11-10T01:11:38.166Z",
+  "review": {
+    "verdict": "ACCEPT",
+    "reason": "checked at full size: no text or pseudo-text, no logo, no face, hands correct where present, not near-black",
+    "reviewedAt": "2026-11-10T05:51:05.282553+00:00"
+  },
+  "post": [],
+  "alt": "Squares of dark chocolate and sugar-dusted fruit jellies on a ceramic plate on linen"
+}

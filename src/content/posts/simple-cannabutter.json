@@ -1,0 +1,150 @@
+{
+  "order": 10,
+  "slug": "simple-cannabutter",
+  "path": "/blog/simple-cannabutter/",
+  "title": "Simple Cannabutter, the Slow and Steady Way | CastleLeaf",
+  "h1": "Simple Cannabutter, the Slow and Steady Way",
+  "description": "A clear, careful home method for cannabutter: a low oven, a slow simmer, straining and storage, with a start low dosing caution and tips for labeling it safely.",
+  "categories": [
+    {
+      "name": "Recipes",
+      "slug": "recipes"
+    }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-butter",
+  "imageAlt": "",
+  "excerpt": "Cannabutter is the quiet workhorse of the infused kitchen. Here’s a simple, low-heat method, plus the dosing and storage habits that keep it safe.",
+  "pull": "Approach every new batch like a stranger: politely, curiously and in very small amounts.",
+  "relatedCategories": [
+    "flower"
+  ],
+  "related": [
+    "decarboxylation-basics",
+    "edibles-start-low-go-slow",
+    "what-to-do-with-your-weed"
+  ],
+  "sections": [
+    {
+      "id": "before-you-start",
+      "heading": "Before you start",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Cannabutter is ordinary butter gently infused with cannabis. Once you have it, it slips into toast, sauces and baking. The method is simple; the patience is the hard part."
+        },
+        {
+          "type": "p",
+          "html": "A few ground rules first. Make it at home, for adults 21 and over, with cannabis you bought legally. Keep the heat low the whole way through. And stay in the kitchen: this is a recipe for a slow afternoon, not for popping out."
+        },
+        {
+          "type": "h3",
+          "text": "What you’ll need"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "A small amount of <a href=\"/products/flower/\">flower</a>. For a gentle first batch, about 3.5 grams is plenty.",
+            "1 cup (2 sticks) of unsalted butter",
+            "1 cup of water, which helps keep the butter from scorching",
+            "A baking sheet and parchment paper",
+            "A small saucepan",
+            "Cheesecloth or a fine mesh strainer, and a lidded container",
+            "Masking tape and a marker, for the label"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "The method",
+      "blocks": [
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Break it up",
+              "text": "Gently pull the flower apart with your fingers, or give it a coarse grind. A fine powder makes the butter taste grassy and is harder to strain."
+            },
+            {
+              "title": "Decarb in a low oven",
+              "text": "Spread the flower on a parchment-lined sheet and bake it at about 240°F for 30 to 40 minutes, until it’s lightly toasted and fragrant. Heat turns THCA into THC; our <a href=\"/blog/decarboxylation-basics/\">decarboxylation guide</a> explains why it matters."
+            },
+            {
+              "title": "Melt and combine",
+              "text": "Melt the butter with the water in a saucepan over low heat, then stir in the decarbed flower."
+            },
+            {
+              "title": "Simmer low and slow",
+              "text": "Hold it at the gentlest simmer for 2 to 3 hours and stir from time to time. Never let it boil. If you have a kitchen thermometer, keep it under 200°F."
+            },
+            {
+              "title": "Strain",
+              "text": "Pour the mixture through cheesecloth or a fine strainer into your container. Let it drip rather than squeezing hard, which pushes more plant taste into the butter."
+            },
+            {
+              "title": "Chill and separate",
+              "text": "Refrigerate until the butter sets on top. Lift it off, pour away the water underneath and pat the butter dry."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dose-carefully",
+      "heading": "Dose carefully: start low, go slow",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Here’s the honest truth about homemade cannabutter: there’s no way to know exactly how strong it is. Flower varies, kitchens vary, and no two batches turn out quite the same."
+        },
+        {
+          "type": "p",
+          "html": "For comparison, Massachusetts caps edibles at 5mg per serving, which shows how small a sensible serving is. Your butter has no lab label, so begin with a very small taste, such as a quarter teaspoon on toast."
+        },
+        {
+          "type": "p",
+          "html": "Then wait. Edibles can take one to two hours to kick in, so allow a full two hours before you decide on more. Approach every new batch like a stranger: politely, curiously and in very small amounts. Everyone responds differently, and our <a href=\"/blog/edibles-start-low-go-slow/\">edibles primer</a> has the rest."
+        },
+        {
+          "type": "callout",
+          "html": "Plan a quiet evening at home for any new batch, and never drive after consuming cannabis."
+        }
+      ]
+    },
+    {
+      "id": "label-and-store",
+      "heading": "Label it and store it safely",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Infused butter looks exactly like regular butter, which is precisely the problem. Label every container clearly with “Contains cannabis,” the date and how much flower went in."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Keep it in the fridge and use it within a couple of weeks, or freeze it in small portions for later.",
+            "Store it where children and pets can’t get to it, ideally in a lidded container on a high shelf or in a lockable box.",
+            "Only share it with adults 21 and over, and never serve infused food to anyone without telling them.",
+            "If a child gets into it, phone Poison Control on 1-800-222-1222 straight away, and dial 911 in an emergency. If a pet does, ring your vet."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I have to decarb the flower first?",
+      "a_html": "It’s strongly recommended. Raw flower contains mostly THCA, which needs heat to become THC. A low oven does the job; see our <a href=\"/blog/decarboxylation-basics/\">decarboxylation guide</a>."
+    },
+    {
+      "q": "How much cannabutter should I use?",
+      "a_html": "Less than you think. Homemade butter can’t be measured precisely, so start with a very small taste and wait at least two hours before having more."
+    },
+    {
+      "q": "Will my kitchen smell?",
+      "a_html": "Yes, for a while. Open a window, run your range hood and spare a thought for your neighbors if you share walls. The smell fades soon after you finish."
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+{
+ "slug": "directions",
+ "path": "/directions/",
+ "source": "https://www.castleleaf.com/directions/",
+ "captured": "2026-11-10",
+ "title": "Directions - CastleLeaf Cannabis Dispensary in Brighton, MA",
+ "description": "Visit CastleLeaf in Brighton MA for easy driving directions to the dispensary. Find the best route to your favorite cannabis spot now!",
+ "canonical": "https://www.castleleaf.com/directions/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Directions - CastleLeaf Cannabis Dispensary in Brighton, MA",
+  "og:description": "Visit CastleLeaf in Brighton MA for easy driving directions to the dispensary. Find the best route to your favorite cannabis spot now!",
+  "og:url": "https://www.castleleaf.com/directions/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2025-07-02T10:36:18-04:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "CastleLeaf OpenGraph",
+  "og:image:type": "image/png"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://www.castleleaf.com/#person",
+     "name": "CastleLeaf",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     },
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.castleleaf.com/#website",
+     "url": "https://www.castleleaf.com",
+     "name": "CastleLeaf",
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "width": "1200",
+     "height": "630",
+     "caption": "CastleLeaf OpenGraph",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/directions/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/directions/",
+        "name": "Directions"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.castleleaf.com/directions/#webpage",
+     "url": "https://www.castleleaf.com/directions/",
+     "name": "Directions - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2021-06-25T03:24:06-04:00",
+     "dateModified": "2025-07-02T10:36:18-04:00",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.castleleaf.com/directions/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.castleleaf.com/directions/#author",
+     "name": "CastleLeaf Cannabis Dispensary",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "url": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "caption": "CastleLeaf Cannabis Dispensary",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://www.castleleaf.com"
+     ]
+    },
+    {
+     "@type": "Article",
+     "headline": "Directions - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2021-06-25T03:24:06-04:00",
+     "dateModified": "2025-07-02T10:36:18-04:00",
+     "author": {
+      "@id": "https://www.castleleaf.com/directions/#author",
+      "name": "CastleLeaf Cannabis Dispensary"
+     },
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "description": "Visit CastleLeaf in Brighton MA for easy driving directions to the dispensary. Find the best route to your favorite cannabis spot now!",
+     "name": "Directions - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "@id": "https://www.castleleaf.com/directions/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/directions/#webpage"
+     },
+     "image": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.castleleaf.com/directions/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  }
+ ],
+ "h1": "Directions to CastleLeaf",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "Directions to CastleLeaf"
+    },
+    {
+     "t": "h2",
+     "html": "Cannabis Dispensary located near Brighton, MA"
+    },
+    {
+     "t": "h3",
+     "html": "Location"
+    },
+    {
+     "t": "p",
+     "html": "100 Leo M Birmingham Pkwy<br>Brighton, MA 02135"
+    },
+    {
+     "t": "embed",
+     "src": "about:blank",
+     "title": ""
+    },
+    {
+     "t": "h2",
+     "html": "<strong>How to Get to CastleLeaf Dispensary in Brighton, MA</strong>"
+    },
+    {
+     "t": "p",
+     "html": "Visiting CastleLeaf Dispensary is easy, whether you’re a local or traveling from nearby neighborhoods in Boston. This prime location makes us accessible to customers throughout Allston, Brookline, Cambridge, and Watertown, with major roadways and public transit options nearby. Whether you’re shopping for <a href=\"/categories/flower\">flower</a>, <a href=\"/categories/pre-rolls\">pre-rolls</a>, <a href=\"/categories/vaporizers\">vapes</a>, <a href=\"/categories/concentrates\">concentrates</a>, or <a href=\"/categories/edibles\">edibles</a>, CastleLeaf is your go-to Brighton dispensary with quality products and expert guidance."
+    },
+    {
+     "t": "h3",
+     "html": "🚗 <strong>Driving Directions</strong>"
+    },
+    {
+     "t": "p",
+     "html": "<strong>From Downtown Boston:</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Take <strong>Storrow Drive West</strong> toward Newton."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Exit onto <strong>Soldiers Field Road</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Continue onto <strong>Leo M Birmingham Parkway</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "CastleLeaf will be on your right—just past Western Avenue."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<strong>From Cambridge:</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Head south on <strong>River Street</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Cross the <strong>Western Avenue Bridge</strong> into Allston/Brighton."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Turn right onto <strong>Leo M Birmingham Parkway</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "CastleLeaf is a short drive down on the left."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<strong>From Brookline:</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Take <strong>Harvard Street</strong> north to <strong>Cambridge Street</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Turn left onto <strong>Market Street</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Continue to <strong>Leo M Birmingham Parkway</strong> and turn right."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "We’re located just past the Charles River."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<strong>From I-90 (Mass Pike):</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Take Exit 131 (formerly Exit 17) toward <strong>Brighton/Cambridge</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Follow signs for <strong>Soldiers Field Road</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Merge onto <strong>Leo M Birmingham Parkway</strong>."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "🚇 <strong>Public Transit Directions</strong>"
+    },
+    {
+     "t": "p",
+     "html": "<strong>By MBTA Bus:</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Take <strong>Bus 70 or 86</strong> to the <strong>Western Ave @ Leo Birmingham Pkwy</strong> stop."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "It’s a short 3-minute walk to our front door."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "<strong>By Subway (Green Line):</strong>"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "Take the <strong>Green Line B (Boston College)</strong> to <strong>Warren Street Station</strong>."
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "p",
+         "html": "From there, take <strong>Bus 86</strong> or a rideshare to reach us in about 10 minutes."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": ""
+    },
+    {
+     "t": "h3",
+     "html": "🚴 <strong>Bike or Walk</strong>"
+    },
+    {
+     "t": "p",
+     "html": "We’re bike-friendly and just minutes from the <strong>Charles River Bike Path</strong>, offering scenic access from Allston and Cambridge. Pedestrians can enjoy safe crosswalks and sidewalks along Western Ave and Leo Birmingham Parkway."
+    },
+    {
+     "t": "h3",
+     "html": ""
+    },
+    {
+     "t": "h3",
+     "html": "🅿️ Parking"
+    },
+    {
+     "t": "p",
+     "html": "Free onsite parking is available for your convenience."
+    }
+   ]
+  }
+ ]
+}

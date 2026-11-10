@@ -1,0 +1,736 @@
+{
+ "slug": "reviews",
+ "path": "/reviews/",
+ "source": "https://www.castleleaf.com/reviews/",
+ "captured": "2026-11-10",
+ "title": "Reviews - CastleLeaf Cannabis Dispensary in Brighton, MA",
+ "description": "Want to know what people are saying about CastleLeaf Cannabis Dispensary. Read our Reviews and find out all you need to know before your visit.",
+ "canonical": "https://www.castleleaf.com/reviews/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "Reviews - CastleLeaf Cannabis Dispensary in Brighton, MA",
+  "og:description": "Want to know what people are saying about CastleLeaf Cannabis Dispensary. Read our Reviews and find out all you need to know before your visit.",
+  "og:url": "https://www.castleleaf.com/reviews/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2024-07-25T09:04:25-04:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "CastleLeaf OpenGraph",
+  "og:image:type": "image/png"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://www.castleleaf.com/#person",
+     "name": "CastleLeaf",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     },
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.castleleaf.com/#website",
+     "url": "https://www.castleleaf.com",
+     "name": "CastleLeaf",
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "width": "1200",
+     "height": "630",
+     "caption": "CastleLeaf OpenGraph",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/reviews/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/reviews/",
+        "name": "Reviews"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://www.castleleaf.com/reviews/#webpage",
+     "url": "https://www.castleleaf.com/reviews/",
+     "name": "Reviews - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2021-12-30T16:53:06-05:00",
+     "dateModified": "2024-07-25T09:04:25-04:00",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.castleleaf.com/reviews/#breadcrumb"
+     }
+    },
+    {
+     "@type": "Person",
+     "@id": "https://www.castleleaf.com/reviews/#author",
+     "name": "CastleLeaf Cannabis Dispensary",
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "url": "https://www.castleleaf.com/wp-content/litespeed/avatar/a7b99884549b620ae464d04655e5e8c7.jpg?ver=1793790684",
+      "caption": "CastleLeaf Cannabis Dispensary",
+      "inLanguage": "en-US"
+     },
+     "sameAs": [
+      "https://www.castleleaf.com"
+     ]
+    },
+    {
+     "@type": "Article",
+     "headline": "Reviews - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2021-12-30T16:53:06-05:00",
+     "dateModified": "2024-07-25T09:04:25-04:00",
+     "author": {
+      "@id": "https://www.castleleaf.com/reviews/#author",
+      "name": "CastleLeaf Cannabis Dispensary"
+     },
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "description": "Want to know what people are saying about CastleLeaf Cannabis Dispensary. Read our Reviews and find out all you need to know before your visit.",
+     "name": "Reviews - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "@id": "https://www.castleleaf.com/reviews/#richSnippet",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/reviews/#webpage"
+     },
+     "image": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "mainEntityOfPage": {
+      "@id": "https://www.castleleaf.com/reviews/#webpage"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "347"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  }
+ ],
+ "h1": "CastleLeaf Dispensary Reviews",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "CastleLeaf Dispensary Reviews"
+    },
+    {
+     "t": "h2",
+     "html": "Cannabis Dispensary located near Brighton, MA"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/menu/",
+       "html": "Shop Menu"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "Here's what our customers are saying about us:"
+    },
+    {
+     "t": "ul",
+     "items": [
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a/ACg8ocJtvTb7yVR_GzrsuZDoBJD7l33y2E2LCT25_K7HD8n77nrHeg=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "lu lu"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "lu lu"
+        },
+        {
+         "t": "text",
+         "html": "11/06/2026 09:10 PM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "Great prices stitch is the man"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a-/ALV-UjUFeC6h9bCSWTW-MQiXIHbkBpJnsiakNPLrfO3XDRVTzLJtKXJJ=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "Andrew Brennan"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "Andrew Brennan"
+        },
+        {
+         "t": "text",
+         "html": "11/03/2026 06:32 PM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "Great place, friendly and helpful staff, good prices"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a-/ALV-UjVWG08gPBvoPEscJzH8ao6m_iPSgTeaZYXNEI-k7vr-gJUT3Gr9=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "Emmanuella Metayer"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "Emmanuella Metayer"
+        },
+        {
+         "t": "text",
+         "html": "10/29/2026 01:35 AM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "Thank you twinn🎊🎊"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a/ACg8ocJ54yY1iPtplEvoazz1QRdjb1Of85xiX0Zt0s4emrlw0FK-6Q=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "deuce money"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "deuce money"
+        },
+        {
+         "t": "text",
+         "html": "10/26/2026 05:43 PM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "🔥🔥🔥🔥🔥 Best dispensary is the state"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a-/ALV-UjU4Fl_YvsQIlGGQzuwbqehCbSnJ7QKE6p5Hyf5cDKz8pOU-5PM=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "MR.JACKFROST"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "MR.JACKFROST"
+        },
+        {
+         "t": "text",
+         "html": "10/23/2026 08:36 PM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "Very fast service, friendly staff"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a/ACg8ocI7HzT0JkSi-nPtxGDvgdg-MM21xTPncI6XzYN-9tjEkpMTLQ=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "First Last"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "First Last"
+        },
+        {
+         "t": "text",
+         "html": "10/23/2026 06:48 PM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "Great service and products"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a-/ALV-UjW_B3itI5XUySR8cUzUoAyORuJXCTVObu5JSTk2VP1Qf7ZwlDE=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "Ray :D"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "Ray 😀"
+        },
+        {
+         "t": "text",
+         "html": "10/22/2026 11:34 PM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "Great staff super kind ! Thanks Stitch and Lexie for taking care of me 🙂"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a-/ALV-UjVMdA_eBIgFSe2dOAfySlJaG_C45_dOyvUdkHn-65KyOt_IvAfW=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "Joe"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "Joe"
+        },
+        {
+         "t": "text",
+         "html": "10/22/2026 03:24 AM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "Always friendly"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a-/ALV-UjWBvOdqwNrG3aMmf72QSYIW8-hfhJu-k-g-7i81tH95DxW_HHbi=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "Perja Pelett"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "Perja Pelett"
+        },
+        {
+         "t": "text",
+         "html": "10/20/2026 09:06 PM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "Perfect check out Stitch he has good selections"
+        }
+       ]
+      },
+      {
+       "blocks": [
+        {
+         "t": "linkcard",
+         "href": "https://lh3.googleusercontent.com/a/ACg8ocKQ_gVrUB89K7ESHr0evnOt6K4-pVRxeB97-8CA2rDiWDV64w=s120-c-rp-mo-br100",
+         "blocks": [
+          {
+           "t": "img",
+           "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+           "alt": "T, M"
+          }
+         ],
+         "target": "_blank",
+         "rel": "noopener"
+        },
+        {
+         "t": "text",
+         "html": "T, M"
+        },
+        {
+         "t": "text",
+         "html": "10/17/2026 09:24 PM"
+        },
+        {
+         "t": "text",
+         "html": "5.0"
+        },
+        {
+         "t": "text",
+         "html": "I love Lexi and Stitch they are great!"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

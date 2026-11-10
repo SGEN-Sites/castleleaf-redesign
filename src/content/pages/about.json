@@ -1,0 +1,453 @@
+{
+ "slug": "about",
+ "path": "/about/",
+ "source": "https://www.castleleaf.com/about/",
+ "captured": "2026-11-10",
+ "title": "About - CastleLeaf Cannabis Dispensary in Brighton, MA",
+ "description": "Find high-quality cannabis products at CastleLeaf in Brighton MA. Learn more about our dispensary and get all the info you need for a visit.",
+ "canonical": "https://www.castleleaf.com/about/",
+ "og": {
+  "og:locale": "en_US",
+  "og:type": "article",
+  "og:title": "About - CastleLeaf Cannabis Dispensary in Brighton, MA",
+  "og:description": "Find high-quality cannabis products at CastleLeaf in Brighton MA. Learn more about our dispensary and get all the info you need for a visit.",
+  "og:url": "https://www.castleleaf.com/about/",
+  "og:site_name": "CastleLeaf",
+  "og:updated_time": "2026-01-15T18:01:14-05:00",
+  "og:image": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:secure_url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+  "og:image:width": "1200",
+  "og:image:height": "630",
+  "og:image:alt": "CastleLeaf OpenGraph",
+  "og:image:type": "image/png"
+ },
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": [
+      "Person",
+      "Organization"
+     ],
+     "@id": "https://www.castleleaf.com/#person",
+     "name": "CastleLeaf",
+     "logo": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     },
+     "image": {
+      "@type": "ImageObject",
+      "@id": "https://www.castleleaf.com/#logo",
+      "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "contentUrl": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-Favicon.webp",
+      "caption": "CastleLeaf",
+      "inLanguage": "en-US",
+      "width": "512",
+      "height": "512"
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://www.castleleaf.com/#website",
+     "url": "https://www.castleleaf.com",
+     "name": "CastleLeaf",
+     "publisher": {
+      "@id": "https://www.castleleaf.com/#person"
+     },
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "ImageObject",
+     "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "url": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png",
+     "width": "1200",
+     "height": "630",
+     "caption": "CastleLeaf OpenGraph",
+     "inLanguage": "en-US"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://www.castleleaf.com/about/#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": "1",
+       "item": {
+        "@id": "https://www.castleleaf.com",
+        "name": "Home"
+       }
+      },
+      {
+       "@type": "ListItem",
+       "position": "2",
+       "item": {
+        "@id": "https://www.castleleaf.com/about/",
+        "name": "About"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "AboutPage",
+     "@id": "https://www.castleleaf.com/about/#webpage",
+     "url": "https://www.castleleaf.com/about/",
+     "name": "About - CastleLeaf Cannabis Dispensary in Brighton, MA",
+     "datePublished": "2021-07-07T14:11:42-04:00",
+     "dateModified": "2026-01-15T18:01:14-05:00",
+     "isPartOf": {
+      "@id": "https://www.castleleaf.com/#website"
+     },
+     "primaryImageOfPage": {
+      "@id": "https://www.castleleaf.com/wp-content/uploads/2021/05/CL-OG.png"
+     },
+     "inLanguage": "en-US",
+     "breadcrumb": {
+      "@id": "https://www.castleleaf.com/about/#breadcrumb"
+     }
+    }
+   ]
+  },
+  {
+   "@context": "https://schema.org/",
+   "@type": "LocalBusiness",
+   "@id": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic/stores/5686",
+   "image": "https://jointstorage.blob.core.windows.net/dispensaryphotos-production/5686-CL-Joint.webp",
+   "url": "https://www.castleleaf.com/?utm_source=gmb&utm_medium=organic",
+   "name": "CastleLeaf Dispensary Brighton",
+   "email": "info@castleleaf.com",
+   "mainEntityOfPage": "https://www.google.com/search?q=dispensary&kgmid=/m/0410x_t",
+   "additionalType": "http://productontology.org/id/Cannabis_dispensaries_in_the_United_States",
+   "alternateName": [
+    "Dispensary",
+    "Cannabis Shop",
+    "Cannabis Dispensary",
+    "Weed Dispensary",
+    "Marijuana Dispensary",
+    "Recreational Dispensary",
+    "Medical Marijuana Dispensary"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "100 Leo M Birmingham Pkwy",
+    "addressLocality": "Brighton",
+    "addressRegion": "MA",
+    "postalCode": "02135",
+    "addressCountry": "US"
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.358440",
+    "longitude": "-71.148570"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Brighton"
+    }
+   ],
+   "priceRange": "$",
+   "currenciesAccepted": "USD",
+   "paymentAccepted": "Cash",
+   "keywords": [
+    "Dispensaries",
+    "Dispensary",
+    "Cannabis",
+    "Weed",
+    "Marijuana",
+    "Marijuana Dispensaries",
+    "Flower",
+    "Pot Shop",
+    "Edibles",
+    "THC gummies",
+    "CBX weed",
+    "Recreational Marijuana",
+    "Recreational Dispensary",
+    "Adult-Use Dispensary",
+    "Brighton Dispensary",
+    "Brighton Weed",
+    "Brighton Dispensary",
+    "Dispensary Near Me",
+    "Best Dispensary in Brighton"
+   ],
+   "knowsAbout": [
+    {
+     "@type": "Thing",
+     "name": "cannabis strains",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_strain"
+    },
+    {
+     "@type": "Thing",
+     "name": "indica",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_indica"
+    },
+    {
+     "@type": "Thing",
+     "name": "sativa",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_sativa"
+    },
+    {
+     "@type": "Thing",
+     "name": "edibles",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_edible"
+    },
+    {
+     "@type": "Thing",
+     "name": "cannabis concentrates",
+     "url": "https://en.wikipedia.org/wiki/Cannabis_concentrate"
+    },
+    {
+     "@type": "Thing",
+     "name": "og kush",
+     "url": "https://en.wikipedia.org/wiki/Kush_(cannabis)"
+    },
+    {
+     "@type": "Thing",
+     "name": "thc",
+     "url": "https://en.wikipedia.org/wiki/Tetrahydrocannabinol"
+    }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SUNDAY",
+     "opens": "11:00",
+     "closes": "19:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "MONDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "TUESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "WEDNESDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "THURSDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "FRIDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "SATURDAY",
+     "opens": "10:00",
+     "closes": "21:55"
+    }
+   ],
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "bestRating": "5",
+    "ratingCount": "346"
+   },
+   "review": [
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "lu lu"
+     },
+     "reviewBody": "Great prices stitch is the man",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Andrew Brennan"
+     },
+     "reviewBody": "Great place, friendly and helpful staff, good prices",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "Emmanuella Metayer"
+     },
+     "reviewBody": "Thank you twinn🎊🎊",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "deuce money"
+     },
+     "reviewBody": "🔥🔥🔥🔥🔥 Best dispensary is the state",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    },
+    {
+     "@type": "Review",
+     "author": {
+      "@type": "Person",
+      "name": "MR.JACKFROST"
+     },
+     "reviewBody": "Very fast service, friendly staff",
+     "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5"
+     }
+    }
+   ],
+   "telephone": "+16172025066"
+  }
+ ],
+ "h1": "About CastleLeaf",
+ "sections": [
+  {
+   "id": "",
+   "blocks": [
+    {
+     "t": "h1",
+     "html": "About CastleLeaf"
+    },
+    {
+     "t": "h2",
+     "html": "Cannabis Dispensary located near Brighton, MA"
+    },
+    {
+     "t": "h3",
+     "html": "Your Neighborhood Dispensary"
+    },
+    {
+     "t": "p",
+     "html": "Welcome to Castleleaf Dispensary &amp; Craft Kitchen, your trusted neighborhood destination for premium cannabis products. We’re proud to serve our local community with carefully curated cannabis products, knowledgeable staff, and a warm, welcoming atmosphere. <br>At Castleleaf, quality and consistency comes first. Whether you’re seasoned enthusiast or new to cannabis, our team is here to help You find the right flower, concentrates, edibles, or wellness products to fit your lifestyle."
+    },
+    {
+     "t": "svg",
+     "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100.439\" height=\"100.456\" viewBox=\"0 0 100.439 100.456\"><g id=\"Group_525\" data-name=\"Group 525\" transform=\"translate(-511.538 -434.049)\"><g id=\"Shape\" transform=\"translate(511.696 434.174)\"><g id=\"Group_523\" data-name=\"Group 523\" transform=\"translate(0.011 0.013)\"><path id=\"Path_51971\" data-name=\"Path 51971\" d=\"M515.113,469.348a2.521,2.521,0,0,0-3.122,3.339c5.326,11.87,14.708,25.042,26.161,33.54a57.764,57.764,0,0,0-19.883,5.66,2.9,2.9,0,0,0,0,5.008,53.223,53.223,0,0,0,26.511,5.693,35.391,35.391,0,0,0-2.955,8.9,2.554,2.554,0,0,0,3.339,2.838,28.381,28.381,0,0,0,15.025-10.367v8.832a1.669,1.669,0,1,0,3.339,0v-8.832a28.581,28.581,0,0,0,15.025,10.367,2.554,2.554,0,0,0,3.339-2.838,35.4,35.4,0,0,0-2.9-8.832,53.325,53.325,0,0,0,26.511-5.693,2.9,2.9,0,0,0,0-5.008,57.762,57.762,0,0,0-19.934-5.726c11.352-8.314,20.735-21.419,26.161-33.54a2.521,2.521,0,0,0-3.122-3.339c-12.4,3.99-26.545,11.92-36.144,22.321,3.005-18.364-1.135-39.45-8.347-55.861a2.488,2.488,0,0,0-4.574,0c-7.1,16.094-11.436,37.263-8.347,55.861-9.366-10.267-23.473-18.264-36.078-22.321Zm5.593,45.076c12.1-5.593,27.6-7.68,38.5,0C548.319,522.154,532.709,519.967,520.705,514.424Zm24.742,16.294a30.333,30.333,0,0,1,3.339-8.581,31.718,31.718,0,0,0,10.484-3.84c-2.053,6.144-7.73,10.167-13.823,12.421Zm32.822,0c-6.077-2.237-11.686-6.26-13.907-12.421a31.569,31.569,0,0,0,10.484,3.84A30.335,30.335,0,0,1,578.269,530.718Zm-13.756-16.294c10.885-7.73,26.495-5.543,38.5,0C590.907,520.017,575.414,522.1,564.513,514.424Zm43.406-41.3c-6.21,12.721-16.01,25.526-28.181,32.955a34.608,34.608,0,0,0-12.688,3.005,57.215,57.215,0,0,0,3.923-10.4c8.8-11.9,23.239-20.735,36.879-25.56Zm-46.061-34.174c9.132,22.054,12.955,52.371,0,72.589C548.9,491.3,552.743,461,561.858,438.947Zm-5.192,70.2a34.606,34.606,0,0,0-12.688-3.005c-12.17-7.5-21.987-20.334-28.114-33.022,13.673,4.841,28.1,13.673,36.879,25.626A57.219,57.219,0,0,0,556.666,509.149Z\" transform=\"translate(-511.808 -434.299)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.25\"></path></g><g id=\"Group_524\" data-name=\"Group 524\" transform=\"translate(0 0)\"><path id=\"Path_51972\" data-name=\"Path 51972\" d=\"M544.249,534.359a2.565,2.565,0,0,1-2.538-2.987,35.413,35.413,0,0,1,2.947-8.883,53.236,53.236,0,0,1-26.5-5.7,2.918,2.918,0,0,1,0-5.031,57.776,57.776,0,0,1,19.856-5.658,70.459,70.459,0,0,1-8.145-7.138,87.4,87.4,0,0,1-7.209-8.35,93.575,93.575,0,0,1-10.784-18.037,2.534,2.534,0,0,1,3.138-3.356h0a92.945,92.945,0,0,1,19.256,8.833,85.625,85.625,0,0,1,9.01,6.242,67.414,67.414,0,0,1,7.788,7.218,79.411,79.411,0,0,1-.989-14.271,100.615,100.615,0,0,1,1.351-14.56,113.7,113.7,0,0,1,7.994-26.994,2.5,2.5,0,0,1,4.6,0,113.975,113.975,0,0,1,8.006,27.2,101.134,101.134,0,0,1,1.32,14.5,80.07,80.07,0,0,1-.971,14.128,69.479,69.479,0,0,1,7.925-7.284,86.923,86.923,0,0,1,9.069-6.251,92.986,92.986,0,0,1,19.127-8.758,2.534,2.534,0,0,1,3.138,3.356,93.714,93.714,0,0,1-10.859,18.2,85.436,85.436,0,0,1-7.19,8.3,68.247,68.247,0,0,1-8.088,7.025,57.775,57.775,0,0,1,19.9,5.724,2.918,2.918,0,0,1,0,5.031,53.335,53.335,0,0,1-26.5,5.7,35.418,35.418,0,0,1,2.9,8.815,2.567,2.567,0,0,1-3.356,2.853,28.6,28.6,0,0,1-15.008-10.341v8.793a1.682,1.682,0,1,1-3.365,0v-8.793a28.394,28.394,0,0,1-15.009,10.341A2.549,2.549,0,0,1,544.249,534.359Zm.451-11.9-.01.019a35.381,35.381,0,0,0-2.954,8.9,2.541,2.541,0,0,0,3.322,2.824,28.519,28.519,0,0,0,15.019-10.363l.023-.031v8.87a1.657,1.657,0,0,0,3.313,0v-8.87l.023.031A28.732,28.732,0,0,0,578.456,534.2a2.541,2.541,0,0,0,3.323-2.824,35.393,35.393,0,0,0-2.9-8.828l-.009-.019h.021a53.413,53.413,0,0,0,26.5-5.692,2.892,2.892,0,0,0,0-4.986,57.549,57.549,0,0,0-19.928-5.725l-.033,0,.027-.02c10.382-7.6,20.16-20.14,26.157-33.535a2.508,2.508,0,0,0-3.106-3.322c-13.84,4.452-27.35,12.795-36.139,22.317l-.029.031.007-.042c2.752-16.819-.368-37.7-8.346-55.853a2.475,2.475,0,0,0-4.551,0c-8.015,18.18-11.135,39.06-8.347,55.854l.007.043-.029-.032c-8.658-9.491-22.143-17.834-36.072-22.317h0a2.508,2.508,0,0,0-3.106,3.322c5.949,13.26,15.727,25.8,26.156,33.534l.027.02-.033,0a57.551,57.551,0,0,0-19.879,5.658,2.892,2.892,0,0,0,0,4.986,53.311,53.311,0,0,0,26.5,5.691Zm33.486,8.164-.022-.008a27.94,27.94,0,0,1-8.4-4.741,18.047,18.047,0,0,1-5.511-7.687l-.012-.033.031.018a31.455,31.455,0,0,0,10.48,3.838h.006l0,.005a30.308,30.308,0,0,1,3.424,8.585Zm-13.9-12.412c1.961,5.4,6.883,9.8,13.865,12.372a30.286,30.286,0,0,0-3.413-8.549A31.481,31.481,0,0,1,564.286,518.214Zm-18.957,12.412.005-.023a30.309,30.309,0,0,1,3.34-8.585l0-.005h.006a31.606,31.606,0,0,0,10.48-3.838l.029-.017-.011.032a17.159,17.159,0,0,1-5.4,7.675,28.143,28.143,0,0,1-8.43,4.754Zm3.365-8.59a30.288,30.288,0,0,0-3.329,8.549c7.087-2.626,11.979-7.019,13.783-12.372A31.63,31.63,0,0,1,548.694,522.036Zm-6.789-2.7q-.809,0-1.632-.033a48.1,48.1,0,0,1-10.123-1.552,57.185,57.185,0,0,1-9.551-3.426l-.025-.012.025-.012a57.111,57.111,0,0,1,9.591-3.44,47.808,47.808,0,0,1,10.114-1.538,35.1,35.1,0,0,1,9.89.951,26.673,26.673,0,0,1,8.917,4.028l.015.01-.015.01a26.364,26.364,0,0,1-8.924,4.042A34.171,34.171,0,0,1,541.9,519.335Zm-21.269-5.023c11.268,5.2,27.274,7.921,38.445,0C551.712,509.13,537.749,506.413,520.636,514.312Zm61.019,5.02a34.248,34.248,0,0,1-8.334-.981,26.673,26.673,0,0,1-8.917-4.028l-.015-.01.015-.01a26.364,26.364,0,0,1,8.924-4.042,35.083,35.083,0,0,1,9.914-.937,48.1,48.1,0,0,1,10.123,1.552,57.188,57.188,0,0,1,9.551,3.426l.025.012-.025.012a57.117,57.117,0,0,1-9.591,3.44,47.812,47.812,0,0,1-10.114,1.538Q582.427,519.332,581.655,519.332Zm-17.221-5.02c7.37,5.182,21.332,7.9,38.445,0C591.611,509.116,575.605,506.391,564.434,514.312Zm-2.677-2.864-.011-.017A51.3,51.3,0,0,1,555,494.65a75.275,75.275,0,0,1-1.529-18.838,103.046,103.046,0,0,1,2.609-19.179,113.1,113.1,0,0,1,5.668-17.8l.012-.029.012.029a112.755,112.755,0,0,1,5.675,17.8,102.933,102.933,0,0,1,2.609,19.183,75.258,75.258,0,0,1-1.533,18.839,51.275,51.275,0,0,1-6.751,16.774Zm0-72.579c-8.4,20.342-13.436,51.527,0,72.531C575.213,490.383,570.17,459.2,561.758,438.868Zm-5.165,70.194-.032-.015a34.448,34.448,0,0,0-12.683-3h0l0,0a67.227,67.227,0,0,1-16.327-14.567,92.455,92.455,0,0,1-11.792-18.461l-.014-.028.029.01a91.889,91.889,0,0,1,20.277,10.148,75.286,75.286,0,0,1,9.062,7.115,59.012,59.012,0,0,1,7.546,8.368l0,0a57.326,57.326,0,0,0,3.922,10.4Zm-12.711-3.044a34.471,34.471,0,0,1,12.657,2.992,57.351,57.351,0,0,1-3.908-10.369c-7.925-10.786-21.351-20.119-36.842-25.61C522.648,487.223,532.886,499.245,543.882,506.019ZM566.923,509l.016-.032a57.32,57.32,0,0,0,3.922-10.4l0,0a59.231,59.231,0,0,1,7.558-8.339,75.741,75.741,0,0,1,9.069-7.1A92.051,92.051,0,0,1,607.748,473h.092l-.009.018a95.743,95.743,0,0,1-5.313,9.473,89.639,89.639,0,0,1-6.544,8.992,66.635,66.635,0,0,1-16.329,14.5l0,0h0a34.449,34.449,0,0,0-12.683,3Zm3.962-10.421a57.345,57.345,0,0,1-3.908,10.369,34.469,34.469,0,0,1,12.657-2.991c10.94-6.678,21.2-18.68,28.164-32.93h-.044C592.281,478.5,578.843,487.809,570.885,498.574Z\" transform=\"translate(-511.696 -434.174)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.25\"></path></g></g></g></svg>"
+    },
+    {
+     "t": "h3",
+     "html": "Cannabis is for Everyone"
+    },
+    {
+     "t": "p",
+     "html": "Our mission is to destigmatize the adult-use cannabis industry, and provide safe access to high quality products"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"98\" height=\"104.758\" viewBox=\"0 0 98 104.758\"><g id=\"Group_526\" data-name=\"Group 526\" transform=\"translate(-2 -2)\"><path id=\"Path_51973\" data-name=\"Path 51973\" d=\"M27.1,41.1H20.052A7.05,7.05,0,0,1,13,34.052V27H34.157v7.052A7.05,7.05,0,0,1,27.1,41.1Z\" transform=\"translate(27.788 63.154)\" fill=\"none\" stroke=\"#b87962\" stroke-linejoin=\"round\" stroke-width=\"5\"></path><path id=\"Path_51974\" data-name=\"Path 51974\" d=\"M58.366,33.683h0A28.215,28.215,0,0,1,47.082,56.25l-2.821,2.116v14.1H23.1v-14.1L20.284,56.25A28.215,28.215,0,0,1,9,33.683H9A24.683,24.683,0,0,1,33.683,9h0A24.683,24.683,0,0,1,58.366,33.683Z\" transform=\"translate(17.683 17.683)\" fill=\"none\" stroke=\"#b87962\" stroke-linejoin=\"round\" stroke-width=\"5\"></path><line id=\"Line_149\" data-name=\"Line 149\" y1=\"15\" transform=\"translate(51 2)\" fill=\"none\" stroke=\"#b87962\" stroke-linejoin=\"round\" stroke-width=\"5\"></line><line id=\"Line_150\" data-name=\"Line 150\" x1=\"9.975\" y1=\"9.975\" transform=\"translate(16.461 16.457)\" fill=\"none\" stroke=\"#b87962\" stroke-linejoin=\"round\" stroke-width=\"5\"></line><line id=\"Line_151\" data-name=\"Line 151\" y1=\"9.975\" x2=\"9.975\" transform=\"translate(76.296 16.457)\" fill=\"none\" stroke=\"#b87962\" stroke-linejoin=\"round\" stroke-width=\"5\"></line><line id=\"Line_152\" data-name=\"Line 152\" x1=\"15\" transform=\"translate(2 51)\" fill=\"none\" stroke=\"#b87962\" stroke-linejoin=\"round\" stroke-width=\"5\"></line><line id=\"Line_153\" data-name=\"Line 153\" x2=\"13\" transform=\"translate(87 51)\" fill=\"none\" stroke=\"#b87962\" stroke-linejoin=\"round\" stroke-width=\"5\"></line></g></svg>"
+    },
+    {
+     "t": "h3",
+     "html": "Curiosity Breeds Creativity"
+    },
+    {
+     "t": "p",
+     "html": "We believe getting curious about cannabis can lead to big breakthroughs"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"109.909\" height=\"100.685\" viewBox=\"0 0 109.909 100.685\"><g id=\"Group_527\" data-name=\"Group 527\" transform=\"translate(-163.242 91.159)\"><path id=\"Path_51975\" data-name=\"Path 51975\" d=\"M238.116,376.356a14.01,14.01,0,0,1-8.581-3.05c-7.619-5.808-11.175-18.4-8.273-29.293a1.942,1.942,0,0,1,3.754,1c-2.479,9.305.541,20.375,6.875,25.2,2.569,1.958,6.759,3.635,12.132.5a1.943,1.943,0,0,1,1.958,3.355,15.583,15.583,0,0,1-7.865,2.287Z\" transform=\"translate(-50.735 -387.854)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.5\"></path><path id=\"Path_51976\" data-name=\"Path 51976\" d=\"M389.919,4.6A1.942,1.942,0,0,1,388.98.956a46.926,46.926,0,0,0,24.291-41.093,46.941,46.941,0,0,0-46.888-46.887,47.046,47.046,0,0,0-38.089,19.536,1.943,1.943,0,0,1-2.711.442,1.941,1.941,0,0,1-.442-2.71,50.941,50.941,0,0,1,41.242-21.152,50.83,50.83,0,0,1,50.772,50.772,50.812,50.812,0,0,1-26.3,44.5,1.937,1.937,0,0,1-.935.241Z\" transform=\"translate(-144.254)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.5\"></path><path id=\"Path_51977\" data-name=\"Path 51977\" d=\"M850.016,400.9a11.117,11.117,0,1,1,11.118-11.117A11.129,11.129,0,0,1,850.016,400.9Zm0-18.35h0a7.233,7.233,0,1,0,7.234,7.233,7.241,7.241,0,0,0-7.234-7.233Z\" transform=\"translate(-604.264 -420.145)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.5\"></path><path id=\"Path_51978\" data-name=\"Path 51978\" d=\"M781.467,124.957a11.118,11.118,0,1,1,11.118-11.118,11.13,11.13,0,0,1-11.118,11.118Zm0-18.351h0a7.233,7.233,0,1,0,7.234,7.233,7.241,7.241,0,0,0-7.234-7.233Z\" transform=\"translate(-542.929 -173.25)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.5\"></path><path id=\"Path_51979\" data-name=\"Path 51979\" d=\"M496.038,78.151a11.118,11.118,0,1,1,11.117-11.118,11.131,11.131,0,0,1-11.117,11.118Zm0-18.351h0a7.233,7.233,0,1,0,7.233,7.233,7.242,7.242,0,0,0-7.233-7.233Z\" transform=\"translate(-287.543 -131.371)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.5\"></path><path id=\"Path_51980\" data-name=\"Path 51980\" d=\"M618.327,630.435c-.18,0-.35,0-.507,0-9.476-.163-20.35-4.9-22.45-17.694a1.942,1.942,0,0,1,3.833-.63,15.694,15.694,0,0,0,9.832,12.634,24.453,24.453,0,0,0,11.422,1.719c-4.368-2.673-5.439-6.353-6.562-10.212-.221-.759-.449-1.544-.712-2.355-1.482-4.567-7.743-6.767-7.806-6.789a1.942,1.942,0,0,1,1.252-3.677c.333.112,8.162,2.835,10.249,9.267.276.85.516,1.673.747,2.468,1.241,4.269,2.062,7.088,7.094,9.08,2.29.907,2.154,2.548,2.059,3.029-.557,2.795-5.749,3.164-8.453,3.164Z\" transform=\"translate(-386.345 -621.159)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.5\"></path><path id=\"Path_51981\" data-name=\"Path 51981\" d=\"M549.74,561.424A4.9,4.9,0,0,1,546.2,559.8l-.362-.39c-1.737-1.874-1.821-4.632-.187-6.149l9.137-8.482a3.76,3.76,0,0,1,2.575-.984,4.894,4.894,0,0,1,3.542,1.627l.361.387c1.739,1.874,1.823,4.632.19,6.15l-9.137,8.483a3.76,3.76,0,0,1-2.575.983Zm-1.391-5.371h0a1.1,1.1,0,0,0,.333.714l.36.388a1.118,1.118,0,0,0,.687.384l9.021-8.375a1.089,1.089,0,0,0-.333-.712l-.36-.387a1.122,1.122,0,0,0-.686-.387l-9.022,8.375Z\" transform=\"translate(-340.83 -567.897)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.5\"></path><path id=\"Path_51982\" data-name=\"Path 51982\" d=\"M207.221,136.172a1.936,1.936,0,0,1-1.1-.34c-19.173-13.134-41.414-55.2-42.351-56.989a1.942,1.942,0,0,1,2.915-2.433c31.5,24.594,44.724,45.583,48.027,51.429a1.942,1.942,0,1,1-3.382,1.91c-2.929-5.184-13.893-22.617-39.23-43.951,7.669,13.248,23.008,37.782,36.216,46.829a1.943,1.943,0,0,1-1.1,3.545Z\" transform=\"translate(0 -149.339)\" fill=\"#b87962\" stroke=\"#b87962\" stroke-width=\"0.5\"></path></g></svg>"
+    },
+    {
+     "t": "h3",
+     "html": "Creativity Sparks Connection"
+    },
+    {
+     "t": "p",
+     "html": "We'll be partnering with local artists for our in-house gallery. If this sounds like you, get in touch!"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"172.08\" height=\"102.413\" viewBox=\"0 0 172.08 102.413\"><g id=\"Group_530\" data-name=\"Group 530\" transform=\"translate(-619.264 -598.64)\"><path id=\"Path_51983\" data-name=\"Path 51983\" d=\"M754.507,896.661c-1.158-1.065-4.18-3.968-5.21-5.163,0,0-3.482-3.906-12.974-7.59\" transform=\"translate(-92.31 -227.279)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51984\" data-name=\"Path 51984\" d=\"M984.393,1004.572\" transform=\"translate(-291.357 -324.098)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><g id=\"Group_528\" data-name=\"Group 528\" transform=\"translate(686.436 656.234)\"><line id=\"Line_154\" data-name=\"Line 154\" y1=\"6.206\" x2=\"15.345\" transform=\"translate(63.542 0)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></line><path id=\"Path_51985\" data-name=\"Path 51985\" d=\"M951,956.145\" transform=\"translate(-950.998 -941.474)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51986\" data-name=\"Path 51986\" d=\"M1036.132,1011.765\" transform=\"translate(-1019.308 -986.103)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path></g><path id=\"Path_51987\" data-name=\"Path 51987\" d=\"M965.587,671.754l-10.038,5.372a5.516,5.516,0,0,1-3.014.885l-18.522-.057c-5.907-.018-12.211-1.817-17.745.25l-15.592,5.959-10.331,8.976L887.32,696a1.533,1.533,0,0,0-.208,1.994c1.847,2.631,6.182,8.781,19.882.5l23.441-2.382\" transform=\"translate(-213.079 -57.049)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51988\" data-name=\"Path 51988\" d=\"M845.5,1003.49c-4.754,4.843,5.021,11.853,11.109,9.074\" transform=\"translate(-178.899 -323.229)\" fill=\"#ebe0cf\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51989\" data-name=\"Path 51989\" d=\"M980.389,1013.286c2.009-.483,4.7.512,6.788,2.628a3.724,3.724,0,0,1,.32.362c1.867,2.465-.073,5.04-2.3,7.309h0c-1.771,1.757-6.189,6.252-8.678,6.43-4.4.315-8.005-2.091-7.5-5.052\" transform=\"translate(-278.984 -330.994)\" fill=\"#ebe0cf\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51990\" data-name=\"Path 51990\" d=\"M840.266,907.773l-18.475,15.718c-.632.538-1.013.453.217,2.486s8.491,3.474,10.408,2.954,4.434-2.934,6.608-4.438a.6.6,0,0,0,.083-.069l3.338-3.31c2.277-2.32,6.765-6.414,4.1-9.929a.82.82,0,0,0-.063-.074,8.156,8.156,0,0,0-5.144-2.855.649.649,0,0,1-.374-1.136h0c2.744-2.577,3.475-6.331,1.086-9.24h0c-2.409-2.933-5.989-3.074-9.05-.831l-4.766,3.208c1.647-1.109.778-3.122-.8-4.934-1.515-2.024-4.771-4.289-9.4-1.527l-14.709,9.363c-2.105,1.339-2.471,5.115-.966,7.224,3.08,4.318,6.745,4.756,8.74,3.884,1.8-.788.917-.455,1.18-.652L828.709,900\" transform=\"translate(-144.563 -234.184)\" fill=\"#ebe0cf\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><g id=\"Group_529\" data-name=\"Group 529\" transform=\"translate(708.955 639.061)\"><path id=\"Path_51991\" data-name=\"Path 51991\" d=\"M1085.467,956.359c5.548,4.169,11.494,11.2,14.088,11.321,1.377.065,2.6-.78,4.334-2.3,1.626-1.424,2.562-2.553,2.679-4.419.116-1.85-1.234-2.472-2.585-3.7-3.681-3.347-6.813-6.9-10.5-9.971\" transform=\"translate(-1081.413 -917.196)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51992\" data-name=\"Path 51992\" d=\"M1160.494,963.7c5.548,4.169,7.307,7.1,9.9,7.225,1.377.065,2.6-.78,4.334-2.3,1.626-1.424,2.562-2.553,2.679-4.419a5.254,5.254,0,0,0-1.872-4.492\" transform=\"translate(-1141.613 -927.169)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51993\" data-name=\"Path 51993\" d=\"M1121.027,816.967c5.548,4.169,12.033,11.713,14.627,11.835,1.377.065,2.6-.78,4.334-2.3,1.626-1.424,2.489-1.943,2.606-3.81.116-1.85-1.375-2.881-2.512-4.31-3.762-4.728-7.193-8.63-9.838-11.953a16.815,16.815,0,0,0-6.965-5.161l-15.819-6.265\" transform=\"translate(-1099.06 -795.005)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51994\" data-name=\"Path 51994\" d=\"M1064.951,1047.007s1.122.743,2.163,1.461a17.632,17.632,0,0,0,4.505,1.867c2.483.139,4.332-2.515,6.622-4.817\" transform=\"translate(-1064.951 -996.014)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path></g><path id=\"Path_51995\" data-name=\"Path 51995\" d=\"M818.859,688.309l8.868,3.969a8.981,8.981,0,0,0,4.934.3l15.475-3.42a9.481,9.481,0,0,1,3.268-.145l8.605,2.859\" transform=\"translate(-158.535 -70.333)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51996\" data-name=\"Path 51996\" d=\"M658.858,634.6a3.106,3.106,0,0,1,1.629,4.127l-19.687,44.1a2.691,2.691,0,0,1-3.482,1.4l-14.368-5.889a2.691,2.691,0,0,1-1.45-3.556l19.346-44.448a3.105,3.105,0,0,1,4.054-1.622Z\" transform=\"translate(0 -22.314)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51997\" data-name=\"Path 51997\" d=\"M1285.325,609.459l16.337,52.944a2.268,2.268,0,0,0,2.881,1.484l15.889-5.27a2.268,2.268,0,0,0,1.456-2.81l-16.226-53.542a2.268,2.268,0,0,0-2.951-1.471l-16,5.868A2.268,2.268,0,0,0,1285.325,609.459Z\" transform=\"translate(-532.739)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path><path id=\"Path_51998\" data-name=\"Path 51998\" d=\"M1187.509,819.013c3.266,1.731,13.867.724,17.719-1.9\" transform=\"translate(-454.335 -173.687)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"4\"></path></g></svg>"
+    },
+    {
+     "t": "h3",
+     "html": "Goodness Starts Within"
+    },
+    {
+     "t": "p",
+     "html": "From hiring locally to taking community action, goodness is an inside job. We’ll be doing our part to make a positive impact in Allston-Brighton"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"138.562\" height=\"107.045\" viewBox=\"0 0 138.562 107.045\"><g id=\"icon\" transform=\"translate(-248.719 -1457.883)\"><path id=\"Path_51999\" data-name=\"Path 51999\" d=\"M418.22,507.381a19.857,19.857,0,0,0-2.514-9.6,24.833,24.833,0,0,0-6.657-7.661,33.011,33.011,0,0,0-13.8-6.153,22.519,22.519,0,0,0,2.892-2.449,22.265,22.265,0,1,0-37.037-22.3,22.108,22.108,0,0,0-12.14-3.61h-.025a22.108,22.108,0,0,0-12.127,3.587,22.266,22.266,0,1,0-37.03,22.321,22.524,22.524,0,0,0,2.892,2.449,33.013,33.013,0,0,0-13.8,6.153,24.832,24.832,0,0,0-6.657,7.661,19.853,19.853,0,0,0-2.514,9.6l-.024,21.773a2.4,2.4,0,0,0,1.389,2.182,77.789,77.789,0,0,0,32.012,7.146l0,2.751a2.4,2.4,0,0,0,1.389,2.182,78.108,78.108,0,0,0,33.252,7.156h0a96.179,96.179,0,0,0,25.309-3.516,72.914,72.914,0,0,0,10.232-3.564,2.4,2.4,0,0,0,1.393-2.179l0-2.828a77.839,77.839,0,0,0,32.192-7.149,2.4,2.4,0,0,0,1.389-2.182Zm-35.856-59.045h.02a17.454,17.454,0,0,1,.019,34.907h-.02a17.322,17.322,0,0,1-11.217-4.082c.024-.421.038-.843.038-1.268a22.105,22.105,0,0,0-6-15.223A17.446,17.446,0,0,1,382.364,448.336Zm-33.4,12.079a17.454,17.454,0,0,1-.019,34.907h-.022a17.339,17.339,0,0,1-12.334-5.126,17.52,17.52,0,0,1-2.957-3.936,2.394,2.394,0,0,0-.136-.251,17.467,17.467,0,0,1,15.448-25.594Zm-50.871,5.355a17.454,17.454,0,0,1,17.453-17.434h.02a17.447,17.447,0,0,1,17.149,14.3,22.106,22.106,0,0,0-6.033,15.212c0,.453.014.9.04,1.353a17.322,17.322,0,0,1-11.175,4.047h-.02a17.453,17.453,0,0,1-17.434-17.473Zm-13.6,61.837.023-20.22c.006-5.033,2.6-9.818,7.31-13.471a29.816,29.816,0,0,1,18.263-5.869h.038l10.783.012a32.414,32.414,0,0,1,8.916,1.239,22.579,22.579,0,0,0,6.251,6.747c-13.172,2.637-22.96,12.134-22.973,23.415l-.016,14.212A73.282,73.282,0,0,1,284.493,527.607Zm95.36,12.108a90.229,90.229,0,0,1-32.127,6.047h0a73.616,73.616,0,0,1-29.831-6.076l.023-20.221c.006-5.029,2.6-9.81,7.3-13.462a29.814,29.814,0,0,1,18.276-5.878l5.427.006h.025l5.368.006a29.825,29.825,0,0,1,18.288,5.91c4.7,3.664,7.286,8.454,7.28,13.488Zm4.816-6.039.016-14.135c.013-11.287-9.752-20.8-22.92-23.467a22.588,22.588,0,0,0,6.282-6.76,32.4,32.4,0,0,1,8.969-1.255l10.783-.012h.038a29.818,29.818,0,0,1,18.263,5.869c4.708,3.654,7.3,8.438,7.31,13.471l.023,20.221A73.319,73.319,0,0,1,384.669,533.676Z\" transform=\"translate(-30.963 1014.356)\" fill=\"#b87962\"></path><g id=\"Group_531\" data-name=\"Group 531\" transform=\"translate(-154.168 -91)\"><g id=\"smiley_face\" data-name=\"smiley face\" transform=\"translate(426.563 1563.264)\"><path id=\"Path_51954\" data-name=\"Path 51954\" d=\"M38.08,28.9s1.928,4.337,7.965,4.337c5.892,0,7.868-4.337,7.868-4.337\" transform=\"translate(-0.156 -2.983)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\"></path><circle id=\"Ellipse_17\" data-name=\"Ellipse 17\" cx=\"3.096\" cy=\"3.096\" r=\"3.096\" transform=\"translate(36.94 13.366)\" fill=\"#b87962\"></circle><circle id=\"Ellipse_18\" data-name=\"Ellipse 18\" cx=\"3.096\" cy=\"3.096\" r=\"3.096\" transform=\"translate(48.075 13.366)\" fill=\"#b87962\"></circle></g></g><g id=\"smiley_face-2\" data-name=\"smiley face\" transform=\"translate(305.563 1460.264)\"><path id=\"Path_51954-2\" data-name=\"Path 51954\" d=\"M38.08,28.9s1.928,4.337,7.965,4.337c5.892,0,7.868-4.337,7.868-4.337\" transform=\"translate(-0.156 -2.983)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\"></path><circle id=\"Ellipse_17-2\" data-name=\"Ellipse 17\" cx=\"3.096\" cy=\"3.096\" r=\"3.096\" transform=\"translate(36.94 13.366)\" fill=\"#b87962\"></circle><circle id=\"Ellipse_18-2\" data-name=\"Ellipse 18\" cx=\"3.096\" cy=\"3.096\" r=\"3.096\" transform=\"translate(48.075 13.366)\" fill=\"#b87962\"></circle></g><g id=\"smiley_face-3\" data-name=\"smiley face\" transform=\"translate(238.228 1459.264)\"><path id=\"Path_51954-3\" data-name=\"Path 51954\" d=\"M38.08,28.9s1.928,4.337,7.965,4.337c5.892,0,7.868-4.337,7.868-4.337\" transform=\"translate(-0.156 -2.983)\" fill=\"none\" stroke=\"#b87962\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\"></path><circle id=\"Ellipse_17-3\" data-name=\"Ellipse 17\" cx=\"3.096\" cy=\"3.096\" r=\"3.096\" transform=\"translate(36.94 13.366)\" fill=\"#b87962\"></circle><circle id=\"Ellipse_18-3\" data-name=\"Ellipse 18\" cx=\"3.096\" cy=\"3.096\" r=\"3.096\" transform=\"translate(48.075 13.366)\" fill=\"#b87962\"></circle></g></g></svg>"
+    },
+    {
+     "t": "h3",
+     "html": "You Belong Here"
+    },
+    {
+     "t": "p",
+     "html": "We welcome all experience levels, whether you’re starting your journey or know what you’re looking for, we’re happy to help"
+    },
+    {
+     "t": "svg",
+     "raw": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"131.523\" height=\"131.462\" viewBox=\"0 0 131.523 131.462\"><g id=\"JoiPoR.tif\" transform=\"translate(-1039.309 60.392)\"><g id=\"Group_715\" data-name=\"Group 715\" transform=\"translate(1039.565 -60.142)\"><path id=\"Path_52139\" data-name=\"Path 52139\" d=\"M1115.735-60.142h4.121v12.17c.945-.167,1.786-.314,2.627-.466.077-.014.146-.064.223-.082,1.471-.359,1.471-.359,1.471-1.905v-5.513h4.119v6.331l12.728-2.535V-5.207h4.275V-17.831h4.268v-8.437h4.138v8.374h4.222c0,.392,0,.7,0,1,0,3.6.013,7.207-.02,10.811-.007.716.18.982.931.936,1.077-.065,2.161-.017,3.312-.017V3.235h4.223c.024.315.056.543.056.77q0,26.988,0,53.975c0,2.676.018,5.353-.014,8.029-.008.631.182.83.807.8,1.105-.045,2.214-.012,3.363-.012V70.82H1039.6V66.853c.279-.018.555-.05.832-.051,2.252,0,4.5-.017,6.757,0,.579.005.843-.114.832-.786-.042-2.464-.025-4.928-.008-7.392,0-.453-.1-.764-.568-.9a9.962,9.962,0,0,1-5.756-4.579c-3.242-5.156-2.787-12.605,1.491-17.066a8.935,8.935,0,0,1,8.9-2.855,17.15,17.15,0,0,1,3.541,1.691,6.024,6.024,0,0,1,.741.551V32.747a38.73,38.73,0,0,1-4.067-1.612,15.467,15.467,0,0,1-7.146-8.189,18.209,18.209,0,0,1-1.087-10.188,16.572,16.572,0,0,1,7.091-11.368,12.285,12.285,0,0,1,8.789-2.161,4.719,4.719,0,0,0,.474.04.888.888,0,0,0,.223-.078v-25.6H1056.5v-4.144h38.084c0-.4,0-.681,0-.964,0-3.524.01-7.048-.016-10.572,0-.626.182-.829.826-.94,2.415-.418,4.813-.935,7.217-1.415,1.215-.242,2.427-.5,3.647-.717.706-.125,1.077-.36,1.058-1.214-.064-2.887-.024-5.776-.024-8.664v-.9h4.1v9.7c1.42-.277,2.691-.489,3.936-.8.2-.05.385-.567.387-.869.026-3.763.018-7.526.018-11.289Zm21.1,12.991c-.842.152-1.615.277-2.382.433-3.719.755-7.435,1.525-11.155,2.277q-5.928,1.2-11.861,2.374c-3.981.8-7.955,1.624-11.948,2.355-.742.136-.8.438-.795,1.029q.018,11.366.008,22.732,0,32.747,0,65.494c0,.275.033.549.054.881.413-.072.726-.112,1.032-.182a14.3,14.3,0,0,1,7.286.235,14.535,14.535,0,0,1,7.132,4.639c.3.355.551.316.958.183a35.235,35.235,0,0,1,3.7-1.039c1.107-.231,1.123-.156,1.123-1.285q0-24.441,0-48.882c0-.253.03-.506.051-.837h4.171V-5.2h12.625ZM1069.406,66.717a5.46,5.46,0,0,0-.055-.715,8.976,8.976,0,0,1,.964-6.049,10.424,10.424,0,0,1,12.812-5.24,10.058,10.058,0,0,1,4.576,3.153,1.315,1.315,0,0,0,2.314-.237,13.967,13.967,0,0,1,4-4.659,1.325,1.325,0,0,0,.575-1.2c-.017-4.663-.008-9.326-.008-13.989q0-31.674,0-63.347c0-.279-.032-.557-.048-.824h-29.7c0,1.375,0,2.695,0,4.015q0,11.207-.01,22.414a.99.99,0,0,0,.532,1.019,15.473,15.473,0,0,1,4.383,3.965,1.309,1.309,0,0,0,.927.408,13.546,13.546,0,0,1,5.266.933l1.691.68v-3.7h4.069V7.479h-3.3c.25.223.32.3.4.357,4.657,3.377,6.808,8.1,7.148,13.693a19.311,19.311,0,0,1-.476,4.789,16.309,16.309,0,0,1-6.047,9.928,14.666,14.666,0,0,1-6.119,2.732c0,1.552.024,3.058-.018,4.563a1.817,1.817,0,0,1-.387,1.051c-3.92,4.613-7.867,9.2-11.789,13.813a1.94,1.94,0,0,0-.5,1.092c-.046,2.2-.005,4.4-.035,6.6-.008.578.211.712.74.708,2.464-.02,4.928-.007,7.392-.012C1068.9,66.788,1069.11,66.748,1069.406,66.717Zm44.185-4.957c-.408-.747-.749-1.363-1.082-1.983a10.7,10.7,0,0,0-14.814-4.443,11.056,11.056,0,0,0-5.276,7.207c-.242.892-.343.945-1.19.6a7.843,7.843,0,0,0-4.172-.66,1.5,1.5,0,0,1-1.736-.928,6.417,6.417,0,0,0-11.89,4.509c.126.563.408.747.988.744,4.212-.02,8.423,0,12.635,0q18.435,0,36.871-.009,17.641,0,35.281.006a7.108,7.108,0,0,0,.8-.089l.123-.275a31.812,31.812,0,0,0-2.825-2.352c-3.031-2-6.348-2-9.717-1.023-.349-.991-.58-1.866-.956-2.673a10.217,10.217,0,0,0-8.545-6.34,10.324,10.324,0,0,0-10.566,5.394c-.44.737-.858,1.487-1.335,2.316-1.8-1.875-3.578-3.54-6.317-3.545S1115.409,59.965,1113.591,61.76Zm44.337-49.975c0,1.417,0,2.739,0,4.061q0,21.5-.021,43a1.422,1.422,0,0,0,.831,1.42c1.038.616,1.972,1.407,2.949,2.125.153.112.3.23.565.433V7.421h-1l-36.167,0c-1.028,0-1.03,0-1.03,1.033q0,16.533,0,33.067c0,4.239.02,8.479-.012,12.718a1.072,1.072,0,0,0,.746,1.128c.545.24.735-.2,1.028-.494a17.367,17.367,0,0,1,1.918-1.777,1.562,1.562,0,0,0,.72-1.444q-.025-19.435-.012-38.869v-1Zm-97.344,16.68a9.232,9.232,0,0,0,4.316-2.3,14.442,14.442,0,0,0,1.982-18.153,10,10,0,0,0-7.379-4.8,9.349,9.349,0,0,0-8.785,4.052,14.1,14.1,0,0,0-2.224,13,11.571,11.571,0,0,0,5.951,7.466c.6.3,1.241.5,2,.808V13.957h4.138Zm93.265,8.776c0-6.832-.009-13.663.015-20.495,0-.688-.167-.913-.883-.9-2.25.046-4.5.06-6.751-.005-.843-.025-1,.253-1,1.029.025,7.1.008,14.192.006,21.288,0,4.554-.007,9.109.015,13.663a1.36,1.36,0,0,0,.347.961,16.136,16.136,0,0,1,4.379,5.157.973.973,0,0,0,.661.406c.756.092,1.534.04,2.281.172.782.138.945-.134.943-.863C1153.84,50.85,1153.849,44.045,1153.848,37.24ZM1141.093,50.5c.027-.376.06-.628.061-.88,0-1.138,0-2.277,0-3.415q0-14.733.021-29.467c0-.691-.167-.907-.881-.892-2.276.047-4.553.016-6.83.019-.279,0-.559.025-.822.037V50.53A14.928,14.928,0,0,1,1141.093,50.5ZM1072.284,9.566c2.334,9.333.272,16.927-8.225,22.141a9.389,9.389,0,0,0,14.956-.735A14.031,14.031,0,0,0,1081.6,19.43a12.906,12.906,0,0,0-4-7.38A9.51,9.51,0,0,0,1072.284,9.566Zm-15.84,35.993a9.216,9.216,0,0,0-2.079-6.323,5.291,5.291,0,0,0-8.631.013,8.992,8.992,0,0,0-1.917,4.272,10.075,10.075,0,0,0,2.072,8.555,5.281,5.281,0,0,0,8.44-.127A9.269,9.269,0,0,0,1056.443,45.559ZM1158-.99h-29.631V3.237H1158Zm-97.332,35.245V52.516a2.951,2.951,0,0,0,.349-.272q3.948-4.594,7.887-9.2a.864.864,0,0,0,.236-.476c.02-1.185.011-2.37.011-3.394a36.883,36.883,0,0,1-4.6-1.932A35.806,35.806,0,0,1,1060.667,34.255Zm-4.266,21.36a8.3,8.3,0,0,1-.767.575c-.916.511-1.816,1.064-2.773,1.483-.507.222-.749.414-.74,1.007.035,2.461.013,4.922.017,7.383,0,.227.032.453.049.679h4.215ZM1149.464-13.7c0,2.76-.009,5.428.024,8.1,0,.153.352.423.548.431,1,.043,2.012-.019,3.015.03.635.031.821-.185.814-.807-.029-2.381-.01-4.763-.015-7.145a4.419,4.419,0,0,0-.084-.6Z\" transform=\"translate(-1039.565 60.142)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52140\" data-name=\"Path 52140\" d=\"M1438.374,498.227h12.5v16.716h-12.5Zm4.17,4.124V510.9c1.248,0,2.434-.022,3.619.01.554.015.657-.234.654-.716-.016-2.435-.006-4.87-.011-7.306a3.772,3.772,0,0,0-.078-.536Z\" transform=\"translate(-1374.889 -409.342)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52141\" data-name=\"Path 52141\" d=\"M1438.419,116.024v-16.7h12.509v16.7Zm8.42-4.1c0-2.763.005-5.432-.014-8.1,0-.148-.207-.419-.323-.422-1.31-.03-2.622-.019-3.926-.019v8.543Z\" transform=\"translate(-1374.927 -73.943)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52142\" data-name=\"Path 52142\" d=\"M1545.043,116.034v-16.7h12.468v16.7Zm8.416-4.064c0-2.8.008-5.463-.021-8.13a.657.657,0,0,0-.465-.441q-1.705-.055-3.413.008a.664.664,0,0,0-.469.446q-.045,3.811,0,7.622a.661.661,0,0,0,.437.473C1550.793,111.987,1552.061,111.97,1553.459,111.97Z\" transform=\"translate(-1464.578 -73.948)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52143\" data-name=\"Path 52143\" d=\"M1438.5,232.368h12.464v16.678H1438.5Zm8.409,4.031c-1.255,0-2.389.03-3.521-.012-.614-.023-.827.151-.817.8.037,2.382.013,4.766.017,7.148,0,.2.037.4.065.681,1.291,0,2.532.02,3.772-.024.169-.006.451-.323.466-.514.056-.684.018-1.375.018-2.063C1446.912,240.456,1446.912,238.5,1446.912,236.4Z\" transform=\"translate(-1374.997 -185.804)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52144\" data-name=\"Path 52144\" d=\"M1438.467,365.281h12.476v16.691h-12.476Zm4.125,12.667c1.341,0,2.607.017,3.872-.023.146,0,.4-.325.4-.5q.04-3.774,0-7.548c0-.176-.2-.5-.317-.5-1.311-.036-2.622-.023-3.964-.023Z\" transform=\"translate(-1374.967 -297.559)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52145\" data-name=\"Path 52145\" d=\"M1225.731,178.97h4.047v4.023h-4.047Z\" transform=\"translate(-1196.096 -140.907)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52146\" data-name=\"Path 52146\" d=\"M1225.6,289.641v-3.99h4.062v3.99Z\" transform=\"translate(-1195.982 -230.605)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52147\" data-name=\"Path 52147\" d=\"M1282.694,182.791h-4.058c0-1.251-.015-2.46.02-3.667,0-.138.281-.38.437-.384,1.182-.032,2.366-.018,3.6-.018Z\" transform=\"translate(-1240.576 -140.695)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52148\" data-name=\"Path 52148\" d=\"M1282.7,289.618c-1.251,0-2.461.012-3.669-.017a.536.536,0,0,1-.368-.373c-.029-1.208-.017-2.417-.017-3.672h4.054Z\" transform=\"translate(-1240.583 -230.525)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52149\" data-name=\"Path 52149\" d=\"M1336.32,183.142h-3.967v-4.018h3.967Z\" transform=\"translate(-1285.745 -141.036)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52150\" data-name=\"Path 52150\" d=\"M1225.787,232.4h4.042v3.965h-4.042Z\" transform=\"translate(-1196.143 -185.828)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52151\" data-name=\"Path 52151\" d=\"M1282.993,232.452v3.971h-4.021v-3.971Z\" transform=\"translate(-1240.861 -185.875)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52152\" data-name=\"Path 52152\" d=\"M1336.378,289.675h-3.945v-4.01h3.945Z\" transform=\"translate(-1285.812 -230.617)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52153\" data-name=\"Path 52153\" d=\"M1332.279,338.5h3.976v4.06h-3.976Z\" transform=\"translate(-1285.683 -275.041)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path><path id=\"Path_52154\" data-name=\"Path 52154\" d=\"M1336.368,236.45H1332.4v-3.976h3.966Z\" transform=\"translate(-1285.786 -185.893)\" fill=\"#b87962\" stroke=\"#ebe0cf\" stroke-width=\"0.5\"></path></g></g></svg>"
+    },
+    {
+     "t": "h3",
+     "html": "Brighton Belongs to You"
+    },
+    {
+     "t": "p",
+     "html": "It’s high time you feel at home. We hope to become your go-to shop for all things cannabis"
+    },
+    {
+     "t": "h3",
+     "html": "Check our Events &amp; Community page for store updates"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/events/",
+       "html": "Events &amp; Community Page"
+      }
+     ]
+    },
+    {
+     "t": "h3",
+     "html": "Visit our Careers page to join our passionate team of purveyors"
+    },
+    {
+     "t": "links",
+     "items": [
+      {
+       "href": "/jobs/",
+       "html": "Careers Page"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

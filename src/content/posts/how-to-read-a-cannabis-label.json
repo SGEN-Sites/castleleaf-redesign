@@ -1,0 +1,80 @@
+{
+  "order": 4,
+  "slug": "how-to-read-a-cannabis-label",
+  "path": "/blog/how-to-read-a-cannabis-label/",
+  "title": "How to Read a Cannabis Label, Line by Line | CastleLeaf",
+  "h1": "How to Read a Cannabis Label, Line by Line",
+  "description": "Percentages, milligrams, ratios and batch numbers: a step by step guide to reading a cannabis label, so you know what is in the package before you open it.",
+  "categories": [
+    { "name": "Cannabis 101", "slug": "cannabis-101" },
+    { "name": "Resources", "slug": "resources" }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-label",
+  "imageAlt": "",
+  "excerpt": "A cannabis label packs a lot into a small space. Here’s how to read one from top to bottom, and which numbers matter most for flower, edibles and concentrates.",
+  "pull": "Once you know where to look, it reads like a recipe card.",
+  "relatedCategories": ["edibles", "concentrates"],
+  "related": ["cannabinoids-thc-cbd-cbg-cbn", "edibles-start-low-go-slow", "how-to-talk-to-a-budtender"],
+  "sections": [
+    {
+      "id": "small-print",
+      "heading": "Small print, plain answers",
+      "blocks": [
+        { "type": "p", "html": "A cannabis label can look like a page from a chemistry textbook squeezed onto a sticker. Take a breath. Once you know where to look, it reads like a recipe card. It tells you more about a product than any name or nickname ever could." },
+        { "type": "p", "html": "Layouts vary from brand to brand, but most labels cover the same ground. Here’s how we’d read one, top to bottom." }
+      ]
+    },
+    {
+      "id": "top-to-bottom",
+      "heading": "Reading from top to bottom",
+      "blocks": [
+        { "type": "steps", "items": [
+          { "title": "Product name and type", "text": "What it is (flower, pre-roll, vape, edible, tincture or concentrate) and its cultivar or flavor. The type tells you how the numbers below will be written." },
+          { "title": "Cannabinoid content", "text": "How much THC and CBD the product holds, plus any minor cannabinoids. Look for total THC, which also counts the THCA that becomes THC when heated." },
+          { "title": "Serving information", "text": "For edibles and tinctures: milligrams per serving, servings per package and the total for the whole package." },
+          { "title": "Terpenes", "text": "Many products list their leading terpenes, sometimes with percentages. Think of it as a preview of aroma and flavor." },
+          { "title": "Ingredients", "text": "Especially on edibles. Check for allergens the way you would with any food." },
+          { "title": "Dates and batch number", "text": "A packaging or harvest date speaks to freshness, and the batch or lot number connects the product to its testing." },
+          { "title": "Warnings", "text": "Read them every time, even on a product you know well." }
+        ] }
+      ]
+    },
+    {
+      "id": "percent-or-milligrams",
+      "heading": "Percent or milligrams?",
+      "blocks": [
+        { "type": "p", "html": "This one trips up a lot of people. Flower, pre-rolls, vapes and concentrates usually list cannabinoids as a percentage of weight. Edibles and tinctures usually list milligrams." },
+        { "type": "ul", "items": [
+          "<strong>Percentages describe concentration.</strong> A flower labeled 20% THC holds about 200 mg of THC in every gram, although how much you actually take in depends on how you consume it.",
+          "<strong>Milligrams describe an amount.</strong> A piece labeled 5 mg THC holds 5 mg of THC, which is why edibles are so much easier to measure.",
+          "<strong>Ratios describe a balance.</strong> A product marked 1:1 holds equal amounts of two cannabinoids, usually THC and CBD. Check which one is named first."
+        ] },
+        { "type": "p", "html": "Concentrates are, as the name suggests, concentrated, so their percentages run far higher than flower’s. A small amount goes a long way." }
+      ]
+    },
+    {
+      "id": "limits",
+      "heading": "Massachusetts numbers worth knowing",
+      "blocks": [
+        { "type": "p", "html": "In Massachusetts, edibles are capped at 5 mg of THC a serving and 100 mg a package, so a 100 mg package of 5 mg servings holds twenty of them. When you shop, anyone 21+ with a valid government ID can buy up to 1 oz (28 grams) of flower equivalent per day and no more than 5 grams of concentrates." },
+        { "type": "p", "html": "Our <a href=\"/faqs/\">FAQ</a> covers the rest of the basics, from ID to where you can consume." }
+      ]
+    },
+    {
+      "id": "when-the-label-raises-a-question",
+      "heading": "When the label raises a question",
+      "blocks": [
+        { "type": "p", "html": "Labels are good at facts and less good at context. They can tell you how much THC a flower holds, but not whether it suits a quiet Sunday with a sketchbook. That’s where people come in." },
+        { "type": "callout", "html": "<strong>Bring your questions to the counter.</strong> Our <a href=\"/book-a-budtender/\">budtenders</a> are happy to read a label with you and explain what each number means for the way you like to enjoy cannabis. You belong here, whether it’s your first label or your five hundredth." },
+        { "type": "p", "html": "Already know what you want? Compare labels on our <a href=\"/products/edibles/\">edibles</a> and <a href=\"/products/concentrates/\">concentrates</a> pages, then order for pickup or <a href=\"/delivery/\">local delivery</a>." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "What does total THC mean?", "a_html": "It’s the THC a product will hold once heated: the THC already present plus the THC its THCA will become. On flower, it’s the number to compare." },
+    { "q": "Why do edibles use milligrams and flower use percentages?", "a_html": "Edibles come in measured servings, so milligrams tell you exactly what’s in each piece. Flower is used in varying amounts, so a percentage of weight is the clearer way to describe its strength." },
+    { "q": "What is the batch number for?", "a_html": "It ties the product to a specific production run and its testing. Keep the packaging until you’ve finished the product, in case a question comes up later." }
+  ]
+}

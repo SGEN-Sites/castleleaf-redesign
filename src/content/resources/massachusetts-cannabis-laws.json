@@ -1,0 +1,93 @@
+{
+  "slug": "massachusetts-cannabis-laws",
+  "path": "/massachusetts-cannabis-laws/",
+  "title": "Massachusetts Cannabis Laws | CastleLeaf",
+  "description": "Massachusetts cannabis laws in plain words: who can buy, daily purchase limits, edible caps, ID, driving home, where to consume and why it stays in the state.",
+  "kicker": "Know the rules",
+  "h1": "Massachusetts Cannabis Laws",
+  "lede": "The rules for buying and enjoying cannabis in Massachusetts, in plain words. The short version: be 21 or older, bring a valid ID, keep it sealed on the road and enjoy it on private property.",
+  "sections": [
+    {
+      "id": "the-basics",
+      "heading": "The basics",
+      "blocks": [
+        { "type": "p", "html": "Massachusetts voters legalized adult-use cannabis through a ballot question in 2016. Adults 21 and older can now shop at licensed adult-use dispensaries, and the state's Cannabis Control Commission regulates the industry." },
+        { "type": "p", "html": "CastleLeaf is an Adult-Use only retail provider, so everything on this page is written for adult-use shoppers." }
+      ]
+    },
+    {
+      "id": "who-can-buy",
+      "heading": "Who can buy",
+      "blocks": [
+        { "type": "p", "html": "Anyone 21+ with a valid government issued ID can make a purchase at CastleLeaf. Visiting from another state? You're welcome too: anyone 21+ with a valid government ID can make a purchase, including out of state." }
+      ]
+    },
+    {
+      "id": "purchase-limits",
+      "heading": "How much you can buy",
+      "kicker": "Daily limits",
+      "blocks": [
+        { "type": "p", "html": "Massachusetts state law allows customers to purchase up to 1oz (28 grams) flower equivalent per day, and no more than 5 grams of concentrates. You can buy a mix of products, such as flower, edibles and concentrates, within that limit." },
+        { "type": "p", "html": "Because some products, like concentrates, have a higher level of THC than flower, you can't buy the same amount in every form: the state's equivalency rules count each form against the same daily limit. Our budtenders can tell you how a mixed basket adds up." },
+        { "type": "callout", "html": "Worth remembering: these limits apply to sales, not possession." }
+      ]
+    },
+    {
+      "id": "edibles",
+      "heading": "Edibles: servings and packages",
+      "blocks": [
+        { "type": "p", "html": "Edibles in Massachusetts are capped at 5mg per serving and 100mg per package. Edibles take longer to arrive than smoked or vaped cannabis, and everyone responds differently, so start with one serving and give it time before having more." }
+      ]
+    },
+    {
+      "id": "on-the-road",
+      "heading": "Driving and travel",
+      "blocks": [
+        { "type": "h3", "text": "Driving home" },
+        { "type": "p", "html": "You can drive with cannabis in your car, as long as you are transporting your purchase in a sealed container only. Consuming while driving is illegal and dangerous." },
+        { "type": "h3", "text": "Leaving the state" },
+        { "type": "p", "html": "Cannabis is still illegal under federal law in the United States, so taking cannabis products out of Massachusetts is prohibited. That holds even when the state you're heading to has legal cannabis of its own." }
+      ]
+    },
+    {
+      "id": "where-to-consume",
+      "heading": "Where you can consume",
+      "blocks": [
+        { "type": "p", "html": "Public consumption is illegal in Massachusetts. Please consume responsibly on private property only, and if the property isn't yours, check the owner's rules first. We ask everyone to respect the law and the community that we operate in." }
+      ]
+    },
+    {
+      "id": "official-source",
+      "heading": "The official word",
+      "blocks": [
+        { "type": "p", "html": "Rules can change, and the Cannabis Control Commission publishes the current ones. For anything about shopping with us, our <a href=\"/book-a-budtender/\">budtenders</a> are happy to talk it through, and our <a href=\"/faqs/\">FAQs</a> cover the everyday questions." },
+        { "type": "callout", "html": "This page is a plain-language summary, not legal advice. For the official rules, visit the <a href=\"https://masscannabiscontrol.com/\">Cannabis Control Commission</a>." }
+      ]
+    }
+  ],
+  "_claims": [
+    "gen-ma-adult-use-ballot-question-2016",
+    "gen-ma-adult-use-21-plus-licensed-dispensaries",
+    "gen-ma-cannabis-control-commission-regulates",
+    "cl-adult-use-only",
+    "cl-id-21-plus-valid-government-id",
+    "cl-faq-out-of-state-buyers-welcome",
+    "cl-faq-purchase-limit-1oz-28g-per-day",
+    "cl-faq-concentrates-max-5g",
+    "cl-faq-mix-of-products",
+    "cl-faq-concentrates-higher-thc-than-flower",
+    "gen-ma-equivalency-rules-count-every-form",
+    "cl-faq-limits-apply-to-sales-not-possession",
+    "cl-home-edibles-5mg-serving-100mg-package",
+    "gen-edibles-slower-onset",
+    "cl-faq-transport-sealed-container",
+    "cl-faq-consuming-while-driving-illegal",
+    "cl-faq-federal-illegal-no-travel-out-of-state",
+    "gen-no-interstate-transport-even-to-legal-states",
+    "cl-faq-public-consumption-illegal",
+    "cl-faq-private-property-only",
+    "gen-check-property-owner-rules",
+    "cl-faq-respect-law-and-community",
+    "gen-rules-can-change-ccc-publishes"
+  ]
+}

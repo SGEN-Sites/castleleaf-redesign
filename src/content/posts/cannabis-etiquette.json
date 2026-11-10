@@ -1,0 +1,148 @@
+{
+  "order": 12,
+  "slug": "cannabis-etiquette",
+  "path": "/blog/cannabis-etiquette/",
+  "title": "Cannabis Etiquette: Sharing, Hosting and Being a Good Neighbor | CastleLeaf",
+  "h1": "Cannabis Etiquette: Sharing, Hosting and Being a Good Neighbor",
+  "description": "Cannabis manners for Allston-Brighton: how to share, how to host, why consent matters, never driving and why public consumption is illegal in Massachusetts.",
+  "categories": [
+    {
+      "name": "News & Culture",
+      "slug": "news-and-culture"
+    }
+  ],
+  "popular": false,
+  "readTime": "4 min read",
+  "image": "g-art-etiquette",
+  "imageAlt": "",
+  "excerpt": "Cannabis is better in good company, and good company has a few unwritten rules. Here they are, written down, from passing a joint to keeping the peace with the neighbors.",
+  "pull": "The best host isn’t the one with the most impressive stash; it’s the one whose guests all get home safely.",
+  "relatedCategories": [
+    "pre-rolls",
+    "accessories"
+  ],
+  "related": [
+    "cannabis-in-massachusetts-a-short-history",
+    "edibles-start-low-go-slow",
+    "ordering-cannabis-online-pickup-or-delivery"
+  ],
+  "sections": [
+    {
+      "id": "ask-first",
+      "heading": "The golden rule: ask first",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Cannabis is for everyone, but not everyone wants it right now. Good etiquette starts with a simple question, “Would you like some?”, and then takes the answer at face value, whether it’s yes, no or maybe later."
+        },
+        {
+          "type": "p",
+          "html": "Consent matters even more with edibles. Never give anyone infused food or drink without telling them, and never pressure a friend to have more than they want. Everyone responds differently, and “I’m good, thanks” deserves the same respect as “yes, please.”"
+        }
+      ]
+    },
+    {
+      "id": "sharing",
+      "heading": "Sharing, the polite way",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "There’s a reason “puff, puff, pass” has lasted so long: it keeps things moving and fair. A few more habits make you a welcome guest:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Pass to the left, unless the room has its own tradition. When in doubt, follow the host.",
+            "Don’t hold on to it mid-story. If you’re telling a long one, pass first and talk second.",
+            "Bring something to share if you can, like a few <a href=\"/products/pre-rolls/\">pre-rolls</a>. Nobody has to roll, and anyone who prefers their own can have one.",
+            "If you have a cold, sit the round out or keep to your own."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hosting",
+      "heading": "Hosting with care",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "The best host isn’t the one with the most impressive stash; it’s the one whose guests all get home safely. If you’re inviting friends over, a little planning goes a long way."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Label everything.</strong> Keep infused snacks clearly marked and apart from regular food. If they’re store-bought, share the serving size from the label.",
+            "<strong>Offer alternatives.</strong> Water, alcohol-free drinks and ordinary snacks keep everyone comfortable, whatever they choose.",
+            "<strong>Have the basics ready.</strong> A proper ashtray, a lighter that works and a seat by an open window. Our <a href=\"/products/accessories/\">accessories</a> cover the small things that make a big difference.",
+            "<strong>Keep it 21+.</strong> Cannabis is for adults 21 and over, and that goes for every guest.",
+            "<strong>Tidy up afterward.</strong> Put leftovers somewhere secure, out of reach of children and pets."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "never-drive",
+      "heading": "Never drive, and plan the ride home",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "This one is less etiquette than law. As our FAQ puts it: “Consuming while driving is illegal and dangerous.” Plan the ride home before the evening starts: a designated driver who isn’t consuming, a rideshare, a walk or the T."
+        },
+        {
+          "type": "p",
+          "html": "If you’re carrying cannabis in your car, keep it in a sealed container, and never consume in a vehicle."
+        }
+      ]
+    },
+    {
+      "id": "keep-it-private",
+      "heading": "Keep it private",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Massachusetts is clear on this, and so are we: “Public consumption is illegal in MA. We ask that you respect the law and the community that we operate in. Please consume responsibly on private property only.”"
+        },
+        {
+          "type": "p",
+          "html": "That means no sidewalks, parks, beaches, bus stops or parking lots. The best spot is a private space where you’re welcome to consume, like your own home or a host’s. If you rent, check your lease and building rules first."
+        }
+      ]
+    },
+    {
+      "id": "good-neighbor",
+      "heading": "Being a good neighbor in Allston-Brighton",
+      "blocks": [
+        {
+          "type": "p",
+          "html": "Allston-Brighton is a lively, close-quarters place: apartments, triple-deckers, shared porches and plenty of open windows in summer. A little courtesy keeps the peace."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "<strong>Mind the smell.</strong> Smoke drifts through shared walls, hallways and open windows. Some people find that <a href=\"/products/edibles/\">edibles</a> or a vaporizer leave less lingering aroma than smoking.",
+            "<strong>Keep the volume down.</strong> Late-night porch sessions carry further than you think.",
+            "<strong>Clean up.</strong> Dispose of ash and ends properly, never on the sidewalk or in a neighbor’s planter."
+          ]
+        },
+        {
+          "type": "p",
+          "html": "Brighton Belongs to You, and to your neighbors too. Look after the neighborhood the way you’d want your own front step looked after, and everyone gets to enjoy it."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I consume cannabis in public in Massachusetts?",
+      "a_html": "No. Public consumption is illegal in MA. Please consume responsibly on private property only, and only where you have permission."
+    },
+    {
+      "q": "Is it okay to share cannabis with friends?",
+      "a_html": "With adults 21 and over who want it, in a private space, sharing is part of the culture. Always ask first, never pressure anyone, and never give infused food to someone without telling them."
+    },
+    {
+      "q": "Can I drive after consuming?",
+      "a_html": "No. Consuming while driving is illegal and dangerous, and you should never drive impaired. Plan a sober driver, a rideshare or public transit before you start."
+    }
+  ]
+}
