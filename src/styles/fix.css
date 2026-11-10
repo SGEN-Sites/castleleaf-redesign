@@ -20,6 +20,29 @@
   html.js .h-hero[data-pin] + .band { padding-top: calc(var(--section-y) * 0.5 + 76px); }
 }
 
+/* Home hero on tall desktop screens (revision 1c; the operator: "it looks weird on a wide screen, there's too much
+   space"). The stage is one viewport tall (the pin needs that), but the copy hugged the top while the 460 px frame stood
+   on the bottom edge: at 1920x1080 their tops were 373 px apart with about 490 px of empty room under the buttons, at
+   2000x1180 483 and 587 px. From 700 px tall the copy sits in the middle of the room, and the frame takes its height
+   from the viewport (50vh + 380px; width 0.6 of that, at most 27vw or 560 px; never narrower than 1:2), so from
+   1280x720 up its top lands within 30 px of the copy's top (tablet landscape: about 100 px). It still crosses into the
+   next band, a little less far (the 10vh part capped at 80 px). */
+@media (min-width: 1024px) and (min-height: 700px) {
+  .h-hero { --h-cross: calc(var(--overhang) * 0.6 + min(10vh, 80px)); --h-fw: min(calc((50vh + 380px) * 0.6), 27vw, 560px); --h-fh: min(calc(50vh + 380px), calc(var(--h-fw) * 2)); }
+  .h-stage { justify-content: center; padding-bottom: calc(var(--h-cross) * 0.5 + 40px); }
+  .h-hero__frame.arch-frame { aspect-ratio: auto; height: var(--h-fh); }
+}
+/* Large screens: the hero type kept its laptop caps (H1 141 px, paragraph 17 px, column 640 px), so on a 2000 px screen
+   the copy read small in a big dark room. From 1600x900 it keeps scaling with the viewport, to new caps. */
+@media (min-width: 1600px) and (min-height: 900px) {
+  .h-hero__type { max-width: min(100%, 40vw, 860px); }
+  .h-hero__lead { font-size: clamp(0.8125rem, 0.8vw, 1.1rem); }
+  .h-hero__place { font-size: clamp(3.3rem, min(8.6vw, 17vh), 11rem); }
+  .h-hero__h2 { font-size: clamp(1.35rem, min(2.2vw, 4.6vh), 2.7rem); }
+  .h-hero__lede { font-size: clamp(1rem, 1.05vw, 1.3rem); }
+  .h-hero__ctas .btn { font-size: clamp(1rem, 0.82vw, 1.15rem); }
+}
+
 /* Phones and tablets: every tap target at least 44 x 44 px (gate phone audit at 390 and 360, 2026-11-10). Boxes grow, the
    visible text does not move: inline links get block padding (an inline box's padding does not change line layout). The
    slideshow dots (7 x 44 px would overflow a 360 px row and squeeze the arrows) give way to the arrows and swiping. */
